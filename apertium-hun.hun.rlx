@@ -1,0 +1,40 @@
+# ========== #
+# Delimiters #
+# ========== #
+
+DELIMITERS = "<$\.>" "<$!>" "<$?>" "<$END-OF-SENTENCE>" "<$ENDDOC>" "<$ENDDOCHEAD>" "<$ENDHCODE>" "<$ENDHEAD>" "<$ENDTEXT>" "<$ENDTITLE>" "<$PARAG>" "<$HEAD>" "<$END-P>" "<.>" "<!>" "<?>" "<...>" "<¶>" CLB;
+
+# ("<$\.>" "<$!>" "<$?>") # "<$\:>"
+
+
+# ============= #
+# Tags and sets #
+# ============= #
+
+SETS
+
+LIST BOS = ">>>" "<$START-P>" "<$start-p>" ; # look at BOS/EOS
+LIST EOS = "<<<" "<$END-P>" "<$end-p>" ; 
+
+
+# Parts of speech
+# ---------------
+
+
+LIST N = n ; 
+LIST A = adj ; 
+LIST Adv = adv ; 
+LIST V = vblex  ; 
+LIST Pron = prn ;
+
+LIST Po = post ;
+LIST Pr = pr ;
+LIST Adp = adp ;
+LIST CC = cnjcoo ; 
+LIST CS = cnjsub ; 
+
+LIST Conj = cnjcoo cnjsub ;
+LIST PP = adv post pr ;
+
+# LIST C = C ; 
+LIST C = cnjcoo cnjsub ; 

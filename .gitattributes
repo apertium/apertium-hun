@@ -1,0 +1,18 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/INSTALL -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-hun.hun.acx -text svneol=unset#application/xml
+/apertium-hun.hun.dix -text
+/apertium-hun.hun.rlx -text
+/apertium-hun.pc.in -text
+/autogen.sh -text
+/configure.ac -text
+dev/hu_HU.dic -text
+dev/hu_HU.u8.aff -text
+/modes.xml -text svneol=unset#application/xml
+texts/rasskaz.hun.txt -text
