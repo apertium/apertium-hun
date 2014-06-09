@@ -49,12 +49,12 @@ EXTRA_DIST=$(BASENAME).$(LANG).dix \
 ## Installation
 ###############################################################################
 
-apertium_hundir=$(prefix)/lib/apertium/$(BASENAME)/
+apertium_hundir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_hun_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
 apertium_hun_DATA=$(TARGETS_COMMON)
 
-pkgconfigdir = $(libdir)/pkgconfig
+pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
 
 noinst_DATA=modes/$(LANG)-morph.mode
