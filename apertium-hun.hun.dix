@@ -16,6 +16,7 @@
     <sdef n="cnjadv"         c="Adverbial conjunction"/>
     <sdef n="num"            c="numeral"/>
 
+    <sdef n="mod"            c="modal stuff"/>
 
     <sdef n="f"              c="Feminine"/>
     <sdef n="m"              c="Masculine"/>
@@ -46,6 +47,8 @@
     <sdef n="pres"           c="Present tense"/>
     <sdef n="past"           c="Past tense"/>
     <sdef n="pot"            c="Potential form"/>
+
+    <sdef n="qst"            c="question"/>
 
     <sdef n="ant"            c="Anthroponym"/>
 
@@ -461,7 +464,37 @@
         <e><p><l>ák</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
 
-    <!-- regular e ö ü -->
+    <pardef n="lát__vblex">
+        <e><p><l>ni</l><r><s n="vblex"/><s n="inf"/></r></p></e>
+        <e><p><l>ok</l><r><s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>sz</l><r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>unk</l><r><s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>tok</l><r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>nak</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+
+        <e><p><l>om</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>od</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ja</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>jik</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>átok</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ák</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+
+        <e><p><l>tam</l><r><s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>tál</l><r><s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ott</l><r><s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>tunk</l><r><s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>tatok</l><r><s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>tak</l><r><s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>talak</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>tad</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ta</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>tuk</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>tátok</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ták</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p3"/><s n="pl"/></r></p></e>
+        </pardef>
+
+    <!-- regular e1 ö ü -->
     <pardef n="szeret__vblex">
 
         <e><p><l>ni</l><r><s n="vblex"/><s n="inf"/></r></p></e>
@@ -501,12 +534,15 @@
     <!-- regular ik -->
     <pardef n="játsz/ik__vblex">
         <e><p><l>ani</l><r>ik<s n="vblex"/><s n="inf"/></r></p></e>
+        
         <e><p><l>ok</l><r>ik<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>ol</l><r>ik<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>ik</l><r>ik<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
         <e><p><l>unk</l><r>ik<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>otok</l><r>ik<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>anak</l><r>ik<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+
+        <e><p><l>hattak</l><r>ik<s n="vblex"/><s n="mod"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="e/szik__vblex">
@@ -578,6 +614,7 @@
     <pardef n="/van__vbser">
       <e><p><l>lenni</l><r>van<s n="vbser"/><s n="inf"/></r></p></e>
       <e><p><l>lehet</l><r>van<s n="vbser"/><s n="pot"/></r></p></e>
+      <e><p><l>lehet-e</l><r>van<s n="vbser"/><s n="pot"/>+e<s n="qst"/></r></p></e>
       <e><p><l>volt</l><r>van<s n="vbser"/><s n="pp"/></r></p></e>
       <e><p><l>vagyok</l><r>van<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>vagy</l><r>van<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -758,7 +795,7 @@
     <e lm="kinéz"><i>kinéz</i><par n="néz__vblex"/></e>
     <e lm="kérdez"><i>kérdez</i><par n="néz__vblex"/></e>
     <e lm="körülnéz"><i>körülnéz</i><par n="néz__vblex"/></e>
-    <e lm="lát"><i>lát</i><par n="imád__vblex"/></e>
+    <e lm="lát"><i>lát</i><par n="lát__vblex"/></e>
     <e lm="nevet"><i>nevet</i><par n="néz__vblex"/></e>
     <e lm="megkérdez"><i>megkérdez</i><par n="néz__vblex"/></e>
     <e lm="megmond"><i>megmond</i><par n="tart__vblex"/></e>
