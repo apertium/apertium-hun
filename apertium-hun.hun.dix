@@ -47,6 +47,7 @@
     <sdef n="pres"           c="Present tense"/>
     <sdef n="past"           c="Past tense"/>
     <sdef n="pot"            c="Potential form"/>
+    <sdef n="subj"           c="Sub jontif"/>
 
     <sdef n="qst"            c="question"/>
 
@@ -82,6 +83,8 @@
     
     <sdef n="comp"           c="Comparative"/>
     <sdef n="sup"            c="Superlative"/>
+
+    <sdef n="foo"            c="I dunno but I had to add some tag"/>
   </sdefs>
 
   <pardefs>
@@ -234,6 +237,8 @@
         <e><p><l>ek</l><r><s n="n"/><s n="pl"/><s n="nom"/></r></p></e>
 
         <e><p><l>e</l><r><s n="n"/><s n="px3ss"/></r></p></e>
+        
+        <e><p><l>ére</l><r><s n="n"/><s n="px3ss"/><s n="sg"/><s n="sub"/></r></p></e>
     </pardef>
 
     <pardef n="gyerek__n">
@@ -347,6 +352,8 @@
         <e><p><l>ézbe</l><r>éz<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
         <e><p><l>éznél</l><r>éz<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
         <e><p><l>ézen</l><r>éz<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+        
+        <e><p><l>ezét</l><r>éz<s n="n"/><s n="pl"/><s n="foo"/></r></p></e>
     </pardef>
     
     <pardef n="v/íz__n">
@@ -462,6 +469,9 @@
         <e><p><l>jik</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>átok</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>ák</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+
+
+        <e><p><l>ást</l><r><s n="vblex"/><s n="foo"/></r></p></e>
     </pardef>
 
     <pardef n="lát__vblex">
@@ -511,6 +521,8 @@
         <e><p><l>jük</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>itek</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>ik</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+
+        <e><p><l>te</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
 
     <!-- asz -->
@@ -529,6 +541,11 @@
         <e><p><l>juk</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>játok</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>ják</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+
+        <e><p><l>d</l><r><s n="vblex"/><s n="subj"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        
+        <e><p><l>hatom</l><r><s n="vblex"/><s n="pot"/><s n="px1ss"/></r></p></e>
+        <e><p><l>ózik</l><r><s n="vblex"/><s n="pp"/><s n="foo"/></r></p></e>
     </pardef>
 
     <!-- regular ik -->
@@ -574,6 +591,8 @@
         <e><p><l>ünk</l><r><s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>tek</l><r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>nek</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+
+        <e><p><l>i</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
 
     <!-- jön jöv -->
@@ -653,6 +672,7 @@
     <e lm="előtt"><i>előtt</i><par n="előtt__post"/></e>
     <e lm="elől"><i>elől</i><par n="előtt__post"/></e>
     <e lm="alá"><i>alá</i><par n="előtt__post"/></e>
+    <e lm="alám"><i>alám</i><par n="előtt__post"/></e>
     <e lm="mögött"><i>mögött</i><par n="előtt__post"/></e>
     <e lm="mögül"><i>mögül</i><par n="előtt__post"/></e>
 
@@ -690,6 +710,7 @@
     <e lm="idő"><i>idő</i><par n="idő__n"/></e>
     <e lm="játék"><i>játék</i><par n="válasz__n"/></e>
     <e lm="kéz"><i>k</i><par n="k/éz__n"/></e>
+    <e lm="kérdés"><i>kérdés</i><par n="kert__n"/></e>
     <e lm="kert"><i>kert</i><par n="kert__n"/></e>
     <e lm="kisfiú"><i>kisfi</i><par n="fi/ú__n"/></e>
     <e lm="kislány"><i>kislá</i><par n="lá/ny__n"/></e>
@@ -727,7 +748,6 @@
 
     <!-- SECTION: Adverbs -->
 
-    <e lm="hol"><i>hol</i><par n="hol__adv"/></e>
 
     <e lm="gyorsan"><i>gyorsa</i><par n="lassa/n__adv"/></e>
     <e lm="jól"><i>j</i><par n="j/ól__adv"/></e>
@@ -739,6 +759,7 @@
     <e lm="csak"><i>csak</i><par n="tegnap__adv"/></e>
     <e lm="de"><i>de</i><par n="tegnap__adv"/></e>
     <e lm="együtt"><i>együtt</i><par n="tegnap__adv"/></e>
+    <e lm="figyelmesen"><i>figyelmesen</i><par n="tegnap__adv"/></e>
     <e lm="is"><i>is</i><par n="tegnap__adv"/></e>
     <e lm="ide"><i>ide</i><par n="tegnap__adv"/></e>
     <e lm="ideje"><i>ideje</i><par n="tegnap__adv"/></e>
@@ -756,18 +777,22 @@
     <e lm="persze"><i>persze</i><par n="tegnap__adv"/></e>
     <e lm="tegnap"><i>tegnap</i><par n="tegnap__adv"/></e>
     <e lm="valószínűleg"><i>valószínűleg</i><par n="tegnap__adv"/></e>
-    
+    <e lm="odakint"><i>odakint</i><par n="tegnap__adv"/></e>
+    <e lm="soha"><i>soha</i><par n="tegnap__adv"/></e>
+
     <!-- proadverbs -->
 
     <e lm="így"><i>így</i><par n="tegnap__adv"/></e>
 
     <!-- interrogatives -->
 
-    <e lm="hova"><i>hova</i><par n="tegnap__adv"/></e>
-    <e lm="hová"><i>hová</i><par n="tegnap__adv"/></e>
-    <e lm="miért"><i>miért</i><par n="tegnap__adv"/></e>
-    <e lm="mit"><i>mit</i><par n="tegnap__adv"/></e>
-    <e lm="mikor"><i>mikor</i><par n="tegnap__adv"/></e>
+    <e lm="hol"><i>hol</i><par n="hol__adv"/></e>
+    <e lm="hova"><i>hova</i><par n="hol__adv"/></e>
+    <e lm="hová"><i>hová</i><par n="hol__adv"/></e>
+    <e lm="miért"><i>miért</i><par n="hol__adv"/></e>
+    <e lm="mit"><i>mit</i><par n="hol__adv"/></e>
+    <e lm="merre"><i>merre</i><par n="hol__adv"/></e>
+    <e lm="mikor"><i>mikor</i><par n="hol__adv"/></e>
 
     <!-- SECTION: Verbs -->
 
@@ -780,6 +805,7 @@
     <e lm="benéz"><i>benéz</i><par n="néz__vblex"/></e>
     <e lm="beszél"><i>beszél</i><par n="néz__vblex"/></e>
     <e lm="beszélget"><i>beszélget</i><par n="néz__vblex"/></e>
+    <e lm="befejezés"><i>befejez</i><par n="szeret__vblex"/></e>
     <e lm="bújik"><i>búj</i><par n="játsz/ik__vblex"/></e>
     <e lm="csinál"><i>csinál</i><par n="imád__vblex"/></e>
     <e lm="elbújik"><i>elbúj</i><par n="játsz/ik__vblex"/></e>
@@ -787,12 +813,14 @@
     <e lm="fejéz"><i>fejéz</i><par n="néz__vblex"/></e>
     <e lm="hall"><i>hall</i><par n="tart__vblex"/></e>
     <e lm="hallgat"><i>hallgat</i><par n="tart__vblex"/></e>
+    <e lm="hisz"><i>hisz</i><par n="néz__vblex"/></e>
     <e lm="imád"><i>imád</i><par n="imád__vblex"/></e>
     <e lm="iszik"><i>i</i><par n="i/szik__vblex"/></e>
     <e lm="játszik"><i>játsz</i><par n="játsz/ik__vblex"/></e>
     <e lm="jön"><i>jö</i><par n="jö/n__vblex"/></e>
     <e lm="kap"><i>kap</i><par n="imád__vblex"/></e>
     <e lm="kinéz"><i>kinéz</i><par n="néz__vblex"/></e>
+    <e lm="keres"><i>keres</i><par n="néz__vblex"/></e>
     <e lm="kérdez"><i>kérdez</i><par n="néz__vblex"/></e>
     <e lm="körülnéz"><i>körülnéz</i><par n="néz__vblex"/></e>
     <e lm="lát"><i>lát</i><par n="lát__vblex"/></e>
@@ -812,7 +840,8 @@
     <e lm="talál"><i>talál</i><par n="imád__vblex"/></e>
     <e lm="tud"><i>tud</i><par n="imád__vblex"/></e>
     <e lm="ül"><i>ül</i><par n="néz__vblex"/></e>
-    <e lm="válaszol"><i>válasz</i><par n="imád__vblex"/></e>
+    <e lm="válasz"><i>válasz</i><par n="imád__vblex"/></e>
+    <e lm="válaszol"><i>válaszol</i><par n="imád__vblex"/></e>
     <e lm="végigsétál"><i>végigsétál</i><par n="imád__vblex"/></e>
 
     <!-- SECTION: Interjections -->
