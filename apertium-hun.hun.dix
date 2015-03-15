@@ -44,7 +44,7 @@
 
     <sdef n="inf"            c="Infinitive"/>
     <sdef n="pp"             c="Past participle"/>
-    <sdef n="pres"           c="Present tense"/>
+    <sdef n="pri"           c="Present tense"/>
     <sdef n="past"           c="Past tense"/>
     <sdef n="pot"            c="Potential form"/>
     <sdef n="subj"           c="Sub jontif"/>
@@ -456,19 +456,19 @@
     <!-- regular a o u -->
     <pardef n="imád__vblex">
         <e><p><l>ni</l><r><s n="vblex"/><s n="inf"/></r></p></e>
-        <e><p><l>ok</l><r><s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>sz</l><r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l></l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>unk</l><r><s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>tok</l><r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>nak</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ok</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>sz</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>unk</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>tok</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>nak</l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 
-        <e><p><l>om</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>od</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>ja</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>jik</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>átok</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>ák</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>om</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>od</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ja</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>jik</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>átok</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ák</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
 
 
         <e><p><l>ást</l><r><s n="vblex"/><s n="foo"/></r></p></e>
@@ -476,19 +476,19 @@
 
     <pardef n="lát__vblex">
         <e><p><l>ni</l><r><s n="vblex"/><s n="inf"/></r></p></e>
-        <e><p><l>ok</l><r><s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>sz</l><r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l></l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>unk</l><r><s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>tok</l><r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>nak</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ok</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>sz</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>unk</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>tok</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>nak</l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 
-        <e><p><l>om</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>od</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>ja</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>jik</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>átok</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>ák</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>om</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>od</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ja</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>jik</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>átok</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ák</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
 
         <e><p><l>tam</l><r><s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>tál</l><r><s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -508,19 +508,19 @@
     <pardef n="szeret__vblex">
 
         <e><p><l>ni</l><r><s n="vblex"/><s n="inf"/></r></p></e>
-        <e><p><l>ek</l><r><s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>sz</l><r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l></l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>ünk</l><r><s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>tek</l><r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>nek</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ek</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>sz</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ünk</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>tek</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>nek</l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
         
-        <e><p><l>em</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>ed</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>i</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>jük</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>itek</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>ik</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>em</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>ed</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>i</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>jük</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>itek</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ik</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
 
         <e><p><l>te</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
@@ -528,19 +528,19 @@
     <!-- asz -->
     <pardef n="tart__vblex">
         <e><p><l>ani</l><r><s n="vblex"/><s n="inf"/></r></p></e>
-        <e><p><l>ok</l><r><s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>asz</l><r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l></l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>unk</l><r><s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>otok</l><r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>anak</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ok</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>asz</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>unk</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>otok</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>anak</l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 
-        <e><p><l>om</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>od</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>ja</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>juk</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>játok</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>ják</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>om</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>od</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ja</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>juk</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>játok</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ják</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
 
         <e><p><l>d</l><r><s n="vblex"/><s n="subj"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
         
@@ -552,60 +552,60 @@
     <pardef n="játsz/ik__vblex">
         <e><p><l>ani</l><r>ik<s n="vblex"/><s n="inf"/></r></p></e>
         
-        <e><p><l>ok</l><r>ik<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>ol</l><r>ik<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>ik</l><r>ik<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>unk</l><r>ik<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>otok</l><r>ik<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>anak</l><r>ik<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ok</l><r>ik<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>ol</l><r>ik<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ik</l><r>ik<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>unk</l><r>ik<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>otok</l><r>ik<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>anak</l><r>ik<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 
         <e><p><l>hattak</l><r>ik<s n="vblex"/><s n="mod"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="e/szik__vblex">
         <e><p><l>nni</l><r>szik<s n="vblex"/><s n="inf"/></r></p></e>
-        <e><p><l>szek</l><r>szik<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>szel</l><r>szik<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>szik</l><r>szik<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>szünk</l><r>szik<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>tek</l><r>szik<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>nek</l><r>szik<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>szek</l><r>szik<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>szel</l><r>szik<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>szik</l><r>szik<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>szünk</l><r>szik<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>tek</l><r>szik<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>nek</l><r>szik<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="i/szik__vblex">
         <e><p><l>nni</l><r>szik<s n="vblex"/><s n="inf"/></r></p></e>
-        <e><p><l>szok</l><r>szik<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>szol</l><r>szik<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>szik</l><r>szik<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>szunk</l><r>szik<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>tok</l><r>szik<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>nak</l><r>szik<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>szok</l><r>szik<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>szol</l><r>szik<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>szik</l><r>szik<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>szunk</l><r>szik<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>tok</l><r>szik<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>nak</l><r>szik<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
     
     <!-- néz -->
     <pardef n="néz__vblex">
         <e><p><l>ni</l><r><s n="vblex"/><s n="inf"/></r></p></e>
-        <e><p><l>ek</l><r><s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>el</l><r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l></l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>ünk</l><r><s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>tek</l><r><s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>nek</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ek</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>el</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ünk</l><r><s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>tek</l><r><s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>nek</l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 
-        <e><p><l>i</l><r><s n="vblex"/><s n="pres"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>i</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
 
     <!-- jön jöv -->
     <pardef n="jö/n__vblex">
 
         <e><p><l>nni</l><r>n<s n="vblex"/><s n="inf"/></r></p></e>
-        <e><p><l>vök</l><r>n<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>ssz</l><r>n<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>n</l><r>n<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>vünk</l><r>n<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>ttök</l><r>n<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>sztök</l><r>n<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>nnek</l><r>n<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>vök</l><r>n<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>ssz</l><r>n<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>n</l><r>n<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>vünk</l><r>n<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>ttök</l><r>n<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>sztök</l><r>n<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>nnek</l><r>n<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
         
     </pardef>
 
@@ -615,12 +615,12 @@
       <e><p><l>nni</l><r>gy<s n="vblex"/><s n="inf"/></r></p></e>
       <e><p><l>het</l><r>gy<s n="vblex"/><s n="pot"/></r></p></e>
       <e><p><l>nt</l><r>gy<s n="vblex"/><s n="pp"/></r></p></e>
-      <e><p><l>gyek</l><r>gy<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>gy</l><r>gy<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>n</l><r>gy<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>gyünk</l><r>gy<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>ntek</l><r>gy<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>nnek</l><r>gy<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>gyek</l><r>gy<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>gy</l><r>gy<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>n</l><r>gy<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>gyünk</l><r>gy<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ntek</l><r>gy<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>nnek</l><r>gy<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ntem</l><r>gy<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ntél</l><r>gy<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>nt</l><r>gy<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -635,12 +635,12 @@
       <e><p><l>lehet</l><r>van<s n="vbser"/><s n="pot"/></r></p></e>
       <e><p><l>lehet-e</l><r>van<s n="vbser"/><s n="pot"/>+e<s n="qst"/></r></p></e>
       <e><p><l>volt</l><r>van<s n="vbser"/><s n="pp"/></r></p></e>
-      <e><p><l>vagyok</l><r>van<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>vagy</l><r>van<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>van</l><r>van<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>vagyunk</l><r>van<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>vagytok</l><r>van<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>vannak</l><r>van<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>vagyok</l><r>van<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>vagy</l><r>van<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>van</l><r>van<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>vagyunk</l><r>van<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>vagytok</l><r>van<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>vannak</l><r>van<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>voltam</l><r>van<s n="vbser"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>voltál</l><r>van<s n="vbser"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>volt</l><r>van<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
