@@ -1,7 +1,5 @@
 prefix=@prefix@
 exec_prefix=${prefix}
-libdir=@libdir@
-dir=@libdir@/apertium/apertium-hun
 srcdir=@datarootdir@/apertium/apertium-hun
 
 Name: apertium-hun
