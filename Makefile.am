@@ -24,10 +24,10 @@ $(LANG).automorf.bin: $(BASENAME).$(LANG).dix
 	lt-comp lr $< $@ $(BASENAME).$(LANG).acx
 
 $(LANG).autogen.att.gz: $(LANG).autogen.bin
-	lt-print $< | gzip -9 -c > $@
+	lt-print $< | gzip -9 -c -n > $@
 
 $(LANG).automorf.att.gz: $(LANG).automorf.bin
-	lt-print $< | gzip -9 -c > $@
+	lt-print $< | gzip -9 -c -n > $@
 
 
 $(LANG).rlx.bin: $(BASENAME).$(LANG).rlx
