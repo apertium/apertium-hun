@@ -10,7 +10,6 @@
 /apertium-hun.hun.dix -text
 /apertium-hun.hun.rlx -text
 /apertium-hun.pc.in -text
-/apertium-hun.post-hun.dix -text
 /autogen.sh -text
 /configure.ac -text
 dev/hu_HU.dic -text
