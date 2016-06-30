@@ -14,6 +14,7 @@
 /configure.ac -text
 dev/hu_HU.dic -text
 dev/hu_HU.u8.aff -text
+dev/morphdb.lexicons -text
 /hun.prob -text svneol=unset#unset
 /modes.xml -text svneol=unset#application/xml
 texts/rasskaz.hun.txt -text
