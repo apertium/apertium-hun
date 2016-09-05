@@ -119,6 +119,40 @@
 
     <!-- SECTION: Pronouns -->
 
+    <pardef n="/én__prn">
+      <e><p><l>én</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>engem</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>tőlem</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l>nálam</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="ade"/></r></p></e>
+      <e><p><l>hozzám</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="all"/></r></p></e>
+      <e><p><l>nekem</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>velem</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>értem</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="cau"/></r></p></e>
+      <e><p><l>rólam</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="dela"/></r></p></e>
+      <e><p><l>belőlem</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="ela"/></r></p></e>
+      <e><p><l>belém</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="ill"/></r></p></e>
+      <e><p><l>bennem</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="ine"/></r></p></e>
+      <e><p><l>rajtam</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="ses"/></r></p></e>
+      <e><p><l>rám</l><r>én<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="sub"/></r></p></e>
+    </pardef>
+
+    <pardef n="/te__prn">
+      <e><p><l>te</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>téged</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>tőled</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="abl"/></r></p></e>
+      <e><p><l>nálad</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="ade"/></r></p></e>
+      <e><p><l>hozzád</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="all"/></r></p></e>
+      <e><p><l>neked</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>veled</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>érted</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="cau"/></r></p></e>
+      <e><p><l>rólad</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dela"/></r></p></e>
+      <e><p><l>belőled</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="ela"/></r></p></e>
+      <e><p><l>beléd</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="ill"/></r></p></e>
+      <e><p><l>benned</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="ine"/></r></p></e>
+      <e><p><l>rajtad</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="ses"/></r></p></e>
+      <e><p><l>rád</l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="sub"/></r></p></e>
+    </pardef>
+
     <pardef n="/ő__prn">
       <e><p><l>ő</l><r>ő<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>őt</l><r>ő<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -136,21 +170,55 @@
       <e><p><l>rá</l><r>ő<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="sub"/></r></p></e>
     </pardef>
 
-    <pardef n="/én__prn">
-      <e><p><l>én</l><r>ő<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>engem</l><r>ő<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>tőlem</l><r>ő<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="abl"/></r></p></e>
-      <e><p><l>nálam</l><r>ő<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="ade"/></r></p></e>
-      <e><p><l>hozzám</l><r>ő<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="all"/></r></p></e>
-      <e><p><l>nekem</l><r>ő<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>velem</l><r>ő<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>értem</l><r>ő<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="cau"/></r></p></e>
-      <e><p><l>rólam</l><r>ő<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="dela"/></r></p></e>
-      <e><p><l>belőlem</l><r>ő<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="ela"/></r></p></e>
-      <e><p><l>belém</l><r>ő<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="ill"/></r></p></e>
-      <e><p><l>bennem</l><r>ő<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="ine"/></r></p></e>
-      <e><p><l>rajtam</l><r>ő<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="ses"/></r></p></e>
-      <e><p><l>rám</l><r>ő<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="sub"/></r></p></e>
+    <pardef n="/mi__prn">
+      <e><p><l>mi</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>minket</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>tőlünk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>nálunk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="ade"/></r></p></e>
+      <e><p><l>hozzánk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="all"/></r></p></e>
+      <e><p><l>nekünk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>velünk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>értünk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="cau"/></r></p></e>
+      <e><p><l>rólunk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="dela"/></r></p></e>
+      <e><p><l>belőlünk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="ela"/></r></p></e>
+      <e><p><l>belénk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="ill"/></r></p></e>
+      <e><p><l>bennünk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="ine"/></r></p></e>
+      <e><p><l>rajtunk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="ses"/></r></p></e>
+      <e><p><l>ránk</l><r>mi<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="sub"/></r></p></e>
+    </pardef>
+
+    <pardef n="/ti__prn">
+      <e><p><l>ti</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>titeket</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>tőletej</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>nálatok</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="ade"/></r></p></e>
+      <e><p><l>hozzátok</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="all"/></r></p></e>
+      <e><p><l>nektek</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>veletek</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>értetek</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="cau"/></r></p></e>
+      <e><p><l>rólatok</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="dela"/></r></p></e>
+      <e><p><l>belőletek</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="ela"/></r></p></e>
+      <e><p><l>belétek</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="ill"/></r></p></e>
+      <e><p><l>bennetek</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="ine"/></r></p></e>
+      <e><p><l>rajtatok</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="ses"/></r></p></e>
+      <e><p><l>rátok</l><r>ti<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="sub"/></r></p></e>
+    </pardef>
+
+    <pardef n="/ők__prn">
+      <e><p><l>ők</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>őket</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>tőlük</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="abl"/></r></p></e>
+      <e><p><l>náluk</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="ade"/></r></p></e>
+      <e><p><l>hozzájuk</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="all"/></r></p></e>
+      <e><p><l>nekik</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>velük</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>értük</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="cau"/></r></p></e>
+      <e><p><l>róluk</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dela"/></r></p></e>
+      <e><p><l>belőlük</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="ela"/></r></p></e>
+      <e><p><l>beléjük</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="ill"/></r></p></e>
+      <e><p><l>bennük</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="ine"/></r></p></e>
+      <e><p><l>rajtuk</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="ses"/></r></p></e>
+      <e><p><l>rájuk</l><r>ők<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="sub"/></r></p></e>
     </pardef>
 
     <pardef n="a/z__prn">
@@ -1227,7 +1295,12 @@
 
     <!-- SECTION: Pronouns -->
 
+    <e lm="én"><i></i><par n="/én__prn"/></e>
+    <e lm="te"><i></i><par n="/te__prn"/></e>
     <e lm="ő"><i></i><par n="/ő__prn"/></e>
+    <e lm="mi"><i></i><par n="/mi__prn"/></e>
+    <e lm="ti"><i></i><par n="/ti__prn"/></e>
+    <e lm="ők"><i></i><par n="/ők__prn"/></e>
     <e lm="az"><i>a</i><par n="a/z__prn"/></e>
     <e lm="ez"><i>e</i><par n="e/z__prn"/></e>
     <e lm="semmi"><i>semmi</i><par n="valami__prn"/></e>
