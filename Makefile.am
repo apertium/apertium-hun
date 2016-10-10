@@ -59,7 +59,7 @@ pkgconfig_DATA = $(BASENAME).pc
 
 noinst_DATA=modes/$(LANG)-morph.mode
 
-install-data-local:
+install-data-local: install-modes
 	test -d $(DESTDIR)$(apertium_hun_srcdir) || mkdir -p $(DESTDIR)$(apertium_fin_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG).dix $(DESTDIR)$(apertium_hun_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG).rlx $(DESTDIR)$(apertium_hun_srcdir)
