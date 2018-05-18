@@ -83,6 +83,7 @@
 
     <sdef n="comp"           c="Comparative"/>
     <sdef n="sup"            c="Superlative"/>
+    <sdef n="pos"            c="Superlative"/>
 
     <sdef n="foo"            c="I dunno but I had to add some tag"/>
   </sdefs>
@@ -255,6 +256,11 @@
     <!-- SECTION: Numerals -->
     <pardef n="két__num">
         <e><p><l/><r><s n="num"/><s n="sg"/><s n="nom"/></r></p></e>
+    </pardef>
+
+    <!-- ordinals -->
+    <pardef n="első__num">
+        <e><p><l/><r><s n="adj"/><s n="sg"/><s n="nom"/></r></p></e>
     </pardef>
 
 
@@ -1006,6 +1012,11 @@
         <e><p><l></l><r><s n="adj"/></r></p></e>
     </pardef>
 
+    <pardef n="magyar__adj">
+      <e><p><l></l><r><s n="adj"/><s n="pos"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ok</l><r><s n="adj"/><s n="pos"/><s n="pl"/><s n="nom"/></r></p></e>
+    </pardef>
+
     <pardef n="hideg__adj">
       <e><p><l></l><r><s n="adj"/></r></p></e>
       <e><p><l>ebb</l><r><s n="adj"/><s n="comp"/></r></p></e>
@@ -1014,6 +1025,12 @@
     <pardef n="nagy__adj">
       <e><p><l></l><r><s n="adj"/></r></p></e>
       <e><p><l>obb</l><r><s n="adj"/><s n="comp"/></r></p></e>
+    </pardef>
+
+    <pardef n="új__adj">
+        <e><p><l></l><r><s n="adj"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>ak</l><r><s n="adj"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>abb</l><r><s n="adj"/><s n="comp"/></r></p></e>
     </pardef>
 
     <pardef n="boldog__adj">
@@ -1261,6 +1278,26 @@
       <e><p><l>voltak</l><r>van<s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <!-- lesz -->
+    <pardef n="le/sz__vblex">
+
+        <e><p><l>nni</l><r>sz<s n="vblex"/><s n="inf"/></r></p></e>
+        <e><p><l>szek</l><r>sz<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>szel</l><r>sz<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>sz</l><r>sz<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>szünk</l><r>sz<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>sztek</l><r>sz<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>sznek</l><r>sz<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+
+        <e><p><l>ttem</l><r>sz<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>ttél</l><r>sz<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>tt</l><r>sz<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ttünk</l><r>sz<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>ttetek</l><r>sz<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ttek</l><r>sz<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      </pardef>
+
     <!-- SECTION: Interjections -->
 
     <pardef n="nem__ij">
@@ -1281,12 +1318,137 @@
 
     <!-- SECTION: Postpositions -->
 
-    <e lm="előtt"><i>előtt</i><par n="előtt__post"/></e>
-    <e lm="elől"><i>elől</i><par n="előtt__post"/></e>
+    <e lm="afelett"><i>afelett</i><par n="előtt__post"/></e>
+    <e lm="afölött"><i>afölött</i><par n="előtt__post"/></e>
+    <e lm="ahelyett"><i>ahelyett</i><par n="előtt__post"/></e>
+    <e lm="aközött"><i>aközött</i><par n="előtt__post"/></e>
     <e lm="alá"><i>alá</i><par n="előtt__post"/></e>
     <e lm="alám"><i>alám</i><par n="előtt__post"/></e>
-    <e lm="mögött"><i>mögött</i><par n="előtt__post"/></e>
+    <e lm="alatt"><i>alatt</i><par n="előtt__post"/></e>
+    <e lm="alátt"><i>alátt</i><par n="előtt__post"/></e>
+    <e lm="alól"><i>alól</i><par n="előtt__post"/></e>
+    <e lm="által"><i>által</i><par n="előtt__post"/></e>
+    <e lm="amellett"><i>amellett</i><par n="előtt__post"/></e>
+    <e lm="amiatt"><i>amiatt</i><par n="előtt__post"/></e>
+    <e lm="amott"><i>amott</i><par n="előtt__post"/></e>
+    <e lm="átellenben"><i>átellenben</i><par n="előtt__post"/></e>
+    <e lm="átellenében"><i>átellenében</i><par n="előtt__post"/></e>
+    <e lm="átellen"><i>átellen</i><par n="előtt__post"/></e>
+    <e lm="át"><i>át</i><par n="előtt__post"/></e>
+    <e lm="avégett"><i>avégett</i><par n="előtt__post"/></e>
+    <e lm="azalatt"><i>azalatt</i><par n="előtt__post"/></e>
+    <e lm="bévül"><i>bévül</i><par n="előtt__post"/></e>
+    <e lm="dacára"><i>dacára</i><par n="előtt__post"/></e>
+    <e lm="efelett"><i>efelett</i><par n="előtt__post"/></e>
+    <e lm="efölött"><i>efölött</i><par n="előtt__post"/></e>
+    <e lm="egyebütt"><i>egyebütt</i><par n="előtt__post"/></e>
+    <e lm="együtt"><i>együtt</i><par n="előtt__post"/></e>
+    <e lm="ehelyett"><i>ehelyett</i><par n="előtt__post"/></e>
+    <e lm="elismeréseképpen"><i>elismeréseképpen</i><par n="előtt__post"/></e>
+    <e lm="ellenében"><i>ellenében</i><par n="előtt__post"/></e>
+    <e lm="ellen"><i>ellen</i><par n="előtt__post"/></e>
+    <e lm="elől"><i>elől</i><par n="előtt__post"/></e>
+    <e lm="előtt"><i>előtt</i><par n="előtt__post"/></e>
+    <e lm="emellett"><i>emellett</i><par n="előtt__post"/></e>
+    <e lm="emiatt"><i>emiatt</i><par n="előtt__post"/></e>
+    <e lm="emitt"><i>emitt</i><par n="előtt__post"/></e>
+    <e lm="emögött"><i>emögött</i><par n="előtt__post"/></e>
+    <e lm="eredményeképp"><i>eredményeképp</i><par n="előtt__post"/></e>
+    <e lm="evégett"><i>evégett</i><par n="előtt__post"/></e>
+    <e lm="ezalatt"><i>ezalatt</i><par n="előtt__post"/></e>
+    <e lm="fejében"><i>fejében</i><par n="előtt__post"/></e>
+    <e lm="fele"><i>fele</i><par n="előtt__post"/></e>
+    <e lm="felett"><i>felett</i><par n="előtt__post"/></e>
+    <e lm="felibe"><i>felibe</i><par n="előtt__post"/></e>
+    <e lm="felől"><i>felől</i><par n="előtt__post"/></e>
+    <e lm="fogva"><i>fogva</i><par n="előtt__post"/></e>
+    <e lm="fogvást"><i>fogvást</i><par n="előtt__post"/></e>
+    <e lm="folyamán"><i>folyamán</i><par n="előtt__post"/></e>
+    <e lm="folytán"><i>folytán</i><par n="előtt__post"/></e>
+    <e lm="fölébe"><i>fölébe</i><par n="előtt__post"/></e>
+    <e lm="fölibe"><i>fölibe</i><par n="előtt__post"/></e>
+    <e lm="fölött"><i>fölött</i><par n="előtt__post"/></e>
+    <e lm="gyanánt"><i>gyanánt</i><par n="előtt__post"/></e>
+    <e lm="hajadonfőtt"><i>hajadonfőtt</i><par n="előtt__post"/></e>
+    <e lm="hanyatt"><i>hanyatt</i><par n="előtt__post"/></e>
+    <e lm="hegyibe"><i>hegyibe</i><par n="előtt__post"/></e>
+    <e lm="helyett"><i>helyett</i><par n="előtt__post"/></e>
+    <e lm="helyütt"><i>helyütt</i><par n="előtt__post"/></e>
+    <e lm="holott"><i>holott</i><par n="előtt__post"/></e>
+    <e lm="hosszat"><i>hosszat</i><par n="előtt__post"/></e>
+    <e lm="imitt"><i>imitt</i><par n="előtt__post"/></e>
+    <e lm="innét"><i>innét</i><par n="előtt__post"/></e>
+    <e lm="iránt"><i>iránt</i><par n="előtt__post"/></e>
+    <e lm="itt"><i>itt</i><par n="előtt__post"/></e>
+    <e lm="jóvoltából"><i>jóvoltából</i><par n="előtt__post"/></e>
+    <e lm="képest"><i>képest</i><par n="előtt__post"/></e>
+    <e lm="keresztül"><i>keresztül</i><par n="előtt__post"/></e>
+    <e lm="kifolyólag"><i>kifolyólag</i><par n="előtt__post"/></e>
+    <e lm="körül"><i>körül</i><par n="előtt__post"/></e>
+    <e lm="körülre"><i>körülre</i><par n="előtt__post"/></e>
+    <e lm="körött"><i>körött</i><par n="előtt__post"/></e>
+    <e lm="következtében"><i>következtében</i><par n="előtt__post"/></e>
+    <e lm="közben"><i>közben</i><par n="előtt__post"/></e>
+    <e lm="közepette"><i>közepette</i><par n="előtt__post"/></e>
+    <e lm="középütt"><i>középütt</i><par n="előtt__post"/></e>
+    <e lm="közt"><i>közt</i><par n="előtt__post"/></e>
+    <e lm="közül"><i>közül</i><par n="előtt__post"/></e>
+    <e lm="között"><i>között</i><par n="előtt__post"/></e>
+    <e lm="láttán"><i>láttán</i><par n="előtt__post"/></e>
+    <e lm="legott"><i>legott</i><par n="előtt__post"/></e>
+    <e lm="létére"><i>létére</i><par n="előtt__post"/></e>
+    <e lm="másutt"><i>másutt</i><par n="előtt__post"/></e>
+    <e lm="mellett"><i>mellett</i><par n="előtt__post"/></e>
+    <e lm="mellől"><i>mellől</i><par n="előtt__post"/></e>
+    <e lm="miá"><i>miá</i><par n="előtt__post"/></e>
+    <e lm="mialatt"><i>mialatt</i><par n="előtt__post"/></e>
+    <e lm="mián"><i>mián</i><par n="előtt__post"/></e>
+    <e lm="miatt"><i>miatt</i><par n="előtt__post"/></e>
+    <e lm="mielőtt"><i>mielőtt</i><par n="előtt__post"/></e>
+    <e lm="mindamellett"><i>mindamellett</i><par n="előtt__post"/></e>
+    <e lm="mindemellett"><i>mindemellett</i><par n="előtt__post"/></e>
+    <e lm="mindenekelőtt"><i>mindenekelőtt</i><par n="előtt__post"/></e>
+    <e lm="mindenekfelett"><i>mindenekfelett</i><par n="előtt__post"/></e>
+    <e lm="mindenekfölött"><i>mindenekfölött</i><par n="előtt__post"/></e>
+    <e lm="mindenfelett"><i>mindenfelett</i><par n="előtt__post"/></e>
+    <e lm="mindenfölött"><i>mindenfölött</i><par n="előtt__post"/></e>
+    <e lm="mindenütt"><i>mindenütt</i><par n="előtt__post"/></e>
+    <e lm="mindezalatt"><i>mindezalatt</i><par n="előtt__post"/></e>
+    <e lm="módfelett"><i>módfelett</i><par n="előtt__post"/></e>
+    <e lm="módfölött"><i>módfölött</i><par n="előtt__post"/></e>
+    <e lm="múlta"><i>múlta</i><par n="előtt__post"/></e>
+    <e lm="múlva"><i>múlva</i><par n="előtt__post"/></e>
+    <e lm="múlván"><i>múlván</i><par n="előtt__post"/></e>
     <e lm="mögül"><i>mögül</i><par n="előtt__post"/></e>
+    <e lm="mögött"><i>mögött</i><par n="előtt__post"/></e>
+    <e lm="nélkül"><i>nélkül</i><par n="előtt__post"/></e>
+    <e lm="nézve"><i>nézve</i><par n="előtt__post"/></e>
+    <e lm="nézvést"><i>nézvést</i><par n="előtt__post"/></e>
+    <e lm="nyomán"><i>nyomán</i><par n="előtt__post"/></e>
+    <e lm="óta"><i>óta</i><par n="előtt__post"/></e>
+    <e lm="ott"><i>ott</i><par n="előtt__post"/></e>
+    <e lm="részére"><i>részére</i><par n="előtt__post"/></e>
+    <e lm="révén"><i>révén</i><par n="előtt__post"/></e>
+    <e lm="során"><i>során</i><par n="előtt__post"/></e>
+    <e lm="számára"><i>számára</i><par n="előtt__post"/></e>
+    <e lm="számba"><i>számba</i><par n="előtt__post"/></e>
+    <e lm="számra"><i>számra</i><par n="előtt__post"/></e>
+    <e lm="szembe"><i>szembe</i><par n="előtt__post"/></e>
+    <e lm="szemben"><i>szemben</i><par n="előtt__post"/></e>
+    <e lm="szemenszedett"><i>szemenszedett</i><par n="előtt__post"/></e>
+    <e lm="szemközt"><i>szemközt</i><par n="előtt__post"/></e>
+    <e lm="szerfelett"><i>szerfelett</i><par n="előtt__post"/></e>
+    <e lm="szerfölött"><i>szerfölött</i><par n="előtt__post"/></e>
+    <e lm="szerint"><i>szerint</i><par n="előtt__post"/></e>
+    <e lm="tekintve"><i>tekintve</i><par n="előtt__post"/></e>
+    <e lm="telve"><i>telve</i><par n="előtt__post"/></e>
+    <e lm="túlnan"><i>túlnan</i><par n="előtt__post"/></e>
+    <e lm="ugyanitt"><i>ugyanitt</i><par n="előtt__post"/></e>
+    <e lm="után"><i>után</i><par n="előtt__post"/></e>
+    <e lm="útján"><i>útján</i><par n="előtt__post"/></e>
+    <e lm="végett"><i>végett</i><par n="előtt__post"/></e>
+    <e lm="végeztével"><i>végeztével</i><par n="előtt__post"/></e>
+    <e lm="vonatkozólag"><i>vonatkozólag</i><par n="előtt__post"/></e>
 
     <!-- SECTION: Determiners -->
 
@@ -1305,88 +1467,205 @@
     <e lm="ez"><i>e</i><par n="e/z__prn"/></e>
     <e lm="semmi"><i>semmi</i><par n="valami__prn"/></e>
     <e lm="valami"><i>valami</i><par n="valami__prn"/></e>
+    <e lm="ami"><i>ami</i><par n="valami__prn"/></e>
+    <e lm="valaki"><i>valaki</i><par n="valami__prn"/></e>
+    <e lm="aki"><i>aki</i><par n="valami__prn"/></e>
+    <e lm="ki"><i>ki</i><par n="valami__prn"/></e>
+    <e lm="egyik"><i>egyik</i><par n="valami__prn"/></e>
+    <e lm="másik"><i>másik</i><par n="valami__prn"/></e>
+    <e lm="melyik"><i>melyik</i><par n="valami__prn"/></e>
+    <e lm="amelyik"><i>amelyik</i><par n="valami__prn"/></e>
+    <e lm="amely"><i>amely</i><par n="valami__prn"/></e>
 
     <!-- SECTION: Numerals -->
 
+    <e lm="egy"><i>egy</i><par n="két__num"/></e>
     <e lm="két"><i>két</i><par n="két__num"/></e>
+
+    <e lm="első"><i>első</i><par n="első__num"/></e>
 
     <!-- SECTION: Nouns -->
 
     <e lm="ablak"><i>ablak</i><par n="ablak__n"/></e>
     <e lm="ábra"><i>ábr</i><par n="macsk/a__n"/></e>
+    <e lm="abszorbens"><i>abszorbens</i><par n="kérdés__n"/></e>
+    <e lm="abszorber"><i>abszorber</i><par n="kérdés__n"/></e>
+    <e lm="absztinens"><i>absztinens</i><par n="kérdés__n"/></e>
     <e lm="ács"><i>á</i><par n="á/cs__n"/></e>
+    <e lm="adatfelvételezés"><i>adatfelvételezés</i><par n="kérdés__n"/></e>
     <e lm="adat"><i>adat</i><par n="adat__n"/></e>
+    <e lm="adatvezéreltség"><i>adatvezéreltség</i><par n="kérdés__n"/></e>
+    <e lm="adóátépítés"><i>adóátépítés</i><par n="kérdés__n"/></e>
     <e lm="adó"><i>adó</i><par n="adó__n"/></e>
-    <e lm="ág"><i>ág</i><par n="ág__n"/></e>
+    <e lm="adressz"><i>adressz</i><par n="kérdés__n"/></e>
+    <e lm="adszorbeálóképesség"><i>adszorbeálóképesség</i><par n="kérdés__n"/></e>
+    <e lm="adszorbens"><i>adszorbens</i><par n="kérdés__n"/></e>
+    <e lm="adszorber"><i>adszorber</i><par n="kérdés__n"/></e>
+    <e lm="áfész"><i>áfész</i><par n="kérdés__n"/></e>
     <e lm="agancs"><i>agan</i><par n="á/cs__n"/></e>
+    <e lm="ág"><i>ág</i><par n="ág__n"/></e>
+    <e lm="agrárértelmiség"><i>agrárértelmiség</i><par n="kérdés__n"/></e>
+    <e lm="agrárrezsim"><i>agrárrezsim</i><par n="kérdés__n"/></e>
+    <e lm="agyag"><i>agyag</i><par n="hang__n"/></e>
+    <e lm="agyagművesség"><i>agyagművesség</i><par n="kérdés__n"/></e>
+    <e lm="ágybavizelés"><i>ágybavizelés</i><par n="kérdés__n"/></e>
     <e lm="agy"><i>a</i><par n="a/gy__n"/></e>
     <e lm="ágy"><i>á</i><par n="a/gy__n"/></e>
-    <e lm="agyag"><i>agyag</i><par n="hang__n"/></e>
+    <e lm="agyszülemény"><i>agyszülemény</i><par n="kérdés__n"/></e>
     <e lm="ágyú"><i>ágyú</i><par n="adó__n"/></e>
     <e lm="ajánlat"><i>ajánlat</i><par n="adat__n"/></e>
+    <e lm="ájer"><i>ájer</i><par n="kérdés__n"/></e>
     <e lm="ajtó"><i>ajt</i><par n="ajt/ó__n"/></e>
     <e lm="akadály"><i>akadá</i><par n="akadá/ly__n"/></e>
     <e lm="akadémia"><i>akadémi</i><par n="macsk/a__n"/></e>
     <e lm="akció"><i>akció</i><par n="adó__n"/></e>
     <e lm="akusztika"><i>akusztik</i><par n="macsk/a__n"/></e>
+    <e lm="alacsonylelkűség"><i>alacsonylelkűség</i><par n="kérdés__n"/></e>
     <e lm="alakzat"><i>alakzat</i><par n="adat__n"/></e>
+    <e lm="alantaslelkűség"><i>alantaslelkűség</i><par n="kérdés__n"/></e>
     <e lm="alany"><i>ala</i><par n="lá/ny__n"/></e>
+    <e lm="alapfeltételezés"><i>alapfeltételezés</i><par n="kérdés__n"/></e>
+    <e lm="alávetettség"><i>alávetettség</i><par n="kérdés__n"/></e>
     <e lm="albérlő"><i>albérlő</i><par n="cipő__n"/></e>
+    <e lm="alegység"><i>alegység</i><par n="kérdés__n"/></e>
+    <e lm="álhűség"><i>álhűség</i><par n="kérdés__n"/></e>
     <e lm="alkohol"><i>alkohol</i><par n="alkohol__n"/></e>
+    <e lm="államberendezkedés"><i>államberendezkedés</i><par n="kérdés__n"/></e>
+    <e lm="államrendészet"><i>államrendészet</i><par n="kérdés__n"/></e>
+    <e lm="államvédelmis"><i>államvédelmis</i><par n="kérdés__n"/></e>
     <e lm="állat"><i>állat</i><par n="adat__n"/></e>
     <e lm="allergia"><i>allergi</i><par n="macsk/a__n"/></e>
     <e lm="állólámpa"><i>állólámp</i><par n="macsk/a__n"/></e>
-    <e lm="álmosság"><i>álmosság</i><par n="ország__n"/></e>
-    <e lm="álmatlanság"><i>álmatlanság</i><par n="ország__n"/></e>
     <e lm="alma"><i>alm</i><par n="macsk/a__n"/></e>
+    <e lm="álmatlanság"><i>álmatlanság</i><par n="ország__n"/></e>
+    <e lm="álmosság"><i>álmosság</i><par n="ország__n"/></e>
+    <e lm="alperes"><i>alperes</i><par n="kérdés__n"/></e>
+    <e lm="alrendszer"><i>alrendszer</i><par n="kérdés__n"/></e>
+    <e lm="alrész"><i>alrész</i><par n="kérdés__n"/></e>
     <e lm="alsónadrág"><i>alsónadrág</i><par n="hang__n"/></e>
+    <e lm="álszenteskedés"><i>álszenteskedés</i><par n="kérdés__n"/></e>
     <e lm="altatódal"><i>altatódal</i><par n="asztal__n"/></e>
     <e lm="alufólia"><i>alufóli</i><par n="macsk/a__n"/></e>
     <e lm="alvilág"><i>alvilág</i><par n="ország__n"/></e>
-    <e lm="akadály"><i>akadá</i><par n="akadá/ly__n"/></e>
+    <e lm="álöltözék"><i>álöltözék</i><par n="kérdés__n"/></e>
+    <e lm="álözvegy"><i>álözvegy</i><par n="kérdés__n"/></e>
+    <e lm="amarillisz"><i>amarillisz</i><par n="kérdés__n"/></e>
+    <e lm="amper"><i>amper</i><par n="kérdés__n"/></e>
+    <e lm="analízis"><i>analízis</i><par n="kérdés__n"/></e>
+    <e lm="anamnézis"><i>anamnézis</i><par n="kérdés__n"/></e>
     <e lm="angyal"><i>angyal</i><par n="asztal__n"/></e>
-    <e lm="anya"><i>any</i><par n="any/a__n"/></e>
+    <e lm="annales"><i>annales</i><par n="kérdés__n"/></e>
+    <e lm="antikoncipiens"><i>antikoncipiens</i><par n="kérdés__n"/></e>
+    <e lm="anyagelvűség"><i>anyagelvűség</i><par n="kérdés__n"/></e>
     <e lm="anyag"><i>anyag</i><par n="ország__n"/></e>
-    <e lm="apa"><i>ap</i><par n="any/a__n"/></e>
+    <e lm="anya"><i>any</i><par n="any/a__n"/></e>
     <e lm="apáca"><i>apác</i><par n="macsk/a__n"/></e>
-    <e lm="apát"><i>apát</i><par n="pont__n"/></e>
+    <e lm="apa"><i>ap</i><par n="any/a__n"/></e>
     <e lm="apátia"><i>apáti</i><par n="macsk/a__n"/></e>
+    <e lm="apát"><i>apát</i><par n="pont__n"/></e>
+    <e lm="apofízis"><i>apofízis</i><par n="kérdés__n"/></e>
+    <e lm="apokalipszis"><i>apokalipszis</i><par n="kérdés__n"/></e>
     <e lm="ápoló"><i>ápoló</i><par n="adó__n"/></e>
     <e lm="ápolónő"><i>ápolónő</i><par n="cipő__n"/></e>
+    <e lm="appendicitis"><i>appendicitis</i><par n="kérdés__n"/></e>
+    <e lm="appendix"><i>appendix</i><par n="kérdés__n"/></e>
     <e lm="áramlat"><i>áramlat</i><par n="adat__n"/></e>
     <e lm="arany"><i>ara</i><par n="ara/ny__n"/></e>
     <e lm="arány"><i>ará</i><par n="lá/ny__n"/></e>
     <e lm="arcátlanság"><i>arcátlanság</i><par n="ország__n"/></e>
+    <e lm="árcsökkenés"><i>árcsökkenés</i><par n="kérdés__n"/></e>
+    <e lm="árcsökkentés"><i>árcsökkentés</i><par n="kérdés__n"/></e>
+    <e lm="arculütés"><i>arculütés</i><par n="kérdés__n"/></e>
+    <e lm="|areális"><i>|areális</i><par n="kérdés__n"/></e>
+    <e lm="áregyeztetés"><i>áregyeztetés</i><par n="kérdés__n"/></e>
+    <e lm="áremelés"><i>áremelés</i><par n="kérdés__n"/></e>
     <e lm="aréna"><i>arén</i><par n="macsk/a__n"/></e>
+    <e lm="áresés"><i>áresés</i><par n="kérdés__n"/></e>
     <e lm="ária"><i>ári</i><par n="macsk/a__n"/></e>
+    <e lm="árjegyzék"><i>árjegyzék</i><par n="kérdés__n"/></e>
+    <e lm="árjelzés"><i>árjelzés</i><par n="kérdés__n"/></e>
+    <e lm="árkedvezmény"><i>árkedvezmény</i><par n="kérdés__n"/></e>
+    <e lm="árkülönbség"><i>árkülönbség</i><par n="kérdés__n"/></e>
+    <e lm="árleengedés"><i>árleengedés</i><par n="kérdés__n"/></e>
+    <e lm="árlejtés"><i>árlejtés</i><par n="kérdés__n"/></e>
+    <e lm="ármentesítés"><i>ármentesítés</i><par n="kérdés__n"/></e>
+    <e lm="ármérséklés"><i>ármérséklés</i><par n="kérdés__n"/></e>
+    <e lm="ármérséklődés"><i>ármérséklődés</i><par n="kérdés__n"/></e>
     <e lm="árnyék"><i>árnyék</i><par n="ablak__n"/></e>
+    <e lm="árnövekedés"><i>árnövekedés</i><par n="kérdés__n"/></e>
     <e lm="árok"><i>ár</i><par n="ár/ok__n"/></e>
     <e lm="aroma"><i>arom</i><par n="macsk/a__n"/></e>
     <e lm="aromaterápia"><i>aromaterápi</i><par n="macsk/a__n"/></e>
     <e lm="árpa"><i>árp</i><par n="macsk/a__n"/></e>
+    <e lm="árrögzítés"><i>árrögzítés</i><par n="kérdés__n"/></e>
     <e lm="ártatlanság"><i>ártatlanság</i><par n="ország__n"/></e>
     <e lm="artéria"><i>artéri</i><par n="macsk/a__n"/></e>
+    <e lm="árterület"><i>árterület</i><par n="kérdés__n"/></e>
     <e lm="articsóka"><i>articsók</i><par n="macsk/a__n"/></e>
     <e lm="áru"><i>áru</i><par n="adó__n"/></e>
+    <e lm="árukiléptetés"><i>árukiléptetés</i><par n="kérdés__n"/></e>
     <e lm="áruló"><i>áruló</i><par n="adó__n"/></e>
     <e lm="árvaság"><i>árvaság</i><par n="ország__n"/></e>
+    <e lm="árvaszék"><i>árvaszék</i><par n="kérdés__n"/></e>
+    <e lm="árvetés"><i>árvetés</i><par n="kérdés__n"/></e>
     <e lm="ásó"><i>ásó</i><par n="adó__n"/></e>
+    <e lm="assembler"><i>assembler</i><par n="kérdés__n"/></e>
+    <e lm="asszisztens"><i>asszisztens</i><par n="kérdés__n"/></e>
     <e lm="ásvány"><i>ásvá</i><par n="lá/ny__n"/></e>
+    <e lm="aszepszis"><i>aszepszis</i><par n="kérdés__n"/></e>
+    <e lm="aszkézis"><i>aszkézis</i><par n="kérdés__n"/></e>
     <e lm="asztal"><i>asztal</i><par n="asztal__n"/></e>
+    <e lm="asztalitenisz"><i>asztalitenisz</i><par n="kérdés__n"/></e>
     <e lm="asztma"><i>asztm</i><par n="macsk/a__n"/></e>
     <e lm="ateista"><i>ateist</i><par n="macsk/a__n"/></e>
+    <e lm="átengedés"><i>átengedés</i><par n="kérdés__n"/></e>
+    <e lm="áteresz"><i>áteresz</i><par n="kérdés__n"/></e>
+    <e lm="áteresztés"><i>áteresztés</i><par n="kérdés__n"/></e>
+    <e lm="átkelés"><i>átkelés</i><par n="kérdés__n"/></e>
+    <e lm="átküldés"><i>átküldés</i><par n="kérdés__n"/></e>
+    <e lm="átköltés"><i>átköltés</i><par n="kérdés__n"/></e>
+    <e lm="átkötés"><i>átkötés</i><par n="kérdés__n"/></e>
+    <e lm="átmenés"><i>átmenés</i><par n="kérdés__n"/></e>
+    <e lm="átmenet"><i>átmenet</i><par n="kérdés__n"/></e>
     <e lm="atmoszféra"><i>atmoszfér</i><par n="macsk/a__n"/></e>
+    <e lm="átnevelés"><i>átnevelés</i><par n="kérdés__n"/></e>
+    <e lm="átnézés"><i>átnézés</i><par n="kérdés__n"/></e>
+    <e lm="átnézet"><i>átnézet</i><par n="kérdés__n"/></e>
+    <e lm="átrendezés"><i>átrendezés</i><par n="kérdés__n"/></e>
+    <e lm="atropinmérgezés"><i>atropinmérgezés</i><par n="kérdés__n"/></e>
+    <e lm="átszervezés"><i>átszervezés</i><par n="kérdés__n"/></e>
+    <e lm="átszűrés"><i>átszűrés</i><par n="kérdés__n"/></e>
+    <e lm="áttekintés"><i>áttekintés</i><par n="kérdés__n"/></e>
+    <e lm="áttelepítés"><i>áttelepítés</i><par n="kérdés__n"/></e>
+    <e lm="áttérés"><i>áttérés</i><par n="kérdés__n"/></e>
+    <e lm="áttételezés"><i>áttételezés</i><par n="kérdés__n"/></e>
+    <e lm="áttétel"><i>áttétel</i><par n="kérdés__n"/></e>
+    <e lm="áttöltés"><i>áttöltés</i><par n="kérdés__n"/></e>
+    <e lm="áttörés"><i>áttörés</i><par n="kérdés__n"/></e>
+    <e lm="átvétel"><i>átvétel</i><par n="kérdés__n"/></e>
+    <e lm="átvevés"><i>átvevés</i><par n="kérdés__n"/></e>
+    <e lm="átvitel"><i>átvitel</i><par n="kérdés__n"/></e>
+    <e lm="atyaisten"><i>atyaisten</i><par n="kérdés__n"/></e>
+    <e lm="atyaúristen"><i>atyaúristen</i><par n="kérdés__n"/></e>
+    <e lm="átültetés"><i>átültetés</i><par n="kérdés__n"/></e>
+    <e lm="átölelés"><i>átölelés</i><par n="kérdés__n"/></e>
+    <e lm="átörökítés"><i>átörökítés</i><par n="kérdés__n"/></e>
+    <e lm="átöröklés"><i>átöröklés</i><par n="kérdés__n"/></e>
+    <e lm="autogénhegesztés"><i>autogénhegesztés</i><par n="kérdés__n"/></e>
     <e lm="autó"><i>autó</i><par n="adó__n"/></e>
     <e lm="automata"><i>automat</i><par n="macsk/a__n"/></e>
-    <e lm="bab"><i>bab</i><par n="bab__n"/></e>
     <e lm="baba"><i>bab</i><par n="macsk/a__n"/></e>
     <e lm="babaruha"><i>babaruh</i><par n="macsk/a__n"/></e>
+    <e lm="bab"><i>bab</i><par n="bab__n"/></e>
     <e lm="babona"><i>babon</i><par n="macsk/a__n"/></e>
     <e lm="bábu"><i>bábu</i><par n="adó__n"/></e>
     <e lm="bajnokság"><i>bajnokság</i><par n="ország__n"/></e>
     <e lm="bakancs"><i>bakan</i><par n="á/cs__n"/></e>
-    <e lm="bál"><i>bál</i><par n="alkohol__n"/></e>
     <e lm="bála"><i>bál</i><par n="macsk/a__n"/></e>
+    <e lm="balfedezet"><i>balfedezet</i><par n="kérdés__n"/></e>
+    <e lm="balhés"><i>balhés</i><par n="kérdés__n"/></e>
+    <e lm="balhit"><i>balhit</i><par n="kérdés__n"/></e>
+    <e lm="bál"><i>bál</i><par n="alkohol__n"/></e>
     <e lm="ballada"><i>ballad</i><par n="macsk/a__n"/></e>
     <e lm="ballisztika"><i>ballisztik</i><par n="macsk/a__n"/></e>
     <e lm="bálna"><i>báln</i><par n="macsk/a__n"/></e>
@@ -1409,6 +1688,8 @@
     <e lm="barátság"><i>barátság</i><par n="ország__n"/></e>
     <e lm="barázda"><i>barázd</i><par n="macsk/a__n"/></e>
     <e lm="barbárság"><i>barbárság</i><par n="ország__n"/></e>
+    <e lm="barchesz"><i>barchesz</i><par n="kérdés__n"/></e>
+    <e lm="bariontöltés"><i>bariontöltés</i><par n="kérdés__n"/></e>
     <e lm="barka"><i>bark</i><par n="macsk/a__n"/></e>
     <e lm="bárka"><i>bárk</i><par n="macsk/a__n"/></e>
     <e lm="barlang"><i>barlang</i><par n="hang__n"/></e>
@@ -1419,35 +1700,124 @@
     <e lm="bástya"><i>básty</i><par n="macsk/a__n"/></e>
     <e lm="bátorság"><i>bátorság</i><par n="ország__n"/></e>
     <e lm="bébi"><i>bébi</i><par n="bébi__n"/></e>
+    <e lm="bebörtönzés"><i>bebörtönzés</i><par n="kérdés__n"/></e>
+    <e lm="becézgetés"><i>becézgetés</i><par n="kérdés__n"/></e>
+    <e lm="becslés"><i>becslés</i><par n="kérdés__n"/></e>
+    <e lm="becsület"><i>becsület</i><par n="kérdés__n"/></e>
+    <e lm="bedörzsölés"><i>bedörzsölés</i><par n="kérdés__n"/></e>
+    <e lm="beégetés"><i>beégetés</i><par n="kérdés__n"/></e>
+    <e lm="beengedés"><i>beengedés</i><par n="kérdés__n"/></e>
+    <e lm="beerdősítés"><i>beerdősítés</i><par n="kérdés__n"/></e>
+    <e lm="beeresztés"><i>beeresztés</i><par n="kérdés__n"/></e>
+    <e lm="befecskendezés"><i>befecskendezés</i><par n="kérdés__n"/></e>
+    <e lm="befejezés"><i>befejezés</i><par n="kérdés__n"/></e>
+    <e lm="befejeződés"><i>befejeződés</i><par n="kérdés__n"/></e>
+    <e lm="befektetés"><i>befektetés</i><par n="kérdés__n"/></e>
     <e lm="befektető"><i>befektető</i><par n="cipő__n"/></e>
+    <e lm="befőzés"><i>befőzés</i><par n="kérdés__n"/></e>
     <e lm="begónia"><i>begóni</i><par n="macsk/a__n"/></e>
+    <e lm="begöngyölés"><i>begöngyölés</i><par n="kérdés__n"/></e>
+    <e lm="behízelgés"><i>behízelgés</i><par n="kérdés__n"/></e>
+    <e lm="beidegzés"><i>beidegzés</i><par n="kérdés__n"/></e>
+    <e lm="beismerés"><i>beismerés</i><par n="kérdés__n"/></e>
     <e lm="bejárat"><i>bejárat</i><par n="adat__n"/></e>
+    <e lm="bejegyzés"><i>bejegyzés</i><par n="kérdés__n"/></e>
+    <e lm="bejelentés"><i>bejelentés</i><par n="kérdés__n"/></e>
+    <e lm="bejövetel"><i>bejövetel</i><par n="kérdés__n"/></e>
+    <e lm="bejövet"><i>bejövet</i><par n="kérdés__n"/></e>
+    <e lm="békaszem"><i>békaszem</i><par n="kérdés__n"/></e>
+    <e lm="bekebelezés"><i>bekebelezés</i><par n="kérdés__n"/></e>
+    <e lm="bekecs"><i>bekecs</i><par n="kérdés__n"/></e>
     <e lm="béke"><i>bék</i><par n="bék/e__n"/></e>
+    <e lm="bekeretezés"><i>bekeretezés</i><par n="kérdés__n"/></e>
+    <e lm="bekerítés"><i>bekerítés</i><par n="kérdés__n"/></e>
+    <e lm="békesség"><i>békesség</i><par n="kérdés__n"/></e>
+    <e lm="békétlenség"><i>békétlenség</i><par n="kérdés__n"/></e>
+    <e lm="bekezdés"><i>bekezdés</i><par n="kérdés__n"/></e>
+    <e lm="bekötés"><i>bekötés</i><par n="kérdés__n"/></e>
+    <e lm="belég"><i>belég</i><par n="kérdés__n"/></e>
+    <e lm="beléndek"><i>beléndek</i><par n="kérdés__n"/></e>
+    <e lm="belépés"><i>belépés</i><par n="kérdés__n"/></e>
+    <e lm="béles"><i>béles</i><par n="kérdés__n"/></e>
+    <e lm="bélés"><i>bélés</i><par n="kérdés__n"/></e>
+    <e lm="belív"><i>belív</i><par n="kérdés__n"/></e>
+    <e lm="béllet"><i>béllet</i><par n="kérdés__n"/></e>
+    <e lm="belsőség"><i>belsőség</i><par n="kérdés__n"/></e>
+    <e lm="belterület"><i>belterület</i><par n="kérdés__n"/></e>
     <e lm="bélyeg"><i>bélyeg</i><par n="bélyeg__n"/></e>
     <e lm="bélyegző"><i>bélyegző</i><par n="cipő__n"/></e>
+    <e lm="bemélyedés"><i>bemélyedés</i><par n="kérdés__n"/></e>
+    <e lm="bemenetel"><i>bemenetel</i><par n="kérdés__n"/></e>
+    <e lm="bemenet"><i>bemenet</i><par n="kérdés__n"/></e>
+    <e lm="bemetszés"><i>bemetszés</i><par n="kérdés__n"/></e>
     <e lm="bemondó"><i>bemondó</i><par n="adó__n"/></e>
     <e lm="bemutató"><i>bemutató</i><par n="adó__n"/></e>
+    <e lm="bennfentes"><i>bennfentes</i><par n="kérdés__n"/></e>
+    <e lm="berbécs"><i>berbécs</i><par n="kérdés__n"/></e>
     <e lm="berek"><i>ber</i><par n="ber/ek__n"/></e>
+    <e lm="bérenc"><i>bérenc</i><par n="kérdés__n"/></e>
+    <e lm="berendezés"><i>berendezés</i><par n="kérdés__n"/></e>
+    <e lm="béres"><i>béres</i><par n="kérdés__n"/></e>
+    <e lm="bérezés"><i>bérezés</i><par n="kérdés__n"/></e>
+    <e lm="bérlemény"><i>bérlemény</i><par n="kérdés__n"/></e>
+    <e lm="bérletezés"><i>bérletezés</i><par n="kérdés__n"/></e>
+    <e lm="bérlet"><i>bérlet</i><par n="kérdés__n"/></e>
     <e lm="bérlő"><i>bérlő</i><par n="cipő__n"/></e>
+    <e lm="berzseny"><i>berzseny</i><par n="kérdés__n"/></e>
+    <e lm="berögződöttség"><i>berögződöttség</i><par n="kérdés__n"/></e>
+    <e lm="besszemerezés"><i>besszemerezés</i><par n="kérdés__n"/></e>
+    <e lm="bestseller"><i>bestseller</i><par n="kérdés__n"/></e>
     <e lm="besúgó"><i>besúgó</i><par n="adó__n"/></e>
     <e lm="beszédtechnika"><i>beszédtechnik</i><par n="macsk/a__n"/></e>
+    <e lm="beszélgetés"><i>beszélgetés</i><par n="kérdés__n"/></e>
+    <e lm="beszély"><i>beszély</i><par n="kérdés__n"/></e>
+    <e lm="beszennyezés"><i>beszennyezés</i><par n="kérdés__n"/></e>
+    <e lm="beszerzés"><i>beszerzés</i><par n="kérdés__n"/></e>
+    <e lm="beszűkültség"><i>beszűkültség</i><par n="kérdés__n"/></e>
     <e lm="betegágy"><i>betegá</i><par n="a/gy__n"/></e>
+    <e lm="beteg"><i>beteg</i><par n="kérdés__n"/></e>
     <e lm="betegség"><i>betegség</i><par n="bélyeg__n"/></e>
+    <e lm="betegség"><i>betegség</i><par n="kérdés__n"/></e>
     <e lm="betegszállító"><i>betegszállító</i><par n="adó__n"/></e>
+    <e lm="betekintés"><i>betekintés</i><par n="kérdés__n"/></e>
+    <e lm="beteljesülés"><i>beteljesülés</i><par n="kérdés__n"/></e>
+    <e lm="betétes"><i>betétes</i><par n="kérdés__n"/></e>
+    <e lm="betetőzés"><i>betetőzés</i><par n="kérdés__n"/></e>
+    <e lm="betlehemes"><i>betlehemes</i><par n="kérdés__n"/></e>
+    <e lm="betömés"><i>betömés</i><par n="kérdés__n"/></e>
+    <e lm="betörés"><i>betörés</i><par n="kérdés__n"/></e>
     <e lm="beugró"><i>beugró</i><par n="adó__n"/></e>
     <e lm="beutaló"><i>beutaló</i><par n="adó__n"/></e>
     <e lm="bevándorló"><i>bevándorló</i><par n="adó__n"/></e>
+    <e lm="bevégzés"><i>bevégzés</i><par n="kérdés__n"/></e>
+    <e lm="bevétel"><i>bevétel</i><par n="kérdés__n"/></e>
+    <e lm="bevetés"><i>bevetés</i><par n="kérdés__n"/></e>
+    <e lm="bevezetés"><i>bevezetés</i><par n="kérdés__n"/></e>
+    <e lm="bevitel"><i>bevitel</i><par n="kérdés__n"/></e>
+    <e lm="beütemezés"><i>beütemezés</i><par n="kérdés__n"/></e>
+    <e lm="beömlés"><i>beömlés</i><par n="kérdés__n"/></e>
+    <e lm="beöntés"><i>beöntés</i><par n="kérdés__n"/></e>
+    <e lm="beözönlés"><i>beözönlés</i><par n="kérdés__n"/></e>
+    <e lm="bíbic"><i>bíbic</i><par n="kérdés__n"/></e>
     <e lm="bibircsók"><i>bibircsók</i><par n="bank__n"/></e>
+    <e lm="bíborbirs"><i>bíborbirs</i><par n="kérdés__n"/></e>
+    <e lm="bicepsz"><i>bicepsz</i><par n="kérdés__n"/></e>
     <e lm="bicikli"><i>bicikli</i><par n="bébi__n"/></e>
     <e lm="bicska"><i>bicsk</i><par n="macsk/a__n"/></e>
     <e lm="bika"><i>bik</i><par n="macsk/a__n"/></e>
+    <e lm="bikfic"><i>bikfic</i><par n="kérdés__n"/></e>
+    <e lm="bilincs"><i>bilincs</i><par n="kérdés__n"/></e>
     <e lm="billentyű"><i>billentyű</i><par n="cipő__n"/></e>
+    <e lm="billentyűzet"><i>billentyűzet</i><par n="kérdés__n"/></e>
+    <e lm="billér"><i>billér</i><par n="kérdés__n"/></e>
     <e lm="biológia"><i>biológi</i><par n="macsk/a__n"/></e>
     <e lm="birka"><i>birk</i><par n="macsk/a__n"/></e>
     <e lm="bíró"><i>bíró</i><par n="adó__n"/></e>
     <e lm="bíróság"><i>bíróság</i><par n="ország__n"/></e>
     <e lm="bírság"><i>bírság</i><par n="ország__n"/></e>
     <e lm="bizalmasság"><i>bizalmasság</i><par n="ország__n"/></e>
+    <e lm="bizmutfehér"><i>bizmutfehér</i><par n="kérdés__n"/></e>
+    <e lm="biznisz"><i>biznisz</i><par n="kérdés__n"/></e>
     <e lm="bizonyítvány"><i>bizonyítvá</i><par n="lá/ny__n"/></e>
     <e lm="bizonylat"><i>bizonylat</i><par n="adat__n"/></e>
     <e lm="bizottság"><i>bizottság</i><par n="ország__n"/></e>
@@ -1455,12 +1825,13 @@
     <e lm="biztosító"><i>biztosító</i><par n="adó__n"/></e>
     <e lm="bob"><i>bob</i><par n="bab__n"/></e>
     <e lm="bocsánat"><i>bocsánat</i><par n="adat__n"/></e>
+    <e lm="bődületes"><i>bődületes</i><par n="kérdés__n"/></e>
     <e lm="bodza"><i>bodz</i><par n="macsk/a__n"/></e>
     <e lm="bogáncs"><i>bogán</i><par n="á/cs__n"/></e>
     <e lm="bogár"><i>bog</i><par n="poh/ár__n"/></e>
     <e lm="bogyó"><i>bogyó</i><par n="adó__n"/></e>
-    <e lm="bók"><i>bók</i><par n="bank__n"/></e>
     <e lm="boka"><i>bok</i><par n="macsk/a__n"/></e>
+    <e lm="bók"><i>bók</i><par n="bank__n"/></e>
     <e lm="boldogság"><i>boldogság</i><par n="ország__n"/></e>
     <e lm="boldogtalanság"><i>boldogtalanság</i><par n="ország__n"/></e>
     <e lm="bolha"><i>bolh</i><par n="macsk/a__n"/></e>
@@ -1469,54 +1840,100 @@
     <e lm="boltozat"><i>boltozat</i><par n="adat__n"/></e>
     <e lm="bolygó"><i>bolygó</i><par n="adó__n"/></e>
     <e lm="bomba"><i>bomb</i><par n="macsk/a__n"/></e>
-    <e lm="bor"><i>bor</i><par n="bor__n"/></e>
+    <e lm="borbélyműhely"><i>borbélyműhely</i><par n="kérdés__n"/></e>
     <e lm="borda"><i>bord</i><par n="macsk/a__n"/></e>
+    <e lm="bor"><i>bor</i><par n="bor__n"/></e>
     <e lm="boríték"><i>boríték</i><par n="ablak__n"/></e>
     <e lm="borító"><i>borító</i><par n="adó__n"/></e>
     <e lm="borjú"><i>borjú</i><par n="adó__n"/></e>
+    <e lm="borkimérés"><i>borkimérés</i><par n="kérdés__n"/></e>
     <e lm="boróka"><i>borók</i><par n="macsk/a__n"/></e>
     <e lm="borospohár"><i>borospoh</i><par n="poh/ár__n"/></e>
     <e lm="borotva"><i>borotv</i><par n="macsk/a__n"/></e>
     <e lm="borozó"><i>borozó</i><par n="adó__n"/></e>
-    <e lm="borsó"><i>borsó</i><par n="adó__n"/></e>
     <e lm="borsmenta"><i>borsment</i><par n="macsk/a__n"/></e>
+    <e lm="borsó"><i>borsó</i><par n="adó__n"/></e>
     <e lm="bosszú"><i>bosszú</i><par n="adó__n"/></e>
+    <e lm="bőszültség"><i>bőszültség</i><par n="kérdés__n"/></e>
     <e lm="bot"><i>bot</i><par n="pont__n"/></e>
+    <e lm="bővítmény"><i>bővítmény</i><par n="kérdés__n"/></e>
     <e lm="bozót"><i>bozót</i><par n="pont__n"/></e>
-    <e lm="bögre"><i>bögr</i><par n="bék/e__n"/></e>
-    <e lm="bölcső"><i>bölcső</i><par n="cipő__n"/></e>
-    <e lm="böngésző"><i>böngésző</i><par n="cipő__n"/></e>
     <e lm="brácsa"><i>brács</i><par n="macsk/a__n"/></e>
-    <e lm="bú"><i>bú</i><par n="adó__n"/></e>
+    <e lm="bricsesz"><i>bricsesz</i><par n="kérdés__n"/></e>
+    <e lm="brikettezés"><i>brikettezés</i><par n="kérdés__n"/></e>
+    <e lm="brojler"><i>brojler</i><par n="kérdés__n"/></e>
+    <e lm="bronchitis"><i>bronchitis</i><par n="kérdés__n"/></e>
+    <e lm="bronzmíves"><i>bronzmíves</i><par n="kérdés__n"/></e>
+    <e lm="bronzműves"><i>bronzműves</i><par n="kérdés__n"/></e>
+    <e lm="bronzművesség"><i>bronzművesség</i><par n="kérdés__n"/></e>
+    <e lm="brucellózis"><i>brucellózis</i><par n="kérdés__n"/></e>
+    <e lm="brúder"><i>brúder</i><par n="kérdés__n"/></e>
     <e lm="buborék"><i>buborék</i><par n="ablak__n"/></e>
+    <e lm="bú"><i>bú</i><par n="adó__n"/></e>
+    <e lm="bukfenc"><i>bukfenc</i><par n="kérdés__n"/></e>
+    <e lm="bűnbeesés"><i>bűnbeesés</i><par n="kérdés__n"/></e>
     <e lm="bunda"><i>bund</i><par n="macsk/a__n"/></e>
+    <e lm="bűntudat"><i>bűntudat</i><par n="adat__n"/></e>
+    <e lm="bűnöző"><i>bűnöző</i><par n="cipő__n"/></e>
     <e lm="burgonya"><i>burgony</i><par n="macsk/a__n"/></e>
     <e lm="busz"><i>bu</i><par n="vála/sz__n"/></e>
+    <e lm="bűvészet"><i>bűvészet</i><par n="kérdés__n"/></e>
+    <e lm="bűvész"><i>bűvész</i><par n="kérdés__n"/></e>
+    <e lm="bűvölet"><i>bűvölet</i><par n="kérdés__n"/></e>
     <e lm="búza"><i>búz</i><par n="macsk/a__n"/></e>
     <e lm="buzi"><i>buzi</i><par n="adó__n"/></e>
     <e lm="büfé"><i>büfé</i><par n="bébi__n"/></e>
-    <e lm="bűnöző"><i>bűnöző</i><par n="cipő__n"/></e>
-    <e lm="bűntudat"><i>bűntudat</i><par n="adat__n"/></e>
+    <e lm="büntetés"><i>büntetés</i><par n="kérdés__n"/></e>
+    <e lm="büntetettség"><i>büntetettség</i><par n="kérdés__n"/></e>
     <e lm="büszkeség"><i>büszkeség</i><par n="bélyeg__n"/></e>
+    <e lm="bögre"><i>bögr</i><par n="bék/e__n"/></e>
+    <e lm="bökvers"><i>bökvers</i><par n="kérdés__n"/></e>
+    <e lm="bölcselet"><i>bölcselet</i><par n="kérdés__n"/></e>
+    <e lm="bölcsesség"><i>bölcsesség</i><par n="kérdés__n"/></e>
+    <e lm="bölcsészet"><i>bölcsészet</i><par n="kérdés__n"/></e>
+    <e lm="bölcsész"><i>bölcsész</i><par n="kérdés__n"/></e>
+    <e lm="bölcső"><i>bölcső</i><par n="cipő__n"/></e>
+    <e lm="bölény"><i>bölény</i><par n="kérdés__n"/></e>
+    <e lm="böngésző"><i>böngésző</i><par n="cipő__n"/></e>
+    <e lm="böszörmény"><i>böszörmény</i><par n="kérdés__n"/></e>
     <e lm="cápa"><i>cáp</i><par n="macsk/a__n"/></e>
+    <e lm="cárevics"><i>cárevics</i><par n="kérdés__n"/></e>
+    <e lm="caries"><i>caries</i><par n="kérdés__n"/></e>
     <e lm="cédula"><i>cédul</i><par n="macsk/a__n"/></e>
+    <e lm="cégér"><i>cégér</i><par n="kérdés__n"/></e>
     <e lm="cég"><i>cég</i><par n="bélyeg__n"/></e>
+    <e lm="céhenkívüliség"><i>céhenkívüliség</i><par n="kérdés__n"/></e>
     <e lm="cékla"><i>cékl</i><par n="macsk/a__n"/></e>
     <e lm="cél"><i>cél</i><par n="alkohol__n"/></e>
+    <e lm="célkitűzés"><i>célkitűzés</i><par n="kérdés__n"/></e>
     <e lm="cella"><i>cell</i><par n="macsk/a__n"/></e>
+    <e lm="cellulitis"><i>cellulitis</i><par n="kérdés__n"/></e>
     <e lm="célpont"><i>célpont</i><par n="pont__n"/></e>
+    <e lm="cementbelövés"><i>cementbelövés</i><par n="kérdés__n"/></e>
+    <e lm="center"><i>center</i><par n="kérdés__n"/></e>
+    <e lm="centis"><i>centis</i><par n="kérdés__n"/></e>
     <e lm="cérna"><i>cérn</i><par n="macsk/a__n"/></e>
     <e lm="ceruza"><i>ceruz</i><par n="macsk/a__n"/></e>
     <e lm="cickány"><i>cická</i><par n="lá/ny__n"/></e>
+    <e lm="cidrizés"><i>cidrizés</i><par n="kérdés__n"/></e>
     <e lm="cigány"><i>cigá</i><par n="lá/ny__n"/></e>
+    <e lm="cigánymeggy"><i>cigánymeggy</i><par n="kérdés__n"/></e>
+    <e lm="cigányparéj"><i>cigányparéj</i><par n="kérdés__n"/></e>
     <e lm="cigaretta"><i>cigarett</i><par n="macsk/a__n"/></e>
+    <e lm="cikkely"><i>cikkely</i><par n="kérdés__n"/></e>
+    <e lm="címer"><i>címer</i><par n="kérdés__n"/></e>
     <e lm="címke"><i>címk</i><par n="bék/e__n"/></e>
-    <e lm="cink"><i>cink</i><par n="cink__n"/></e>
+    <e lm="címlet"><i>címlet</i><par n="kérdés__n"/></e>
     <e lm="cinke"><i>cink</i><par n="bék/e__n"/></e>
+    <e lm="cink"><i>cink</i><par n="cink__n"/></e>
+    <e lm="cipész"><i>cipész</i><par n="kérdés__n"/></e>
+    <e lm="cipészség"><i>cipészség</i><par n="kérdés__n"/></e>
     <e lm="cipő"><i>cipő</i><par n="cipő__n"/></e>
+    <e lm="cipszer"><i>cipszer</i><par n="kérdés__n"/></e>
     <e lm="cirkusz"><i>cirku</i><par n="vála/sz__n"/></e>
-    <e lm="cukrász"><i>cukrá</i><par n="vála/sz__n"/></e>
-    <e lm="cukrászda"><i>cukrászd</i><par n="macsk/a__n"/></e>
+    <e lm="ciszter"><i>ciszter</i><par n="kérdés__n"/></e>
+    <e lm="citogenezis"><i>citogenezis</i><par n="kérdés__n"/></e>
+    <e lm="cívis"><i>cívis</i><par n="kérdés__n"/></e>
     <e lm="csacsi"><i>csacsi</i><par n="adó__n"/></e>
     <e lm="csákány"><i>csáká</i><par n="lá/ny__n"/></e>
     <e lm="család"><i>család</i><par n="család__n"/></e>
@@ -1528,36 +1945,71 @@
     <e lm="csapóajtó"><i>csapóajt</i><par n="ajt/ó__n"/></e>
     <e lm="csárda"><i>csárd</i><par n="macsk/a__n"/></e>
     <e lm="császár"><i>császár</i><par n="bor__n"/></e>
-    <e lm="csat"><i>csat</i><par n="pont__n"/></e>
-    <e lm="csata"><i>csat</i><par n="macsk/a__n"/></e>
     <e lm="csatahajó"><i>csatahajó</i><par n="adó__n"/></e>
+    <e lm="csata"><i>csat</i><par n="macsk/a__n"/></e>
     <e lm="csatamező"><i>csatamező</i><par n="cipő__n"/></e>
+    <e lm="csat"><i>csat</i><par n="pont__n"/></e>
     <e lm="csatolmány"><i>csatolmá</i><par n="lá/ny__n"/></e>
     <e lm="csatorna"><i>csatorn</i><par n="macsk/a__n"/></e>
+    <e lm="csavaroseszűség"><i>csavaroseszűség</i><par n="kérdés__n"/></e>
     <e lm="csecsemő"><i>csecsemő</i><par n="cipő__n"/></e>
+    <e lm="csegely"><i>csegely</i><par n="kérdés__n"/></e>
+    <e lm="csekélyebbértékűség"><i>csekélyebbértékűség</i><par n="kérdés__n"/></e>
+    <e lm="csekélyértékűség"><i>csekélyértékűség</i><par n="kérdés__n"/></e>
+    <e lm="cselédség"><i>cselédség</i><par n="kérdés__n"/></e>
+    <e lm="cselekedet"><i>cselekedet</i><par n="kérdés__n"/></e>
+    <e lm="cselekmény"><i>cselekmény</i><par n="kérdés__n"/></e>
+    <e lm="cselekvény"><i>cselekvény</i><par n="kérdés__n"/></e>
     <e lm="csellista"><i>csellist</i><par n="macsk/a__n"/></e>
     <e lm="cselló"><i>cselló</i><par n="adó__n"/></e>
+    <e lm="csempészet"><i>csempészet</i><par n="kérdés__n"/></e>
+    <e lm="csempész"><i>csempész</i><par n="kérdés__n"/></e>
     <e lm="csend"><i>csend</i><par n="csend__n"/></e>
     <e lm="csengő"><i>csengő</i><par n="cipő__n"/></e>
+    <e lm="csenkesz"><i>csenkesz</i><par n="kérdés__n"/></e>
+    <e lm="cseplesz"><i>cseplesz</i><par n="kérdés__n"/></e>
+    <e lm="csepleszmeggy"><i>csepleszmeggy</i><par n="kérdés__n"/></e>
     <e lm="csere"><i>cser</i><par n="bék/e__n"/></e>
-    <e lm="cserkész"><i>cserké</i><par n="cserké/sz__n"/></e>
+    <e lm="cserény"><i>cserény</i><par n="kérdés__n"/></e>
+    <e lm="cseres-tölgyes"><i>cseres-tölgyes</i><par n="kérdés__n"/></e>
+    <e lm="cseresznyés"><i>cseresznyés</i><par n="kérdés__n"/></e>
+    <e lm="csergés"><i>csergés</i><par n="kérdés__n"/></e>
+    <e lm="cserjés"><i>cserjés</i><par n="kérdés__n"/></e>
     <e lm="cserkészcsapat"><i>cserkészcsapat</i><par n="adat__n"/></e>
+    <e lm="cserkészet"><i>cserkészet</i><par n="kérdés__n"/></e>
+    <e lm="cserkész"><i>cserké</i><par n="cserké/sz__n"/></e>
+    <e lm="cserkesz"><i>cserkesz</i><par n="kérdés__n"/></e>
+    <e lm="cserkész"><i>cserkész</i><par n="kérdés__n"/></e>
+    <e lm="csermely"><i>csermely</i><par n="kérdés__n"/></e>
+    <e lm="csettentés"><i>csettentés</i><par n="kérdés__n"/></e>
+    <e lm="csevej"><i>csevej</i><par n="kérdés__n"/></e>
+    <e lm="csibésznyelv"><i>csibésznyelv</i><par n="kérdés__n"/></e>
     <e lm="csiga"><i>csig</i><par n="macsk/a__n"/></e>
+    <e lm="csigolyafüzes"><i>csigolyafüzes</i><par n="kérdés__n"/></e>
     <e lm="csikó"><i>csikó</i><par n="adó__n"/></e>
-    <e lm="csillag"><i>csillag</i><par n="ország__n"/></e>
-    <e lm="csillagász"><i>csillagá</i><par n="vála/sz__n"/></e>
     <e lm="csillagászat"><i>csillagászat</i><par n="adat__n"/></e>
+    <e lm="csillagász"><i>csillagá</i><par n="vála/sz__n"/></e>
+    <e lm="csillag"><i>csillag</i><par n="ország__n"/></e>
+    <e lm="csillés"><i>csillés</i><par n="kérdés__n"/></e>
     <e lm="csipesz"><i>csipe</i><par n="cserké/sz__n"/></e>
-    <e lm="csipke"><i>csipk</i><par n="bék/e__n"/></e>
+    <e lm="csipesz"><i>csipesz</i><par n="kérdés__n"/></e>
+    <e lm="csipisz"><i>csipisz</i><par n="kérdés__n"/></e>
     <e lm="csipkebogyó"><i>csipkebogyó</i><par n="adó__n"/></e>
+    <e lm="csipke"><i>csipk</i><par n="bék/e__n"/></e>
+    <e lm="csipkelődés"><i>csipkelődés</i><par n="kérdés__n"/></e>
+    <e lm="csipkézet"><i>csipkézet</i><par n="kérdés__n"/></e>
     <e lm="csípő"><i>csípő</i><par n="cipő__n"/></e>
+    <e lm="csípősség"><i>csípősség</i><par n="kérdés__n"/></e>
+    <e lm="csiriz"><i>csiriz</i><par n="kérdés__n"/></e>
     <e lm="csirke"><i>csirk</i><par n="bék/e__n"/></e>
     <e lm="csizma"><i>csizm</i><par n="macsk/a__n"/></e>
+    <e lm="csőcselék"><i>csőcselék</i><par n="kérdés__n"/></e>
     <e lm="csoda"><i>csod</i><par n="macsk/a__n"/></e>
     <e lm="csodálat"><i>csodálat</i><par n="adat__n"/></e>
     <e lm="csodaország"><i>csodaország</i><par n="ország__n"/></e>
-    <e lm="csók"><i>csók</i><par n="bank__n"/></e>
+    <e lm="csődület"><i>csődület</i><par n="kérdés__n"/></e>
     <e lm="csóka"><i>csók</i><par n="macsk/a__n"/></e>
+    <e lm="csók"><i>csók</i><par n="bank__n"/></e>
     <e lm="csomag"><i>csomag</i><par n="hang__n"/></e>
     <e lm="csomó"><i>csomó</i><par n="adó__n"/></e>
     <e lm="csónak"><i>csónak</i><par n="bank__n"/></e>
@@ -1570,31 +2022,2294 @@
     <e lm="csukló"><i>csukló</i><par n="adó__n"/></e>
     <e lm="csúszda"><i>csúszd</i><par n="macsk/a__n"/></e>
     <e lm="csúzli"><i>csúzli</i><par n="adó__n"/></e>
+    <e lm="csüggedtség"><i>csüggedtség</i><par n="kérdés__n"/></e>
+    <e lm="csökevény"><i>csökevény</i><par n="kérdés__n"/></e>
+    <e lm="csökkentértékűség"><i>csökkentértékűség</i><par n="kérdés__n"/></e>
+    <e lm="csöppség"><i>csöppség</i><par n="kérdés__n"/></e>
+    <e lm="csörlőzés"><i>csörlőzés</i><par n="kérdés__n"/></e>
+    <e lm="csövezés"><i>csövezés</i><par n="kérdés__n"/></e>
+    <e lm="cukrászda"><i>cukrászd</i><par n="macsk/a__n"/></e>
+    <e lm="cukrász"><i>cukrá</i><par n="vála/sz__n"/></e>
+    <e lm="cvikker"><i>cvikker</i><par n="kérdés__n"/></e>
+    <e lm="cölöpzet"><i>cölöpzet</i><par n="kérdés__n"/></e>
+    <e lm="dajkarím"><i>dajkarím</i><par n="kérdés__n"/></e>
+    <e lm="dalosszövetség"><i>dalosszövetség</i><par n="kérdés__n"/></e>
+    <e lm="degesz"><i>degesz</i><par n="kérdés__n"/></e>
+    <e lm="délcegség"><i>délcegség</i><par n="kérdés__n"/></e>
+    <e lm="delej"><i>delej</i><par n="kérdés__n"/></e>
+    <e lm="delikatesz"><i>delikatesz</i><par n="kérdés__n"/></e>
+    <e lm="delikvens"><i>delikvens</i><par n="kérdés__n"/></e>
+    <e lm="derescsenkesz"><i>derescsenkesz</i><par n="kérdés__n"/></e>
+    <e lm="derivatív"><i>derivatív</i><par n="kérdés__n"/></e>
+    <e lm="dervis"><i>dervis</i><par n="kérdés__n"/></e>
+    <e lm="deszcendens"><i>deszcendens</i><par n="kérdés__n"/></e>
+    <e lm="dezinficiens"><i>dezinficiens</i><par n="kérdés__n"/></e>
+    <e lm="diabétesz"><i>diabétesz</i><par n="kérdés__n"/></e>
+    <e lm="dialízis"><i>dialízis</i><par n="kérdés__n"/></e>
+    <e lm="dicsének"><i>dicsének</i><par n="kérdés__n"/></e>
+    <e lm="dicséret"><i>dicséret</i><par n="kérdés__n"/></e>
+    <e lm="dicsőség"><i>dicsőség</i><par n="kérdés__n"/></e>
+    <e lm="difteritisz"><i>difteritisz</i><par n="kérdés__n"/></e>
+    <e lm="díjbeszedés"><i>díjbeszedés</i><par n="kérdés__n"/></e>
+    <e lm="dikics"><i>dikics</i><par n="kérdés__n"/></e>
+    <e lm="direktrix"><i>direktrix</i><par n="kérdés__n"/></e>
+    <e lm="dirigens"><i>dirigens</i><par n="kérdés__n"/></e>
+    <e lm="disszidens"><i>disszidens</i><par n="kérdés__n"/></e>
+    <e lm="díszítmény"><i>díszítmény</i><par n="kérdés__n"/></e>
+    <e lm="diszkontüzlet"><i>diszkontüzlet</i><par n="kérdés__n"/></e>
+    <e lm="díszletezés"><i>díszletezés</i><par n="kérdés__n"/></e>
+    <e lm="díszlet"><i>díszlet</i><par n="kérdés__n"/></e>
+    <e lm="diszpécser"><i>diszpécser</i><par n="kérdés__n"/></e>
+    <e lm="diviz"><i>diviz</i><par n="kérdés__n"/></e>
+    <e lm="docens"><i>docens</i><par n="kérdés__n"/></e>
+    <e lm="dodekaéder"><i>dodekaéder</i><par n="kérdés__n"/></e>
+    <e lm="doppingszer"><i>doppingszer</i><par n="kérdés__n"/></e>
+    <e lm="doppler"><i>doppler</i><par n="kérdés__n"/></e>
+    <e lm="drénezés"><i>drénezés</i><par n="kérdés__n"/></e>
+    <e lm="dugipénz"><i>dugipénz</i><par n="kérdés__n"/></e>
+    <e lm="dugpénz"><i>dugpénz</i><par n="kérdés__n"/></e>
+    <e lm="dunsztkötés"><i>dunsztkötés</i><par n="kérdés__n"/></e>
+    <e lm="duplex"><i>duplex</i><par n="kérdés__n"/></e>
+    <e lm="dühödtség"><i>dühödtség</i><par n="kérdés__n"/></e>
+    <e lm="düledék"><i>düledék</i><par n="kérdés__n"/></e>
+    <e lm="dülöngélés"><i>dülöngélés</i><par n="kérdés__n"/></e>
+    <e lm="dürgés"><i>dürgés</i><par n="kérdés__n"/></e>
+    <e lm="döbbenet"><i>döbbenet</i><par n="kérdés__n"/></e>
+    <e lm="döngés"><i>döngés</i><par n="kérdés__n"/></e>
+    <e lm="döntés"><i>döntés</i><par n="kérdés__n"/></e>
+    <e lm="döntvény"><i>döntvény</i><par n="kérdés__n"/></e>
+    <e lm="dörej"><i>dörej</i><par n="kérdés__n"/></e>
+    <e lm="dörgedelem"><i>dörgedelem</i><par n="kérdés__n"/></e>
+    <e lm="ébrenlét"><i>ébrenlét</i><par n="kérdés__n"/></e>
+    <e lm="écesz"><i>écesz</i><par n="kérdés__n"/></e>
+    <e lm="éden"><i>éden</i><par n="kérdés__n"/></e>
+    <e lm="edény"><i>edény</i><par n="kérdés__n"/></e>
+    <e lm="edényzet"><i>edényzet</i><par n="kérdés__n"/></e>
+    <e lm="édeskömény"><i>édeskömény</i><par n="kérdés__n"/></e>
+    <e lm="édestestvér"><i>édestestvér</i><par n="kérdés__n"/></e>
+    <e lm="efficiens"><i>efficiens</i><par n="kérdés__n"/></e>
+    <e lm="egerész"><i>egerész</i><par n="kérdés__n"/></e>
+    <e lm="egészség"><i>egészség</i><par n="kérdés__n"/></e>
+    <e lm="égisz"><i>égisz</i><par n="kérdés__n"/></e>
+    <e lm="egres"><i>egres</i><par n="kérdés__n"/></e>
+    <e lm="egycentes"><i>egycentes</i><par n="kérdés__n"/></e>
+    <e lm="egyediség"><i>egyediség</i><par n="kérdés__n"/></e>
+    <e lm="egyenes"><i>egyenes</i><par n="kérdés__n"/></e>
+    <e lm="egyeneslelkűség"><i>egyeneslelkűség</i><par n="kérdés__n"/></e>
+    <e lm="egyénieskedés"><i>egyénieskedés</i><par n="kérdés__n"/></e>
+    <e lm="egyenleg"><i>egyenleg</i><par n="kérdés__n"/></e>
+    <e lm="egyenlet"><i>egyenlet</i><par n="kérdés__n"/></e>
+    <e lm="egyenlőség"><i>egyenlőség</i><par n="kérdés__n"/></e>
+    <e lm="egyenviselkedés"><i>egyenviselkedés</i><par n="kérdés__n"/></e>
+    <e lm="egyesület"><i>egyesület</i><par n="kérdés__n"/></e>
+    <e lm="egyetem"><i>egyetem</i><par n="kérdés__n"/></e>
+    <e lm="egyetemlegesség"><i>egyetemlegesség</i><par n="kérdés__n"/></e>
+    <e lm="egyezmény"><i>egyezmény</i><par n="kérdés__n"/></e>
+    <e lm="egyezőség"><i>egyezőség</i><par n="kérdés__n"/></e>
+    <e lm="egyezség"><i>egyezség</i><par n="kérdés__n"/></e>
+    <e lm="egyfilléres"><i>egyfilléres</i><par n="kérdés__n"/></e>
+    <e lm="egylet"><i>egylet</i><par n="kérdés__n"/></e>
+    <e lm="egymásmellettiség"><i>egymásmellettiség</i><par n="kérdés__n"/></e>
+    <e lm="egypennys"><i>egypennys</i><par n="kérdés__n"/></e>
+    <e lm="egyrubeles"><i>egyrubeles</i><par n="kérdés__n"/></e>
+    <e lm="egység"><i>egység</i><par n="kérdés__n"/></e>
+    <e lm="egyszeregy"><i>egyszeregy</i><par n="kérdés__n"/></e>
+    <e lm="egytengelyűség"><i>egytengelyűség</i><par n="kérdés__n"/></e>
+    <e lm="egyveleg"><i>egyveleg</i><par n="kérdés__n"/></e>
+    <e lm="együttes"><i>együttes</i><par n="kérdés__n"/></e>
+    <e lm="éhes"><i>éhes</i><par n="kérdés__n"/></e>
+    <e lm="éhség"><i>éhség</i><par n="kérdés__n"/></e>
+    <e lm="éjjeliedény"><i>éjjeliedény</i><par n="kérdés__n"/></e>
+    <e lm="ékezet"><i>ékezet</i><par n="kérdés__n"/></e>
+    <e lm="ékítmény"><i>ékítmény</i><par n="kérdés__n"/></e>
+    <e lm="ekrazittöltés"><i>ekrazittöltés</i><par n="kérdés__n"/></e>
+    <e lm="ékszerész"><i>ékszerész</i><par n="kérdés__n"/></e>
+    <e lm="elbeszélés"><i>elbeszélés</i><par n="kérdés__n"/></e>
+    <e lm="elcsöndesedés"><i>elcsöndesedés</i><par n="kérdés__n"/></e>
+    <e lm="eledel"><i>eledel</i><par n="kérdés__n"/></e>
+    <e lm="elégedetlenkedés"><i>elégedetlenkedés</i><par n="kérdés__n"/></e>
+    <e lm="elégedettség"><i>elégedettség</i><par n="kérdés__n"/></e>
+    <e lm="elegy"><i>elegy</i><par n="kérdés__n"/></e>
+    <e lm="elégületlenség"><i>elégületlenség</i><par n="kérdés__n"/></e>
+    <e lm="elégültség"><i>elégültség</i><par n="kérdés__n"/></e>
+    <e lm="elektromágnesesség"><i>elektromágnesesség</i><par n="kérdés__n"/></e>
+    <e lm="elektroműszerész"><i>elektroműszerész</i><par n="kérdés__n"/></e>
+    <e lm="elem"><i>elem</i><par n="kérdés__n"/></e>
+    <e lm="elérés"><i>elérés</i><par n="kérdés__n"/></e>
+    <e lm="elernyedés"><i>elernyedés</i><par n="kérdés__n"/></e>
+    <e lm="elérzékenyedés"><i>elérzékenyedés</i><par n="kérdés__n"/></e>
+    <e lm="elérzékenyültség"><i>elérzékenyültség</i><par n="kérdés__n"/></e>
+    <e lm="eleség"><i>eleség</i><par n="kérdés__n"/></e>
+    <e lm="éleselméjűség"><i>éleselméjűség</i><par n="kérdés__n"/></e>
+    <e lm="élet"><i>élet</i><par n="kérdés__n"/></e>
+    <e lm="elévülés"><i>elévülés</i><par n="kérdés__n"/></e>
+    <e lm="elfedés"><i>elfedés</i><par n="kérdés__n"/></e>
+    <e lm="elfelejtés"><i>elfelejtés</i><par n="kérdés__n"/></e>
+    <e lm="elferdítés"><i>elferdítés</i><par n="kérdés__n"/></e>
+    <e lm="elferdülés"><i>elferdülés</i><par n="kérdés__n"/></e>
+    <e lm="elhelyezés"><i>elhelyezés</i><par n="kérdés__n"/></e>
+    <e lm="elhitetés"><i>elhitetés</i><par n="kérdés__n"/></e>
+    <e lm="elidegenedés"><i>elidegenedés</i><par n="kérdés__n"/></e>
+    <e lm="elidegenítés"><i>elidegenítés</i><par n="kérdés__n"/></e>
+    <e lm="elidegenülés"><i>elidegenülés</i><par n="kérdés__n"/></e>
+    <e lm="elintézés"><i>elintézés</i><par n="kérdés__n"/></e>
+    <e lm="elismerés"><i>elismerés</i><par n="kérdés__n"/></e>
+    <e lm="elismervény"><i>elismervény</i><par n="kérdés__n"/></e>
+    <e lm="elítélés"><i>elítélés</i><par n="kérdés__n"/></e>
+    <e lm="eljegyzés"><i>eljegyzés</i><par n="kérdés__n"/></e>
+    <e lm="eljövetel"><i>eljövetel</i><par n="kérdés__n"/></e>
+    <e lm="elkedvetlenedés"><i>elkedvetlenedés</i><par n="kérdés__n"/></e>
+    <e lm="elkedvetlenítés"><i>elkedvetlenítés</i><par n="kérdés__n"/></e>
+    <e lm="elképzelés"><i>elképzelés</i><par n="kérdés__n"/></e>
+    <e lm="elkerülés"><i>elkerülés</i><par n="kérdés__n"/></e>
+    <e lm="elkeseredés"><i>elkeseredés</i><par n="kérdés__n"/></e>
+    <e lm="elkeserítés"><i>elkeserítés</i><par n="kérdés__n"/></e>
+    <e lm="elkészítés"><i>elkészítés</i><par n="kérdés__n"/></e>
+    <e lm="élkiemelés"><i>élkiemelés</i><par n="kérdés__n"/></e>
+    <e lm="elküldés"><i>elküldés</i><par n="kérdés__n"/></e>
+    <e lm="elkülönítés"><i>elkülönítés</i><par n="kérdés__n"/></e>
+    <e lm="elkülönülés"><i>elkülönülés</i><par n="kérdés__n"/></e>
+    <e lm="elköltözés"><i>elköltözés</i><par n="kérdés__n"/></e>
+    <e lm="elkövetés"><i>elkövetés</i><par n="kérdés__n"/></e>
+    <e lm="ellendrukker"><i>ellendrukker</i><par n="kérdés__n"/></e>
+    <e lm="ellenérdekeltség"><i>ellenérdekeltség</i><par n="kérdés__n"/></e>
+    <e lm="ellenesség"><i>ellenesség</i><par n="kérdés__n"/></e>
+    <e lm="ellenhipotézis"><i>ellenhipotézis</i><par n="kérdés__n"/></e>
+    <e lm="ellenkép"><i>ellenkép</i><par n="kérdés__n"/></e>
+    <e lm="ellenszer"><i>ellenszer</i><par n="kérdés__n"/></e>
+    <e lm="ellenvélemény"><i>ellenvélemény</i><par n="kérdés__n"/></e>
+    <e lm="ellenzék"><i>ellenzék</i><par n="kérdés__n"/></e>
+    <e lm="ellipszis"><i>ellipszis</i><par n="kérdés__n"/></e>
+    <e lm="ellökés"><i>ellökés</i><par n="kérdés__n"/></e>
+    <e lm="elmélet"><i>elmélet</i><par n="kérdés__n"/></e>
+    <e lm="elmenekülés"><i>elmenekülés</i><par n="kérdés__n"/></e>
+    <e lm="elmenet"><i>elmenet</i><par n="kérdés__n"/></e>
+    <e lm="élmény"><i>élmény</i><par n="kérdés__n"/></e>
+    <e lm="elmérgesedés"><i>elmérgesedés</i><par n="kérdés__n"/></e>
+    <e lm="elmerülés"><i>elmerülés</i><par n="kérdés__n"/></e>
+    <e lm="elmeszesedés"><i>elmeszesedés</i><par n="kérdés__n"/></e>
+    <e lm="elmeszülemény"><i>elmeszülemény</i><par n="kérdés__n"/></e>
+    <e lm="elnemévülés"><i>elnemévülés</i><par n="kérdés__n"/></e>
+    <e lm="elnéptelenedés"><i>elnéptelenedés</i><par n="kérdés__n"/></e>
+    <e lm="elnéptelenítés"><i>elnéptelenítés</i><par n="kérdés__n"/></e>
+    <e lm="elnevezés"><i>elnevezés</i><par n="kérdés__n"/></e>
+    <e lm="elnézés"><i>elnézés</i><par n="kérdés__n"/></e>
+    <e lm="elnyelés"><i>elnyelés</i><par n="kérdés__n"/></e>
+    <e lm="elnyerés"><i>elnyerés</i><par n="kérdés__n"/></e>
+    <e lm="elnöklet"><i>elnöklet</i><par n="kérdés__n"/></e>
+    <e lm="elnökség"><i>elnökség</i><par n="kérdés__n"/></e>
+    <e lm="előidény"><i>előidény</i><par n="kérdés__n"/></e>
+    <e lm="előkelőség"><i>előkelőség</i><par n="kérdés__n"/></e>
+    <e lm="előképzettség"><i>előképzettség</i><par n="kérdés__n"/></e>
+    <e lm="előleg"><i>előleg</i><par n="kérdés__n"/></e>
+    <e lm="előnézet"><i>előnézet</i><par n="kérdés__n"/></e>
+    <e lm="elősapiens"><i>elősapiens</i><par n="kérdés__n"/></e>
+    <e lm="élősködés"><i>élősködés</i><par n="kérdés__n"/></e>
+    <e lm="előversenyzés"><i>előversenyzés</i><par n="kérdés__n"/></e>
+    <e lm="előzék"><i>előzék</i><par n="kérdés__n"/></e>
+    <e lm="előzetes"><i>előzetes</i><par n="kérdés__n"/></e>
+    <e lm="előzmény"><i>előzmény</i><par n="kérdés__n"/></e>
+    <e lm="elpüfölés"><i>elpüfölés</i><par n="kérdés__n"/></e>
+    <e lm="elrejtés"><i>elrejtés</i><par n="kérdés__n"/></e>
+    <e lm="elrejtőzés"><i>elrejtőzés</i><par n="kérdés__n"/></e>
+    <e lm="elrendelés"><i>elrendelés</i><par n="kérdés__n"/></e>
+    <e lm="elrendezés"><i>elrendezés</i><par n="kérdés__n"/></e>
+    <e lm="elsőbbség"><i>elsőbbség</i><par n="kérdés__n"/></e>
+    <e lm="elsőség"><i>elsőség</i><par n="kérdés__n"/></e>
+    <e lm="elsütés"><i>elsütés</i><par n="kérdés__n"/></e>
+    <e lm="elszegényedés"><i>elszegényedés</i><par n="kérdés__n"/></e>
+    <e lm="elszegényítés"><i>elszegényítés</i><par n="kérdés__n"/></e>
+    <e lm="elszigetelés"><i>elszigetelés</i><par n="kérdés__n"/></e>
+    <e lm="elszigeteltség"><i>elszigeteltség</i><par n="kérdés__n"/></e>
+    <e lm="elszíneződés"><i>elszíneződés</i><par n="kérdés__n"/></e>
+    <e lm="elsötétítés"><i>elsötétítés</i><par n="kérdés__n"/></e>
+    <e lm="eltemetés"><i>eltemetés</i><par n="kérdés__n"/></e>
+    <e lm="eltérés"><i>eltérés</i><par n="kérdés__n"/></e>
+    <e lm="eltérítés"><i>eltérítés</i><par n="kérdés__n"/></e>
+    <e lm="elterjedés"><i>elterjedés</i><par n="kérdés__n"/></e>
+    <e lm="elterjesztés"><i>elterjesztés</i><par n="kérdés__n"/></e>
+    <e lm="eltévesztés"><i>eltévesztés</i><par n="kérdés__n"/></e>
+    <e lm="eltűnés"><i>eltűnés</i><par n="kérdés__n"/></e>
+    <e lm="eltűrés"><i>eltűrés</i><par n="kérdés__n"/></e>
+    <e lm="eltömés"><i>eltömés</i><par n="kérdés__n"/></e>
+    <e lm="eltömődés"><i>eltömődés</i><par n="kérdés__n"/></e>
+    <e lm="eltörés"><i>eltörés</i><par n="kérdés__n"/></e>
+    <e lm="eltörlés"><i>eltörlés</i><par n="kérdés__n"/></e>
+    <e lm="elvégzés"><i>elvégzés</i><par n="kérdés__n"/></e>
+    <e lm="elvesztés"><i>elvesztés</i><par n="kérdés__n"/></e>
+    <e lm="elvetélés"><i>elvetélés</i><par n="kérdés__n"/></e>
+    <e lm="elvétel"><i>elvétel</i><par n="kérdés__n"/></e>
+    <e lm="elvetemedettség"><i>elvetemedettség</i><par n="kérdés__n"/></e>
+    <e lm="elvetés"><i>elvetés</i><par n="kérdés__n"/></e>
+    <e lm="elvétés"><i>elvétés</i><par n="kérdés__n"/></e>
+    <e lm="élvezet"><i>élvezet</i><par n="kérdés__n"/></e>
+    <e lm="elviselés"><i>elviselés</i><par n="kérdés__n"/></e>
+    <e lm="elvitel"><i>elvitel</i><par n="kérdés__n"/></e>
+    <e lm="elvörösödés"><i>elvörösödés</i><par n="kérdés__n"/></e>
     <e lm="ember"><i>ember</i><par n="ember__n"/></e>
+    <e lm="ember"><i>ember</i><par n="kérdés__n"/></e>
+    <e lm="emberiség"><i>emberiség</i><par n="kérdés__n"/></e>
+    <e lm="emberközel"><i>emberközel</i><par n="kérdés__n"/></e>
+    <e lm="emberség"><i>emberség</i><par n="kérdés__n"/></e>
+    <e lm="emelet"><i>emelet</i><par n="kérdés__n"/></e>
+    <e lm="emeletráépítés"><i>emeletráépítés</i><par n="kérdés__n"/></e>
+    <e lm="emelvény"><i>emelvény</i><par n="kérdés__n"/></e>
+    <e lm="émely"><i>émely</i><par n="kérdés__n"/></e>
+    <e lm="eminens"><i>eminens</i><par n="kérdés__n"/></e>
+    <e lm="emírség"><i>emírség</i><par n="kérdés__n"/></e>
+    <e lm="emlékezet"><i>emlékezet</i><par n="kérdés__n"/></e>
+    <e lm="emlék"><i>emlék</i><par n="kérdés__n"/></e>
+    <e lm="encsembencsem"><i>encsembencsem</i><par n="kérdés__n"/></e>
+    <e lm="énekes"><i>énekes</i><par n="kérdés__n"/></e>
+    <e lm="ének"><i>ének</i><par n="kérdés__n"/></e>
+    <e lm="engedély"><i>engedély</i><par n="kérdés__n"/></e>
+    <e lm="engedmény"><i>engedmény</i><par n="kérdés__n"/></e>
+    <e lm="enyészet"><i>enyészet</i><par n="kérdés__n"/></e>
+    <e lm="epidermisz"><i>epidermisz</i><par n="kérdés__n"/></e>
+    <e lm="epifízis"><i>epifízis</i><par n="kérdés__n"/></e>
+    <e lm="építészet"><i>építészet</i><par n="kérdés__n"/></e>
+    <e lm="építész"><i>építész</i><par n="kérdés__n"/></e>
+    <e lm="építkezés"><i>építkezés</i><par n="kérdés__n"/></e>
+    <e lm="építmény"><i>építmény</i><par n="kérdés__n"/></e>
+    <e lm="épület"><i>épület</i><par n="kérdés__n"/></e>
+    <e lm="érdek"><i>érdek</i><par n="kérdés__n"/></e>
+    <e lm="érdeklődés"><i>érdeklődés</i><par n="kérdés__n"/></e>
+    <e lm="érdem"><i>érdem</i><par n="kérdés__n"/></e>
+    <e lm="erdészet"><i>erdészet</i><par n="kérdés__n"/></e>
+    <e lm="erdész"><i>erdész</i><par n="kérdés__n"/></e>
+    <e lm="erdőség"><i>erdőség</i><par n="kérdés__n"/></e>
+    <e lm="eredet"><i>eredet</i><par n="kérdés__n"/></e>
+    <e lm="eredmény"><i>eredmény</i><par n="kérdés__n"/></e>
+    <e lm="erély"><i>erély</i><par n="kérdés__n"/></e>
+    <e lm="erény"><i>erény</i><par n="kérdés__n"/></e>
+    <e lm="eresz"><i>eresz</i><par n="kérdés__n"/></e>
+    <e lm="ereszték"><i>ereszték</i><par n="kérdés__n"/></e>
+    <e lm="eretnekség"><i>eretnekség</i><par n="kérdés__n"/></e>
+    <e lm="erezet"><i>erezet</i><par n="kérdés__n"/></e>
+    <e lm="érintettség"><i>érintettség</i><par n="kérdés__n"/></e>
+    <e lm="erjedtség"><i>erjedtség</i><par n="kérdés__n"/></e>
+    <e lm="erkély"><i>erkély</i><par n="kérdés__n"/></e>
+    <e lm="érmészet"><i>érmészet</i><par n="kérdés__n"/></e>
+    <e lm="érmész"><i>érmész</i><par n="kérdés__n"/></e>
+    <e lm="erődítés"><i>erődítés</i><par n="kérdés__n"/></e>
+    <e lm="erődítmény"><i>erődítmény</i><par n="kérdés__n"/></e>
+    <e lm="érsek"><i>érsek</i><par n="kérdés__n"/></e>
+    <e lm="érsekség"><i>érsekség</i><par n="kérdés__n"/></e>
+    <e lm="erszényes"><i>erszényes</i><par n="kérdés__n"/></e>
+    <e lm="erszény"><i>erszény</i><par n="kérdés__n"/></e>
+    <e lm="értekezlet"><i>értekezlet</i><par n="kérdés__n"/></e>
+    <e lm="érték"><i>érték</i><par n="kérdés__n"/></e>
+    <e lm="értesítvény"><i>értesítvény</i><par n="kérdés__n"/></e>
+    <e lm="érvény"><i>érvény</i><par n="kérdés__n"/></e>
+    <e lm="érzék"><i>érzék</i><par n="kérdés__n"/></e>
+    <e lm="érzéklet"><i>érzéklet</i><par n="kérdés__n"/></e>
+    <e lm="érzemény"><i>érzemény</i><par n="kérdés__n"/></e>
+    <e lm="érzéstelenség"><i>érzéstelenség</i><par n="kérdés__n"/></e>
+    <e lm="érzet"><i>érzet</i><par n="kérdés__n"/></e>
+    <e lm="érzület"><i>érzület</i><par n="kérdés__n"/></e>
+    <e lm="esély"><i>esély</i><par n="kérdés__n"/></e>
+    <e lm="esemény"><i>esemény</i><par n="kérdés__n"/></e>
+    <e lm="eset"><i>eset</i><par n="kérdés__n"/></e>
+    <e lm="eshetőség"><i>eshetőség</i><par n="kérdés__n"/></e>
+    <e lm="esőzés"><i>esőzés</i><par n="kérdés__n"/></e>
+    <e lm="esperes"><i>esperes</i><par n="kérdés__n"/></e>
+    <e lm="estély"><i>estély</i><par n="kérdés__n"/></e>
+    <e lm="eszmeiség"><i>eszmeiség</i><par n="kérdés__n"/></e>
+    <e lm="eszmélet"><i>eszmélet</i><par n="kérdés__n"/></e>
+    <e lm="eszmény"><i>eszmény</i><par n="kérdés__n"/></e>
+    <e lm="etázsfűtés"><i>etázsfűtés</i><par n="kérdés__n"/></e>
+    <e lm="étel"><i>étel</i><par n="kérdés__n"/></e>
+    <e lm="evészet"><i>evészet</i><par n="kérdés__n"/></e>
+    <e lm="evidens"><i>evidens</i><par n="kérdés__n"/></e>
+    <e lm="evolvens"><i>evolvens</i><par n="kérdés__n"/></e>
+    <e lm="excenter"><i>excenter</i><par n="kérdés__n"/></e>
+    <e lm="exegézis"><i>exegézis</i><par n="kérdés__n"/></e>
+    <e lm="exponens"><i>exponens</i><par n="kérdés__n"/></e>
+    <e lm="expressz"><i>expressz</i><par n="kérdés__n"/></e>
+    <e lm="ezerrubeles"><i>ezerrubeles</i><par n="kérdés__n"/></e>
+    <e lm="ezredes"><i>ezredes</i><par n="kérdés__n"/></e>
+    <e lm="ezredév"><i>ezredév</i><par n="kérdés__n"/></e>
     <e lm="fa"><i>f</i><par n="macsk/a__n"/></e>
-    <e lm="fiú"><i>fi</i><par n="fi/ú__n"/></e>
+    <e lm="falanszter"><i>falanszter</i><par n="kérdés__n"/></e>
+    <e lm="falikép"><i>falikép</i><par n="kérdés__n"/></e>
+    <e lm="faliszekrény"><i>faliszekrény</i><par n="kérdés__n"/></e>
+    <e lm="familiáris"><i>familiáris</i><par n="kérdés__n"/></e>
+    <e lm="faxkészülék"><i>faxkészülék</i><par n="kérdés__n"/></e>
+    <e lm="fedélzet"><i>fedélzet</i><par n="kérdés__n"/></e>
+    <e lm="féder"><i>féder</i><par n="kérdés__n"/></e>
+    <e lm="fedezék"><i>fedezék</i><par n="kérdés__n"/></e>
+    <e lm="fedezet"><i>fedezet</i><par n="kérdés__n"/></e>
+    <e lm="fegyelmezettség"><i>fegyelmezettség</i><par n="kérdés__n"/></e>
+    <e lm="fegyenc"><i>fegyenc</i><par n="kérdés__n"/></e>
+    <e lm="fegyintézet"><i>fegyintézet</i><par n="kérdés__n"/></e>
+    <e lm="fegyveres"><i>fegyveres</i><par n="kérdés__n"/></e>
+    <e lm="fegyver"><i>fegyver</i><par n="kérdés__n"/></e>
+    <e lm="fegyverzet"><i>fegyverzet</i><par n="kérdés__n"/></e>
+    <e lm="fehérólomérc"><i>fehérólomérc</i><par n="kérdés__n"/></e>
+    <e lm="fehérvérűség"><i>fehérvérűség</i><par n="kérdés__n"/></e>
+    <e lm="fejedelemség"><i>fejedelemség</i><par n="kérdés__n"/></e>
+    <e lm="fejezet"><i>fejezet</i><par n="kérdés__n"/></e>
     <e lm="fej"><i>fej</i><par n="fej__n"/></e>
+    <e lm="fejlemény"><i>fejlemény</i><par n="kérdés__n"/></e>
+    <e lm="fejlesztés"><i>fejlesztés</i><par n="kérdés__n"/></e>
+    <e lm="fejlődés"><i>fejlődés</i><par n="kérdés__n"/></e>
+    <e lm="fekély"><i>fekély</i><par n="kérdés__n"/></e>
+    <e lm="felcser"><i>felcser</i><par n="kérdés__n"/></e>
+    <e lm="felderítés"><i>felderítés</i><par n="kérdés__n"/></e>
+    <e lm="feledés"><i>feledés</i><par n="kérdés__n"/></e>
+    <e lm="felekezet"><i>felekezet</i><par n="kérdés__n"/></e>
+    <e lm="feléledés"><i>feléledés</i><par n="kérdés__n"/></e>
+    <e lm="felelet"><i>felelet</i><par n="kérdés__n"/></e>
+    <e lm="felelősségérzés"><i>felelősségérzés</i><par n="kérdés__n"/></e>
+    <e lm="felelősségérzet"><i>felelősségérzet</i><par n="kérdés__n"/></e>
+    <e lm="felelősség"><i>felelősség</i><par n="kérdés__n"/></e>
+    <e lm="felelőtlenkedés"><i>felelőtlenkedés</i><par n="kérdés__n"/></e>
+    <e lm="felemelés"><i>felemelés</i><par n="kérdés__n"/></e>
+    <e lm="felemelkedés"><i>felemelkedés</i><par n="kérdés__n"/></e>
+    <e lm="feleség"><i>feleség</i><par n="kérdés__n"/></e>
+    <e lm="féleség"><i>féleség</i><par n="kérdés__n"/></e>
+    <e lm="felesleg"><i>felesleg</i><par n="kérdés__n"/></e>
+    <e lm="felettes"><i>felettes</i><par n="kérdés__n"/></e>
+    <e lm="felfedés"><i>felfedés</i><par n="kérdés__n"/></e>
+    <e lm="felfedezés"><i>felfedezés</i><par n="kérdés__n"/></e>
+    <e lm="felfegyverzés"><i>felfegyverzés</i><par n="kérdés__n"/></e>
+    <e lm="felfekvés"><i>felfekvés</i><par n="kérdés__n"/></e>
+    <e lm="felfüggesztés"><i>felfüggesztés</i><par n="kérdés__n"/></e>
+    <e lm="felhőzet"><i>felhőzet</i><par n="kérdés__n"/></e>
+    <e lm="felismerés"><i>felismerés</i><par n="kérdés__n"/></e>
+    <e lm="felívelés"><i>felívelés</i><par n="kérdés__n"/></e>
+    <e lm="feljegyzés"><i>feljegyzés</i><par n="kérdés__n"/></e>
+    <e lm="feljelentés"><i>feljelentés</i><par n="kérdés__n"/></e>
+    <e lm="feljövetel"><i>feljövetel</i><par n="kérdés__n"/></e>
+    <e lm="felkelés"><i>felkelés</i><par n="kérdés__n"/></e>
+    <e lm="felkenés"><i>felkenés</i><par n="kérdés__n"/></e>
+    <e lm="felkészültség"><i>felkészültség</i><par n="kérdés__n"/></e>
+    <e lm="felköszöntés"><i>felköszöntés</i><par n="kérdés__n"/></e>
+    <e lm="fellebbezés"><i>fellebbezés</i><par n="kérdés__n"/></e>
+    <e lm="felleg"><i>felleg</i><par n="kérdés__n"/></e>
+    <e lm="fellelkesedés"><i>fellelkesedés</i><par n="kérdés__n"/></e>
+    <e lm="fellendülés"><i>fellendülés</i><par n="kérdés__n"/></e>
+    <e lm="fellengzés"><i>fellengzés</i><par n="kérdés__n"/></e>
+    <e lm="fellépés"><i>fellépés</i><par n="kérdés__n"/></e>
+    <e lm="felmelegedés"><i>felmelegedés</i><par n="kérdés__n"/></e>
+    <e lm="felmenet"><i>felmenet</i><par n="kérdés__n"/></e>
+    <e lm="felmentés"><i>felmentés</i><par n="kérdés__n"/></e>
+    <e lm="felmentvény"><i>felmentvény</i><par n="kérdés__n"/></e>
+    <e lm="felmérés"><i>felmérés</i><par n="kérdés__n"/></e>
+    <e lm="felnevelés"><i>felnevelés</i><par n="kérdés__n"/></e>
+    <e lm="felperes"><i>felperes</i><par n="kérdés__n"/></e>
+    <e lm="felség"><i>felség</i><par n="kérdés__n"/></e>
+    <e lm="felsőbbrendűség"><i>felsőbbrendűség</i><par n="kérdés__n"/></e>
+    <e lm="felsőbbség"><i>felsőbbség</i><par n="kérdés__n"/></e>
+    <e lm="felsőéves"><i>felsőéves</i><par n="kérdés__n"/></e>
+    <e lm="felsőség"><i>felsőség</i><par n="kérdés__n"/></e>
+    <e lm="felsülés"><i>felsülés</i><par n="kérdés__n"/></e>
+    <e lm="felszedés"><i>felszedés</i><par n="kérdés__n"/></e>
+    <e lm="felszerelés"><i>felszerelés</i><par n="kérdés__n"/></e>
+    <e lm="felszereltség"><i>felszereltség</i><par n="kérdés__n"/></e>
+    <e lm="félszeres"><i>félszeres</i><par n="kérdés__n"/></e>
+    <e lm="feltétel"><i>feltétel</i><par n="kérdés__n"/></e>
+    <e lm="feltevés"><i>feltevés</i><par n="kérdés__n"/></e>
+    <e lm="feltűnés"><i>feltűnés</i><par n="kérdés__n"/></e>
+    <e lm="feltöltődés"><i>feltöltődés</i><par n="kérdés__n"/></e>
+    <e lm="feltörés"><i>feltörés</i><par n="kérdés__n"/></e>
+    <e lm="felvétel"><i>felvétel</i><par n="kérdés__n"/></e>
+    <e lm="felvitel"><i>felvitel</i><par n="kérdés__n"/></e>
+    <e lm="felüdítés"><i>felüdítés</i><par n="kérdés__n"/></e>
+    <e lm="felüdülés"><i>felüdülés</i><par n="kérdés__n"/></e>
+    <e lm="felügyelet"><i>felügyelet</i><par n="kérdés__n"/></e>
+    <e lm="felügyelőség"><i>felügyelőség</i><par n="kérdés__n"/></e>
+    <e lm="felület"><i>felület</i><par n="kérdés__n"/></e>
+    <e lm="felzet"><i>felzet</i><par n="kérdés__n"/></e>
+    <e lm="fémműves"><i>fémműves</i><par n="kérdés__n"/></e>
+    <e lm="fémművesség"><i>fémművesség</i><par n="kérdés__n"/></e>
+    <e lm="feneség"><i>feneség</i><par n="kérdés__n"/></e>
+    <e lm="fennlét"><i>fennlét</i><par n="kérdés__n"/></e>
+    <e lm="fenség"><i>fenség</i><par n="kérdés__n"/></e>
+    <e lm="fensőbbség"><i>fensőbbség</i><par n="kérdés__n"/></e>
+    <e lm="fensőség"><i>fensőség</i><par n="kérdés__n"/></e>
+    <e lm="fényátszűrődés"><i>fényátszűrődés</i><par n="kérdés__n"/></e>
+    <e lm="fenyíték"><i>fenyíték</i><par n="kérdés__n"/></e>
+    <e lm="fényképészet"><i>fényképészet</i><par n="kérdés__n"/></e>
+    <e lm="fényképész"><i>fényképész</i><par n="kérdés__n"/></e>
+    <e lm="fenyves"><i>fenyves</i><par n="kérdés__n"/></e>
+    <e lm="fényvisszaverődés"><i>fényvisszaverődés</i><par n="kérdés__n"/></e>
+    <e lm="fércelmény"><i>fércelmény</i><par n="kérdés__n"/></e>
+    <e lm="fércöltés"><i>fércöltés</i><par n="kérdés__n"/></e>
+    <e lm="ferences"><i>ferences</i><par n="kérdés__n"/></e>
+    <e lm="fergeteg"><i>fergeteg</i><par n="kérdés__n"/></e>
+    <e lm="férjhezmenetel"><i>férjhezmenetel</i><par n="kérdés__n"/></e>
+    <e lm="festészet"><i>festészet</i><par n="kérdés__n"/></e>
+    <e lm="festmény"><i>festmény</i><par n="kérdés__n"/></e>
+    <e lm="festőiség"><i>festőiség</i><par n="kérdés__n"/></e>
+    <e lm="fészer"><i>fészer</i><par n="kérdés__n"/></e>
+    <e lm="feszület"><i>feszület</i><par n="kérdés__n"/></e>
+    <e lm="feszültség"><i>feszültség</i><par n="kérdés__n"/></e>
+    <e lm="fétis"><i>fétis</i><par n="kérdés__n"/></e>
+    <e lm="fiatalember"><i>fiatalember</i><par n="kérdés__n"/></e>
+    <e lm="filiszter"><i>filiszter</i><par n="kérdés__n"/></e>
+    <e lm="filmes"><i>filmes</i><par n="kérdés__n"/></e>
+    <e lm="filozopter"><i>filozopter</i><par n="kérdés__n"/></e>
+    <e lm="filter"><i>filter</i><par n="kérdés__n"/></e>
+    <e lm="finesz"><i>finesz</i><par n="kérdés__n"/></e>
+    <e lm="finis"><i>finis</i><par n="kérdés__n"/></e>
+    <e lm="firnisz"><i>firnisz</i><par n="kérdés__n"/></e>
+    <e lm="fitestvér"><i>fitestvér</i><par n="kérdés__n"/></e>
+    <e lm="fitnesz"><i>fitnesz</i><par n="kérdés__n"/></e>
+    <e lm="fityfiritty"><i>fityfiritty</i><par n="kérdés__n"/></e>
+    <e lm="fityisz"><i>fityisz</i><par n="kérdés__n"/></e>
+    <e lm="fiú"><i>fi</i><par n="fi/ú__n"/></e>
+    <e lm="fizetés"><i>fizetés</i><par n="kérdés__n"/></e>
+    <e lm="fizetség"><i>fizetség</i><par n="kérdés__n"/></e>
+    <e lm="flepnis"><i>flepnis</i><par n="kérdés__n"/></e>
+    <e lm="főbelövetés"><i>főbelövetés</i><par n="kérdés__n"/></e>
+    <e lm="főnix"><i>főnix</i><par n="kérdés__n"/></e>
+    <e lm="főnökség"><i>főnökség</i><par n="kérdés__n"/></e>
+    <e lm="forgalomelterelés"><i>forgalomelterelés</i><par n="kérdés__n"/></e>
+    <e lm="fotolízis"><i>fotolízis</i><par n="kérdés__n"/></e>
+    <e lm="főzelék"><i>főzelék</i><par n="kérdés__n"/></e>
+    <e lm="főzet"><i>főzet</i><par n="kérdés__n"/></e>
+    <e lm="frissesség"><i>frissesség</i><par n="kérdés__n"/></e>
+    <e lm="fűrész"><i>fűrész</i><par n="kérdés__n"/></e>
+    <e lm="fűszeres"><i>fűszeres</i><par n="kérdés__n"/></e>
+    <e lm="fűszerezettség"><i>fűszerezettség</i><par n="kérdés__n"/></e>
+    <e lm="fúvófej"><i>fúvófej</i><par n="kérdés__n"/></e>
+    <e lm="függelék"><i>függelék</i><par n="kérdés__n"/></e>
+    <e lm="függőség"><i>függőség</i><par n="kérdés__n"/></e>
+    <e lm="függvény"><i>függvény</i><par n="kérdés__n"/></e>
+    <e lm="fülészet"><i>fülészet</i><par n="kérdés__n"/></e>
+    <e lm="fülész"><i>fülész</i><par n="kérdés__n"/></e>
+    <e lm="fürkész"><i>fürkész</i><par n="kérdés__n"/></e>
+    <e lm="füvész"><i>füvész</i><par n="kérdés__n"/></e>
+    <e lm="füzény"><i>füzény</i><par n="kérdés__n"/></e>
+    <e lm="födélzet"><i>födélzet</i><par n="kérdés__n"/></e>
+    <e lm="fölcserélés"><i>fölcserélés</i><par n="kérdés__n"/></e>
+    <e lm="földközel"><i>földközel</i><par n="kérdés__n"/></e>
+    <e lm="földmívelés"><i>földmívelés</i><par n="kérdés__n"/></e>
+    <e lm="földmíves"><i>földmíves</i><par n="kérdés__n"/></e>
+    <e lm="földség"><i>földség</i><par n="kérdés__n"/></e>
+    <e lm="fölemelkedés"><i>fölemelkedés</i><par n="kérdés__n"/></e>
+    <e lm="fölény"><i>fölény</i><par n="kérdés__n"/></e>
+    <e lm="fölperes"><i>fölperes</i><par n="kérdés__n"/></e>
+    <e lm="fölség"><i>fölség</i><par n="kérdés__n"/></e>
+    <e lm="fölségsértés"><i>fölségsértés</i><par n="kérdés__n"/></e>
+    <e lm="fölségterület"><i>fölségterület</i><par n="kérdés__n"/></e>
+    <e lm="föltétel"><i>föltétel</i><par n="kérdés__n"/></e>
+    <e lm="fölvétel"><i>fölvétel</i><par n="kérdés__n"/></e>
+    <e lm="fölvidék"><i>fölvidék</i><par n="kérdés__n"/></e>
+    <e lm="fölösleg"><i>fölösleg</i><par n="kérdés__n"/></e>
+    <e lm="fölöttes"><i>fölöttes</i><par n="kérdés__n"/></e>
+    <e lm="förgeteg"><i>förgeteg</i><par n="kérdés__n"/></e>
+    <e lm="förmedvény"><i>förmedvény</i><par n="kérdés__n"/></e>
+    <e lm="föveg"><i>föveg</i><par n="kérdés__n"/></e>
+    <e lm="föveny"><i>föveny</i><par n="kérdés__n"/></e>
+    <e lm="fövény"><i>fövény</i><par n="kérdés__n"/></e>
+    <e lm="gabonabegyűjtés"><i>gabonabegyűjtés</i><par n="kérdés__n"/></e>
+    <e lm="galvánelem"><i>galvánelem</i><par n="kérdés__n"/></e>
+    <e lm="garádics"><i>garádics</i><par n="kérdés__n"/></e>
+    <e lm="gasztritisz"><i>gasztritisz</i><par n="kérdés__n"/></e>
+    <e lm="gatyesz"><i>gatyesz</i><par n="kérdés__n"/></e>
+    <e lm="gébics"><i>gébics</i><par n="kérdés__n"/></e>
+    <e lm="gégészet"><i>gégészet</i><par n="kérdés__n"/></e>
+    <e lm="gégész"><i>gégész</i><par n="kérdés__n"/></e>
+    <e lm="gélesedés"><i>gélesedés</i><par n="kérdés__n"/></e>
+    <e lm="genezis"><i>genezis</i><par n="kérdés__n"/></e>
+    <e lm="gennygyülem"><i>gennygyülem</i><par n="kérdés__n"/></e>
+    <e lm="gépészet"><i>gépészet</i><par n="kérdés__n"/></e>
+    <e lm="gépész"><i>gépész</i><par n="kérdés__n"/></e>
+    <e lm="gépezet"><i>gépezet</i><par n="kérdés__n"/></e>
+    <e lm="gérbics"><i>gérbics</i><par n="kérdés__n"/></e>
+    <e lm="gerely"><i>gerely</i><par n="kérdés__n"/></e>
+    <e lm="gerendely"><i>gerendely</i><par n="kérdés__n"/></e>
+    <e lm="gerinces"><i>gerinces</i><par n="kérdés__n"/></e>
+    <e lm="gerincesség"><i>gerincesség</i><par n="kérdés__n"/></e>
+    <e lm="gerinc"><i>gerinc</i><par n="kérdés__n"/></e>
+    <e lm="gesztenyés-tölgyes"><i>gesztenyés-tölgyes</i><par n="kérdés__n"/></e>
+    <e lm="gikszer"><i>gikszer</i><par n="kérdés__n"/></e>
+    <e lm="glejesedés"><i>glejesedés</i><par n="kérdés__n"/></e>
+    <e lm="glikolízis"><i>glikolízis</i><par n="kérdés__n"/></e>
+    <e lm="glukózvérűség"><i>glukózvérűség</i><par n="kérdés__n"/></e>
+    <e lm="gneisz"><i>gneisz</i><par n="kérdés__n"/></e>
+    <e lm="gonosztett"><i>gonosztett</i><par n="kérdés__n"/></e>
+    <e lm="gradiens"><i>gradiens</i><par n="kérdés__n"/></e>
+    <e lm="gukker"><i>gukker</i><par n="kérdés__n"/></e>
+    <e lm="gúzsbakötés"><i>gúzsbakötés</i><par n="kérdés__n"/></e>
+    <e lm="gyakorlóév"><i>gyakorlóév</i><par n="kérdés__n"/></e>
+    <e lm="gyakorlóterep"><i>gyakorlóterep</i><par n="kérdés__n"/></e>
+    <e lm="gyászvitéz"><i>gyászvitéz</i><par n="kérdés__n"/></e>
+    <e lm="gyékény"><i>gyékény</i><par n="kérdés__n"/></e>
+    <e lm="gyengekezűség"><i>gyengekezűség</i><par n="kérdés__n"/></e>
     <e lm="gyerek"><i>gyerek</i><par n="gyerek__n"/></e>
+    <e lm="gyerek"><i>gyerek</i><par n="kérdés__n"/></e>
+    <e lm="gyerekség"><i>gyerekség</i><par n="kérdés__n"/></e>
+    <e lm="gyermek"><i>gyermek</i><par n="kérdés__n"/></e>
+    <e lm="gyermekség"><i>gyermekség</i><par n="kérdés__n"/></e>
+    <e lm="gyertyános-tölgyes"><i>gyertyános-tölgyes</i><par n="kérdés__n"/></e>
+    <e lm="gyorsfény"><i>gyorsfény</i><par n="kérdés__n"/></e>
+    <e lm="győztes"><i>győztes</i><par n="kérdés__n"/></e>
+    <e lm="gyűjtemény"><i>gyűjtemény</i><par n="kérdés__n"/></e>
+    <e lm="gyűlölet"><i>gyűlölet</i><par n="kérdés__n"/></e>
+    <e lm="gyűlölködés"><i>gyűlölködés</i><par n="kérdés__n"/></e>
+    <e lm="gyűlölség"><i>gyűlölség</i><par n="kérdés__n"/></e>
+    <e lm="gyülekezet"><i>gyülekezet</i><par n="kérdés__n"/></e>
+    <e lm="gyülevész"><i>gyülevész</i><par n="kérdés__n"/></e>
+    <e lm="gyöngélkedés"><i>gyöngélkedés</i><par n="kérdés__n"/></e>
+    <e lm="gyöngyperjés"><i>gyöngyperjés</i><par n="kérdés__n"/></e>
+    <e lm="gyöngyvirágos-tölgyes"><i>gyöngyvirágos-tölgyes</i><par n="kérdés__n"/></e>
+    <e lm="göcsörtösség"><i>göcsörtösség</i><par n="kérdés__n"/></e>
+    <e lm="gödény"><i>gödény</i><par n="kérdés__n"/></e>
+    <e lm="görbület"><i>görbület</i><par n="kérdés__n"/></e>
+    <e lm="görény"><i>görény</i><par n="kérdés__n"/></e>
+    <e lm="görgeteg"><i>görgeteg</i><par n="kérdés__n"/></e>
+    <e lm="görvély"><i>görvély</i><par n="kérdés__n"/></e>
+    <e lm="hadifelszerelés"><i>hadifelszerelés</i><par n="kérdés__n"/></e>
+    <e lm="hadijelentés"><i>hadijelentés</i><par n="kérdés__n"/></e>
+    <e lm="hadiközlemény"><i>hadiközlemény</i><par n="kérdés__n"/></e>
+    <e lm="haditermelés"><i>haditermelés</i><par n="kérdés__n"/></e>
+    <e lm="haditerv"><i>haditerv</i><par n="kérdés__n"/></e>
+    <e lm="hadiüzem"><i>hadiüzem</i><par n="kérdés__n"/></e>
+    <e lm="hadiözvegy"><i>hadiözvegy</i><par n="kérdés__n"/></e>
+    <e lm="hagyományőrzés"><i>hagyományőrzés</i><par n="kérdés__n"/></e>
+    <e lm="hajlékonylemez"><i>hajlékonylemez</i><par n="kérdés__n"/></e>
+    <e lm="hajnecc"><i>hajnecc</i><par n="kérdés__n"/></e>
+    <e lm="hamislelkűség"><i>hamislelkűség</i><par n="kérdés__n"/></e>
     <e lm="hang"><i>hang</i><par n="hang__n"/></e>
+    <e lm="hangvisszaverődés"><i>hangvisszaverődés</i><par n="kérdés__n"/></e>
+    <e lm="harántkötés"><i>harántkötés</i><par n="kérdés__n"/></e>
+    <e lm="harántmetszet"><i>harántmetszet</i><par n="kérdés__n"/></e>
+    <e lm="harántsüllyedés"><i>harántsüllyedés</i><par n="kérdés__n"/></e>
+    <e lm="harcbavetés"><i>harcbavetés</i><par n="kérdés__n"/></e>
+    <e lm="hárem"><i>hárem</i><par n="kérdés__n"/></e>
+    <e lm="háromszögelés"><i>háromszögelés</i><par n="kérdés__n"/></e>
+    <e lm="hatalomátmentés"><i>hatalomátmentés</i><par n="kérdés__n"/></e>
+    <e lm="határincidens"><i>határincidens</i><par n="kérdés__n"/></e>
+    <e lm="hátulnézet"><i>hátulnézet</i><par n="kérdés__n"/></e>
+    <e lm="havibér"><i>havibér</i><par n="kérdés__n"/></e>
+    <e lm="házasélet"><i>házasélet</i><par n="kérdés__n"/></e>
+    <e lm="házasember"><i>házasember</i><par n="kérdés__n"/></e>
+    <e lm="házieb"><i>házieb</i><par n="kérdés__n"/></e>
     <e lm="ház"><i>ház</i><par n="ház__n"/></e>
+    <e lm="házisertés"><i>házisertés</i><par n="kérdés__n"/></e>
+    <e lm="hegesedés"><i>hegesedés</i><par n="kérdés__n"/></e>
+    <e lm="hegység"><i>hegység</i><par n="kérdés__n"/></e>
+    <e lm="hehezet"><i>hehezet</i><par n="kérdés__n"/></e>
+    <e lm="helikopter"><i>helikopter</i><par n="kérdés__n"/></e>
+    <e lm="helyettes"><i>helyettes</i><par n="kérdés__n"/></e>
+    <e lm="helyiség"><i>helyiség</i><par n="kérdés__n"/></e>
+    <e lm="helység"><i>helység</i><par n="kérdés__n"/></e>
+    <e lm="helyszínelés"><i>helyszínelés</i><par n="kérdés__n"/></e>
+    <e lm="helyzet"><i>helyzet</i><par n="kérdés__n"/></e>
+    <e lm="hencser"><i>hencser</i><par n="kérdés__n"/></e>
+    <e lm="henger"><i>henger</i><par n="kérdés__n"/></e>
+    <e lm="hentes"><i>hentes</i><par n="kérdés__n"/></e>
+    <e lm="hepatitisz"><i>hepatitisz</i><par n="kérdés__n"/></e>
+    <e lm="herceg"><i>herceg</i><par n="kérdés__n"/></e>
+    <e lm="hercegség"><i>hercegség</i><par n="kérdés__n"/></e>
+    <e lm="hérics"><i>hérics</i><par n="kérdés__n"/></e>
+    <e lm="herpesz"><i>herpesz</i><par n="kérdés__n"/></e>
+    <e lm="hetedikes"><i>hetedikes</i><par n="kérdés__n"/></e>
+    <e lm="heterózis"><i>heterózis</i><par n="kérdés__n"/></e>
+    <e lm="hetibér"><i>hetibér</i><par n="kérdés__n"/></e>
+    <e lm="hevület"><i>hevület</i><par n="kérdés__n"/></e>
+    <e lm="hexaéder"><i>hexaéder</i><par n="kérdés__n"/></e>
+    <e lm="hideglelés"><i>hideglelés</i><par n="kérdés__n"/></e>
+    <e lm="hidrogénezés"><i>hidrogénezés</i><par n="kérdés__n"/></e>
+    <e lm="hidrogénezettség"><i>hidrogénezettség</i><par n="kérdés__n"/></e>
+    <e lm="hiperkomplex"><i>hiperkomplex</i><par n="kérdés__n"/></e>
+    <e lm="hipofízis"><i>hipofízis</i><par n="kérdés__n"/></e>
+    <e lm="hipokrízis"><i>hipokrízis</i><par n="kérdés__n"/></e>
+    <e lm="hipotézis"><i>hipotézis</i><par n="kérdés__n"/></e>
+    <e lm="hirdetmény"><i>hirdetmény</i><par n="kérdés__n"/></e>
+    <e lm="hiszterézis"><i>hiszterézis</i><par n="kérdés__n"/></e>
+    <e lm="hitel"><i>hitel</i><par n="kérdés__n"/></e>
+    <e lm="hitves"><i>hitves</i><par n="kérdés__n"/></e>
+    <e lm="hogylét"><i>hogylét</i><par n="kérdés__n"/></e>
+    <e lm="hollender"><i>hollender</i><par n="kérdés__n"/></e>
+    <e lm="holoéder"><i>holoéder</i><par n="kérdés__n"/></e>
+    <e lm="honvédség"><i>honvédség</i><par n="kérdés__n"/></e>
+    <e lm="hordszék"><i>hordszék</i><par n="kérdés__n"/></e>
+    <e lm="hősködés"><i>hősködés</i><par n="kérdés__n"/></e>
+    <e lm="hosztesz"><i>hosztesz</i><par n="kérdés__n"/></e>
+    <e lm="hozzátétel"><i>hozzátétel</i><par n="kérdés__n"/></e>
+    <e lm="hűdés"><i>hűdés</i><par n="kérdés__n"/></e>
     <e lm="húg"><i>húg</i><par n="ország__n"/></e>
+    <e lm="húszezerrubeles"><i>húszezerrubeles</i><par n="kérdés__n"/></e>
+    <e lm="húszfilléres"><i>húszfilléres</i><par n="kérdés__n"/></e>
+    <e lm="huszonéves"><i>huszonéves</i><par n="kérdés__n"/></e>
+    <e lm="húszrubeles"><i>húszrubeles</i><par n="kérdés__n"/></e>
+    <e lm="hüvelyes"><i>hüvelyes</i><par n="kérdés__n"/></e>
+    <e lm="hüvely"><i>hüvely</i><par n="kérdés__n"/></e>
+    <e lm="hölgyemény"><i>hölgyemény</i><par n="kérdés__n"/></e>
+    <e lm="íbisz"><i>íbisz</i><par n="kérdés__n"/></e>
+    <e lm="idegenszerűség"><i>idegenszerűség</i><par n="kérdés__n"/></e>
+    <e lm="ideggyógyintézet"><i>ideggyógyintézet</i><par n="kérdés__n"/></e>
+    <e lm="ideg"><i>ideg</i><par n="kérdés__n"/></e>
+    <e lm="idegkimerülés"><i>idegkimerülés</i><par n="kérdés__n"/></e>
+    <e lm="idegzet"><i>idegzet</i><par n="kérdés__n"/></e>
+    <e lm="idény"><i>idény</i><par n="kérdés__n"/></e>
+    <e lm="idézet"><i>idézet</i><par n="kérdés__n"/></e>
     <e lm="idő"><i>id</i><par n="id/ő__n"/></e>
+    <e lm="igazlelkűség"><i>igazlelkűség</i><par n="kérdés__n"/></e>
+    <e lm="igenlés"><i>igenlés</i><par n="kérdés__n"/></e>
+    <e lm="igényesség"><i>igényesség</i><par n="kérdés__n"/></e>
+    <e lm="igény"><i>igény</i><par n="kérdés__n"/></e>
+    <e lm="ígéret"><i>ígéret</i><par n="kérdés__n"/></e>
+    <e lm="ígérvény"><i>ígérvény</i><par n="kérdés__n"/></e>
+    <e lm="igézet"><i>igézet</i><par n="kérdés__n"/></e>
+    <e lm="igric"><i>igric</i><par n="kérdés__n"/></e>
+    <e lm="igyekezet"><i>igyekezet</i><par n="kérdés__n"/></e>
+    <e lm="ihlet"><i>ihlet</i><par n="kérdés__n"/></e>
+    <e lm="ijedség"><i>ijedség</i><par n="kérdés__n"/></e>
+    <e lm="illedelem"><i>illedelem</i><par n="kérdés__n"/></e>
+    <e lm="illem"><i>illem</i><par n="kérdés__n"/></e>
+    <e lm="illeszték"><i>illeszték</i><par n="kérdés__n"/></e>
+    <e lm="illeték"><i>illeték</i><par n="kérdés__n"/></e>
+    <e lm="illetmény"><i>illetmény</i><par n="kérdés__n"/></e>
+    <e lm="illetőség"><i>illetőség</i><par n="kérdés__n"/></e>
+    <e lm="imbisz"><i>imbisz</i><par n="kérdés__n"/></e>
+    <e lm="incidens"><i>incidens</i><par n="kérdés__n"/></e>
+    <e lm="index"><i>index</i><par n="kérdés__n"/></e>
+    <e lm="indonéz"><i>indonéz</i><par n="kérdés__n"/></e>
+    <e lm="inger"><i>inger</i><par n="kérdés__n"/></e>
+    <e lm="ingerület"><i>ingerület</i><par n="kérdés__n"/></e>
+    <e lm="ingyenétkezés"><i>ingyenétkezés</i><par n="kérdés__n"/></e>
+    <e lm="ingyenjegy"><i>ingyenjegy</i><par n="kérdés__n"/></e>
+    <e lm="inkrementális"><i>inkrementális</i><par n="kérdés__n"/></e>
+    <e lm="ínség"><i>ínség</i><par n="kérdés__n"/></e>
+    <e lm="inszurgens"><i>inszurgens</i><par n="kérdés__n"/></e>
+    <e lm="intellektuel"><i>intellektuel</i><par n="kérdés__n"/></e>
+    <e lm="interfész"><i>interfész</i><par n="kérdés__n"/></e>
+    <e lm="interpreter"><i>interpreter</i><par n="kérdés__n"/></e>
+    <e lm="intézet"><i>intézet</i><par n="kérdés__n"/></e>
+    <e lm="intézmény"><i>intézmény</i><par n="kérdés__n"/></e>
+    <e lm="intézőség"><i>intézőség</i><par n="kérdés__n"/></e>
+    <e lm="intézvény"><i>intézvény</i><par n="kérdés__n"/></e>
+    <e lm="intranet"><i>intranet</i><par n="kérdés__n"/></e>
+    <e lm="inverzelem"><i>inverzelem</i><par n="kérdés__n"/></e>
+    <e lm="ínyencség"><i>ínyencség</i><par n="kérdés__n"/></e>
+    <e lm="ínyesmesterség"><i>ínyesmesterség</i><par n="kérdés__n"/></e>
+    <e lm="iontoforézis"><i>iontoforézis</i><par n="kérdés__n"/></e>
+    <e lm="írisz"><i>írisz</i><par n="kérdés__n"/></e>
+    <e lm="ismeret"><i>ismeret</i><par n="kérdés__n"/></e>
+    <e lm="ismeretség"><i>ismeretség</i><par n="kérdés__n"/></e>
+    <e lm="ismérv"><i>ismérv</i><par n="kérdés__n"/></e>
+    <e lm="ismételgetés"><i>ismételgetés</i><par n="kérdés__n"/></e>
+    <e lm="isten"><i>isten</i><par n="kérdés__n"/></e>
+    <e lm="istenség"><i>istenség</i><par n="kérdés__n"/></e>
+    <e lm="ítélet"><i>ítélet</i><par n="kérdés__n"/></e>
+    <e lm="ítész"><i>ítész</i><par n="kérdés__n"/></e>
+    <e lm="ívelés"><i>ívelés</i><par n="kérdés__n"/></e>
+    <e lm="ívezet"><i>ívezet</i><par n="kérdés__n"/></e>
+    <e lm="ízület"><i>ízület</i><par n="kérdés__n"/></e>
+    <e lm="jampec"><i>jampec</i><par n="kérdés__n"/></e>
+    <e lm="japánbirs"><i>japánbirs</i><par n="kérdés__n"/></e>
     <e lm="játék"><i>játék</i><par n="ablak__n"/></e>
-    <e lm="kéz"><i>k</i><par n="k/éz__n"/></e>
+    <e lm="jéger"><i>jéger</i><par n="kérdés__n"/></e>
+    <e lm="jegyzék"><i>jegyzék</i><par n="kérdés__n"/></e>
+    <e lm="jegyzet"><i>jegyzet</i><par n="kérdés__n"/></e>
+    <e lm="jegyzőség"><i>jegyzőség</i><par n="kérdés__n"/></e>
+    <e lm="jelelés"><i>jelelés</i><par n="kérdés__n"/></e>
+    <e lm="jelenet"><i>jelenet</i><par n="kérdés__n"/></e>
+    <e lm="jelen"><i>jelen</i><par n="kérdés__n"/></e>
+    <e lm="jelenség"><i>jelenség</i><par n="kérdés__n"/></e>
+    <e lm="jelentőség"><i>jelentőség</i><par n="kérdés__n"/></e>
+    <e lm="jelleg"><i>jelleg</i><par n="kérdés__n"/></e>
+    <e lm="jellemesség"><i>jellemesség</i><par n="kérdés__n"/></e>
+    <e lm="jellem"><i>jellem</i><par n="kérdés__n"/></e>
+    <e lm="jelvény"><i>jelvény</i><par n="kérdés__n"/></e>
+    <e lm="jelzet"><i>jelzet</i><par n="kérdés__n"/></e>
+    <e lm="jiddis"><i>jiddis</i><par n="kérdés__n"/></e>
+    <e lm="jogegyenlőség"><i>jogegyenlőség</i><par n="kérdés__n"/></e>
+    <e lm="jólelkűség"><i>jólelkűség</i><par n="kérdés__n"/></e>
+    <e lm="jóllét"><i>jóllét</i><par n="kérdés__n"/></e>
+    <e lm="jótét"><i>jótét</i><par n="kérdés__n"/></e>
+    <e lm="júdástövis"><i>júdástövis</i><par n="kérdés__n"/></e>
+    <e lm="jövedék"><i>jövedék</i><par n="kérdés__n"/></e>
+    <e lm="jövesztés"><i>jövesztés</i><par n="kérdés__n"/></e>
+    <e lm="jövet"><i>jövet</i><par n="kérdés__n"/></e>
+    <e lm="jövevény"><i>jövevény</i><par n="kérdés__n"/></e>
+    <e lm="kádárkés"><i>kádárkés</i><par n="kérdés__n"/></e>
+    <e lm="kalander"><i>kalander</i><par n="kérdés__n"/></e>
+    <e lm="kaliber"><i>kaliber</i><par n="kérdés__n"/></e>
+    <e lm="kalmárlelkűség"><i>kalmárlelkűség</i><par n="kérdés__n"/></e>
+    <e lm="kandeláber"><i>kandeláber</i><par n="kérdés__n"/></e>
+    <e lm="kanonoktestület"><i>kanonoktestület</i><par n="kérdés__n"/></e>
+    <e lm="karcinogenezis"><i>karcinogenezis</i><par n="kérdés__n"/></e>
+    <e lm="kataforézis"><i>kataforézis</i><par n="kérdés__n"/></e>
+    <e lm="katalízis"><i>katalízis</i><par n="kérdés__n"/></e>
+    <e lm="katekézis"><i>katekézis</i><par n="kérdés__n"/></e>
+    <e lm="katéter"><i>katéter</i><par n="kérdés__n"/></e>
+    <e lm="katzenjammer"><i>katzenjammer</i><par n="kérdés__n"/></e>
+    <e lm="kauter"><i>kauter</i><par n="kérdés__n"/></e>
+    <e lm="kecmec"><i>kecmec</i><par n="kérdés__n"/></e>
+    <e lm="kedély"><i>kedély</i><par n="kérdés__n"/></e>
+    <e lm="kedveszegettség"><i>kedveszegettség</i><par n="kérdés__n"/></e>
+    <e lm="kedvezmény"><i>kedvezmény</i><par n="kérdés__n"/></e>
+    <e lm="kegyelet"><i>kegyelet</i><par n="kérdés__n"/></e>
+    <e lm="kegyelmesség"><i>kegyelmesség</i><par n="kérdés__n"/></e>
+    <e lm="kegyeltség"><i>kegyeltség</i><par n="kérdés__n"/></e>
+    <e lm="kegyenc"><i>kegyenc</i><par n="kérdés__n"/></e>
+    <e lm="kegyetlenkedés"><i>kegyetlenkedés</i><par n="kérdés__n"/></e>
+    <e lm="kelendőség"><i>kelendőség</i><par n="kérdés__n"/></e>
+    <e lm="kelevény"><i>kelevény</i><par n="kérdés__n"/></e>
+    <e lm="kelevéz"><i>kelevéz</i><par n="kérdés__n"/></e>
+    <e lm="kellék"><i>kellék</i><par n="kérdés__n"/></e>
+    <e lm="kellemetlenkedés"><i>kellemetlenkedés</i><par n="kérdés__n"/></e>
+    <e lm="kellem"><i>kellem</i><par n="kérdés__n"/></e>
+    <e lm="kémény"><i>kémény</i><par n="kérdés__n"/></e>
+    <e lm="kempingezés"><i>kempingezés</i><par n="kérdés__n"/></e>
+    <e lm="kempingszék"><i>kempingszék</i><par n="kérdés__n"/></e>
+    <e lm="kenet"><i>kenet</i><par n="kérdés__n"/></e>
+    <e lm="kenéz"><i>kenéz</i><par n="kérdés__n"/></e>
+    <e lm="kengyel"><i>kengyel</i><par n="kérdés__n"/></e>
+    <e lm="kéntelenítés"><i>kéntelenítés</i><par n="kérdés__n"/></e>
+    <e lm="kényeskedés"><i>kényeskedés</i><par n="kérdés__n"/></e>
+    <e lm="kényszerítőzés"><i>kényszerítőzés</i><par n="kérdés__n"/></e>
+    <e lm="kényszerképzet"><i>kényszerképzet</i><par n="kérdés__n"/></e>
+    <e lm="kényszerültség"><i>kényszerültség</i><par n="kérdés__n"/></e>
+    <e lm="képesség"><i>képesség</i><par n="kérdés__n"/></e>
+    <e lm="képlet"><i>képlet</i><par n="kérdés__n"/></e>
+    <e lm="képviselőség"><i>képviselőség</i><par n="kérdés__n"/></e>
+    <e lm="képzelet"><i>képzelet</i><par n="kérdés__n"/></e>
+    <e lm="képzet"><i>képzet</i><par n="kérdés__n"/></e>
+    <e lm="képződmény"><i>képződmény</i><par n="kérdés__n"/></e>
+    <e lm="kérdésfelvetés"><i>kérdésfelvetés</i><par n="kérdés__n"/></e>
+    <e lm="kérdésföltevés"><i>kérdésföltevés</i><par n="kérdés__n"/></e>
     <e lm="kérdés"><i>kérdés</i><par n="kérdés__n"/></e>
+    <e lm="kéregetés"><i>kéregetés</i><par n="kérdés__n"/></e>
+    <e lm="kerekes"><i>kerekes</i><par n="kérdés__n"/></e>
+    <e lm="kerengés"><i>kerengés</i><par n="kérdés__n"/></e>
+    <e lm="kereset"><i>kereset</i><par n="kérdés__n"/></e>
+    <e lm="kereskedőség"><i>kereskedőség</i><par n="kérdés__n"/></e>
+    <e lm="kereslet"><i>kereslet</i><par n="kérdés__n"/></e>
+    <e lm="keresmény"><i>keresmény</i><par n="kérdés__n"/></e>
+    <e lm="kérész"><i>kérész</i><par n="kérdés__n"/></e>
+    <e lm="keresztény"><i>keresztény</i><par n="kérdés__n"/></e>
+    <e lm="kereszténység"><i>kereszténység</i><par n="kérdés__n"/></e>
+    <e lm="keresztes"><i>keresztes</i><par n="kérdés__n"/></e>
+    <e lm="keresztség"><i>keresztség</i><par n="kérdés__n"/></e>
+    <e lm="keresztyénség"><i>keresztyénség</i><par n="kérdés__n"/></e>
+    <e lm="keret"><i>keret</i><par n="kérdés__n"/></e>
+    <e lm="kertészet"><i>kertészet</i><par n="kérdés__n"/></e>
+    <e lm="kertész"><i>kertész</i><par n="kérdés__n"/></e>
     <e lm="kert"><i>kert</i><par n="kert__n"/></e>
+    <e lm="kérvényezés"><i>kérvényezés</i><par n="kérdés__n"/></e>
+    <e lm="kérvény"><i>kérvény</i><par n="kérdés__n"/></e>
+    <e lm="kerület"><i>kerület</i><par n="kérdés__n"/></e>
+    <e lm="keserv"><i>keserv</i><par n="kérdés__n"/></e>
+    <e lm="késes"><i>késes</i><par n="kérdés__n"/></e>
+    <e lm="keshedtség"><i>keshedtség</i><par n="kérdés__n"/></e>
+    <e lm="készítmény"><i>készítmény</i><par n="kérdés__n"/></e>
+    <e lm="készletfeltöltés"><i>készletfeltöltés</i><par n="kérdés__n"/></e>
+    <e lm="készlet"><i>készlet</i><par n="kérdés__n"/></e>
+    <e lm="készség"><i>készség</i><par n="kérdés__n"/></e>
+    <e lm="késztermék"><i>késztermék</i><par n="kérdés__n"/></e>
+    <e lm="készülék"><i>készülék</i><par n="kérdés__n"/></e>
+    <e lm="készület"><i>készület</i><par n="kérdés__n"/></e>
+    <e lm="kétcentes"><i>kétcentes</i><par n="kérdés__n"/></e>
+    <e lm="kétely"><i>kétely</i><par n="kérdés__n"/></e>
+    <e lm="kétezerrubeles"><i>kétezerrubeles</i><par n="kérdés__n"/></e>
+    <e lm="kétezerschillinges"><i>kétezerschillinges</i><par n="kérdés__n"/></e>
+    <e lm="kétfilléres"><i>kétfilléres</i><par n="kérdés__n"/></e>
+    <e lm="kétkedés"><i>kétkedés</i><par n="kérdés__n"/></e>
+    <e lm="kétpennys"><i>kétpennys</i><par n="kérdés__n"/></e>
+    <e lm="ketrec"><i>ketrec</i><par n="kérdés__n"/></e>
+    <e lm="kétrubeles"><i>kétrubeles</i><par n="kérdés__n"/></e>
+    <e lm="kétség"><i>kétség</i><par n="kérdés__n"/></e>
+    <e lm="kétszázrubeles"><i>kétszázrubeles</i><par n="kérdés__n"/></e>
+    <e lm="kétszázschillinges"><i>kétszázschillinges</i><par n="kérdés__n"/></e>
+    <e lm="kettedrész"><i>kettedrész</i><par n="kérdés__n"/></e>
+    <e lm="kettyenés"><i>kettyenés</i><par n="kérdés__n"/></e>
+    <e lm="kettyintés"><i>kettyintés</i><par n="kérdés__n"/></e>
+    <e lm="keverék"><i>keverék</i><par n="kérdés__n"/></e>
+    <e lm="kevésség"><i>kevésség</i><par n="kérdés__n"/></e>
+    <e lm="kezdemény"><i>kezdemény</i><par n="kérdés__n"/></e>
+    <e lm="kezdet"><i>kezdet</i><par n="kérdés__n"/></e>
+    <e lm="kezelőség"><i>kezelőség</i><par n="kérdés__n"/></e>
+    <e lm="kezes"><i>kezes</i><par n="kérdés__n"/></e>
+    <e lm="kezesség"><i>kezesség</i><par n="kérdés__n"/></e>
+    <e lm="kézhezvétel"><i>kézhezvétel</i><par n="kérdés__n"/></e>
+    <e lm="kéz"><i>k</i><par n="k/éz__n"/></e>
+    <e lm="kibérlés"><i>kibérlés</i><par n="kérdés__n"/></e>
+    <e lm="kibic"><i>kibic</i><par n="kérdés__n"/></e>
+    <e lm="kicsiség"><i>kicsiség</i><par n="kérdés__n"/></e>
+    <e lm="kiderítés"><i>kiderítés</i><par n="kérdés__n"/></e>
+    <e lm="kiegészítés"><i>kiegészítés</i><par n="kérdés__n"/></e>
+    <e lm="kiégetés"><i>kiégetés</i><par n="kérdés__n"/></e>
+    <e lm="kiegyenesítés"><i>kiegyenesítés</i><par n="kérdés__n"/></e>
+    <e lm="kiegyenlítés"><i>kiegyenlítés</i><par n="kérdés__n"/></e>
+    <e lm="kiegyenlítődés"><i>kiegyenlítődés</i><par n="kérdés__n"/></e>
+    <e lm="kiegyezés"><i>kiegyezés</i><par n="kérdés__n"/></e>
+    <e lm="kiejtés"><i>kiejtés</i><par n="kérdés__n"/></e>
+    <e lm="kielégítés"><i>kielégítés</i><par n="kérdés__n"/></e>
+    <e lm="kielégítettség"><i>kielégítettség</i><par n="kérdés__n"/></e>
+    <e lm="kiemelkedés"><i>kiemelkedés</i><par n="kérdés__n"/></e>
+    <e lm="kiesés"><i>kiesés</i><par n="kérdés__n"/></e>
+    <e lm="kifecsegés"><i>kifecsegés</i><par n="kérdés__n"/></e>
+    <e lm="kifejezés"><i>kifejezés</i><par n="kérdés__n"/></e>
+    <e lm="kifejezésteljes"><i>kifejezésteljes</i><par n="kérdés__n"/></e>
+    <e lm="kifejlés"><i>kifejlés</i><par n="kérdés__n"/></e>
+    <e lm="kifejlesztés"><i>kifejlesztés</i><par n="kérdés__n"/></e>
+    <e lm="kifejlet"><i>kifejlet</i><par n="kérdés__n"/></e>
+    <e lm="kifejlődés"><i>kifejlődés</i><par n="kérdés__n"/></e>
+    <e lm="kifejtés"><i>kifejtés</i><par n="kérdés__n"/></e>
+    <e lm="kifestés"><i>kifestés</i><par n="kérdés__n"/></e>
+    <e lm="kifeszítés"><i>kifeszítés</i><par n="kérdés__n"/></e>
+    <e lm="kifizetés"><i>kifizetés</i><par n="kérdés__n"/></e>
+    <e lm="kifőzés"><i>kifőzés</i><par n="kérdés__n"/></e>
+    <e lm="kifütyülés"><i>kifütyülés</i><par n="kérdés__n"/></e>
+    <e lm="kifütyölés"><i>kifütyölés</i><par n="kérdés__n"/></e>
+    <e lm="kigőzölgés"><i>kigőzölgés</i><par n="kérdés__n"/></e>
+    <e lm="kígyószisz"><i>kígyószisz</i><par n="kérdés__n"/></e>
+    <e lm="kiherélés"><i>kiherélés</i><par n="kérdés__n"/></e>
+    <e lm="kihirdetés"><i>kihirdetés</i><par n="kérdés__n"/></e>
+    <e lm="kijelentés"><i>kijelentés</i><par n="kérdés__n"/></e>
+    <e lm="kijelölés"><i>kijelölés</i><par n="kérdés__n"/></e>
+    <e lm="kijövetel"><i>kijövetel</i><par n="kérdés__n"/></e>
+    <e lm="kikelet"><i>kikelet</i><par n="kérdés__n"/></e>
+    <e lm="kikémlelés"><i>kikémlelés</i><par n="kérdés__n"/></e>
+    <e lm="kikényszerítés"><i>kikényszerítés</i><par n="kérdés__n"/></e>
+    <e lm="kiképzés"><i>kiképzés</i><par n="kérdés__n"/></e>
+    <e lm="kikérdezés"><i>kikérdezés</i><par n="kérdés__n"/></e>
+    <e lm="kikerics"><i>kikerics</i><par n="kérdés__n"/></e>
+    <e lm="kikészítés"><i>kikészítés</i><par n="kérdés__n"/></e>
+    <e lm="kiküldetés"><i>kiküldetés</i><par n="kérdés__n"/></e>
+    <e lm="kiköltés"><i>kiköltés</i><par n="kérdés__n"/></e>
+    <e lm="kikötés"><i>kikötés</i><par n="kérdés__n"/></e>
+    <e lm="kiközösítés"><i>kiközösítés</i><par n="kérdés__n"/></e>
+    <e lm="kilencedikes"><i>kilencedikes</i><par n="kérdés__n"/></e>
+    <e lm="kilengés"><i>kilengés</i><par n="kérdés__n"/></e>
+    <e lm="kilépés"><i>kilépés</i><par n="kérdés__n"/></e>
+    <e lm="kilevelesedés"><i>kilevelesedés</i><par n="kérdés__n"/></e>
+    <e lm="kilincs"><i>kilincs</i><par n="kérdés__n"/></e>
+    <e lm="kilökés"><i>kilökés</i><par n="kérdés__n"/></e>
+    <e lm="kilövellés"><i>kilövellés</i><par n="kérdés__n"/></e>
+    <e lm="kilövés"><i>kilövés</i><par n="kérdés__n"/></e>
+    <e lm="kímélet"><i>kímélet</i><par n="kérdés__n"/></e>
+    <e lm="kimenetel"><i>kimenetel</i><par n="kérdés__n"/></e>
+    <e lm="kimenet"><i>kimenet</i><par n="kérdés__n"/></e>
+    <e lm="kiméret"><i>kiméret</i><par n="kérdés__n"/></e>
+    <e lm="kimerítés"><i>kimerítés</i><par n="kérdés__n"/></e>
+    <e lm="kimeszelés"><i>kimeszelés</i><par n="kérdés__n"/></e>
+    <e lm="kinevezés"><i>kinevezés</i><par n="kérdés__n"/></e>
+    <e lm="kinézet"><i>kinézet</i><par n="kérdés__n"/></e>
+    <e lm="kinnlevőség"><i>kinnlevőség</i><par n="kérdés__n"/></e>
+    <e lm="kinnlévőség"><i>kinnlévőség</i><par n="kérdés__n"/></e>
+    <e lm="kintlevőség"><i>kintlevőség</i><par n="kérdés__n"/></e>
+    <e lm="kintlévőség"><i>kintlévőség</i><par n="kérdés__n"/></e>
+    <e lm="kinövés"><i>kinövés</i><par n="kérdés__n"/></e>
+    <e lm="kipihentség"><i>kipihentség</i><par n="kérdés__n"/></e>
+    <e lm="kirendeltség"><i>kirendeltség</i><par n="kérdés__n"/></e>
+    <e lm="kisbéres"><i>kisbéres</i><par n="kérdés__n"/></e>
+    <e lm="kiscserkész"><i>kiscserkész</i><par n="kérdés__n"/></e>
+    <e lm="kisebbrendűség"><i>kisebbrendűség</i><par n="kérdés__n"/></e>
+    <e lm="kisebbség"><i>kisebbség</i><par n="kérdés__n"/></e>
+    <e lm="kisember"><i>kisember</i><par n="kérdés__n"/></e>
+    <e lm="kíséret"><i>kíséret</i><par n="kérdés__n"/></e>
+    <e lm="kísérlet"><i>kísérlet</i><par n="kérdés__n"/></e>
+    <e lm="kísértet"><i>kísértet</i><par n="kérdés__n"/></e>
     <e lm="kisfiú"><i>kisfi</i><par n="fi/ú__n"/></e>
+    <e lm="kisgyűlés"><i>kisgyűlés</i><par n="kérdés__n"/></e>
+    <e lm="kishirdetés"><i>kishirdetés</i><par n="kérdés__n"/></e>
+    <e lm="kisisten"><i>kisisten</i><par n="kérdés__n"/></e>
+    <e lm="kisközség"><i>kisközség</i><par n="kérdés__n"/></e>
     <e lm="kislány"><i>kislá</i><par n="lá/ny__n"/></e>
+    <e lm="kislelkűség"><i>kislelkűség</i><par n="kérdés__n"/></e>
+    <e lm="kisnemes"><i>kisnemes</i><par n="kérdés__n"/></e>
+    <e lm="kisnemesség"><i>kisnemesség</i><par n="kérdés__n"/></e>
+    <e lm="kisszék"><i>kisszék</i><par n="kérdés__n"/></e>
+    <e lm="kistelepülés"><i>kistelepülés</i><par n="kérdés__n"/></e>
+    <e lm="kistengely"><i>kistengely</i><par n="kérdés__n"/></e>
+    <e lm="kistestvér"><i>kistestvér</i><par n="kérdés__n"/></e>
+    <e lm="kistőkés"><i>kistőkés</i><par n="kérdés__n"/></e>
+    <e lm="kisülés"><i>kisülés</i><par n="kérdés__n"/></e>
+    <e lm="kiszerelés"><i>kiszerelés</i><par n="kérdés__n"/></e>
+    <e lm="kiszínezés"><i>kiszínezés</i><par n="kérdés__n"/></e>
+    <e lm="kiszögellés"><i>kiszögellés</i><par n="kérdés__n"/></e>
+    <e lm="kitérés"><i>kitérés</i><par n="kérdés__n"/></e>
+    <e lm="kiterjedés"><i>kiterjedés</i><par n="kérdés__n"/></e>
+    <e lm="kiterjesztés"><i>kiterjesztés</i><par n="kérdés__n"/></e>
+    <e lm="kitermelés"><i>kitermelés</i><par n="kérdés__n"/></e>
+    <e lm="kitétel"><i>kitétel</i><par n="kérdés__n"/></e>
+    <e lm="kitettség"><i>kitettség</i><par n="kérdés__n"/></e>
+    <e lm="kitevés"><i>kitevés</i><par n="kérdés__n"/></e>
+    <e lm="kitűnőség"><i>kitűnőség</i><par n="kérdés__n"/></e>
+    <e lm="kitüntetéses"><i>kitüntetéses</i><par n="kérdés__n"/></e>
+    <e lm="kitüntetés"><i>kitüntetés</i><par n="kérdés__n"/></e>
+    <e lm="kitüremkedés"><i>kitüremkedés</i><par n="kérdés__n"/></e>
+    <e lm="kitömés"><i>kitömés</i><par n="kérdés__n"/></e>
+    <e lm="kitörés"><i>kitörés</i><par n="kérdés__n"/></e>
+    <e lm="kitörlés"><i>kitörlés</i><par n="kérdés__n"/></e>
+    <e lm="kivédés"><i>kivédés</i><par n="kérdés__n"/></e>
+    <e lm="kivégzés"><i>kivégzés</i><par n="kérdés__n"/></e>
+    <e lm="kivétel"><i>kivétel</i><par n="kérdés__n"/></e>
+    <e lm="kivetés"><i>kivetés</i><par n="kérdés__n"/></e>
+    <e lm="kivetítés"><i>kivetítés</i><par n="kérdés__n"/></e>
+    <e lm="kivitel"><i>kivitel</i><par n="kérdés__n"/></e>
+    <e lm="kiürítés"><i>kiürítés</i><par n="kérdés__n"/></e>
+    <e lm="kiütés"><i>kiütés</i><par n="kérdés__n"/></e>
+    <e lm="kizökkenés"><i>kizökkenés</i><par n="kérdés__n"/></e>
+    <e lm="kiömlés"><i>kiömlés</i><par n="kérdés__n"/></e>
+    <e lm="kliens"><i>kliens</i><par n="kérdés__n"/></e>
+    <e lm="klikkezés"><i>klikkezés</i><par n="kérdés__n"/></e>
+    <e lm="klistély"><i>klistély</i><par n="kérdés__n"/></e>
+    <e lm="klorózis"><i>klorózis</i><par n="kérdés__n"/></e>
+    <e lm="knesszet"><i>knesszet</i><par n="kérdés__n"/></e>
+    <e lm="kódex"><i>kódex</i><par n="kérdés__n"/></e>
+    <e lm="koefficiens"><i>koefficiens</i><par n="kérdés__n"/></e>
+    <e lm="koenzim"><i>koenzim</i><par n="kérdés__n"/></e>
+    <e lm="koincidens"><i>koincidens</i><par n="kérdés__n"/></e>
+    <e lm="kóklerség"><i>kóklerség</i><par n="kérdés__n"/></e>
+    <e lm="komfortáblis"><i>komfortáblis</i><par n="kérdés__n"/></e>
+    <e lm="komplemens"><i>komplemens</i><par n="kérdés__n"/></e>
+    <e lm="komplementer"><i>komplementer</i><par n="kérdés__n"/></e>
+    <e lm="komponens"><i>komponens</i><par n="kérdés__n"/></e>
+    <e lm="komputer"><i>komputer</i><par n="kérdés__n"/></e>
+    <e lm="konkurens"><i>konkurens</i><par n="kérdés__n"/></e>
+    <e lm="kontaktfertőzés"><i>kontaktfertőzés</i><par n="kérdés__n"/></e>
+    <e lm="kontaktméreg"><i>kontaktméreg</i><par n="kérdés__n"/></e>
+    <e lm="konténer"><i>konténer</i><par n="kérdés__n"/></e>
+    <e lm="kontinens"><i>kontinens</i><par n="kérdés__n"/></e>
+    <e lm="kontingens"><i>kontingens</i><par n="kérdés__n"/></e>
+    <e lm="kontroller"><i>kontroller</i><par n="kérdés__n"/></e>
+    <e lm="konverter"><i>konverter</i><par n="kérdés__n"/></e>
+    <e lm="konzulens"><i>konzulens</i><par n="kérdés__n"/></e>
+    <e lm="kőris"><i>kőris</i><par n="kérdés__n"/></e>
+    <e lm="korner"><i>korner</i><par n="kérdés__n"/></e>
+    <e lm="korpulens"><i>korpulens</i><par n="kérdés__n"/></e>
+    <e lm="kortes"><i>kortes</i><par n="kérdés__n"/></e>
+    <e lm="kosztümözés"><i>kosztümözés</i><par n="kérdés__n"/></e>
+    <e lm="kotangens"><i>kotangens</i><par n="kérdés__n"/></e>
+    <e lm="kótyomfitty"><i>kótyomfitty</i><par n="kérdés__n"/></e>
+    <e lm="kőzet"><i>kőzet</i><par n="kérdés__n"/></e>
+    <e lm="krakélerség"><i>krakélerség</i><par n="kérdés__n"/></e>
+    <e lm="kráter"><i>kráter</i><par n="kérdés__n"/></e>
+    <e lm="kredenc"><i>kredenc</i><par n="kérdés__n"/></e>
+    <e lm="kreténség"><i>kreténség</i><par n="kérdés__n"/></e>
+    <e lm="krízis"><i>krízis</i><par n="kérdés__n"/></e>
+    <e lm="kucséber"><i>kucséber</i><par n="kérdés__n"/></e>
+    <e lm="kultúrnövény"><i>kultúrnövény</i><par n="kérdés__n"/></e>
+    <e lm="kultúrtörténet"><i>kultúrtörténet</i><par n="kérdés__n"/></e>
     <e lm="kutya"><i>kuty</i><par n="macsk/a__n"/></e>
+    <e lm="kvázigradiens"><i>kvázigradiens</i><par n="kérdés__n"/></e>
+    <e lm="kvóciens"><i>kvóciens</i><par n="kérdés__n"/></e>
+    <e lm="küldemény"><i>küldemény</i><par n="kérdés__n"/></e>
+    <e lm="küldetés"><i>küldetés</i><par n="kérdés__n"/></e>
+    <e lm="küllem"><i>küllem</i><par n="kérdés__n"/></e>
+    <e lm="külsődleges"><i>külsődleges</i><par n="kérdés__n"/></e>
+    <e lm="külsőség"><i>külsőség</i><par n="kérdés__n"/></e>
+    <e lm="különbség"><i>különbség</i><par n="kérdés__n"/></e>
+    <e lm="különbözőség"><i>különbözőség</i><par n="kérdés__n"/></e>
+    <e lm="különítmény"><i>különítmény</i><par n="kérdés__n"/></e>
+    <e lm="köbözés"><i>köbözés</i><par n="kérdés__n"/></e>
+    <e lm="kökény"><i>kökény</i><par n="kérdés__n"/></e>
+    <e lm="köles"><i>köles</i><par n="kérdés__n"/></e>
+    <e lm="költemény"><i>költemény</i><par n="kérdés__n"/></e>
+    <e lm="költészet"><i>költészet</i><par n="kérdés__n"/></e>
+    <e lm="költőiség"><i>költőiség</i><par n="kérdés__n"/></e>
+    <e lm="költség"><i>költség</i><par n="kérdés__n"/></e>
+    <e lm="kömény"><i>kömény</i><par n="kérdés__n"/></e>
+    <e lm="könnyebbség"><i>könnyebbség</i><par n="kérdés__n"/></e>
+    <e lm="könyvelőség"><i>könyvelőség</i><par n="kérdés__n"/></e>
+    <e lm="könyvészet"><i>könyvészet</i><par n="kérdés__n"/></e>
+    <e lm="könyörület"><i>könyörület</i><par n="kérdés__n"/></e>
+    <e lm="köpeny"><i>köpeny</i><par n="kérdés__n"/></e>
+    <e lm="köpet"><i>köpet</i><par n="kérdés__n"/></e>
+    <e lm="köret"><i>köret</i><par n="kérdés__n"/></e>
+    <e lm="körlet"><i>körlet</i><par n="kérdés__n"/></e>
+    <e lm="környék"><i>környék</i><par n="kérdés__n"/></e>
+    <e lm="környezet"><i>környezet</i><par n="kérdés__n"/></e>
+    <e lm="körülmény"><i>körülmény</i><par n="kérdés__n"/></e>
+    <e lm="körzet"><i>körzet</i><par n="kérdés__n"/></e>
+    <e lm="körözvény"><i>körözvény</i><par n="kérdés__n"/></e>
+    <e lm="köszvényes"><i>köszvényes</i><par n="kérdés__n"/></e>
+    <e lm="köszvény"><i>köszvény</i><par n="kérdés__n"/></e>
+    <e lm="köszönet"><i>köszönet</i><par n="kérdés__n"/></e>
+    <e lm="köteg"><i>köteg</i><par n="kérdés__n"/></e>
+    <e lm="kötelék"><i>kötelék</i><par n="kérdés__n"/></e>
+    <e lm="köteles"><i>köteles</i><par n="kérdés__n"/></e>
+    <e lm="kötelezettség"><i>kötelezettség</i><par n="kérdés__n"/></e>
+    <e lm="kötelezvény"><i>kötelezvény</i><par n="kérdés__n"/></e>
+    <e lm="kötélzet"><i>kötélzet</i><par n="kérdés__n"/></e>
+    <e lm="kötény"><i>kötény</i><par n="kérdés__n"/></e>
+    <e lm="kötészet"><i>kötészet</i><par n="kérdés__n"/></e>
+    <e lm="kötet"><i>kötet</i><par n="kérdés__n"/></e>
+    <e lm="kötvény"><i>kötvény</i><par n="kérdés__n"/></e>
+    <e lm="kötöttség"><i>kötöttség</i><par n="kérdés__n"/></e>
+    <e lm="kövecs"><i>kövecs</i><par n="kérdés__n"/></e>
+    <e lm="követelmény"><i>követelmény</i><par n="kérdés__n"/></e>
+    <e lm="követelődzés"><i>követelődzés</i><par n="kérdés__n"/></e>
+    <e lm="követ"><i>követ</i><par n="kérdés__n"/></e>
+    <e lm="következmény"><i>következmény</i><par n="kérdés__n"/></e>
+    <e lm="követség"><i>követség</i><par n="kérdés__n"/></e>
+    <e lm="kövezet"><i>kövezet</i><par n="kérdés__n"/></e>
+    <e lm="kövület"><i>kövület</i><par n="kérdés__n"/></e>
+    <e lm="közeg"><i>közeg</i><par n="kérdés__n"/></e>
+    <e lm="közellét"><i>közellét</i><par n="kérdés__n"/></e>
+    <e lm="közelség"><i>közelség</i><par n="kérdés__n"/></e>
+    <e lm="közértes"><i>közértes</i><par n="kérdés__n"/></e>
+    <e lm="közlekedés"><i>közlekedés</i><par n="kérdés__n"/></e>
+    <e lm="közlemény"><i>közlemény</i><par n="kérdés__n"/></e>
+    <e lm="közröhej"><i>közröhej</i><par n="kérdés__n"/></e>
+    <e lm="községesítés"><i>községesítés</i><par n="kérdés__n"/></e>
+    <e lm="község"><i>község</i><par n="kérdés__n"/></e>
+    <e lm="közvitéz"><i>közvitéz</i><par n="kérdés__n"/></e>
+    <e lm="közület"><i>közület</i><par n="kérdés__n"/></e>
+    <e lm="közömbösítés"><i>közömbösítés</i><par n="kérdés__n"/></e>
+    <e lm="közönség"><i>közönség</i><par n="kérdés__n"/></e>
+    <e lm="közösség"><i>közösség</i><par n="kérdés__n"/></e>
+    <e lm="laboreredmény"><i>laboreredmény</i><par n="kérdés__n"/></e>
+    <e lm="langymeleg"><i>langymeleg</i><par n="kérdés__n"/></e>
     <e lm="lány"><i>lá</i><par n="lá/ny__n"/></e>
+    <e lm="lasztex"><i>lasztex</i><par n="kérdés__n"/></e>
+    <e lm="lateiner"><i>lateiner</i><par n="kérdés__n"/></e>
+    <e lm="lateritesedés"><i>lateritesedés</i><par n="kérdés__n"/></e>
+    <e lm="latex"><i>latex</i><par n="kérdés__n"/></e>
+    <e lm="látszerész"><i>látszerész</i><par n="kérdés__n"/></e>
+    <e lm="leander"><i>leander</i><par n="kérdés__n"/></e>
+    <e lm="lebbencs"><i>lebbencs</i><par n="kérdés__n"/></e>
+    <e lm="lebecsmérlés"><i>lebecsmérlés</i><par n="kérdés__n"/></e>
+    <e lm="lebecsülés"><i>lebecsülés</i><par n="kérdés__n"/></e>
+    <e lm="lebeny"><i>lebeny</i><par n="kérdés__n"/></e>
+    <e lm="lebernyeg"><i>lebernyeg</i><par n="kérdés__n"/></e>
+    <e lm="lebeszélés"><i>lebeszélés</i><par n="kérdés__n"/></e>
+    <e lm="lécezés"><i>lécezés</i><par n="kérdés__n"/></e>
+    <e lm="lécezet"><i>lécezet</i><par n="kérdés__n"/></e>
+    <e lm="lecikizés"><i>lecikizés</i><par n="kérdés__n"/></e>
+    <e lm="leértékelés"><i>leértékelés</i><par n="kérdés__n"/></e>
+    <e lm="leesés"><i>leesés</i><par n="kérdés__n"/></e>
+    <e lm="lefegyverzés"><i>lefegyverzés</i><par n="kérdés__n"/></e>
+    <e lm="lefejezés"><i>lefejezés</i><par n="kérdés__n"/></e>
+    <e lm="lefejtés"><i>lefejtés</i><par n="kérdés__n"/></e>
+    <e lm="lefektetés"><i>lefektetés</i><par n="kérdés__n"/></e>
+    <e lm="lefekvés"><i>lefekvés</i><par n="kérdés__n"/></e>
+    <e lm="legeltetés"><i>legeltetés</i><par n="kérdés__n"/></e>
+    <e lm="legény"><i>legény</i><par n="kérdés__n"/></e>
+    <e lm="legénység"><i>legénység</i><par n="kérdés__n"/></e>
+    <e lm="legyőzés"><i>legyőzés</i><par n="kérdés__n"/></e>
+    <e lm="legyőzetés"><i>legyőzetés</i><par n="kérdés__n"/></e>
+    <e lm="legörbítés"><i>legörbítés</i><par n="kérdés__n"/></e>
+    <e lm="legörbülés"><i>legörbülés</i><par n="kérdés__n"/></e>
+    <e lm="lehelet"><i>lehelet</i><par n="kérdés__n"/></e>
+    <e lm="lehűtés"><i>lehűtés</i><par n="kérdés__n"/></e>
+    <e lm="lejtmenet"><i>lejtmenet</i><par n="kérdés__n"/></e>
+    <e lm="lekötelezés"><i>lekötelezés</i><par n="kérdés__n"/></e>
+    <e lm="lekötés"><i>lekötés</i><par n="kérdés__n"/></e>
+    <e lm="lélegzet"><i>lélegzet</i><par n="kérdés__n"/></e>
+    <e lm="lelemény"><i>lelemény</i><par n="kérdés__n"/></e>
+    <e lm="lelenc"><i>lelenc</i><par n="kérdés__n"/></e>
+    <e lm="lelépés"><i>lelépés</i><par n="kérdés__n"/></e>
+    <e lm="lelet"><i>lelet</i><par n="kérdés__n"/></e>
+    <e lm="lelkész"><i>lelkész</i><par n="kérdés__n"/></e>
+    <e lm="lelkészkedés"><i>lelkészkedés</i><par n="kérdés__n"/></e>
+    <e lm="lelkészség"><i>lelkészség</i><par n="kérdés__n"/></e>
+    <e lm="lelkizés"><i>lelkizés</i><par n="kérdés__n"/></e>
+    <e lm="lelkület"><i>lelkület</i><par n="kérdés__n"/></e>
+    <e lm="lemenet"><i>lemenet</i><par n="kérdés__n"/></e>
+    <e lm="lemez"><i>lemez</i><par n="kérdés__n"/></e>
+    <e lm="lendület"><i>lendület</i><par n="kérdés__n"/></e>
+    <e lm="lenézés"><i>lenézés</i><par n="kérdés__n"/></e>
+    <e lm="lengeség"><i>lengeség</i><par n="kérdés__n"/></e>
+    <e lm="lengeteg"><i>lengeteg</i><par n="kérdés__n"/></e>
+    <e lm="lényeg"><i>lényeg</i><par n="kérdés__n"/></e>
+    <e lm="lenyelés"><i>lenyelés</i><par n="kérdés__n"/></e>
+    <e lm="lépcsőzet"><i>lépcsőzet</i><par n="kérdés__n"/></e>
+    <e lm="lepedék"><i>lepedék</i><par n="kérdés__n"/></e>
+    <e lm="lepény"><i>lepény</i><par n="kérdés__n"/></e>
+    <e lm="lépés"><i>lépés</i><par n="kérdés__n"/></e>
+    <e lm="lepikkelyezés"><i>lepikkelyezés</i><par n="kérdés__n"/></e>
+    <e lm="lepkész"><i>lepkész</i><par n="kérdés__n"/></e>
+    <e lm="lépték"><i>lépték</i><par n="kérdés__n"/></e>
+    <e lm="lerövidítés"><i>lerövidítés</i><par n="kérdés__n"/></e>
+    <e lm="lesittelés"><i>lesittelés</i><par n="kérdés__n"/></e>
+    <e lm="leszerelés"><i>leszerelés</i><par n="kérdés__n"/></e>
+    <e lm="letelepedés"><i>letelepedés</i><par n="kérdés__n"/></e>
+    <e lm="létesítmény"><i>létesítmény</i><par n="kérdés__n"/></e>
+    <e lm="letétel"><i>letétel</i><par n="kérdés__n"/></e>
+    <e lm="letéteményes"><i>letéteményes</i><par n="kérdés__n"/></e>
+    <e lm="letétemény"><i>letétemény</i><par n="kérdés__n"/></e>
+    <e lm="létrejövetel"><i>létrejövetel</i><par n="kérdés__n"/></e>
+    <e lm="letörés"><i>letörés</i><par n="kérdés__n"/></e>
+    <e lm="letörlés"><i>letörlés</i><par n="kérdés__n"/></e>
+    <e lm="letörlesztés"><i>letörlesztés</i><par n="kérdés__n"/></e>
+    <e lm="leucitkőzet"><i>leucitkőzet</i><par n="kérdés__n"/></e>
+    <e lm="levegőzés"><i>levegőzés</i><par n="kérdés__n"/></e>
+    <e lm="levélzet"><i>levélzet</i><par n="kérdés__n"/></e>
+    <e lm="leves"><i>leves</i><par n="kérdés__n"/></e>
+    <e lm="levétel"><i>levétel</i><par n="kérdés__n"/></e>
+    <e lm="levezetés"><i>levezetés</i><par n="kérdés__n"/></e>
+    <e lm="leültetés"><i>leültetés</i><par n="kérdés__n"/></e>
+    <e lm="lezserség"><i>lezserség</i><par n="kérdés__n"/></e>
+    <e lm="lezökkenés"><i>lezökkenés</i><par n="kérdés__n"/></e>
+    <e lm="leölés"><i>leölés</i><par n="kérdés__n"/></e>
+    <e lm="licenc"><i>licenc</i><par n="kérdés__n"/></e>
+    <e lm="lidérc"><i>lidérc</i><par n="kérdés__n"/></e>
+    <e lm="liebling"><i>liebling</i><par n="kérdés__n"/></e>
+    <e lm="liget"><i>liget</i><par n="kérdés__n"/></e>
+    <e lm="likőröskészlet"><i>likőröskészlet</i><par n="kérdés__n"/></e>
+    <e lm="linómetszet"><i>linómetszet</i><par n="kérdés__n"/></e>
+    <e lm="linószedés"><i>linószedés</i><par n="kérdés__n"/></e>
+    <e lm="lókupec"><i>lókupec</i><par n="kérdés__n"/></e>
+    <e lm="lombardhitel"><i>lombardhitel</i><par n="kérdés__n"/></e>
+    <e lm="lombardügylet"><i>lombardügylet</i><par n="kérdés__n"/></e>
+    <e lm="lóvátétel"><i>lóvátétel</i><par n="kérdés__n"/></e>
+    <e lm="lúdbőrzés"><i>lúdbőrzés</i><par n="kérdés__n"/></e>
+    <e lm="luesz"><i>luesz</i><par n="kérdés__n"/></e>
+    <e lm="lumineszcens"><i>lumineszcens</i><par n="kérdés__n"/></e>
+    <e lm="löket"><i>löket</i><par n="kérdés__n"/></e>
+    <e lm="lösztölgyes"><i>lösztölgyes</i><par n="kérdés__n"/></e>
+    <e lm="löttyedtség"><i>löttyedtség</i><par n="kérdés__n"/></e>
+    <e lm="lövedék"><i>lövedék</i><par n="kérdés__n"/></e>
+    <e lm="lövészet"><i>lövészet</i><par n="kérdés__n"/></e>
+    <e lm="lövész"><i>lövész</i><par n="kérdés__n"/></e>
     <e lm="macska"><i>macsk</i><par n="macsk/a__n"/></e>
+    <e lm="madárbirs"><i>madárbirs</i><par n="kérdés__n"/></e>
     <e lm="madár"><i>mad</i><par n="poh/ár__n"/></e>
+    <e lm="madártej"><i>madártej</i><par n="kérdés__n"/></e>
+    <e lm="madeirahímzés"><i>madeirahímzés</i><par n="kérdés__n"/></e>
+    <e lm="magánbeszélgetés"><i>magánbeszélgetés</i><par n="kérdés__n"/></e>
+    <e lm="magánénekes"><i>magánénekes</i><par n="kérdés__n"/></e>
+    <e lm="magánépítkezés"><i>magánépítkezés</i><par n="kérdés__n"/></e>
+    <e lm="magánérdekeltség"><i>magánérdekeltség</i><par n="kérdés__n"/></e>
+    <e lm="magángyógyszerész"><i>magángyógyszerész</i><par n="kérdés__n"/></e>
+    <e lm="magánhitel"><i>magánhitel</i><par n="kérdés__n"/></e>
+    <e lm="magánjelenet"><i>magánjelenet</i><par n="kérdés__n"/></e>
+    <e lm="magánkereskedelem"><i>magánkereskedelem</i><par n="kérdés__n"/></e>
+    <e lm="magánkezdeményezés"><i>magánkezdeményezés</i><par n="kérdés__n"/></e>
+    <e lm="magánlaksértés"><i>magánlaksértés</i><par n="kérdés__n"/></e>
+    <e lm="magánrendelés"><i>magánrendelés</i><par n="kérdés__n"/></e>
+    <e lm="magánszemély"><i>magánszemély</i><par n="kérdés__n"/></e>
+    <e lm="magánterület"><i>magánterület</i><par n="kérdés__n"/></e>
+    <e lm="magántőkés"><i>magántőkés</i><par n="kérdés__n"/></e>
+    <e lm="magasabbrendűség"><i>magasabbrendűség</i><par n="kérdés__n"/></e>
+    <e lm="magasépítés"><i>magasépítés</i><par n="kérdés__n"/></e>
+    <e lm="magasépítészet"><i>magasépítészet</i><par n="kérdés__n"/></e>
+    <e lm="magasles"><i>magasles</i><par n="kérdés__n"/></e>
+    <e lm="magatűrhetés"><i>magatűrhetés</i><par n="kérdés__n"/></e>
+    <e lm="magiszter"><i>magiszter</i><par n="kérdés__n"/></e>
+    <e lm="mágnesezettség"><i>mágnesezettség</i><par n="kérdés__n"/></e>
+    <e lm="mágnes"><i>mágnes</i><par n="kérdés__n"/></e>
+    <e lm="mágnesség"><i>mágnesség</i><par n="kérdés__n"/></e>
+    <e lm="magnezitesedés"><i>magnezitesedés</i><par n="kérdés__n"/></e>
+    <e lm="majonéz"><i>majonéz</i><par n="kérdés__n"/></e>
+    <e lm="makrokomponens"><i>makrokomponens</i><par n="kérdés__n"/></e>
+    <e lm="manőver"><i>manőver</i><par n="kérdés__n"/></e>
+    <e lm="máriatövis"><i>máriatövis</i><par n="kérdés__n"/></e>
+    <e lm="másfélszeres"><i>másfélszeres</i><par n="kérdés__n"/></e>
+    <e lm="máshollét"><i>máshollét</i><par n="kérdés__n"/></e>
+    <e lm="másodéves"><i>másodéves</i><par n="kérdés__n"/></e>
+    <e lm="másodközlés"><i>másodközlés</i><par n="kérdés__n"/></e>
+    <e lm="másodnyelv"><i>másodnyelv</i><par n="kérdés__n"/></e>
+    <e lm="matuzsálem"><i>matuzsálem</i><par n="kérdés__n"/></e>
+    <e lm="mécses"><i>mécses</i><par n="kérdés__n"/></e>
+    <e lm="megbecslés"><i>megbecslés</i><par n="kérdés__n"/></e>
+    <e lm="megbecsülés"><i>megbecsülés</i><par n="kérdés__n"/></e>
+    <e lm="megbélyegezettség"><i>megbélyegezettség</i><par n="kérdés__n"/></e>
+    <e lm="megbélyegzés"><i>megbélyegzés</i><par n="kérdés__n"/></e>
+    <e lm="megbeszélés"><i>megbeszélés</i><par n="kérdés__n"/></e>
+    <e lm="megbetegedés"><i>megbetegedés</i><par n="kérdés__n"/></e>
+    <e lm="megbüntetés"><i>megbüntetés</i><par n="kérdés__n"/></e>
+    <e lm="megcsípés"><i>megcsípés</i><par n="kérdés__n"/></e>
+    <e lm="megegyezés"><i>megegyezés</i><par n="kérdés__n"/></e>
+    <e lm="megegyezőség"><i>megegyezőség</i><par n="kérdés__n"/></e>
+    <e lm="megelégedés"><i>megelégedés</i><par n="kérdés__n"/></e>
+    <e lm="megélhetés"><i>megélhetés</i><par n="kérdés__n"/></e>
+    <e lm="megelőzés"><i>megelőzés</i><par n="kérdés__n"/></e>
+    <e lm="megemésztés"><i>megemésztés</i><par n="kérdés__n"/></e>
+    <e lm="megemlékezés"><i>megemlékezés</i><par n="kérdés__n"/></e>
+    <e lm="megemlítés"><i>megemlítés</i><par n="kérdés__n"/></e>
+    <e lm="megengedés"><i>megengedés</i><par n="kérdés__n"/></e>
+    <e lm="megeredés"><i>megeredés</i><par n="kérdés__n"/></e>
+    <e lm="megérés"><i>megérés</i><par n="kérdés__n"/></e>
+    <e lm="megereszkedés"><i>megereszkedés</i><par n="kérdés__n"/></e>
+    <e lm="megérintés"><i>megérintés</i><par n="kérdés__n"/></e>
+    <e lm="megérkezés"><i>megérkezés</i><par n="kérdés__n"/></e>
+    <e lm="megérlelés"><i>megérlelés</i><par n="kérdés__n"/></e>
+    <e lm="megerősítés"><i>megerősítés</i><par n="kérdés__n"/></e>
+    <e lm="megerősödés"><i>megerősödés</i><par n="kérdés__n"/></e>
+    <e lm="megértés"><i>megértés</i><par n="kérdés__n"/></e>
+    <e lm="megérzés"><i>megérzés</i><par n="kérdés__n"/></e>
+    <e lm="megesküvés"><i>megesküvés</i><par n="kérdés__n"/></e>
+    <e lm="megfeddés"><i>megfeddés</i><par n="kérdés__n"/></e>
+    <e lm="megfejelés"><i>megfejelés</i><par n="kérdés__n"/></e>
+    <e lm="megfejtés"><i>megfejtés</i><par n="kérdés__n"/></e>
+    <e lm="megfékezés"><i>megfékezés</i><par n="kérdés__n"/></e>
+    <e lm="megfelelés"><i>megfelelés</i><par n="kérdés__n"/></e>
+    <e lm="megfenyítés"><i>megfenyítés</i><par n="kérdés__n"/></e>
+    <e lm="megfertőzés"><i>megfertőzés</i><par n="kérdés__n"/></e>
+    <e lm="megfigyelés"><i>megfigyelés</i><par n="kérdés__n"/></e>
+    <e lm="meggyőzés"><i>meggyőzés</i><par n="kérdés__n"/></e>
+    <e lm="meggyőződés"><i>meggyőződés</i><par n="kérdés__n"/></e>
+    <e lm="meggörnyedés"><i>meggörnyedés</i><par n="kérdés__n"/></e>
+    <e lm="meghűlés"><i>meghűlés</i><par n="kérdés__n"/></e>
+    <e lm="meghökkenés"><i>meghökkenés</i><par n="kérdés__n"/></e>
+    <e lm="megidézés"><i>megidézés</i><par n="kérdés__n"/></e>
+    <e lm="megigézés"><i>megigézés</i><par n="kérdés__n"/></e>
+    <e lm="megijedés"><i>megijedés</i><par n="kérdés__n"/></e>
+    <e lm="megilletődöttség"><i>megilletődöttség</i><par n="kérdés__n"/></e>
+    <e lm="megintés"><i>megintés</i><par n="kérdés__n"/></e>
+    <e lm="megismerés"><i>megismerés</i><par n="kérdés__n"/></e>
+    <e lm="megismertetés"><i>megismertetés</i><par n="kérdés__n"/></e>
+    <e lm="megismétlés"><i>megismétlés</i><par n="kérdés__n"/></e>
+    <e lm="megismétlődés"><i>megismétlődés</i><par n="kérdés__n"/></e>
+    <e lm="megítélés"><i>megítélés</i><par n="kérdés__n"/></e>
+    <e lm="megízlelés"><i>megízlelés</i><par n="kérdés__n"/></e>
+    <e lm="megjegyzés"><i>megjegyzés</i><par n="kérdés__n"/></e>
+    <e lm="megjelenés"><i>megjelenés</i><par n="kérdés__n"/></e>
+    <e lm="megjelölés"><i>megjelölés</i><par n="kérdés__n"/></e>
+    <e lm="megkegyelmezés"><i>megkegyelmezés</i><par n="kérdés__n"/></e>
+    <e lm="megkeményedés"><i>megkeményedés</i><par n="kérdés__n"/></e>
+    <e lm="megkérgesedés"><i>megkérgesedés</i><par n="kérdés__n"/></e>
+    <e lm="megkettőzés"><i>megkettőzés</i><par n="kérdés__n"/></e>
+    <e lm="megkettőztetés"><i>megkettőztetés</i><par n="kérdés__n"/></e>
+    <e lm="megkülönböztetés"><i>megkülönböztetés</i><par n="kérdés__n"/></e>
+    <e lm="megkönnyebbülés"><i>megkönnyebbülés</i><par n="kérdés__n"/></e>
+    <e lm="megkönnyítés"><i>megkönnyítés</i><par n="kérdés__n"/></e>
+    <e lm="megkötés"><i>megkötés</i><par n="kérdés__n"/></e>
+    <e lm="megközelítés"><i>megközelítés</i><par n="kérdés__n"/></e>
+    <e lm="meglegyintés"><i>meglegyintés</i><par n="kérdés__n"/></e>
+    <e lm="meglékelés"><i>meglékelés</i><par n="kérdés__n"/></e>
+    <e lm="meglepetés"><i>meglepetés</i><par n="kérdés__n"/></e>
+    <e lm="meglét"><i>meglét</i><par n="kérdés__n"/></e>
+    <e lm="megmenekülés"><i>megmenekülés</i><par n="kérdés__n"/></e>
+    <e lm="megmentés"><i>megmentés</i><par n="kérdés__n"/></e>
+    <e lm="megméretés"><i>megméretés</i><par n="kérdés__n"/></e>
+    <e lm="megmérgezés"><i>megmérgezés</i><par n="kérdés__n"/></e>
+    <e lm="megnedvesítés"><i>megnedvesítés</i><par n="kérdés__n"/></e>
+    <e lm="megnevezés"><i>megnevezés</i><par n="kérdés__n"/></e>
+    <e lm="megnézés"><i>megnézés</i><par n="kérdés__n"/></e>
+    <e lm="megnyerés"><i>megnyerés</i><par n="kérdés__n"/></e>
+    <e lm="megőrzés"><i>megőrzés</i><par n="kérdés__n"/></e>
+    <e lm="megperzselés"><i>megperzselés</i><par n="kérdés__n"/></e>
+    <e lm="megrendülés"><i>megrendülés</i><par n="kérdés__n"/></e>
+    <e lm="megrepedés"><i>megrepedés</i><par n="kérdés__n"/></e>
+    <e lm="megrökönyödés"><i>megrökönyödés</i><par n="kérdés__n"/></e>
+    <e lm="megrövidítés"><i>megrövidítés</i><par n="kérdés__n"/></e>
+    <e lm="megsejtés"><i>megsejtés</i><par n="kérdés__n"/></e>
+    <e lm="megsemmisítés"><i>megsemmisítés</i><par n="kérdés__n"/></e>
+    <e lm="megsemmisülés"><i>megsemmisülés</i><par n="kérdés__n"/></e>
+    <e lm="megsértés"><i>megsértés</i><par n="kérdés__n"/></e>
+    <e lm="megsértődés"><i>megsértődés</i><par n="kérdés__n"/></e>
+    <e lm="megszegés"><i>megszegés</i><par n="kérdés__n"/></e>
+    <e lm="megszemélyesítés"><i>megszemélyesítés</i><par n="kérdés__n"/></e>
+    <e lm="megszentségtelenítés"><i>megszentségtelenítés</i><par n="kérdés__n"/></e>
+    <e lm="megszerkesztés"><i>megszerkesztés</i><par n="kérdés__n"/></e>
+    <e lm="megszerzés"><i>megszerzés</i><par n="kérdés__n"/></e>
+    <e lm="megszűnés"><i>megszűnés</i><par n="kérdés__n"/></e>
+    <e lm="megszüntetés"><i>megszüntetés</i><par n="kérdés__n"/></e>
+    <e lm="megszökés"><i>megszökés</i><par n="kérdés__n"/></e>
+    <e lm="megszöktetés"><i>megszöktetés</i><par n="kérdés__n"/></e>
+    <e lm="megszövegezés"><i>megszövegezés</i><par n="kérdés__n"/></e>
+    <e lm="megtekintés"><i>megtekintés</i><par n="kérdés__n"/></e>
+    <e lm="megtérés"><i>megtérés</i><par n="kérdés__n"/></e>
+    <e lm="megterhelés"><i>megterhelés</i><par n="kérdés__n"/></e>
+    <e lm="megtérítés"><i>megtérítés</i><par n="kérdés__n"/></e>
+    <e lm="megtermékenyítés"><i>megtermékenyítés</i><par n="kérdés__n"/></e>
+    <e lm="megtervezés"><i>megtervezés</i><par n="kérdés__n"/></e>
+    <e lm="megtestesítés"><i>megtestesítés</i><par n="kérdés__n"/></e>
+    <e lm="megtestesülés"><i>megtestesülés</i><par n="kérdés__n"/></e>
+    <e lm="megtétel"><i>megtétel</i><par n="kérdés__n"/></e>
+    <e lm="megtévesztés"><i>megtévesztés</i><par n="kérdés__n"/></e>
+    <e lm="megtisztelés"><i>megtisztelés</i><par n="kérdés__n"/></e>
+    <e lm="megtiszteltetés"><i>megtiszteltetés</i><par n="kérdés__n"/></e>
+    <e lm="megtizedelés"><i>megtizedelés</i><par n="kérdés__n"/></e>
+    <e lm="megvédelmezés"><i>megvédelmezés</i><par n="kérdés__n"/></e>
+    <e lm="megvendégelés"><i>megvendégelés</i><par n="kérdés__n"/></e>
+    <e lm="megverés"><i>megverés</i><par n="kérdés__n"/></e>
+    <e lm="megvesztegetés"><i>megvesztegetés</i><par n="kérdés__n"/></e>
+    <e lm="megvétel"><i>megvétel</i><par n="kérdés__n"/></e>
+    <e lm="megvetemedés"><i>megvetemedés</i><par n="kérdés__n"/></e>
+    <e lm="megvetés"><i>megvetés</i><par n="kérdés__n"/></e>
+    <e lm="megvetettség"><i>megvetettség</i><par n="kérdés__n"/></e>
+    <e lm="megölelés"><i>megölelés</i><par n="kérdés__n"/></e>
+    <e lm="megöregedés"><i>megöregedés</i><par n="kérdés__n"/></e>
+    <e lm="megörökítés"><i>megörökítés</i><par n="kérdés__n"/></e>
+    <e lm="méhes"><i>méhes</i><par n="kérdés__n"/></e>
+    <e lm="méhészet"><i>méhészet</i><par n="kérdés__n"/></e>
+    <e lm="méhész"><i>méhész</i><par n="kérdés__n"/></e>
+    <e lm="meleghengerlés"><i>meleghengerlés</i><par n="kérdés__n"/></e>
+    <e lm="melegkezelés"><i>melegkezelés</i><par n="kérdés__n"/></e>
+    <e lm="melegszendvics"><i>melegszendvics</i><par n="kérdés__n"/></e>
+    <e lm="mellék"><i>mellék</i><par n="kérdés__n"/></e>
+    <e lm="melléklet"><i>melléklet</i><par n="kérdés__n"/></e>
+    <e lm="mellény"><i>mellény</i><par n="kérdés__n"/></e>
+    <e lm="mélyépítés"><i>mélyépítés</i><par n="kérdés__n"/></e>
+    <e lm="mélyhűtés"><i>mélyhűtés</i><par n="kérdés__n"/></e>
+    <e lm="mélyművelés"><i>mélyművelés</i><par n="kérdés__n"/></e>
+    <e lm="mélyrepülés"><i>mélyrepülés</i><par n="kérdés__n"/></e>
+    <e lm="memoriter"><i>memoriter</i><par n="kérdés__n"/></e>
+    <e lm="menedék"><i>menedék</i><par n="kérdés__n"/></e>
+    <e lm="menedzser"><i>menedzser</i><par n="kérdés__n"/></e>
+    <e lm="menekvés"><i>menekvés</i><par n="kérdés__n"/></e>
+    <e lm="menekültsegély"><i>menekültsegély</i><par n="kérdés__n"/></e>
+    <e lm="menekülttörvény"><i>menekülttörvény</i><par n="kérdés__n"/></e>
+    <e lm="ménes"><i>ménes</i><par n="kérdés__n"/></e>
+    <e lm="meneteles"><i>meneteles</i><par n="kérdés__n"/></e>
+    <e lm="menet"><i>menet</i><par n="kérdés__n"/></e>
+    <e lm="menhir"><i>menhir</i><par n="kérdés__n"/></e>
+    <e lm="meningitisz"><i>meningitisz</i><par n="kérdés__n"/></e>
+    <e lm="mennyezet"><i>mennyezet</i><par n="kérdés__n"/></e>
+    <e lm="mennyiség"><i>mennyiség</i><par n="kérdés__n"/></e>
+    <e lm="mentség"><i>mentség</i><par n="kérdés__n"/></e>
+    <e lm="menyecskeszem"><i>menyecskeszem</i><par n="kérdés__n"/></e>
+    <e lm="menzesz"><i>menzesz</i><par n="kérdés__n"/></e>
+    <e lm="mercerezés"><i>mercerezés</i><par n="kérdés__n"/></e>
+    <e lm="meredély"><i>meredély</i><par n="kérdés__n"/></e>
+    <e lm="merénylet"><i>merénylet</i><par n="kérdés__n"/></e>
+    <e lm="méret"><i>méret</i><par n="kérdés__n"/></e>
+    <e lm="merevlemez"><i>merevlemez</i><par n="kérdés__n"/></e>
+    <e lm="mérleg"><i>mérleg</i><par n="kérdés__n"/></e>
+    <e lm="mérnökség"><i>mérnökség</i><par n="kérdés__n"/></e>
+    <e lm="mérséklet"><i>mérséklet</i><par n="kérdés__n"/></e>
+    <e lm="mérték"><i>mérték</i><par n="kérdés__n"/></e>
+    <e lm="messzely"><i>messzely</i><par n="kérdés__n"/></e>
+    <e lm="messzeség"><i>messzeség</i><par n="kérdés__n"/></e>
+    <e lm="mester"><i>mester</i><par n="kérdés__n"/></e>
+    <e lm="mesterremek"><i>mesterremek</i><par n="kérdés__n"/></e>
+    <e lm="mesterség"><i>mesterség</i><par n="kérdés__n"/></e>
+    <e lm="mesztic"><i>mesztic</i><par n="kérdés__n"/></e>
+    <e lm="metálfényezés"><i>metálfényezés</i><par n="kérdés__n"/></e>
+    <e lm="metatézis"><i>metatézis</i><par n="kérdés__n"/></e>
+    <e lm="métely"><i>métely</i><par n="kérdés__n"/></e>
+    <e lm="metresz"><i>metresz</i><par n="kérdés__n"/></e>
+    <e lm="metszet"><i>metszet</i><par n="kérdés__n"/></e>
+    <e lm="mibenlét"><i>mibenlét</i><par n="kérdés__n"/></e>
+    <e lm="mikroamper"><i>mikroamper</i><par n="kérdés__n"/></e>
+    <e lm="mikroelem"><i>mikroelem</i><par n="kérdés__n"/></e>
+    <e lm="mikrokörnyezet"><i>mikrokörnyezet</i><par n="kérdés__n"/></e>
+    <e lm="mikrolemez"><i>mikrolemez</i><par n="kérdés__n"/></e>
+    <e lm="mikromérleg"><i>mikromérleg</i><par n="kérdés__n"/></e>
+    <e lm="mikroszervezet"><i>mikroszervezet</i><par n="kérdés__n"/></e>
+    <e lm="milliamper"><i>milliamper</i><par n="kérdés__n"/></e>
+    <e lm="milyenség"><i>milyenség</i><par n="kérdés__n"/></e>
+    <e lm="mimézis"><i>mimézis</i><par n="kérdés__n"/></e>
+    <e lm="mindenség"><i>mindenség</i><par n="kérdés__n"/></e>
+    <e lm="mineműség"><i>mineműség</i><par n="kérdés__n"/></e>
+    <e lm="miniatűrfestés"><i>miniatűrfestés</i><par n="kérdés__n"/></e>
+    <e lm="miniszter"><i>miniszter</i><par n="kérdés__n"/></e>
+    <e lm="miniszterség"><i>miniszterség</i><par n="kérdés__n"/></e>
+    <e lm="minőség"><i>minőség</i><par n="kérdés__n"/></e>
+    <e lm="mirigy"><i>mirigy</i><par n="kérdés__n"/></e>
+    <e lm="míves"><i>míves</i><par n="kérdés__n"/></e>
+    <e lm="modellezés"><i>modellezés</i><par n="kérdés__n"/></e>
+    <e lm="modem"><i>modem</i><par n="kérdés__n"/></e>
+    <e lm="móres"><i>móres</i><par n="kérdés__n"/></e>
+    <e lm="műépítész"><i>műépítész</i><par n="kérdés__n"/></e>
+    <e lm="multiméter"><i>multiméter</i><par n="kérdés__n"/></e>
+    <e lm="mutex"><i>mutex</i><par n="kérdés__n"/></e>
+    <e lm="művelet"><i>művelet</i><par n="kérdés__n"/></e>
+    <e lm="művelődés"><i>művelődés</i><par n="kérdés__n"/></e>
+    <e lm="műves"><i>műves</i><par n="kérdés__n"/></e>
+    <e lm="művesség"><i>művesség</i><par n="kérdés__n"/></e>
+    <e lm="művészet"><i>művészet</i><par n="kérdés__n"/></e>
+    <e lm="művész"><i>művész</i><par n="kérdés__n"/></e>
+    <e lm="náciellenes"><i>náciellenes</i><par n="kérdés__n"/></e>
+    <e lm="nagycímer"><i>nagycímer</i><par n="kérdés__n"/></e>
+    <e lm="nagyétkűség"><i>nagyétkűség</i><par n="kérdés__n"/></e>
+    <e lm="nagyfeszültség"><i>nagyfeszültség</i><par n="kérdés__n"/></e>
+    <e lm="nagygyűlés"><i>nagygyűlés</i><par n="kérdés__n"/></e>
+    <e lm="nagyherceg"><i>nagyherceg</i><par n="kérdés__n"/></e>
+    <e lm="nagyhercegség"><i>nagyhercegség</i><par n="kérdés__n"/></e>
+    <e lm="nagykereskedés"><i>nagykereskedés</i><par n="kérdés__n"/></e>
+    <e lm="nagyközség"><i>nagyközség</i><par n="kérdés__n"/></e>
+    <e lm="nagyközönség"><i>nagyközönség</i><par n="kérdés__n"/></e>
+    <e lm="nagyszünet"><i>nagyszünet</i><par n="kérdés__n"/></e>
+    <e lm="nagytengely"><i>nagytengely</i><par n="kérdés__n"/></e>
+    <e lm="nagytőkés"><i>nagytőkés</i><par n="kérdés__n"/></e>
+    <e lm="nagyvezér"><i>nagyvezér</i><par n="kérdés__n"/></e>
+    <e lm="naivaszerep"><i>naivaszerep</i><par n="kérdés__n"/></e>
+    <e lm="napibéres"><i>napibéres</i><par n="kérdés__n"/></e>
+    <e lm="napibér"><i>napibér</i><par n="kérdés__n"/></e>
+    <e lm="napihír"><i>napihír</i><par n="kérdés__n"/></e>
+    <e lm="napijegy"><i>napijegy</i><par n="kérdés__n"/></e>
+    <e lm="nefelejcs"><i>nefelejcs</i><par n="kérdés__n"/></e>
+    <e lm="néger"><i>néger</i><par n="kérdés__n"/></e>
+    <e lm="negyedikes"><i>negyedikes</i><par n="kérdés__n"/></e>
+    <e lm="négyzet"><i>négyzet</i><par n="kérdés__n"/></e>
+    <e lm="nehezék"><i>nehezék</i><par n="kérdés__n"/></e>
+    <e lm="nehézlégzés"><i>nehézlégzés</i><par n="kérdés__n"/></e>
+    <e lm="nehézlöveg"><i>nehézlöveg</i><par n="kérdés__n"/></e>
+    <e lm="nehézség"><i>nehézség</i><par n="kérdés__n"/></e>
+    <e lm="némber"><i>némber</i><par n="kérdés__n"/></e>
+    <e lm="nemesember"><i>nemesember</i><par n="kérdés__n"/></e>
+    <e lm="nemesérc"><i>nemesérc</i><par n="kérdés__n"/></e>
+    <e lm="nemesszívűség"><i>nemesszívűség</i><par n="kérdés__n"/></e>
+    <e lm="nemez"><i>nemez</i><par n="kérdés__n"/></e>
+    <e lm="nemezis"><i>nemezis</i><par n="kérdés__n"/></e>
+    <e lm="nemszeretemség"><i>nemszeretemség</i><par n="kérdés__n"/></e>
+    <e lm="nemzedék"><i>nemzedék</i><par n="kérdés__n"/></e>
+    <e lm="nemzetekfelettiség"><i>nemzetekfelettiség</i><par n="kérdés__n"/></e>
+    <e lm="nemzet"><i>nemzet</i><par n="kérdés__n"/></e>
+    <e lm="nemzetség"><i>nemzetség</i><par n="kérdés__n"/></e>
+    <e lm="népesség"><i>népesség</i><par n="kérdés__n"/></e>
+    <e lm="nepper"><i>nepper</i><par n="kérdés__n"/></e>
+    <e lm="népség"><i>népség</i><par n="kérdés__n"/></e>
+    <e lm="nevelés"><i>nevelés</i><par n="kérdés__n"/></e>
+    <e lm="neveltetés"><i>neveltetés</i><par n="kérdés__n"/></e>
+    <e lm="neveltség"><i>neveltség</i><par n="kérdés__n"/></e>
+    <e lm="nevetség"><i>nevetség</i><par n="kérdés__n"/></e>
+    <e lm="nézegetés"><i>nézegetés</i><par n="kérdés__n"/></e>
+    <e lm="nézet"><i>nézet</i><par n="kérdés__n"/></e>
+    <e lm="nézettség"><i>nézettség</i><par n="kérdés__n"/></e>
+    <e lm="nigger"><i>nigger</i><par n="kérdés__n"/></e>
+    <e lm="nitrálóelegy"><i>nitrálóelegy</i><par n="kérdés__n"/></e>
+    <e lm="nominálbér"><i>nominálbér</i><par n="kérdés__n"/></e>
+    <e lm="nonszensz"><i>nonszensz</i><par n="kérdés__n"/></e>
+    <e lm="normálelem"><i>normálelem</i><par n="kérdés__n"/></e>
+    <e lm="normálérték"><i>normálérték</i><par n="kérdés__n"/></e>
+    <e lm="normálméret"><i>normálméret</i><par n="kérdés__n"/></e>
+    <e lm="nőstény"><i>nőstény</i><par n="kérdés__n"/></e>
+    <e lm="nullhipotézis"><i>nullhipotézis</i><par n="kérdés__n"/></e>
+    <e lm="nyelvészet"><i>nyelvészet</i><par n="kérdés__n"/></e>
+    <e lm="nyelvész"><i>nyelvész</i><par n="kérdés__n"/></e>
+    <e lm="nyelvezet"><i>nyelvezet</i><par n="kérdés__n"/></e>
+    <e lm="nyenyec"><i>nyenyec</i><par n="kérdés__n"/></e>
+    <e lm="nyeremény"><i>nyeremény</i><par n="kérdés__n"/></e>
+    <e lm="nyereség"><i>nyereség</i><par n="kérdés__n"/></e>
+    <e lm="nyerges"><i>nyerges</i><par n="kérdés__n"/></e>
+    <e lm="nyerseség"><i>nyerseség</i><par n="kérdés__n"/></e>
+    <e lm="nyersselyem"><i>nyersselyem</i><par n="kérdés__n"/></e>
+    <e lm="nyerstermék"><i>nyerstermék</i><par n="kérdés__n"/></e>
+    <e lm="nyerstermény"><i>nyerstermény</i><par n="kérdés__n"/></e>
+    <e lm="nyertes"><i>nyertes</i><par n="kérdés__n"/></e>
+    <e lm="nyesedék"><i>nyesedék</i><par n="kérdés__n"/></e>
+    <e lm="nyilaskeresztes"><i>nyilaskeresztes</i><par n="kérdés__n"/></e>
+    <e lm="nyíres"><i>nyíres</i><par n="kérdés__n"/></e>
+    <e lm="nyomdászműhely"><i>nyomdászműhely</i><par n="kérdés__n"/></e>
+    <e lm="nyughely"><i>nyughely</i><par n="kérdés__n"/></e>
+    <e lm="nyugszék"><i>nyugszék</i><par n="kérdés__n"/></e>
+    <e lm="növedék"><i>növedék</i><par n="kérdés__n"/></e>
+    <e lm="növekedés"><i>növekedés</i><par n="kérdés__n"/></e>
+    <e lm="növekmény"><i>növekmény</i><par n="kérdés__n"/></e>
+    <e lm="növendék"><i>növendék</i><par n="kérdés__n"/></e>
+    <e lm="növény"><i>növény</i><par n="kérdés__n"/></e>
+    <e lm="növényzet"><i>növényzet</i><par n="kérdés__n"/></e>
+    <e lm="óbester"><i>óbester</i><par n="kérdés__n"/></e>
+    <e lm="óév"><i>óév</i><par n="kérdés__n"/></e>
+    <e lm="ókeresztény"><i>ókeresztény</i><par n="kérdés__n"/></e>
+    <e lm="okfejtés"><i>okfejtés</i><par n="kérdés__n"/></e>
+    <e lm="oktaéder"><i>oktaéder</i><par n="kérdés__n"/></e>
+    <e lm="oktettelmélet"><i>oktettelmélet</i><par n="kérdés__n"/></e>
+    <e lm="okuláris"><i>okuláris</i><par n="kérdés__n"/></e>
+    <e lm="olajkinyerés"><i>olajkinyerés</i><par n="kérdés__n"/></e>
+    <e lm="opponens"><i>opponens</i><par n="kérdés__n"/></e>
+    <e lm="órásmester"><i>órásmester</i><par n="kérdés__n"/></e>
+    <e lm="órásműhely"><i>órásműhely</i><par n="kérdés__n"/></e>
+    <e lm="órásüzlet"><i>órásüzlet</i><par n="kérdés__n"/></e>
+    <e lm="őrizet"><i>őrizet</i><par n="kérdés__n"/></e>
+    <e lm="orkeszter"><i>orkeszter</i><par n="kérdés__n"/></e>
+    <e lm="őrlemény"><i>őrlemény</i><par n="kérdés__n"/></e>
+    <e lm="őrlet"><i>őrlet</i><par n="kérdés__n"/></e>
+    <e lm="ornamens"><i>ornamens</i><par n="kérdés__n"/></e>
+    <e lm="őrség"><i>őrség</i><par n="kérdés__n"/></e>
+    <e lm="őrület"><i>őrület</i><par n="kérdés__n"/></e>
+    <e lm="ószeres"><i>ószeres</i><par n="kérdés__n"/></e>
+    <e lm="őszes"><i>őszes</i><par n="kérdés__n"/></e>
+    <e lm="őszintétlenség"><i>őszintétlenség</i><par n="kérdés__n"/></e>
+    <e lm="ószövetség"><i>ószövetség</i><par n="kérdés__n"/></e>
+    <e lm="ottlét"><i>ottlét</i><par n="kérdés__n"/></e>
+    <e lm="outsider"><i>outsider</i><par n="kérdés__n"/></e>
+    <e lm="óvintézkedés"><i>óvintézkedés</i><par n="kérdés__n"/></e>
+    <e lm="ovis"><i>ovis</i><par n="kérdés__n"/></e>
+    <e lm="páciens"><i>páciens</i><par n="kérdés__n"/></e>
+    <e lm="pajzsmirigytúltengés"><i>pajzsmirigytúltengés</i><par n="kérdés__n"/></e>
+    <e lm="paláver"><i>paláver</i><par n="kérdés__n"/></e>
+    <e lm="paliszander"><i>paliszander</i><par n="kérdés__n"/></e>
+    <e lm="panegirisz"><i>panegirisz</i><par n="kérdés__n"/></e>
+    <e lm="panofixbélés"><i>panofixbélés</i><par n="kérdés__n"/></e>
+    <e lm="panofix"><i>panofix</i><par n="kérdés__n"/></e>
+    <e lm="papnövendék"><i>papnövendék</i><par n="kérdés__n"/></e>
+    <e lm="parainézis"><i>parainézis</i><par n="kérdés__n"/></e>
+    <e lm="paralízis"><i>paralízis</i><par n="kérdés__n"/></e>
+    <e lm="paraméterezés"><i>paraméterezés</i><par n="kérdés__n"/></e>
+    <e lm="parizer"><i>parizer</i><par n="kérdés__n"/></e>
+    <e lm="parlamenter"><i>parlamenter</i><par n="kérdés__n"/></e>
+    <e lm="párnásszék"><i>párnásszék</i><par n="kérdés__n"/></e>
+    <e lm="partbeszögellés"><i>partbeszögellés</i><par n="kérdés__n"/></e>
+    <e lm="partizánkülönítmény"><i>partizánkülönítmény</i><par n="kérdés__n"/></e>
+    <e lm="partnerség"><i>partnerség</i><par n="kérdés__n"/></e>
+    <e lm="pátens"><i>pátens</i><par n="kérdés__n"/></e>
+    <e lm="páternoszter"><i>páternoszter</i><par n="kérdés__n"/></e>
+    <e lm="patikaszer"><i>patikaszer</i><par n="kérdés__n"/></e>
+    <e lm="pediáter"><i>pediáter</i><par n="kérdés__n"/></e>
+    <e lm="pékség"><i>pékség</i><par n="kérdés__n"/></e>
+    <e lm="pellengér"><i>pellengér</i><par n="kérdés__n"/></e>
+    <e lm="pendely"><i>pendely</i><par n="kérdés__n"/></e>
+    <e lm="penész"><i>penész</i><par n="kérdés__n"/></e>
+    <e lm="pénisz"><i>pénisz</i><par n="kérdés__n"/></e>
+    <e lm="pénzbefizetés"><i>pénzbefizetés</i><par n="kérdés__n"/></e>
+    <e lm="perdület"><i>perdület</i><par n="kérdés__n"/></e>
+    <e lm="perec"><i>perec</i><par n="kérdés__n"/></e>
+    <e lm="perem"><i>perem</i><par n="kérdés__n"/></e>
+    <e lm="peremizs"><i>peremizs</i><par n="kérdés__n"/></e>
+    <e lm="pereszlény"><i>pereszlény</i><par n="kérdés__n"/></e>
+    <e lm="perlődés"><i>perlődés</i><par n="kérdés__n"/></e>
+    <e lm="permeteg"><i>permeteg</i><par n="kérdés__n"/></e>
+    <e lm="pernahajder"><i>pernahajder</i><par n="kérdés__n"/></e>
+    <e lm="perselyezés"><i>perselyezés</i><par n="kérdés__n"/></e>
+    <e lm="persely"><i>persely</i><par n="kérdés__n"/></e>
+    <e lm="perzsaszőnyeg"><i>perzsaszőnyeg</i><par n="kérdés__n"/></e>
+    <e lm="pestis"><i>pestis</i><par n="kérdés__n"/></e>
+    <e lm="piaszter"><i>piaszter</i><par n="kérdés__n"/></e>
+    <e lm="pihentség"><i>pihentség</i><par n="kérdés__n"/></e>
+    <e lm="pikkely"><i>pikkely</i><par n="kérdés__n"/></e>
+    <e lm="piknométer"><i>piknométer</i><par n="kérdés__n"/></e>
+    <e lm="pikszis"><i>pikszis</i><par n="kérdés__n"/></e>
+    <e lm="pilis"><i>pilis</i><par n="kérdés__n"/></e>
+    <e lm="pilledtség"><i>pilledtség</i><par n="kérdés__n"/></e>
+    <e lm="pincészet"><i>pincészet</i><par n="kérdés__n"/></e>
+    <e lm="pinkapénz"><i>pinkapénz</i><par n="kérdés__n"/></e>
+    <e lm="pipettázókészülék"><i>pipettázókészülék</i><par n="kérdés__n"/></e>
+    <e lm="pirolízis"><i>pirolízis</i><par n="kérdés__n"/></e>
+    <e lm="pisis"><i>pisis</i><par n="kérdés__n"/></e>
+    <e lm="pisszenés"><i>pisszenés</i><par n="kérdés__n"/></e>
+    <e lm="planiméter"><i>planiméter</i><par n="kérdés__n"/></e>
+    <e lm="pluszbevétel"><i>pluszbevétel</i><par n="kérdés__n"/></e>
+    <e lm="pluszköltség"><i>pluszköltség</i><par n="kérdés__n"/></e>
+    <e lm="poézis"><i>poézis</i><par n="kérdés__n"/></e>
     <e lm="pohár"><i>poh</i><par n="poh/ár__n"/></e>
+    <e lm="polariméter"><i>polariméter</i><par n="kérdés__n"/></e>
+    <e lm="poliéder"><i>poliéder</i><par n="kérdés__n"/></e>
+    <e lm="poncichter"><i>poncichter</i><par n="kérdés__n"/></e>
     <e lm="pont"><i>pont</i><par n="pont__n"/></e>
-    <e lm="szem"><i>szem</i><par n="szem__n"/></e>
+    <e lm="pórnép"><i>pórnép</i><par n="kérdés__n"/></e>
+    <e lm="posztamens"><i>posztamens</i><par n="kérdés__n"/></e>
+    <e lm="poszter"><i>poszter</i><par n="kérdés__n"/></e>
+    <e lm="pótalkatrész"><i>pótalkatrész</i><par n="kérdés__n"/></e>
+    <e lm="pótcselekvés"><i>pótcselekvés</i><par n="kérdés__n"/></e>
+    <e lm="pótfekhely"><i>pótfekhely</i><par n="kérdés__n"/></e>
+    <e lm="pótfelvétel"><i>pótfelvétel</i><par n="kérdés__n"/></e>
+    <e lm="póthitel"><i>póthitel</i><par n="kérdés__n"/></e>
+    <e lm="pótilleték"><i>pótilleték</i><par n="kérdés__n"/></e>
+    <e lm="pótkeret"><i>pótkeret</i><par n="kérdés__n"/></e>
+    <e lm="pótköltségvetés"><i>pótköltségvetés</i><par n="kérdés__n"/></e>
+    <e lm="pótkötet"><i>pótkötet</i><par n="kérdés__n"/></e>
+    <e lm="pótszék"><i>pótszék</i><par n="kérdés__n"/></e>
+    <e lm="póttörvény"><i>póttörvény</i><par n="kérdés__n"/></e>
+    <e lm="potyajegy"><i>potyajegy</i><par n="kérdés__n"/></e>
+    <e lm="precedens"><i>precedens</i><par n="kérdés__n"/></e>
+    <e lm="presztízs"><i>presztízs</i><par n="kérdés__n"/></e>
+    <e lm="princessz"><i>princessz</i><par n="kérdés__n"/></e>
+    <e lm="priznic"><i>priznic</i><par n="kérdés__n"/></e>
+    <e lm="producer"><i>producer</i><par n="kérdés__n"/></e>
+    <e lm="proletárjeles"><i>proletárjeles</i><par n="kérdés__n"/></e>
+    <e lm="prominens"><i>prominens</i><par n="kérdés__n"/></e>
+    <e lm="protézis"><i>protézis</i><par n="kérdés__n"/></e>
+    <e lm="pszichiáter"><i>pszichiáter</i><par n="kérdés__n"/></e>
+    <e lm="püffedtség"><i>püffedtség</i><par n="kérdés__n"/></e>
+    <e lm="püspökség"><i>püspökség</i><par n="kérdés__n"/></e>
+    <e lm="pöfögés"><i>pöfögés</i><par n="kérdés__n"/></e>
+    <e lm="pökhendiség"><i>pökhendiség</i><par n="kérdés__n"/></e>
+    <e lm="pörsenés"><i>pörsenés</i><par n="kérdés__n"/></e>
+    <e lm="pötyögtetés"><i>pötyögtetés</i><par n="kérdés__n"/></e>
+    <e lm="rábeszélés"><i>rábeszélés</i><par n="kérdés__n"/></e>
+    <e lm="radiálköpeny"><i>radiálköpeny</i><par n="kérdés__n"/></e>
+    <e lm="ráérősség"><i>ráérősség</i><par n="kérdés__n"/></e>
+    <e lm="ráfekvés"><i>ráfekvés</i><par n="kérdés__n"/></e>
+    <e lm="rajthely"><i>rajthely</i><par n="kérdés__n"/></e>
+    <e lm="rajzszer"><i>rajzszer</i><par n="kérdés__n"/></e>
+    <e lm="rakfelület"><i>rakfelület</i><par n="kérdés__n"/></e>
+    <e lm="rakterület"><i>rakterület</i><par n="kérdés__n"/></e>
+    <e lm="ránézés"><i>ránézés</i><par n="kérdés__n"/></e>
+    <e lm="rangegyenlőség"><i>rangegyenlőség</i><par n="kérdés__n"/></e>
+    <e lm="rászedés"><i>rászedés</i><par n="kérdés__n"/></e>
+    <e lm="rátéthímzés"><i>rátéthímzés</i><par n="kérdés__n"/></e>
+    <e lm="rátörés"><i>rátörés</i><par n="kérdés__n"/></e>
+    <e lm="rávezetés"><i>rávezetés</i><par n="kérdés__n"/></e>
+    <e lm="reagens"><i>reagens</i><par n="kérdés__n"/></e>
+    <e lm="reálérték"><i>reálérték</i><par n="kérdés__n"/></e>
+    <e lm="reáljövedelem"><i>reáljövedelem</i><par n="kérdés__n"/></e>
+    <e lm="reálkereset"><i>reálkereset</i><par n="kérdés__n"/></e>
+    <e lm="reálnövekedés"><i>reálnövekedés</i><par n="kérdés__n"/></e>
+    <e lm="rebellis"><i>rebellis</i><par n="kérdés__n"/></e>
+    <e lm="recenzens"><i>recenzens</i><par n="kérdés__n"/></e>
+    <e lm="recézet"><i>recézet</i><par n="kérdés__n"/></e>
+    <e lm="redőzet"><i>redőzet</i><par n="kérdés__n"/></e>
+    <e lm="referens"><i>referens</i><par n="kérdés__n"/></e>
+    <e lm="reflex"><i>reflex</i><par n="kérdés__n"/></e>
+    <e lm="reformer"><i>reformer</i><par n="kérdés__n"/></e>
+    <e lm="refraktométer"><i>refraktométer</i><par n="kérdés__n"/></e>
+    <e lm="régens"><i>régens</i><par n="kérdés__n"/></e>
+    <e lm="regény"><i>regény</i><par n="kérdés__n"/></e>
+    <e lm="régészet"><i>régészet</i><par n="kérdés__n"/></e>
+    <e lm="régész"><i>régész</i><par n="kérdés__n"/></e>
+    <e lm="reggel"><i>reggel</i><par n="kérdés__n"/></e>
+    <e lm="regiszter"><i>regiszter</i><par n="kérdés__n"/></e>
+    <e lm="rejtek"><i>rejtek</i><par n="kérdés__n"/></e>
+    <e lm="rejtelmesség"><i>rejtelmesség</i><par n="kérdés__n"/></e>
+    <e lm="rejtély"><i>rejtély</i><par n="kérdés__n"/></e>
+    <e lm="rejtjel"><i>rejtjel</i><par n="kérdés__n"/></e>
+    <e lm="rejtvény"><i>rejtvény</i><par n="kérdés__n"/></e>
+    <e lm="rekesz"><i>rekesz</i><par n="kérdés__n"/></e>
+    <e lm="rekeszték"><i>rekeszték</i><par n="kérdés__n"/></e>
+    <e lm="rekettyés"><i>rekettyés</i><par n="kérdés__n"/></e>
+    <e lm="rekettyés-tölgyes"><i>rekettyés-tölgyes</i><par n="kérdés__n"/></e>
+    <e lm="reklámfőnökség"><i>reklámfőnökség</i><par n="kérdés__n"/></e>
+    <e lm="remanens"><i>remanens</i><par n="kérdés__n"/></e>
+    <e lm="remek"><i>remek</i><par n="kérdés__n"/></e>
+    <e lm="remeklés"><i>remeklés</i><par n="kérdés__n"/></e>
+    <e lm="remekszép"><i>remekszép</i><par n="kérdés__n"/></e>
+    <e lm="remény"><i>remény</i><par n="kérdés__n"/></e>
+    <e lm="reménység"><i>reménység</i><par n="kérdés__n"/></e>
+    <e lm="remeteség"><i>remeteség</i><par n="kérdés__n"/></e>
+    <e lm="remíz"><i>remíz</i><par n="kérdés__n"/></e>
+    <e lm="rémség"><i>rémség</i><par n="kérdés__n"/></e>
+    <e lm="rémület"><i>rémület</i><par n="kérdés__n"/></e>
+    <e lm="rendbetétel"><i>rendbetétel</i><par n="kérdés__n"/></e>
+    <e lm="rendbetevés"><i>rendbetevés</i><par n="kérdés__n"/></e>
+    <e lm="rendelet"><i>rendelet</i><par n="kérdés__n"/></e>
+    <e lm="rendelkezés"><i>rendelkezés</i><par n="kérdés__n"/></e>
+    <e lm="rendeltetés"><i>rendeltetés</i><par n="kérdés__n"/></e>
+    <e lm="rendelvény"><i>rendelvény</i><par n="kérdés__n"/></e>
+    <e lm="rendészet"><i>rendészet</i><par n="kérdés__n"/></e>
+    <e lm="rendész"><i>rendész</i><par n="kérdés__n"/></e>
+    <e lm="rendezőség"><i>rendezőség</i><par n="kérdés__n"/></e>
+    <e lm="rendezvény"><i>rendezvény</i><par n="kérdés__n"/></e>
+    <e lm="rendiség"><i>rendiség</i><par n="kérdés__n"/></e>
+    <e lm="repcsény"><i>repcsény</i><par n="kérdés__n"/></e>
+    <e lm="repesz"><i>repesz</i><par n="kérdés__n"/></e>
+    <e lm="repkény"><i>repkény</i><par n="kérdés__n"/></e>
+    <e lm="repríz"><i>repríz</i><par n="kérdés__n"/></e>
+    <e lm="reszelék"><i>reszelék</i><par n="kérdés__n"/></e>
+    <e lm="részesművelés"><i>részesművelés</i><par n="kérdés__n"/></e>
+    <e lm="részleg"><i>részleg</i><par n="kérdés__n"/></e>
+    <e lm="részletesség"><i>részletesség</i><par n="kérdés__n"/></e>
+    <e lm="részlet"><i>részlet</i><par n="kérdés__n"/></e>
+    <e lm="részvényes"><i>részvényes</i><par n="kérdés__n"/></e>
+    <e lm="részvénytúljegyzés"><i>részvénytúljegyzés</i><par n="kérdés__n"/></e>
+    <e lm="részvét"><i>részvét</i><par n="kérdés__n"/></e>
+    <e lm="rétegzettség"><i>rétegzettség</i><par n="kérdés__n"/></e>
+    <e lm="rétes"><i>rétes</i><par n="kérdés__n"/></e>
+    <e lm="rétessütés"><i>rétessütés</i><par n="kérdés__n"/></e>
+    <e lm="retesz"><i>retesz</i><par n="kérdés__n"/></e>
+    <e lm="rétség"><i>rétség</i><par n="kérdés__n"/></e>
+    <e lm="rettenet"><i>rettenet</i><par n="kérdés__n"/></e>
+    <e lm="retúrjegy"><i>retúrjegy</i><par n="kérdés__n"/></e>
+    <e lm="révész"><i>révész</i><par n="kérdés__n"/></e>
+    <e lm="revolver"><i>revolver</i><par n="kérdés__n"/></e>
+    <e lm="révület"><i>révület</i><par n="kérdés__n"/></e>
+    <e lm="rezgőlemez"><i>rezgőlemez</i><par n="kérdés__n"/></e>
+    <e lm="rezidens"><i>rezidens</i><par n="kérdés__n"/></e>
+    <e lm="reznek"><i>reznek</i><par n="kérdés__n"/></e>
+    <e lm="rezolvens"><i>rezolvens</i><par n="kérdés__n"/></e>
+    <e lm="rézsűzés"><i>rézsűzés</i><par n="kérdés__n"/></e>
+    <e lm="rezzenés"><i>rezzenés</i><par n="kérdés__n"/></e>
+    <e lm="ripőkség"><i>ripőkség</i><par n="kérdés__n"/></e>
+    <e lm="riporter"><i>riporter</i><par n="kérdés__n"/></e>
+    <e lm="ritkaföldfém"><i>ritkaföldfém</i><par n="kérdés__n"/></e>
+    <e lm="rockénekes"><i>rockénekes</i><par n="kérdés__n"/></e>
+    <e lm="rokkantsegély"><i>rokkantsegély</i><par n="kérdés__n"/></e>
+    <e lm="rokonszenvezés"><i>rokonszenvezés</i><par n="kérdés__n"/></e>
+    <e lm="rokonszenv"><i>rokonszenv</i><par n="kérdés__n"/></e>
+    <e lm="romboéder"><i>romboéder</i><par n="kérdés__n"/></e>
+    <e lm="rosszlelkűség"><i>rosszlelkűség</i><par n="kérdés__n"/></e>
+    <e lm="rosszpénz"><i>rosszpénz</i><par n="kérdés__n"/></e>
+    <e lm="rottweiler"><i>rottweiler</i><par n="kérdés__n"/></e>
+    <e lm="ruhásszekrény"><i>ruhásszekrény</i><par n="kérdés__n"/></e>
+    <e lm="rükverc"><i>rükverc</i><par n="kérdés__n"/></e>
+    <e lm="rögtönzés"><i>rögtönzés</i><par n="kérdés__n"/></e>
+    <e lm="rögösség"><i>rögösség</i><par n="kérdés__n"/></e>
+    <e lm="röhej"><i>röhej</i><par n="kérdés__n"/></e>
+    <e lm="röpgyűlés"><i>röpgyűlés</i><par n="kérdés__n"/></e>
+    <e lm="rövidhír"><i>rövidhír</i><par n="kérdés__n"/></e>
+    <e lm="sábesz"><i>sábesz</i><par n="kérdés__n"/></e>
+    <e lm="sajátérték"><i>sajátérték</i><par n="kérdés__n"/></e>
+    <e lm="sajmeggy"><i>sajmeggy</i><par n="kérdés__n"/></e>
+    <e lm="salátaöntet"><i>salátaöntet</i><par n="kérdés__n"/></e>
+    <e lm="samesz"><i>samesz</i><par n="kérdés__n"/></e>
+    <e lm="samottbélés"><i>samottbélés</i><par n="kérdés__n"/></e>
+    <e lm="sapiens"><i>sapiens</i><par n="kérdés__n"/></e>
+    <e lm="sávolykötés"><i>sávolykötés</i><par n="kérdés__n"/></e>
+    <e lm="sebességtúllépés"><i>sebességtúllépés</i><par n="kérdés__n"/></e>
+    <e lm="sebészet"><i>sebészet</i><par n="kérdés__n"/></e>
+    <e lm="sebész"><i>sebész</i><par n="kérdés__n"/></e>
+    <e lm="seftes"><i>seftes</i><par n="kérdés__n"/></e>
+    <e lm="segédlelkész"><i>segédlelkész</i><par n="kérdés__n"/></e>
+    <e lm="segédlet"><i>segédlet</i><par n="kérdés__n"/></e>
+    <e lm="segély"><i>segély</i><par n="kérdés__n"/></e>
+    <e lm="segítség"><i>segítség</i><par n="kérdés__n"/></e>
+    <e lm="semlegesnem"><i>semlegesnem</i><par n="kérdés__n"/></e>
+    <e lm="semlyékes"><i>semlyékes</i><par n="kérdés__n"/></e>
+    <e lm="semlyék"><i>semlyék</i><par n="kérdés__n"/></e>
+    <e lm="semmibevétel"><i>semmibevétel</i><par n="kérdés__n"/></e>
+    <e lm="semmítőszék"><i>semmítőszék</i><par n="kérdés__n"/></e>
+    <e lm="sercenés"><i>sercenés</i><par n="kérdés__n"/></e>
+    <e lm="serdülés"><i>serdülés</i><par n="kérdés__n"/></e>
+    <e lm="seregély"><i>seregély</i><par n="kérdés__n"/></e>
+    <e lm="sereg"><i>sereg</i><par n="kérdés__n"/></e>
+    <e lm="sereglet"><i>sereglet</i><par n="kérdés__n"/></e>
+    <e lm="serleg"><i>serleg</i><par n="kérdés__n"/></e>
+    <e lm="sertebuldózer"><i>sertebuldózer</i><par n="kérdés__n"/></e>
+    <e lm="sertés"><i>sertés</i><par n="kérdés__n"/></e>
+    <e lm="sértődöttség"><i>sértődöttség</i><par n="kérdés__n"/></e>
+    <e lm="sérülékenység"><i>sérülékenység</i><par n="kérdés__n"/></e>
+    <e lm="sérülés"><i>sérülés</i><par n="kérdés__n"/></e>
+    <e lm="síber"><i>síber</i><par n="kérdés__n"/></e>
+    <e lm="siemens"><i>siemens</i><par n="kérdés__n"/></e>
+    <e lm="sietség"><i>sietség</i><par n="kérdés__n"/></e>
+    <e lm="siker"><i>siker</i><par n="kérdés__n"/></e>
+    <e lm="sintértelep"><i>sintértelep</i><par n="kérdés__n"/></e>
+    <e lm="sipirc"><i>sipirc</i><par n="kérdés__n"/></e>
+    <e lm="skribler"><i>skribler</i><par n="kérdés__n"/></e>
+    <e lm="soknejűség"><i>soknejűség</i><par n="kérdés__n"/></e>
+    <e lm="soronkívüliség"><i>soronkívüliség</i><par n="kérdés__n"/></e>
+    <e lm="sósborszesz"><i>sósborszesz</i><par n="kérdés__n"/></e>
+    <e lm="sósperec"><i>sósperec</i><par n="kérdés__n"/></e>
+    <e lm="spektrálfüggvény"><i>spektrálfüggvény</i><par n="kérdés__n"/></e>
+    <e lm="spektrofotométer"><i>spektrofotométer</i><par n="kérdés__n"/></e>
+    <e lm="spektrométer"><i>spektrométer</i><par n="kérdés__n"/></e>
+    <e lm="spíszbürger"><i>spíszbürger</i><par n="kérdés__n"/></e>
+    <e lm="spriccer"><i>spriccer</i><par n="kérdés__n"/></e>
+    <e lm="sprinter"><i>sprinter</i><par n="kérdés__n"/></e>
+    <e lm="stabilis"><i>stabilis</i><par n="kérdés__n"/></e>
+    <e lm="stiglic"><i>stiglic</i><par n="kérdés__n"/></e>
+    <e lm="stikkes"><i>stikkes</i><par n="kérdés__n"/></e>
+    <e lm="stílművész"><i>stílművész</i><par n="kérdés__n"/></e>
+    <e lm="subaszőnyeg"><i>subaszőnyeg</i><par n="kérdés__n"/></e>
+    <e lm="sűrítmény"><i>sűrítmény</i><par n="kérdés__n"/></e>
+    <e lm="svédszekrény"><i>svédszekrény</i><par n="kérdés__n"/></e>
+    <e lm="svindler"><i>svindler</i><par n="kérdés__n"/></e>
+    <e lm="süketelés"><i>süketelés</i><par n="kérdés__n"/></e>
+    <e lm="süppedék"><i>süppedék</i><par n="kérdés__n"/></e>
+    <e lm="sütemény"><i>sütemény</i><par n="kérdés__n"/></e>
+    <e lm="süvölvény"><i>süvölvény</i><par n="kérdés__n"/></e>
+    <e lm="szabadegyetem"><i>szabadegyetem</i><par n="kérdés__n"/></e>
+    <e lm="szabadesés"><i>szabadesés</i><par n="kérdés__n"/></e>
+    <e lm="szabályellenesség"><i>szabályellenesség</i><par n="kérdés__n"/></e>
+    <e lm="szájvitéz"><i>szájvitéz</i><par n="kérdés__n"/></e>
+    <e lm="szakmánybér"><i>szakmánybér</i><par n="kérdés__n"/></e>
+    <e lm="szalamander"><i>szalamander</i><par n="kérdés__n"/></e>
+    <e lm="szalmiákszesz"><i>szalmiákszesz</i><par n="kérdés__n"/></e>
+    <e lm="számbavétel"><i>számbavétel</i><par n="kérdés__n"/></e>
+    <e lm="számkivetettség"><i>számkivetettség</i><par n="kérdés__n"/></e>
+    <e lm="számlatúllépés"><i>számlatúllépés</i><par n="kérdés__n"/></e>
+    <e lm="számonkérés"><i>számonkérés</i><par n="kérdés__n"/></e>
+    <e lm="számvevőség"><i>számvevőség</i><par n="kérdés__n"/></e>
+    <e lm="szanitéc"><i>szanitéc</i><par n="kérdés__n"/></e>
+    <e lm="szárazsütemény"><i>szárazsütemény</i><par n="kérdés__n"/></e>
+    <e lm="százrubeles"><i>százrubeles</i><par n="kérdés__n"/></e>
+    <e lm="szedet"><i>szedet</i><par n="kérdés__n"/></e>
+    <e lm="szédület"><i>szédület</i><par n="kérdés__n"/></e>
+    <e lm="szegbelövés"><i>szegbelövés</i><par n="kérdés__n"/></e>
+    <e lm="szegecs"><i>szegecs</i><par n="kérdés__n"/></e>
+    <e lm="szegély"><i>szegély</i><par n="kérdés__n"/></e>
+    <e lm="szegélyzet"><i>szegélyzet</i><par n="kérdés__n"/></e>
+    <e lm="szegényedés"><i>szegényedés</i><par n="kérdés__n"/></e>
+    <e lm="szeglet"><i>szeglet</i><par n="kérdés__n"/></e>
+    <e lm="szegmens"><i>szegmens</i><par n="kérdés__n"/></e>
+    <e lm="szégyen"><i>szégyen</i><par n="kérdés__n"/></e>
+    <e lm="székely"><i>székely</i><par n="kérdés__n"/></e>
+    <e lm="székelység"><i>székelység</i><par n="kérdés__n"/></e>
+    <e lm="szekerész"><i>szekerész</i><par n="kérdés__n"/></e>
     <e lm="szék"><i>szék</i><par n="gyerek__n"/></e>
-    <e lm="víz"><i>v</i><par n="v/íz__n"/></e>
+    <e lm="széklet"><i>széklet</i><par n="kérdés__n"/></e>
+    <e lm="szekrény"><i>szekrény</i><par n="kérdés__n"/></e>
+    <e lm="szelídítés"><i>szelídítés</i><par n="kérdés__n"/></e>
+    <e lm="szélkelep"><i>szélkelep</i><par n="kérdés__n"/></e>
+    <e lm="szellem"><i>szellem</i><par n="kérdés__n"/></e>
+    <e lm="szellet"><i>szellet</i><par n="kérdés__n"/></e>
+    <e lm="szellőzés"><i>szellőzés</i><par n="kérdés__n"/></e>
+    <e lm="szélsőérték"><i>szélsőérték</i><par n="kérdés__n"/></e>
+    <e lm="szélsőség"><i>szélsőség</i><par n="kérdés__n"/></e>
+    <e lm="szelvény"><i>szelvény</i><par n="kérdés__n"/></e>
+    <e lm="szemellenzősség"><i>szemellenzősség</i><par n="kérdés__n"/></e>
+    <e lm="szemelvény"><i>szemelvény</i><par n="kérdés__n"/></e>
+    <e lm="személyeskedés"><i>személyeskedés</i><par n="kérdés__n"/></e>
+    <e lm="személyiség"><i>személyiség</i><par n="kérdés__n"/></e>
+    <e lm="személy"><i>személy</i><par n="kérdés__n"/></e>
+    <e lm="személyzetis"><i>személyzetis</i><par n="kérdés__n"/></e>
+    <e lm="személyzet"><i>személyzet</i><par n="kérdés__n"/></e>
+    <e lm="szemészet"><i>szemészet</i><par n="kérdés__n"/></e>
+    <e lm="szemész"><i>szemész</i><par n="kérdés__n"/></e>
+    <e lm="szemeszter"><i>szemeszter</i><par n="kérdés__n"/></e>
+    <e lm="szemetes"><i>szemetes</i><par n="kérdés__n"/></e>
+    <e lm="szem"><i>szem</i><par n="szem__n"/></e>
+    <e lm="szemlélet"><i>szemlélet</i><par n="kérdés__n"/></e>
+    <e lm="szemlélődés"><i>szemlélődés</i><par n="kérdés__n"/></e>
+    <e lm="szemlész"><i>szemlész</i><par n="kérdés__n"/></e>
+    <e lm="szendvics"><i>szendvics</i><par n="kérdés__n"/></e>
+    <e lm="szennyezettség"><i>szennyezettség</i><par n="kérdés__n"/></e>
+    <e lm="szennyeződés"><i>szennyeződés</i><par n="kérdés__n"/></e>
+    <e lm="szentelmény"><i>szentelmény</i><par n="kérdés__n"/></e>
+    <e lm="szentély"><i>szentély</i><par n="kérdés__n"/></e>
+    <e lm="szenvedély"><i>szenvedély</i><par n="kérdés__n"/></e>
+    <e lm="szépérzék"><i>szépérzék</i><par n="kérdés__n"/></e>
+    <e lm="szépérzés"><i>szépérzés</i><par n="kérdés__n"/></e>
+    <e lm="szépészet"><i>szépészet</i><par n="kérdés__n"/></e>
+    <e lm="szépnem"><i>szépnem</i><par n="kérdés__n"/></e>
+    <e lm="szépség"><i>szépség</i><par n="kérdés__n"/></e>
+    <e lm="szepszis"><i>szepszis</i><par n="kérdés__n"/></e>
+    <e lm="széptevés"><i>széptevés</i><par n="kérdés__n"/></e>
+    <e lm="szerbtövis"><i>szerbtövis</i><par n="kérdés__n"/></e>
+    <e lm="szerelvény"><i>szerelvény</i><par n="kérdés__n"/></e>
+    <e lm="szerep"><i>szerep</i><par n="kérdés__n"/></e>
+    <e lm="szeretet"><i>szeretet</i><par n="kérdés__n"/></e>
+    <e lm="szeretetteljes"><i>szeretetteljes</i><par n="kérdés__n"/></e>
+    <e lm="szeretgetés"><i>szeretgetés</i><par n="kérdés__n"/></e>
+    <e lm="szerkesztettség"><i>szerkesztettség</i><par n="kérdés__n"/></e>
+    <e lm="szerkesztőség"><i>szerkesztőség</i><par n="kérdés__n"/></e>
+    <e lm="szerkezet"><i>szerkezet</i><par n="kérdés__n"/></e>
+    <e lm="szerűség"><i>szerűség</i><par n="kérdés__n"/></e>
+    <e lm="szerver"><i>szerver</i><par n="kérdés__n"/></e>
+    <e lm="szervezet"><i>szervezet</i><par n="kérdés__n"/></e>
+    <e lm="szervezettség"><i>szervezettség</i><par n="kérdés__n"/></e>
+    <e lm="szerviz"><i>szerviz</i><par n="kérdés__n"/></e>
+    <e lm="szerzeményezés"><i>szerzeményezés</i><par n="kérdés__n"/></e>
+    <e lm="szerzemény"><i>szerzemény</i><par n="kérdés__n"/></e>
+    <e lm="szerzetes"><i>szerzetes</i><par n="kérdés__n"/></e>
+    <e lm="szerzetesség"><i>szerzetesség</i><par n="kérdés__n"/></e>
+    <e lm="szerzet"><i>szerzet</i><par n="kérdés__n"/></e>
+    <e lm="szerződés"><i>szerződés</i><par n="kérdés__n"/></e>
+    <e lm="szerzőség"><i>szerzőség</i><par n="kérdés__n"/></e>
+    <e lm="szeszély"><i>szeszély</i><par n="kérdés__n"/></e>
+    <e lm="szetter"><i>szetter</i><par n="kérdés__n"/></e>
+    <e lm="szexpartner"><i>szexpartner</i><par n="kérdés__n"/></e>
+    <e lm="szifilisz"><i>szifilisz</i><par n="kérdés__n"/></e>
+    <e lm="sziget"><i>sziget</i><par n="kérdés__n"/></e>
+    <e lm="szikesedés"><i>szikesedés</i><par n="kérdés__n"/></e>
+    <e lm="szilárdtest"><i>szilárdtest</i><par n="kérdés__n"/></e>
+    <e lm="szilveszter"><i>szilveszter</i><par n="kérdés__n"/></e>
+    <e lm="szimmetriatengely"><i>szimmetriatengely</i><par n="kérdés__n"/></e>
+    <e lm="színeskedés"><i>színeskedés</i><par n="kérdés__n"/></e>
+    <e lm="színészet"><i>színészet</i><par n="kérdés__n"/></e>
+    <e lm="színész"><i>színész</i><par n="kérdés__n"/></e>
+    <e lm="színészkedés"><i>színészkedés</i><par n="kérdés__n"/></e>
+    <e lm="színezék"><i>színezék</i><par n="kérdés__n"/></e>
+    <e lm="színezet"><i>színezet</i><par n="kérdés__n"/></e>
+    <e lm="színinövendék"><i>színinövendék</i><par n="kérdés__n"/></e>
+    <e lm="szinkronfelvétel"><i>szinkronfelvétel</i><par n="kérdés__n"/></e>
+    <e lm="színrevitel"><i>színrevitel</i><par n="kérdés__n"/></e>
+    <e lm="szintézis"><i>szintézis</i><par n="kérdés__n"/></e>
+    <e lm="szkepszis"><i>szkepszis</i><par n="kérdés__n"/></e>
+    <e lm="szmirnaszőnyeg"><i>szmirnaszőnyeg</i><par n="kérdés__n"/></e>
+    <e lm="szobrászművészet"><i>szobrászművészet</i><par n="kérdés__n"/></e>
+    <e lm="szobrászművész"><i>szobrászművész</i><par n="kérdés__n"/></e>
+    <e lm="szocdem"><i>szocdem</i><par n="kérdés__n"/></e>
+    <e lm="szófecsérlés"><i>szófecsérlés</i><par n="kérdés__n"/></e>
+    <e lm="szójatermesztés"><i>szójatermesztés</i><par n="kérdés__n"/></e>
+    <e lm="szoknyapecér"><i>szoknyapecér</i><par n="kérdés__n"/></e>
+    <e lm="szőlészet"><i>szőlészet</i><par n="kérdés__n"/></e>
+    <e lm="szőlész"><i>szőlész</i><par n="kérdés__n"/></e>
+    <e lm="szolfézs"><i>szolfézs</i><par n="kérdés__n"/></e>
+    <e lm="szolvens"><i>szolvens</i><par n="kérdés__n"/></e>
+    <e lm="szórványnyelvemlék"><i>szórványnyelvemlék</i><par n="kérdés__n"/></e>
+    <e lm="szőrzet"><i>szőrzet</i><par n="kérdés__n"/></e>
+    <e lm="szőrözés"><i>szőrözés</i><par n="kérdés__n"/></e>
+    <e lm="szőttes"><i>szőttes</i><par n="kérdés__n"/></e>
+    <e lm="sztereofényképezés"><i>sztereofényképezés</i><par n="kérdés__n"/></e>
+    <e lm="sztriptíz"><i>sztriptíz</i><par n="kérdés__n"/></e>
+    <e lm="szubkontinens"><i>szubkontinens</i><par n="kérdés__n"/></e>
+    <e lm="szűklátókörűség"><i>szűklátókörűség</i><par n="kérdés__n"/></e>
+    <e lm="szűkület"><i>szűkület</i><par n="kérdés__n"/></e>
+    <e lm="szuperintendens"><i>szuperintendens</i><par n="kérdés__n"/></e>
+    <e lm="szuperkészülék"><i>szuperkészülék</i><par n="kérdés__n"/></e>
+    <e lm="szurdék"><i>szurdék</i><par n="kérdés__n"/></e>
+    <e lm="szűrlet"><i>szűrlet</i><par n="kérdés__n"/></e>
+    <e lm="szükség"><i>szükség</i><par n="kérdés__n"/></e>
+    <e lm="szükséglet"><i>szükséglet</i><par n="kérdés__n"/></e>
+    <e lm="szüleményhely"><i>szüleményhely</i><par n="kérdés__n"/></e>
+    <e lm="szülemény"><i>szülemény</i><par n="kérdés__n"/></e>
+    <e lm="szülészet"><i>szülészet</i><par n="kérdés__n"/></e>
+    <e lm="szülész"><i>szülész</i><par n="kérdés__n"/></e>
+    <e lm="szülőség"><i>szülőség</i><par n="kérdés__n"/></e>
+    <e lm="szünet"><i>szünet</i><par n="kérdés__n"/></e>
+    <e lm="szüredék"><i>szüredék</i><par n="kérdés__n"/></e>
+    <e lm="szürkület"><i>szürkület</i><par n="kérdés__n"/></e>
+    <e lm="szüzesség"><i>szüzesség</i><par n="kérdés__n"/></e>
+    <e lm="szögbelövés"><i>szögbelövés</i><par n="kérdés__n"/></e>
+    <e lm="szögecs"><i>szögecs</i><par n="kérdés__n"/></e>
+    <e lm="szöglet"><i>szöglet</i><par n="kérdés__n"/></e>
+    <e lm="szökevény"><i>szökevény</i><par n="kérdés__n"/></e>
+    <e lm="szörnyeteg"><i>szörnyeteg</i><par n="kérdés__n"/></e>
+    <e lm="szörnyszülemény"><i>szörnyszülemény</i><par n="kérdés__n"/></e>
+    <e lm="szörnyülködés"><i>szörnyülködés</i><par n="kérdés__n"/></e>
+    <e lm="szösszenet"><i>szösszenet</i><par n="kérdés__n"/></e>
+    <e lm="szövedék"><i>szövedék</i><par n="kérdés__n"/></e>
+    <e lm="szöveg"><i>szöveg</i><par n="kérdés__n"/></e>
+    <e lm="szövetkezet"><i>szövetkezet</i><par n="kérdés__n"/></e>
+    <e lm="szövétnek"><i>szövétnek</i><par n="kérdés__n"/></e>
+    <e lm="szövetséges"><i>szövetséges</i><par n="kérdés__n"/></e>
+    <e lm="szövetség"><i>szövetség</i><par n="kérdés__n"/></e>
+    <e lm="szövevény"><i>szövevény</i><par n="kérdés__n"/></e>
+    <e lm="szövődmény"><i>szövődmény</i><par n="kérdés__n"/></e>
+    <e lm="söntés"><i>söntés</i><par n="kérdés__n"/></e>
+    <e lm="söpredék"><i>söpredék</i><par n="kérdés__n"/></e>
+    <e lm="sörény"><i>sörény</i><par n="kérdés__n"/></e>
+    <e lm="sövény"><i>sövény</i><par n="kérdés__n"/></e>
+    <e lm="tábesz"><i>tábesz</i><par n="kérdés__n"/></e>
+    <e lm="tagdíjbeszedés"><i>tagdíjbeszedés</i><par n="kérdés__n"/></e>
+    <e lm="takácsmester"><i>takácsmester</i><par n="kérdés__n"/></e>
+    <e lm="támív"><i>támív</i><par n="kérdés__n"/></e>
+    <e lm="támlásszék"><i>támlásszék</i><par n="kérdés__n"/></e>
+    <e lm="tangens"><i>tangens</i><par n="kérdés__n"/></e>
+    <e lm="tanúságtétel"><i>tanúságtétel</i><par n="kérdés__n"/></e>
+    <e lm="tanúságtevés"><i>tanúságtevés</i><par n="kérdés__n"/></e>
+    <e lm="tápszer"><i>tápszer</i><par n="kérdés__n"/></e>
+    <e lm="táramérleg"><i>táramérleg</i><par n="kérdés__n"/></e>
+    <e lm="tarkarézérc"><i>tarkarézérc</i><par n="kérdés__n"/></e>
+    <e lm="tárnamester"><i>tárnamester</i><par n="kérdés__n"/></e>
+    <e lm="tárnarendszer"><i>tárnarendszer</i><par n="kérdés__n"/></e>
+    <e lm="tárnokmester"><i>tárnokmester</i><par n="kérdés__n"/></e>
+    <e lm="taszter"><i>taszter</i><par n="kérdés__n"/></e>
+    <e lm="teáskészlet"><i>teáskészlet</i><par n="kérdés__n"/></e>
+    <e lm="téesz"><i>téesz</i><par n="kérdés__n"/></e>
+    <e lm="tégely"><i>tégely</i><par n="kérdés__n"/></e>
+    <e lm="tegzes"><i>tegzes</i><par n="kérdés__n"/></e>
+    <e lm="tehenészet"><i>tehenészet</i><par n="kérdés__n"/></e>
+    <e lm="tehenész"><i>tehenész</i><par n="kérdés__n"/></e>
+    <e lm="tehetség"><i>tehetség</i><par n="kérdés__n"/></e>
+    <e lm="tejbegríz"><i>tejbegríz</i><par n="kérdés__n"/></e>
+    <e lm="tejberizs"><i>tejberizs</i><par n="kérdés__n"/></e>
+    <e lm="tejelés"><i>tejelés</i><par n="kérdés__n"/></e>
+    <e lm="tejesedény"><i>tejesedény</i><par n="kérdés__n"/></e>
+    <e lm="tejesember"><i>tejesember</i><par n="kérdés__n"/></e>
+    <e lm="tejfel"><i>tejfel</i><par n="kérdés__n"/></e>
+    <e lm="tekercs"><i>tekercs</i><par n="kérdés__n"/></e>
+    <e lm="tekervény"><i>tekervény</i><par n="kérdés__n"/></e>
+    <e lm="tekerület"><i>tekerület</i><par n="kérdés__n"/></e>
+    <e lm="tekintély"><i>tekintély</i><par n="kérdés__n"/></e>
+    <e lm="tekintet"><i>tekintet</i><par n="kérdés__n"/></e>
+    <e lm="telepítvény"><i>telepítvény</i><par n="kérdés__n"/></e>
+    <e lm="település"><i>település</i><par n="kérdés__n"/></e>
+    <e lm="televény"><i>televény</i><par n="kérdés__n"/></e>
+    <e lm="telex"><i>telex</i><par n="kérdés__n"/></e>
+    <e lm="telítődés"><i>telítődés</i><par n="kérdés__n"/></e>
+    <e lm="teljesítmény"><i>teljesítmény</i><par n="kérdés__n"/></e>
+    <e lm="teljeskörűség"><i>teljeskörűség</i><par n="kérdés__n"/></e>
+    <e lm="temperafestmény"><i>temperafestmény</i><par n="kérdés__n"/></e>
+    <e lm="tender"><i>tender</i><par n="kérdés__n"/></e>
+    <e lm="tengelic"><i>tengelic</i><par n="kérdés__n"/></e>
+    <e lm="tengely"><i>tengely</i><par n="kérdés__n"/></e>
+    <e lm="tengerészet"><i>tengerészet</i><par n="kérdés__n"/></e>
+    <e lm="tengerész"><i>tengerész</i><par n="kérdés__n"/></e>
+    <e lm="tengeribetegség"><i>tengeribetegség</i><par n="kérdés__n"/></e>
+    <e lm="tenger"><i>tenger</i><par n="kérdés__n"/></e>
+    <e lm="tengermély"><i>tengermély</i><par n="kérdés__n"/></e>
+    <e lm="tenisz"><i>tenisz</i><par n="kérdés__n"/></e>
+    <e lm="tenyeres"><i>tenyeres</i><par n="kérdés__n"/></e>
+    <e lm="tenyészet"><i>tenyészet</i><par n="kérdés__n"/></e>
+    <e lm="terelődés"><i>terelődés</i><par n="kérdés__n"/></e>
+    <e lm="teremtmény"><i>teremtmény</i><par n="kérdés__n"/></e>
+    <e lm="terep"><i>terep</i><par n="kérdés__n"/></e>
+    <e lm="terhes"><i>terhes</i><par n="kérdés__n"/></e>
+    <e lm="teríték"><i>teríték</i><par n="kérdés__n"/></e>
+    <e lm="térítés"><i>térítés</i><par n="kérdés__n"/></e>
+    <e lm="térítmény"><i>térítmény</i><par n="kérdés__n"/></e>
+    <e lm="térítvény"><i>térítvény</i><par n="kérdés__n"/></e>
+    <e lm="térképészet"><i>térképészet</i><par n="kérdés__n"/></e>
+    <e lm="térképész"><i>térképész</i><par n="kérdés__n"/></e>
+    <e lm="termék"><i>termék</i><par n="kérdés__n"/></e>
+    <e lm="termelés"><i>termelés</i><par n="kérdés__n"/></e>
+    <e lm="termelvény"><i>termelvény</i><par n="kérdés__n"/></e>
+    <e lm="terménybegyűjtés"><i>terménybegyűjtés</i><par n="kérdés__n"/></e>
+    <e lm="termény"><i>termény</i><par n="kérdés__n"/></e>
+    <e lm="természet"><i>természet</i><par n="kérdés__n"/></e>
+    <e lm="termesz"><i>termesz</i><par n="kérdés__n"/></e>
+    <e lm="termesztés"><i>termesztés</i><par n="kérdés__n"/></e>
+    <e lm="termet"><i>termet</i><par n="kérdés__n"/></e>
+    <e lm="termoelem"><i>termoelem</i><par n="kérdés__n"/></e>
+    <e lm="termőképes"><i>termőképes</i><par n="kérdés__n"/></e>
+    <e lm="termőréteg"><i>termőréteg</i><par n="kérdés__n"/></e>
+    <e lm="termőterület"><i>termőterület</i><par n="kérdés__n"/></e>
+    <e lm="terpesz"><i>terpesz</i><par n="kérdés__n"/></e>
+    <e lm="térség"><i>térség</i><par n="kérdés__n"/></e>
+    <e lm="tervezet"><i>tervezet</i><par n="kérdés__n"/></e>
+    <e lm="tervszerűsítés"><i>tervszerűsítés</i><par n="kérdés__n"/></e>
+    <e lm="területenkívüliség"><i>területenkívüliség</i><par n="kérdés__n"/></e>
+    <e lm="terület"><i>terület</i><par n="kérdés__n"/></e>
+    <e lm="testület"><i>testület</i><par n="kérdés__n"/></e>
+    <e lm="tétel"><i>tétel</i><par n="kérdés__n"/></e>
+    <e lm="tétemény"><i>tétemény</i><par n="kérdés__n"/></e>
+    <e lm="tetem"><i>tetem</i><par n="kérdés__n"/></e>
+    <e lm="tetőzet"><i>tetőzet</i><par n="kérdés__n"/></e>
+    <e lm="tetraéder"><i>tetraéder</i><par n="kérdés__n"/></e>
+    <e lm="tettes"><i>tettes</i><par n="kérdés__n"/></e>
+    <e lm="tettlegesség"><i>tettlegesség</i><par n="kérdés__n"/></e>
+    <e lm="tettrekészség"><i>tettrekészség</i><par n="kérdés__n"/></e>
+    <e lm="tetűtlenítés"><i>tetűtlenítés</i><par n="kérdés__n"/></e>
+    <e lm="tetvetlenítés"><i>tetvetlenítés</i><par n="kérdés__n"/></e>
+    <e lm="tevékenység"><i>tevékenység</i><par n="kérdés__n"/></e>
+    <e lm="tézis"><i>tézis</i><par n="kérdés__n"/></e>
+    <e lm="tigris"><i>tigris</i><par n="kérdés__n"/></e>
+    <e lm="tinédzser"><i>tinédzser</i><par n="kérdés__n"/></e>
+    <e lm="tintásüveg"><i>tintásüveg</i><par n="kérdés__n"/></e>
+    <e lm="tisztelet"><i>tisztelet</i><par n="kérdés__n"/></e>
+    <e lm="tisztes"><i>tisztes</i><par n="kérdés__n"/></e>
+    <e lm="tisztség"><i>tisztség</i><par n="kérdés__n"/></e>
+    <e lm="tízcentes"><i>tízcentes</i><par n="kérdés__n"/></e>
+    <e lm="tizedes"><i>tizedes</i><par n="kérdés__n"/></e>
+    <e lm="tizedesjel"><i>tizedesjel</i><par n="kérdés__n"/></e>
+    <e lm="tizedikes"><i>tizedikes</i><par n="kérdés__n"/></e>
+    <e lm="tizenegyedikes"><i>tizenegyedikes</i><par n="kérdés__n"/></e>
+    <e lm="tizenéves"><i>tizenéves</i><par n="kérdés__n"/></e>
+    <e lm="tizenkettedikes"><i>tizenkettedikes</i><par n="kérdés__n"/></e>
+    <e lm="tízezerrubeles"><i>tízezerrubeles</i><par n="kérdés__n"/></e>
+    <e lm="tízezerschillinges"><i>tízezerschillinges</i><par n="kérdés__n"/></e>
+    <e lm="tízfilléres"><i>tízfilléres</i><par n="kérdés__n"/></e>
+    <e lm="tízpennys"><i>tízpennys</i><par n="kérdés__n"/></e>
+    <e lm="tízrubeles"><i>tízrubeles</i><par n="kérdés__n"/></e>
+    <e lm="tőkekihelyezés"><i>tőkekihelyezés</i><par n="kérdés__n"/></e>
+    <e lm="tőkés"><i>tőkés</i><par n="kérdés__n"/></e>
+    <e lm="tompaelméjűség"><i>tompaelméjűség</i><par n="kérdés__n"/></e>
+    <e lm="totószelvény"><i>totószelvény</i><par n="kérdés__n"/></e>
+    <e lm="tőzeges"><i>tőzeges</i><par n="kérdés__n"/></e>
+    <e lm="tőzsér"><i>tőzsér</i><par n="kérdés__n"/></e>
+    <e lm="transzparens"><i>transzparens</i><par n="kérdés__n"/></e>
+    <e lm="tranziens"><i>tranziens</i><par n="kérdés__n"/></e>
+    <e lm="traverz"><i>traverz</i><par n="kérdés__n"/></e>
+    <e lm="trécselés"><i>trécselés</i><par n="kérdés__n"/></e>
+    <e lm="tremens"><i>tremens</i><par n="kérdés__n"/></e>
+    <e lm="tréner"><i>tréner</i><par n="kérdés__n"/></e>
+    <e lm="triciklovegyület"><i>triciklovegyület</i><par n="kérdés__n"/></e>
+    <e lm="trimeszter"><i>trimeszter</i><par n="kérdés__n"/></e>
+    <e lm="tuareg"><i>tuareg</i><par n="kérdés__n"/></e>
+    <e lm="túlbecslés"><i>túlbecslés</i><par n="kérdés__n"/></e>
+    <e lm="túlfeszültség"><i>túlfeszültség</i><par n="kérdés__n"/></e>
+    <e lm="túlfűtöttség"><i>túlfűtöttség</i><par n="kérdés__n"/></e>
+    <e lm="túlkereslet"><i>túlkereslet</i><par n="kérdés__n"/></e>
+    <e lm="túlterhelés"><i>túlterhelés</i><par n="kérdés__n"/></e>
+    <e lm="túltermelés"><i>túltermelés</i><par n="kérdés__n"/></e>
+    <e lm="tutajoslegény"><i>tutajoslegény</i><par n="kérdés__n"/></e>
+    <e lm="tűzkeresztség"><i>tűzkeresztség</i><par n="kérdés__n"/></e>
+    <e lm="tűzrendészet"><i>tűzrendészet</i><par n="kérdés__n"/></e>
+    <e lm="tündér"><i>tündér</i><par n="kérdés__n"/></e>
+    <e lm="tünemény"><i>tünemény</i><par n="kérdés__n"/></e>
+    <e lm="tünet"><i>tünet</i><par n="kérdés__n"/></e>
+    <e lm="türkiz"><i>türkiz</i><par n="kérdés__n"/></e>
+    <e lm="tüzér"><i>tüzér</i><par n="kérdés__n"/></e>
+    <e lm="tüzérség"><i>tüzérség</i><par n="kérdés__n"/></e>
+    <e lm="többes"><i>többes</i><par n="kérdés__n"/></e>
+    <e lm="többlet"><i>többlet</i><par n="kérdés__n"/></e>
+    <e lm="többség"><i>többség</i><par n="kérdés__n"/></e>
+    <e lm="tökély"><i>tökély</i><par n="kérdés__n"/></e>
+    <e lm="tölgyes"><i>tölgyes</i><par n="kérdés__n"/></e>
+    <e lm="töltelék"><i>töltelék</i><par n="kérdés__n"/></e>
+    <e lm="töltény"><i>töltény</i><par n="kérdés__n"/></e>
+    <e lm="töltet"><i>töltet</i><par n="kérdés__n"/></e>
+    <e lm="tömedék"><i>tömedék</i><par n="kérdés__n"/></e>
+    <e lm="tömeg"><i>tömeg</i><par n="kérdés__n"/></e>
+    <e lm="tömítettség"><i>tömítettség</i><par n="kérdés__n"/></e>
+    <e lm="tömkeleg"><i>tömkeleg</i><par n="kérdés__n"/></e>
+    <e lm="tömöntés"><i>tömöntés</i><par n="kérdés__n"/></e>
+    <e lm="tömörítvény"><i>tömörítvény</i><par n="kérdés__n"/></e>
+    <e lm="tönkremenetel"><i>tönkremenetel</i><par n="kérdés__n"/></e>
+    <e lm="töprenkedés"><i>töprenkedés</i><par n="kérdés__n"/></e>
+    <e lm="töredék"><i>töredék</i><par n="kérdés__n"/></e>
+    <e lm="törmelék"><i>törmelék</i><par n="kérdés__n"/></e>
+    <e lm="törődöttség"><i>törődöttség</i><par n="kérdés__n"/></e>
+    <e lm="történész"><i>történész</i><par n="kérdés__n"/></e>
+    <e lm="történet"><i>történet</i><par n="kérdés__n"/></e>
+    <e lm="törvényenkívüliség"><i>törvényenkívüliség</i><par n="kérdés__n"/></e>
+    <e lm="törvény"><i>törvény</i><par n="kérdés__n"/></e>
+    <e lm="törvénykezés"><i>törvénykezés</i><par n="kérdés__n"/></e>
+    <e lm="tövis"><i>tövis</i><par n="kérdés__n"/></e>
+    <e lm="úgysincs"><i>úgysincs</i><par n="kérdés__n"/></e>
+    <e lm="ujjabélés"><i>ujjabélés</i><par n="kérdés__n"/></e>
+    <e lm="újrafelfegyverzés"><i>újrafelfegyverzés</i><par n="kérdés__n"/></e>
+    <e lm="úriszék"><i>úriszék</i><par n="kérdés__n"/></e>
+    <e lm="úszódressz"><i>úszódressz</i><par n="kérdés__n"/></e>
+    <e lm="utánközlés"><i>utánközlés</i><par n="kérdés__n"/></e>
+    <e lm="utánrendelés"><i>utánrendelés</i><par n="kérdés__n"/></e>
+    <e lm="utántöltés"><i>utántöltés</i><par n="kérdés__n"/></e>
+    <e lm="útielőleg"><i>útielőleg</i><par n="kérdés__n"/></e>
+    <e lm="útiköltség"><i>útiköltség</i><par n="kérdés__n"/></e>
+    <e lm="útiterv"><i>útiterv</i><par n="kérdés__n"/></e>
+    <e lm="utóellenőrzés"><i>utóellenőrzés</i><par n="kérdés__n"/></e>
+    <e lm="utóérés"><i>utóérés</i><par n="kérdés__n"/></e>
+    <e lm="utóíz"><i>utóíz</i><par n="kérdés__n"/></e>
+    <e lm="utórengés"><i>utórengés</i><par n="kérdés__n"/></e>
+    <e lm="utórezgés"><i>utórezgés</i><par n="kérdés__n"/></e>
+    <e lm="utóülés"><i>utóülés</i><par n="kérdés__n"/></e>
+    <e lm="utózengés"><i>utózengés</i><par n="kérdés__n"/></e>
+    <e lm="vágánsköltészet"><i>vágánsköltészet</i><par n="kérdés__n"/></e>
+    <e lm="vagyonátmentés"><i>vagyonátmentés</i><par n="kérdés__n"/></e>
+    <e lm="vajasperec"><i>vajasperec</i><par n="kérdés__n"/></e>
     <e lm="válasz"><i>vála</i><par n="vála/sz__n"/></e>
+    <e lm="vámkirendeltség"><i>vámkirendeltség</i><par n="kérdés__n"/></e>
+    <e lm="vargabéles"><i>vargabéles</i><par n="kérdés__n"/></e>
+    <e lm="variométer"><i>variométer</i><par n="kérdés__n"/></e>
+    <e lm="vasasszakszervezet"><i>vasasszakszervezet</i><par n="kérdés__n"/></e>
+    <e lm="vasművesség"><i>vasművesség</i><par n="kérdés__n"/></e>
+    <e lm="vastraverz"><i>vastraverz</i><par n="kérdés__n"/></e>
+    <e lm="vátesz"><i>vátesz</i><par n="kérdés__n"/></e>
+    <e lm="védenc"><i>védenc</i><par n="kérdés__n"/></e>
+    <e lm="védnökség"><i>védnökség</i><par n="kérdés__n"/></e>
+    <e lm="végezet"><i>végezet</i><par n="kérdés__n"/></e>
+    <e lm="végkimerülés"><i>végkimerülés</i><par n="kérdés__n"/></e>
+    <e lm="véglet"><i>véglet</i><par n="kérdés__n"/></e>
+    <e lm="vegyészet"><i>vegyészet</i><par n="kérdés__n"/></e>
+    <e lm="vegyész"><i>vegyész</i><par n="kérdés__n"/></e>
+    <e lm="vegyíték"><i>vegyíték</i><par n="kérdés__n"/></e>
+    <e lm="vegyülék"><i>vegyülék</i><par n="kérdés__n"/></e>
+    <e lm="vegyület"><i>vegyület</i><par n="kérdés__n"/></e>
+    <e lm="végzet"><i>végzet</i><par n="kérdés__n"/></e>
+    <e lm="vélekedés"><i>vélekedés</i><par n="kérdés__n"/></e>
+    <e lm="vélemény"><i>vélemény</i><par n="kérdés__n"/></e>
+    <e lm="vendég"><i>vendég</i><par n="kérdés__n"/></e>
+    <e lm="véndely"><i>véndely</i><par n="kérdés__n"/></e>
+    <e lm="verejték"><i>verejték</i><par n="kérdés__n"/></e>
+    <e lm="vérengzés"><i>vérengzés</i><par n="kérdés__n"/></e>
+    <e lm="vereség"><i>vereség</i><par n="kérdés__n"/></e>
+    <e lm="veret"><i>veret</i><par n="kérdés__n"/></e>
+    <e lm="veríték"><i>veríték</i><par n="kérdés__n"/></e>
+    <e lm="vérség"><i>vérség</i><par n="kérdés__n"/></e>
+    <e lm="verselmény"><i>verselmény</i><par n="kérdés__n"/></e>
+    <e lm="verseny"><i>verseny</i><par n="kérdés__n"/></e>
+    <e lm="versezet"><i>versezet</i><par n="kérdés__n"/></e>
+    <e lm="vértezet"><i>vértezet</i><par n="kérdés__n"/></e>
+    <e lm="véset"><i>véset</i><par n="kérdés__n"/></e>
+    <e lm="veszély"><i>veszély</i><par n="kérdés__n"/></e>
+    <e lm="veszendőség"><i>veszendőség</i><par n="kérdés__n"/></e>
+    <e lm="veszettség"><i>veszettség</i><par n="kérdés__n"/></e>
+    <e lm="vesződség"><i>vesződség</i><par n="kérdés__n"/></e>
+    <e lm="veszteség"><i>veszteség</i><par n="kérdés__n"/></e>
+    <e lm="vesztés"><i>vesztés</i><par n="kérdés__n"/></e>
+    <e lm="vétel"><i>vétel</i><par n="kérdés__n"/></e>
+    <e lm="veteményes"><i>veteményes</i><par n="kérdés__n"/></e>
+    <e lm="vetemény"><i>vetemény</i><par n="kérdés__n"/></e>
+    <e lm="vetődés"><i>vetődés</i><par n="kérdés__n"/></e>
+    <e lm="vétség"><i>vétség</i><par n="kérdés__n"/></e>
+    <e lm="vetülék"><i>vetülék</i><par n="kérdés__n"/></e>
+    <e lm="vetület"><i>vetület</i><par n="kérdés__n"/></e>
+    <e lm="vevény"><i>vevény</i><par n="kérdés__n"/></e>
+    <e lm="vezénylet"><i>vezénylet</i><par n="kérdés__n"/></e>
+    <e lm="vezér"><i>vezér</i><par n="kérdés__n"/></e>
+    <e lm="vezérlet"><i>vezérlet</i><par n="kérdés__n"/></e>
+    <e lm="vezérlőberendezés"><i>vezérlőberendezés</i><par n="kérdés__n"/></e>
+    <e lm="vezérlőegység"><i>vezérlőegység</i><par n="kérdés__n"/></e>
+    <e lm="vezérlőkarakter"><i>vezérlőkarakter</i><par n="kérdés__n"/></e>
+    <e lm="vezérlőrendszer"><i>vezérlőrendszer</i><par n="kérdés__n"/></e>
+    <e lm="vezérség"><i>vezérség</i><par n="kérdés__n"/></e>
+    <e lm="vezeték"><i>vezeték</i><par n="kérdés__n"/></e>
+    <e lm="vezetés"><i>vezetés</i><par n="kérdés__n"/></e>
+    <e lm="vidék"><i>vidék</i><par n="kérdés__n"/></e>
+    <e lm="videofelvétel"><i>videofelvétel</i><par n="kérdés__n"/></e>
+    <e lm="vigéc"><i>vigéc</i><par n="kérdés__n"/></e>
+    <e lm="vigyázzmenet"><i>vigyázzmenet</i><par n="kérdés__n"/></e>
+    <e lm="világrajövetel"><i>világrajövetel</i><par n="kérdés__n"/></e>
+    <e lm="villőzés"><i>villőzés</i><par n="kérdés__n"/></e>
+    <e lm="vincseszter"><i>vincseszter</i><par n="kérdés__n"/></e>
+    <e lm="viselet"><i>viselet</i><par n="kérdés__n"/></e>
+    <e lm="viselősség"><i>viselősség</i><par n="kérdés__n"/></e>
+    <e lm="visszajövetel"><i>visszajövetel</i><par n="kérdés__n"/></e>
+    <e lm="visszajövet"><i>visszajövet</i><par n="kérdés__n"/></e>
+    <e lm="visszamenet"><i>visszamenet</i><par n="kérdés__n"/></e>
+    <e lm="viszketegség"><i>viszketegség</i><par n="kérdés__n"/></e>
+    <e lm="viszkoziméter"><i>viszkoziméter</i><par n="kérdés__n"/></e>
+    <e lm="vitelezés"><i>vitelezés</i><par n="kérdés__n"/></e>
+    <e lm="vitel"><i>vitel</i><par n="kérdés__n"/></e>
+    <e lm="vitézkötés"><i>vitézkötés</i><par n="kérdés__n"/></e>
+    <e lm="vitézsereg"><i>vitézsereg</i><par n="kérdés__n"/></e>
+    <e lm="vizelet"><i>vizelet</i><par n="kérdés__n"/></e>
+    <e lm="vízibetegség"><i>vízibetegség</i><par n="kérdés__n"/></e>
+    <e lm="víz"><i>v</i><par n="v/íz__n"/></e>
+    <e lm="vőfély"><i>vőfély</i><par n="kérdés__n"/></e>
+    <e lm="volumen"><i>volumen</i><par n="kérdés__n"/></e>
+    <e lm="vonalkiemelés"><i>vonalkiemelés</i><par n="kérdés__n"/></e>
+    <e lm="vulkánfíber"><i>vulkánfíber</i><par n="kérdés__n"/></e>
+    <e lm="völgység"><i>völgység</i><par n="kérdés__n"/></e>
+    <e lm="vörheny"><i>vörheny</i><par n="kérdés__n"/></e>
+    <e lm="vörösérzékenység"><i>vörösérzékenység</i><par n="kérdés__n"/></e>
+    <e lm="vörösvasérc"><i>vörösvasérc</i><par n="kérdés__n"/></e>
+    <e lm="wellness"><i>wellness</i><par n="kérdés__n"/></e>
+    <e lm="wertheimszekrény"><i>wertheimszekrény</i><par n="kérdés__n"/></e>
+    <e lm="übermensch"><i>übermensch</i><par n="kérdés__n"/></e>
+    <e lm="üdvözlet"><i>üdvözlet</i><par n="kérdés__n"/></e>
+    <e lm="ügyeletes"><i>ügyeletes</i><par n="kérdés__n"/></e>
+    <e lm="ügyelet"><i>ügyelet</i><par n="kérdés__n"/></e>
+    <e lm="ügyesítés"><i>ügyesítés</i><par n="kérdés__n"/></e>
+    <e lm="ügyész"><i>ügyész</i><par n="kérdés__n"/></e>
+    <e lm="ügyészség"><i>ügyészség</i><par n="kérdés__n"/></e>
+    <e lm="ügylet"><i>ügylet</i><par n="kérdés__n"/></e>
+    <e lm="ügynökség"><i>ügynökség</i><par n="kérdés__n"/></e>
+    <e lm="ügyvédség"><i>ügyvédség</i><par n="kérdés__n"/></e>
+    <e lm="üledék"><i>üledék</i><par n="kérdés__n"/></e>
+    <e lm="ülep"><i>ülep</i><par n="kérdés__n"/></e>
+    <e lm="ülés"><i>ülés</i><par n="kérdés__n"/></e>
+    <e lm="ültetvény"><i>ültetvény</i><par n="kérdés__n"/></e>
+    <e lm="ünnepély"><i>ünnepély</i><par n="kérdés__n"/></e>
+    <e lm="ünnep"><i>ünnep</i><par n="kérdés__n"/></e>
+    <e lm="ünnepség"><i>ünnepség</i><par n="kérdés__n"/></e>
+    <e lm="üreg"><i>üreg</i><par n="kérdés__n"/></e>
+    <e lm="ürülék"><i>ürülék</i><par n="kérdés__n"/></e>
+    <e lm="ütem"><i>ütem</i><par n="kérdés__n"/></e>
+    <e lm="ütközet"><i>ütközet</i><par n="kérdés__n"/></e>
+    <e lm="ütleg"><i>ütleg</i><par n="kérdés__n"/></e>
+    <e lm="ütögetés"><i>ütögetés</i><par n="kérdés__n"/></e>
+    <e lm="üveges"><i>üveges</i><par n="kérdés__n"/></e>
+    <e lm="üvegművesség"><i>üvegművesség</i><par n="kérdés__n"/></e>
+    <e lm="üzem"><i>üzem</i><par n="kérdés__n"/></e>
+    <e lm="üzenet"><i>üzenet</i><par n="kérdés__n"/></e>
+    <e lm="üzér"><i>üzér</i><par n="kérdés__n"/></e>
+    <e lm="üzlet"><i>üzlet</i><par n="kérdés__n"/></e>
+    <e lm="zabigyerek"><i>zabigyerek</i><par n="kérdés__n"/></e>
+    <e lm="zelnice-meggy"><i>zelnice-meggy</i><par n="kérdés__n"/></e>
+    <e lm="zenész"><i>zenész</i><par n="kérdés__n"/></e>
+    <e lm="zengzet"><i>zengzet</i><par n="kérdés__n"/></e>
+    <e lm="zéróleképezés"><i>zéróleképezés</i><par n="kérdés__n"/></e>
+    <e lm="ziliz"><i>ziliz</i><par n="kérdés__n"/></e>
+    <e lm="zilíz"><i>zilíz</i><par n="kérdés__n"/></e>
+    <e lm="zizegés"><i>zizegés</i><par n="kérdés__n"/></e>
+    <e lm="zsalugáter"><i>zsalugáter</i><par n="kérdés__n"/></e>
+    <e lm="zsáner"><i>zsáner</i><par n="kérdés__n"/></e>
+    <e lm="zsellérség"><i>zsellérség</i><par n="kérdés__n"/></e>
+    <e lm="zsiger"><i>zsiger</i><par n="kérdés__n"/></e>
+    <e lm="zsindely"><i>zsindely</i><par n="kérdés__n"/></e>
+    <e lm="zsoldosvezér"><i>zsoldosvezér</i><par n="kérdés__n"/></e>
+    <e lm="zöldséges"><i>zöldséges</i><par n="kérdés__n"/></e>
+    <e lm="zöldség"><i>zöldség</i><par n="kérdés__n"/></e>
+    <e lm="zöngemény"><i>zöngemény</i><par n="kérdés__n"/></e>
+    <e lm="zörej"><i>zörej</i><par n="kérdés__n"/></e>
+    <e lm="ökörség"><i>ökörség</i><par n="kérdés__n"/></e>
+    <e lm="öldöklés"><i>öldöklés</i><par n="kérdés__n"/></e>
+    <e lm="ölelgetés"><i>ölelgetés</i><par n="kérdés__n"/></e>
+    <e lm="öltözék"><i>öltözék</i><par n="kérdés__n"/></e>
+    <e lm="öltözet"><i>öltözet</i><par n="kérdés__n"/></e>
+    <e lm="ömledék"><i>ömledék</i><par n="kérdés__n"/></e>
+    <e lm="ömleny"><i>ömleny</i><par n="kérdés__n"/></e>
+    <e lm="önfeledtség"><i>önfeledtség</i><par n="kérdés__n"/></e>
+    <e lm="önkéntes"><i>önkéntes</i><par n="kérdés__n"/></e>
+    <e lm="önkívület"><i>önkívület</i><par n="kérdés__n"/></e>
+    <e lm="önmegfegyelmezés"><i>önmegfegyelmezés</i><par n="kérdés__n"/></e>
+    <e lm="öntecs"><i>öntecs</i><par n="kérdés__n"/></e>
+    <e lm="öntészet"><i>öntészet</i><par n="kérdés__n"/></e>
+    <e lm="öntet"><i>öntet</i><par n="kérdés__n"/></e>
+    <e lm="öntvény"><i>öntvény</i><par n="kérdés__n"/></e>
+    <e lm="öntörvényűség"><i>öntörvényűség</i><par n="kérdés__n"/></e>
+    <e lm="önzés"><i>önzés</i><par n="kérdés__n"/></e>
+    <e lm="öregedés"><i>öregedés</i><par n="kérdés__n"/></e>
+    <e lm="örvény"><i>örvény</i><par n="kérdés__n"/></e>
+    <e lm="öröklét"><i>öröklét</i><par n="kérdés__n"/></e>
+    <e lm="örökmécses"><i>örökmécses</i><par n="kérdés__n"/></e>
+    <e lm="örökmécs"><i>örökmécs</i><par n="kérdés__n"/></e>
+    <e lm="örömteljes"><i>örömteljes</i><par n="kérdés__n"/></e>
+    <e lm="összeg"><i>összeg</i><par n="kérdés__n"/></e>
+    <e lm="összeszedettség"><i>összeszedettség</i><par n="kérdés__n"/></e>
+    <e lm="össztermék"><i>össztermék</i><par n="kérdés__n"/></e>
+    <e lm="ösvény"><i>ösvény</i><par n="kérdés__n"/></e>
+    <e lm="ötcentes"><i>ötcentes</i><par n="kérdés__n"/></e>
+    <e lm="ötezerrubeles"><i>ötezerrubeles</i><par n="kérdés__n"/></e>
+    <e lm="ötezerschillinges"><i>ötezerschillinges</i><par n="kérdés__n"/></e>
+    <e lm="ötfilléres"><i>ötfilléres</i><par n="kérdés__n"/></e>
+    <e lm="ötletesség"><i>ötletesség</i><par n="kérdés__n"/></e>
+    <e lm="ötlet"><i>ötlet</i><par n="kérdés__n"/></e>
+    <e lm="ötpennys"><i>ötpennys</i><par n="kérdés__n"/></e>
+    <e lm="ötrubeles"><i>ötrubeles</i><par n="kérdés__n"/></e>
+    <e lm="ötszázrubeles"><i>ötszázrubeles</i><par n="kérdés__n"/></e>
+    <e lm="ötszázschillinges"><i>ötszázschillinges</i><par n="kérdés__n"/></e>
+    <e lm="öttusaverseny"><i>öttusaverseny</i><par n="kérdés__n"/></e>
+    <e lm="ötvencentes"><i>ötvencentes</i><par n="kérdés__n"/></e>
+    <e lm="ötvenfilléres"><i>ötvenfilléres</i><par n="kérdés__n"/></e>
+    <e lm="ötvenpennys"><i>ötvenpennys</i><par n="kérdés__n"/></e>
+    <e lm="ötvenrubeles"><i>ötvenrubeles</i><par n="kérdés__n"/></e>
+    <e lm="ötvösség"><i>ötvösség</i><par n="kérdés__n"/></e>
+    <e lm="ötvözet"><i>ötvözet</i><par n="kérdés__n"/></e>
+    <e lm="ötödéves"><i>ötödéves</i><par n="kérdés__n"/></e>
+    <e lm="ötödikes"><i>ötödikes</i><par n="kérdés__n"/></e>
+    <e lm="övezet"><i>övezet</i><par n="kérdés__n"/></e>
+    <e lm="ö-zés"><i>ö-zés</i><par n="kérdés__n"/></e>
+    <e lm="özvegy"><i>özvegy</i><par n="kérdés__n"/></e>
+    <e lm="özvegység"><i>özvegység</i><par n="kérdés__n"/></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -1603,18 +4318,54 @@
 
     <!-- SECTION: Adjectives -->
 
+
+    <e lm="afgán"><i>afgán</i><par n="magyar__adj"/></e>
+    <e lm="akkád"><i>akkád</i><par n="magyar__adj"/></e>
+    <e lm="albán"><i>albán</i><par n="magyar__adj"/></e>
+    <e lm="angol"><i>angol</i><par n="magyar__adj"/></e>
+    <e lm="arab"><i>arab</i><par n="magyar__adj"/></e>
+    <e lm="ausztrál"><i>ausztrál</i><par n="magyar__adj"/></e>
+    <e lm="bajor"><i>bajor</i><par n="magyar__adj"/></e>
     <e lm="boldog"><i>boldog</i><par n="boldog__adj"/></e>
+    <e lm="bolgár"><i>bolgár</i><par n="magyar__adj"/></e>
+    <e lm="bosnyák"><i>bosnyák</i><par n="magyar__adj"/></e>
+    <e lm="burját"><i>burját</i><par n="magyar__adj"/></e>
+    <e lm="című"><i>című</i><par n="éves__adj"/></e>
+    <e lm="daják"><i>daják</i><par n="magyar__adj"/></e>
+    <e lm="dalmát"><i>dalmát</i><par n="magyar__adj"/></e>
+    <e lm="farad"><i>farad</i><par n="magyar__adj"/></e>
     <e lm="figyelmes"><i>figyelmes</i><par n="hideg__adj"/></e>
+    <e lm="finnugor"><i>finnugor</i><par n="magyar__adj"/></e>
     <e lm="hideg"><i>hideg</i><par n="hideg__adj"/></e>
+    <e lm="horvát"><i>horvát</i><par n="magyar__adj"/></e>
     <e lm="jó"><i>j</i><par n="j/ó__adj"/></e>
     <e lm="kicsi"><i>ki</i><par n="ki/csi__adj"/></e>
     <e lm="kis"><i>kis</i><par n="hideg__adj"/></e>
     <e lm="közel"><i>közel</i><par n="hideg__adj"/></e>
+    <e lm="lágy"><i>lágy</i><par n="új__adj"/></e>
+    <e lm="latin"><i>latin</i><par n="magyar__adj"/></e>
+    <e lm="macedón"><i>macedón</i><par n="magyar__adj"/></e>
+    <e lm="magyar"><i>magyar</i><par n="magyar__adj"/></e>
     <e lm="más"><i>más</i><par n="boldog__adj"/></e>
     <e lm="meleg"><i>meleg</i><par n="hideg__adj"/></e>
     <e lm="nagy"><i>nagy</i><par n="nagy__adj"/></e>
+    <e lm="osztják"><i>osztják</i><par n="magyar__adj"/></e>
+    <e lm="osztrák"><i>osztrák</i><par n="magyar__adj"/></e>
+    <e lm="provanszál"><i>provanszál</i><par n="magyar__adj"/></e>
+    <e lm="román"><i>román</i><par n="magyar__adj"/></e>
+    <e lm="rossz"><i>rossz</i><par n="új__adj"/></e>
+    <e lm="spanyol"><i>spanyol</i><par n="magyar__adj"/></e>
+    <e lm="szanszkrit"><i>szanszkrit</i><par n="magyar__adj"/></e>
     <e lm="szép"><i>szé</i><par n="szé/p__adj"/></e>
+    <e lm="szórványmagyar"><i>szórványmagyar</i><par n="magyar__adj"/></e>
+    <e lm="toszkán"><i>toszkán</i><par n="magyar__adj"/></e>
+    <e lm="ugor"><i>ugor</i><par n="magyar__adj"/></e>
+    <e lm="ujgur"><i>ujgur</i><par n="magyar__adj"/></e>
+    <e lm="új"><i>új</i><par n="új__adj"/></e>
+    <e lm="ukrán"><i>ukrán</i><par n="magyar__adj"/></e>
     <e lm="vén"><i>vén</i><par n="hideg__adj"/></e>
+
+    <e lm="több"><i>több</i><par n="éves__adj"/></e>
 
     <e lm="ötéves"><i>ötéves</i><par n="éves__adj"/></e>
     <e lm="hatéves"><i>hatéves</i><par n="éves__adj"/></e>
@@ -1637,6 +4388,7 @@
     <e lm="amint"><i>amint</i><par n="tegnap__adv"/></e>
     <e lm="amire"><i>amire</i><par n="tegnap__adv"/></e>
     <e lm="annálfogva"><i>annálfogva</i><par n="tegnap__adv"/></e>
+    <e lm="át"><i>át</i><par n="tegnap__adv"/></e>
     <e lm="avagy"><i>avagy</i><par n="tegnap__adv"/></e>
     <e lm="azaz"><i>azaz</i><par n="tegnap__adv"/></e>
     <e lm="azért"><i>azért</i><par n="tegnap__adv"/></e>
@@ -1644,6 +4396,7 @@
     <e lm="aztán"><i>aztán</i><par n="tegnap__adv"/></e>
     <e lm="bárcsak"><i>bárcsak</i><par n="tegnap__adv"/></e>
     <e lm="bár"><i>bár</i><par n="tegnap__adv"/></e>
+    <e lm="be"><i>be</i><par n="tegnap__adv"/></e>
     <e lm="csakhogy"><i>csakhogy</i><par n="tegnap__adv"/></e>
     <e lm="csak"><i>csak</i><par n="tegnap__adv"/></e>
     <e lm="csupán"><i>csupán</i><par n="tegnap__adv"/></e>
@@ -1696,6 +4449,7 @@
     <e lm="különben"><i>különben</i><par n="tegnap__adv"/></e>
     <e lm="lassan"><i>lassa</i><par n="lassa/n__adv"/></e>
     <e lm="látszólag"><i>látszólag</i><par n="tegnap__adv"/></e>
+    <e lm="le"><i>le</i><par n="tegnap__adv"/></e>
     <e lm="ma"><i>ma</i><par n="tegnap__adv"/></e>
     <e lm="majd"><i>majd</i><par n="tegnap__adv"/></e>
     <e lm="majdnemhogy"><i>majdnemhogy</i><par n="tegnap__adv"/></e>
@@ -1794,7 +4548,11 @@
 
     <!-- interrogatives -->
 
+    <e lm="aki"><i>aki</i><par n="hol__adv"/></e>
+    <e lm="ki"><i>ki</i><par n="hol__adv"/></e>
+    <e lm="ahol"><i>ahol</i><par n="hol__adv"/></e>
     <e lm="hol"><i>hol</i><par n="hol__adv"/></e>
+    <e lm="hogy"><i>hogy</i><par n="hol__adv"/></e>
     <e lm="hova"><i>hova</i><par n="hol__adv"/></e>
     <e lm="hová"><i>hová</i><par n="hol__adv"/></e>
     <e lm="miért"><i>miért</i><par n="hol__adv"/></e>
@@ -1851,6 +4609,7 @@
     <e lm="válasz"><i>válasz</i><par n="imád__vblex"/></e>
     <e lm="válaszol"><i>válaszol</i><par n="imád__vblex"/></e>
     <e lm="végigsétál"><i>végigsétál</i><par n="imád__vblex"/></e>
+    <e lm="lesz"><i>le</i><par n="le/sz__vblex"/></e>
 
     <!-- SECTION: Interjections -->
 
