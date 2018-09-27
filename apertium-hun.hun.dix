@@ -629,6 +629,22 @@
       <e><p><l>ük</l><r><s n="px3ps"/></r></p></e>
   </pardef>
 
+  <pardef n="n/év__n">
+        <e><p><l>év</l><r>év<s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
+        <e><p><l>evet</l><r>év<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
+        <e><p><l>évnek</l><r>év<s n="n"/><s n="sg"/><s n="dat"/></r></p></e>
+        <e><p><l>évvel</l><r>év<s n="n"/><s n="sg"/><s n="ins"/></r></p></e>
+        <e><p><l>évben</l><r>év<s n="n"/><s n="sg"/><s n="ine"/></r></p></e>
+        <e><p><l>évhez</l><r>év<s n="n"/><s n="sg"/><s n="all"/></r></p></e>
+        <e><p><l>évbe</l><r>év<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
+        <e><p><l>évnél</l><r>év<s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>éven</l><r>év<s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
+
+      <e><p><l>eve</l><r>év<s n="px3ss"/></r></p></e>
+      <e><p><l>evünk</l><r>év<s n="px1ps"/></r></p></e>
+      <e><p><l>evük</l><r>év<s n="px3ps"/></r></p></e>
+    </pardef>
+
   <pardef n="adat__n">
         <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
         <e><p><l>ot</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -1169,7 +1185,7 @@
         <e><p><l>ák</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
 
 
-        <e><p><l>ást</l><r><s n="vblex"/><s n="foo"/></r></p></e>
+        <e><p><l>ott</l><r><s n="vblex"/><s n="pp"/></r></p></e>
     </pardef>
 
     <pardef n="lát__vblex">
@@ -1681,6 +1697,7 @@
     <e lm="agarászat"><i>agarászat</i><par n="banán__n"/></e>
     <e lm="ágazat"><i>ágazat</i><par n="banán__n"/></e>
     <e lm="aggály"><i>aggály</i><par n="banán__n"/></e>
+    <e lm="agg"><i>agg</i><par n="bank__n"/></e>
     <e lm="agglomerátum"><i>agglomerátum</i><par n="banán__n"/></e>
     <e lm="aggodalmaskodás"><i>aggodalmaskodás</i><par n="banán__n"/></e>
     <e lm="aggottság"><i>aggottság</i><par n="banán__n"/></e>
@@ -1747,6 +1764,7 @@
     <e lm="aknász"><i>aknász</i><par n="banán__n"/></e>
     <e lm="akropolisz"><i>akropolisz</i><par n="banán__n"/></e>
     <e lm="aktázás"><i>aktázás</i><par n="banán__n"/></e>
+    <e lm="akt"><i>akt</i><par n="bank__n"/></e>
     <e lm="aktivitás"><i>aktivitás</i><par n="banán__n"/></e>
     <e lm="aktivizmus"><i>aktivizmus</i><par n="banán__n"/></e>
     <e lm="aktívum"><i>aktívum</i><par n="banán__n"/></e>
@@ -1830,6 +1848,7 @@
     <e lm="álmatlanság"><i>álmatlanság</i><par n="ország__n"/></e>
     <e lm="álmodozás"><i>álmodozás</i><par n="banán__n"/></e>
     <e lm="álmosság"><i>álmosság</i><par n="ország__n"/></e>
+    <e lm="álnév"><i>áln</i><par n="n/év__n"/></e>
     <e lm="álokoskodás"><i>álokoskodás</i><par n="banán__n"/></e>
     <e lm="álorvos"><i>álorvos</i><par n="banán__n"/></e>
     <e lm="álpátosz"><i>álpátosz</i><par n="banán__n"/></e>
@@ -1844,6 +1863,7 @@
     <e lm="altatódal"><i>altatódal</i><par n="asztal__n"/></e>
     <e lm="altemplom"><i>altemplom</i><par n="banán__n"/></e>
     <e lm="alternativitás"><i>alternativitás</i><par n="banán__n"/></e>
+    <e lm="alt"><i>alt</i><par n="bank__n"/></e>
     <e lm="altruizmus"><i>altruizmus</i><par n="banán__n"/></e>
     <e lm="áltudós"><i>áltudós</i><par n="banán__n"/></e>
     <e lm="alufólia"><i>alufóli</i><par n="macsk/a__n"/></e>
@@ -2196,6 +2216,8 @@
     <e lm="babaruha"><i>babaruh</i><par n="macsk/a__n"/></e>
     <e lm="bábaság"><i>bábaság</i><par n="banán__n"/></e>
     <e lm="bab"><i>bab</i><par n="bab__n"/></e>
+    <e lm="bab"><i>bab</i><par n="bank__n"/></e>
+    <e lm="báb"><i>báb</i><par n="bank__n"/></e>
     <e lm="babona"><i>babon</i><par n="macsk/a__n"/></e>
     <e lm="babonaság"><i>babonaság</i><par n="banán__n"/></e>
     <e lm="bábozás"><i>bábozás</i><par n="banán__n"/></e>
@@ -2213,6 +2235,7 @@
     <e lm="bakancs"><i>bakancs</i><par n="banán__n"/></e>
     <e lm="bakancs"><i>bakan</i><par n="á/cs__n"/></e>
     <e lm="bakfis"><i>bakfis</i><par n="banán__n"/></e>
+    <e lm="bak"><i>bak</i><par n="bank__n"/></e>
     <e lm="baksis"><i>baksis</i><par n="banán__n"/></e>
     <e lm="bakteriológus"><i>bakteriológus</i><par n="banán__n"/></e>
     <e lm="baktérium"><i>baktérium</i><par n="banán__n"/></e>
@@ -2226,6 +2249,7 @@
     <e lm="balhés"><i>balhés</i><par n="kérdés__n"/></e>
     <e lm="balhit"><i>balhit</i><par n="kérdés__n"/></e>
     <e lm="bál"><i>bál</i><par n="alkohol__n"/></e>
+    <e lm="bál"><i>bál</i><par n="bank__n"/></e>
     <e lm="balkanizálódás"><i>balkanizálódás</i><par n="banán__n"/></e>
     <e lm="ballada"><i>ballad</i><par n="macsk/a__n"/></e>
     <e lm="ballisztika"><i>ballisztik</i><par n="macsk/a__n"/></e>
@@ -2250,6 +2274,8 @@
     <e lm="bandérium"><i>bandérium</i><par n="banán__n"/></e>
     <e lm="bandita"><i>bandit</i><par n="macsk/a__n"/></e>
     <e lm="banditizmus"><i>banditizmus</i><par n="banán__n"/></e>
+    <e lm="bán"><i>bán</i><par n="bank__n"/></e>
+    <e lm="bank"><i>bank</i><par n="bank__n"/></e>
     <e lm="bank"><i>bank</i><par n="bank__n"/></e>
     <e lm="bánság"><i>bánság</i><par n="banán__n"/></e>
     <e lm="bantamsúly"><i>bantamsúly</i><par n="banán__n"/></e>
@@ -2273,6 +2299,8 @@
     <e lm="barbarizmus"><i>barbarizmus</i><par n="banán__n"/></e>
     <e lm="barbárság"><i>barbárság</i><par n="ország__n"/></e>
     <e lm="barchesz"><i>barchesz</i><par n="kérdés__n"/></e>
+    <e lm="bárd"><i>bárd</i><par n="bank__n"/></e>
+    <e lm="bár"><i>bár</i><par n="bank__n"/></e>
     <e lm="bariontöltés"><i>bariontöltés</i><par n="kérdés__n"/></e>
     <e lm="barka"><i>bark</i><par n="macsk/a__n"/></e>
     <e lm="bárka"><i>bárk</i><par n="macsk/a__n"/></e>
@@ -2306,6 +2334,7 @@
     <e lm="bebocsátás"><i>bebocsátás</i><par n="banán__n"/></e>
     <e lm="bebújós"><i>bebújós</i><par n="banán__n"/></e>
     <e lm="bebörtönzés"><i>bebörtönzés</i><par n="kérdés__n"/></e>
+    <e lm="becenév"><i>becen</i><par n="n/év__n"/></e>
     <e lm="becézgetés"><i>becézgetés</i><par n="kérdés__n"/></e>
     <e lm="becőke"><i>becők</i><par n="bék/e__n"/></e>
     <e lm="becsapás"><i>becsapás</i><par n="banán__n"/></e>
@@ -2553,11 +2582,14 @@
     <e lm="biztosíték"><i>biztosíték</i><par n="banán__n"/></e>
     <e lm="biztosító"><i>biztosító</i><par n="adó__n"/></e>
     <e lm="blamázs"><i>blamázs</i><par n="banán__n"/></e>
+    <e lm="blatt"><i>blatt</i><par n="bank__n"/></e>
     <e lm="blattolás"><i>blattolás</i><par n="banán__n"/></e>
     <e lm="blazírtság"><i>blazírtság</i><par n="banán__n"/></e>
     <e lm="blende"><i>blend</i><par n="bék/e__n"/></e>
     <e lm="blockflöte"><i>blockflöt</i><par n="bék/e__n"/></e>
+    <e lm="blokk"><i>blokk</i><par n="bank__n"/></e>
     <e lm="bob"><i>bob</i><par n="bab__n"/></e>
+    <e lm="bob"><i>bob</i><par n="bank__n"/></e>
     <e lm="bocsánat"><i>bocsánat</i><par n="adat__n"/></e>
     <e lm="bocsánat"><i>bocsánat</i><par n="banán__n"/></e>
     <e lm="bodobács"><i>bodobács</i><par n="banán__n"/></e>
@@ -2575,8 +2607,10 @@
     <e lm="bohóc"><i>bohóc</i><par n="banán__n"/></e>
     <e lm="bohócság"><i>bohócság</i><par n="banán__n"/></e>
     <e lm="bohózat"><i>bohózat</i><par n="banán__n"/></e>
+    <e lm="bojt"><i>bojt</i><par n="bank__n"/></e>
     <e lm="boka"><i>bok</i><par n="macsk/a__n"/></e>
     <e lm="bokály"><i>bokály</i><par n="banán__n"/></e>
+    <e lm="bók"><i>bók</i><par n="bank__n"/></e>
     <e lm="bók"><i>bók</i><par n="bank__n"/></e>
     <e lm="boldogság"><i>boldogság</i><par n="banán__n"/></e>
     <e lm="boldogság"><i>boldogság</i><par n="ország__n"/></e>
@@ -2584,6 +2618,7 @@
     <e lm="bolha"><i>bolh</i><par n="macsk/a__n"/></e>
     <e lm="bolondság"><i>bolondság</i><par n="ország__n"/></e>
     <e lm="bolsevizmus"><i>bolsevizmus</i><par n="banán__n"/></e>
+    <e lm="bolt"><i>bolt</i><par n="bank__n"/></e>
     <e lm="bolt"><i>bolt</i><par n="pont__n"/></e>
     <e lm="boltozat"><i>boltozat</i><par n="adat__n"/></e>
     <e lm="boltozat"><i>boltozat</i><par n="banán__n"/></e>
@@ -2620,6 +2655,7 @@
     <e lm="boszorkányság"><i>boszorkányság</i><par n="banán__n"/></e>
     <e lm="bőszültség"><i>bőszültség</i><par n="kérdés__n"/></e>
     <e lm="botanikus"><i>botanikus</i><par n="banán__n"/></e>
+    <e lm="bot"><i>bot</i><par n="bank__n"/></e>
     <e lm="bot"><i>bot</i><par n="pont__n"/></e>
     <e lm="botorkálás"><i>botorkálás</i><par n="banán__n"/></e>
     <e lm="botorság"><i>botorság</i><par n="banán__n"/></e>
@@ -2641,6 +2677,7 @@
     <e lm="briliáns"><i>briliáns</i><par n="banán__n"/></e>
     <e lm="briós"><i>briós</i><par n="banán__n"/></e>
     <e lm="brojler"><i>brojler</i><par n="kérdés__n"/></e>
+    <e lm="bróm"><i>bróm</i><par n="bank__n"/></e>
     <e lm="brómozás"><i>brómozás</i><par n="banán__n"/></e>
     <e lm="bronchitis"><i>bronchitis</i><par n="kérdés__n"/></e>
     <e lm="bronzmíves"><i>bronzmíves</i><par n="kérdés__n"/></e>
@@ -2650,6 +2687,7 @@
     <e lm="brúder"><i>brúder</i><par n="kérdés__n"/></e>
     <e lm="brutalitás"><i>brutalitás</i><par n="banán__n"/></e>
     <e lm="bruttósítás"><i>bruttósítás</i><par n="banán__n"/></e>
+    <e lm="búb"><i>búb</i><par n="bank__n"/></e>
     <e lm="buborék"><i>buborék</i><par n="ablak__n"/></e>
     <e lm="búcsús"><i>búcsús</i><par n="banán__n"/></e>
     <e lm="budavirág"><i>budavirág</i><par n="banán__n"/></e>
@@ -2716,8 +2754,10 @@
     <e lm="böszörmény"><i>böszörmény</i><par n="kérdés__n"/></e>
     <e lm="cáfolat"><i>cáfolat</i><par n="banán__n"/></e>
     <e lm="cafrangos"><i>cafrangos</i><par n="banán__n"/></e>
+    <e lm="cakk"><i>cakk</i><par n="bank__n"/></e>
     <e lm="cápa"><i>cáp</i><par n="macsk/a__n"/></e>
     <e lm="cárevics"><i>cárevics</i><par n="kérdés__n"/></e>
+    <e lm="cár"><i>cár</i><par n="bank__n"/></e>
     <e lm="caries"><i>caries</i><par n="kérdés__n"/></e>
     <e lm="cárizmus"><i>cárizmus</i><par n="banán__n"/></e>
     <e lm="cárság"><i>cárság</i><par n="banán__n"/></e>
@@ -2729,6 +2769,7 @@
     <e lm="céhenkívüliség"><i>céhenkívüliség</i><par n="kérdés__n"/></e>
     <e lm="cékla"><i>cékl</i><par n="macsk/a__n"/></e>
     <e lm="cél"><i>cél</i><par n="alkohol__n"/></e>
+    <e lm="cél"><i>cél</i><par n="bank__n"/></e>
     <e lm="célkitűzés"><i>célkitűzés</i><par n="kérdés__n"/></e>
     <e lm="cella"><i>cell</i><par n="macsk/a__n"/></e>
     <e lm="cellulitis"><i>cellulitis</i><par n="kérdés__n"/></e>
@@ -2805,10 +2846,16 @@
     <e lm="citrancs"><i>citrancs</i><par n="banán__n"/></e>
     <e lm="citrus"><i>citrus</i><par n="banán__n"/></e>
     <e lm="cívis"><i>cívis</i><par n="kérdés__n"/></e>
+    <e lm="clown"><i>clown</i><par n="bank__n"/></e>
     <e lm="coboly"><i>coboly</i><par n="banán__n"/></e>
+    <e lm="col"><i>col</i><par n="bank__n"/></e>
     <e lm="colos"><i>colos</i><par n="banán__n"/></e>
+    <e lm="colt"><i>colt</i><par n="bank__n"/></e>
+    <e lm="comb"><i>comb</i><par n="bank__n"/></e>
     <e lm="coniunctivus"><i>coniunctivus</i><par n="banán__n"/></e>
+    <e lm="copf"><i>copf</i><par n="bank__n"/></e>
     <e lm="csabaíre"><i>csabaír</i><par n="bék/e__n"/></e>
+    <e lm="csáb"><i>csáb</i><par n="bank__n"/></e>
     <e lm="csábos"><i>csábos</i><par n="banán__n"/></e>
     <e lm="csacsi"><i>csacsi</i><par n="adó__n"/></e>
     <e lm="csacskaság"><i>csacskaság</i><par n="banán__n"/></e>
@@ -2820,10 +2867,13 @@
     <e lm="csalitos"><i>csalitos</i><par n="banán__n"/></e>
     <e lm="csalogány"><i>csalogá</i><par n="lá/ny__n"/></e>
     <e lm="csalogány"><i>csalogány</i><par n="banán__n"/></e>
+    <e lm="csánk"><i>csánk</i><par n="bank__n"/></e>
     <e lm="csapadékeloszlás"><i>csapadékeloszlás</i><par n="banán__n"/></e>
     <e lm="csapatjáték"><i>csapatjáték</i><par n="ablak__n"/></e>
     <e lm="csapatkapitány"><i>csapatkapitá</i><par n="lá/ny__n"/></e>
     <e lm="csapatmunka"><i>csapatmunk</i><par n="macsk/a__n"/></e>
+    <e lm="csap"><i>csap</i><par n="bank__n"/></e>
+    <e lm="csáp"><i>csáp</i><par n="bank__n"/></e>
     <e lm="csapláros"><i>csapláros</i><par n="banán__n"/></e>
     <e lm="csapóajtó"><i>csapóajt</i><par n="ajt/ó__n"/></e>
     <e lm="csapozás"><i>csapozás</i><par n="banán__n"/></e>
@@ -2836,6 +2886,7 @@
     <e lm="csatamező"><i>csatamező</i><par n="cipő__n"/></e>
     <e lm="csatárjátékos"><i>csatárjátékos</i><par n="banán__n"/></e>
     <e lm="csatársor"><i>csatársor</i><par n="banán__n"/></e>
+    <e lm="csat"><i>csat</i><par n="bank__n"/></e>
     <e lm="csat"><i>csat</i><par n="pont__n"/></e>
     <e lm="csatlakozás"><i>csatlakozás</i><par n="banán__n"/></e>
     <e lm="csatlós"><i>csatlós</i><par n="banán__n"/></e>
@@ -2906,6 +2957,7 @@
     <e lm="csigolyafüzes"><i>csigolyafüzes</i><par n="kérdés__n"/></e>
     <e lm="csíkász"><i>csíkász</i><par n="banán__n"/></e>
     <e lm="csikaszvonítás"><i>csikaszvonítás</i><par n="banán__n"/></e>
+    <e lm="csík"><i>csík</i><par n="bank__n"/></e>
     <e lm="csikó"><i>csikó</i><par n="adó__n"/></e>
     <e lm="csillagászat"><i>csillagászat</i><par n="adat__n"/></e>
     <e lm="csillagászat"><i>csillagászat</i><par n="banán__n"/></e>
@@ -2919,6 +2971,7 @@
     <e lm="csimasz"><i>csimasz</i><par n="banán__n"/></e>
     <e lm="csimpánz"><i>csimpánz</i><par n="banán__n"/></e>
     <e lm="csinálmány"><i>csinálmány</i><par n="banán__n"/></e>
+    <e lm="csín"><i>csín</i><par n="bank__n"/></e>
     <e lm="csinosítgatás"><i>csinosítgatás</i><par n="banán__n"/></e>
     <e lm="csínozás"><i>csínozás</i><par n="banán__n"/></e>
     <e lm="csiperke"><i>csiperk</i><par n="bék/e__n"/></e>
@@ -2946,10 +2999,13 @@
     <e lm="csődület"><i>csődület</i><par n="kérdés__n"/></e>
     <e lm="csóka"><i>csók</i><par n="macsk/a__n"/></e>
     <e lm="csók"><i>csók</i><par n="bank__n"/></e>
+    <e lm="csók"><i>csók</i><par n="bank__n"/></e>
     <e lm="csomag"><i>csomag</i><par n="hang__n"/></e>
     <e lm="csomó"><i>csomó</i><par n="adó__n"/></e>
     <e lm="csónak"><i>csónak</i><par n="bank__n"/></e>
     <e lm="csonk"><i>csonk</i><par n="bank__n"/></e>
+    <e lm="csonk"><i>csonk</i><par n="bank__n"/></e>
+    <e lm="csont"><i>csont</i><par n="bank__n"/></e>
     <e lm="csont"><i>csont</i><par n="pont__n"/></e>
     <e lm="csontozat"><i>csontozat</i><par n="banán__n"/></e>
     <e lm="csoport"><i>csoport</i><par n="pont__n"/></e>
@@ -2960,6 +3016,7 @@
     <e lm="csotrogány"><i>csotrogány</i><par n="banán__n"/></e>
     <e lm="csucsor"><i>csucsor</i><par n="banán__n"/></e>
     <e lm="csúcspont"><i>csúcspont</i><par n="pont__n"/></e>
+    <e lm="csúfnév"><i>csúfn</i><par n="n/év__n"/></e>
     <e lm="csuka"><i>csuk</i><par n="macsk/a__n"/></e>
     <e lm="csukló"><i>csukló</i><par n="adó__n"/></e>
     <e lm="csúszda"><i>csúszd</i><par n="macsk/a__n"/></e>
@@ -2976,6 +3033,7 @@
     <e lm="csörte"><i>csört</i><par n="bék/e__n"/></e>
     <e lm="csöröge"><i>csörög</i><par n="bék/e__n"/></e>
     <e lm="csövezés"><i>csövezés</i><par n="kérdés__n"/></e>
+    <e lm="cúg"><i>cúg</i><par n="bank__n"/></e>
     <e lm="cukrászat"><i>cukrászat</i><par n="banán__n"/></e>
     <e lm="cukrászda"><i>cukrászd</i><par n="macsk/a__n"/></e>
     <e lm="cukrász"><i>cukrá</i><par n="vála/sz__n"/></e>
@@ -3000,6 +3058,7 @@
     <e lm="dalnok"><i>dalnok</i><par n="banán__n"/></e>
     <e lm="dalosszövetség"><i>dalosszövetség</i><par n="kérdés__n"/></e>
     <e lm="daltonizmus"><i>daltonizmus</i><par n="banán__n"/></e>
+    <e lm="dám"><i>dám</i><par n="bank__n"/></e>
     <e lm="darabolódás"><i>darabolódás</i><par n="banán__n"/></e>
     <e lm="darabosítás"><i>darabosítás</i><par n="banán__n"/></e>
     <e lm="daravirág"><i>daravirág</i><par n="banán__n"/></e>
@@ -3132,12 +3191,15 @@
     <e lm="diverzáns"><i>diverzáns</i><par n="banán__n"/></e>
     <e lm="diverzitás"><i>diverzitás</i><par n="banán__n"/></e>
     <e lm="diviz"><i>diviz</i><par n="kérdés__n"/></e>
+    <e lm="dob"><i>dob</i><par n="bank__n"/></e>
     <e lm="doboz"><i>doboz</i><par n="banán__n"/></e>
     <e lm="docens"><i>docens</i><par n="kérdés__n"/></e>
     <e lm="dodekaéder"><i>dodekaéder</i><par n="kérdés__n"/></e>
+    <e lm="dog"><i>dog</i><par n="bank__n"/></e>
     <e lm="dogmatizmus"><i>dogmatizmus</i><par n="banán__n"/></e>
     <e lm="dohány"><i>dohány</i><par n="banán__n"/></e>
     <e lm="dohányos"><i>dohányos</i><par n="banán__n"/></e>
+    <e lm="dokk"><i>dokk</i><par n="bank__n"/></e>
     <e lm="doktorandusz"><i>doktorandusz</i><par n="banán__n"/></e>
     <e lm="doktorátus"><i>doktorátus</i><par n="banán__n"/></e>
     <e lm="doktor"><i>doktor</i><par n="banán__n"/></e>
@@ -3145,10 +3207,12 @@
     <e lm="dolgozat"><i>dolgozat</i><par n="banán__n"/></e>
     <e lm="dolmány"><i>dolmány</i><par n="banán__n"/></e>
     <e lm="dologtalanság"><i>dologtalanság</i><par n="banán__n"/></e>
+    <e lm="domb"><i>domb</i><par n="bank__n"/></e>
     <e lm="domborodás"><i>domborodás</i><par n="banán__n"/></e>
     <e lm="domborulat"><i>domborulat</i><par n="banán__n"/></e>
     <e lm="domborzat"><i>domborzat</i><par n="banán__n"/></e>
     <e lm="dombság"><i>dombság</i><par n="banán__n"/></e>
+    <e lm="dóm"><i>dóm</i><par n="bank__n"/></e>
     <e lm="dominikánus"><i>dominikánus</i><par n="banán__n"/></e>
     <e lm="domínium"><i>domínium</i><par n="banán__n"/></e>
     <e lm="domonkos"><i>domonkos</i><par n="banán__n"/></e>
@@ -3157,12 +3221,16 @@
     <e lm="doppingszer"><i>doppingszer</i><par n="kérdés__n"/></e>
     <e lm="doppler"><i>doppler</i><par n="kérdés__n"/></e>
     <e lm="dorgatórium"><i>dorgatórium</i><par n="banán__n"/></e>
+    <e lm="dór"><i>dór</i><par n="bank__n"/></e>
     <e lm="dózis"><i>dózis</i><par n="banán__n"/></e>
     <e lm="drágalátos"><i>drágalátos</i><par n="banán__n"/></e>
     <e lm="dragonyos"><i>dragonyos</i><par n="banán__n"/></e>
     <e lm="drénezés"><i>drénezés</i><par n="kérdés__n"/></e>
     <e lm="dressz"><i>dressz</i><par n="gyerek__n"/></e>
+    <e lm="drog"><i>drog</i><par n="bank__n"/></e>
     <e lm="drogos"><i>drogos</i><par n="banán__n"/></e>
+    <e lm="drót"><i>drót</i><par n="bank__n"/></e>
+    <e lm="drukk"><i>drukk</i><par n="bank__n"/></e>
     <e lm="dualitás"><i>dualitás</i><par n="banán__n"/></e>
     <e lm="dualizmus"><i>dualizmus</i><par n="banán__n"/></e>
     <e lm="dugárus"><i>dugárus</i><par n="banán__n"/></e>
@@ -3172,12 +3240,14 @@
     <e lm="dugvány"><i>dugvány</i><par n="banán__n"/></e>
     <e lm="dúltság"><i>dúltság</i><par n="banán__n"/></e>
     <e lm="dunnahuzat"><i>dunnahuzat</i><par n="banán__n"/></e>
+    <e lm="dunszt"><i>dunszt</i><par n="bank__n"/></e>
     <e lm="dunsztkötés"><i>dunsztkötés</i><par n="kérdés__n"/></e>
     <e lm="duplex"><i>duplex</i><par n="kérdés__n"/></e>
     <e lm="duplikátum"><i>duplikátum</i><par n="banán__n"/></e>
     <e lm="duplum"><i>duplum</i><par n="banán__n"/></e>
     <e lm="durbincs"><i>durbincs</i><par n="banán__n"/></e>
     <e lm="durchmars"><i>durchmars</i><par n="banán__n"/></e>
+    <e lm="dúr"><i>dúr</i><par n="bank__n"/></e>
     <e lm="dúsulás"><i>dúsulás</i><par n="banán__n"/></e>
     <e lm="duzzanat"><i>duzzanat</i><par n="banán__n"/></e>
     <e lm="dühödtség"><i>dühödtség</i><par n="kérdés__n"/></e>
@@ -3439,6 +3509,7 @@
     <e lm="eloltás"><i>eloltás</i><par n="banán__n"/></e>
     <e lm="előmunkálat"><i>előmunkálat</i><par n="banán__n"/></e>
     <e lm="előmunkás"><i>előmunkás</i><par n="banán__n"/></e>
+    <e lm="előnév"><i>előn</i><par n="n/év__n"/></e>
     <e lm="előnézet"><i>előnézet</i><par n="kérdés__n"/></e>
     <e lm="elősapiens"><i>elősapiens</i><par n="kérdés__n"/></e>
     <e lm="élősködés"><i>élősködés</i><par n="kérdés__n"/></e>
@@ -3714,9 +3785,13 @@
     <e lm="ezredparancsnok"><i>ezredparancsnok</i><par n="banán__n"/></e>
     <e lm="ezüsthárs"><i>ezüsthárs</i><par n="banán__n"/></e>
     <e lm="ezüstperje"><i>ezüstperj</i><par n="bék/e__n"/></e>
+    <e lm="fach"><i>fach</i><par n="bank__n"/></e>
     <e lm="fa"><i>f</i><par n="macsk/a__n"/></e>
     <e lm="fajansz"><i>fajansz</i><par n="banán__n"/></e>
+    <e lm="fajd"><i>fajd</i><par n="bank__n"/></e>
+    <e lm="fájl"><i>fájl</i><par n="bank__n"/></e>
     <e lm="fajúság"><i>fajúság</i><par n="banán__n"/></e>
+    <e lm="fakk"><i>fakk</i><par n="bank__n"/></e>
     <e lm="fakopács"><i>fakopács</i><par n="banán__n"/></e>
     <e lm="fakopáncs"><i>fakopáncs</i><par n="banán__n"/></e>
     <e lm="fakszimile"><i>fakszimil</i><par n="bék/e__n"/></e>
@@ -3740,6 +3815,7 @@
     <e lm="familiaritás"><i>familiaritás</i><par n="banán__n"/></e>
     <e lm="famulus"><i>famulus</i><par n="banán__n"/></e>
     <e lm="fanatizmus"><i>fanatizmus</i><par n="banán__n"/></e>
+    <e lm="fánk"><i>fánk</i><par n="bank__n"/></e>
     <e lm="fantájék"><i>fantájék</i><par n="banán__n"/></e>
     <e lm="fantasztikum"><i>fantasztikum</i><par n="banán__n"/></e>
     <e lm="fáradság"><i>fáradság</i><par n="banán__n"/></e>
@@ -3749,6 +3825,7 @@
     <e lm="farkasfogtársulás"><i>farkasfogtársulás</i><par n="banán__n"/></e>
     <e lm="farkas"><i>farkas</i><par n="banán__n"/></e>
     <e lm="farmakológus"><i>farmakológus</i><par n="banán__n"/></e>
+    <e lm="farm"><i>farm</i><par n="bank__n"/></e>
     <e lm="fárosz"><i>fárosz</i><par n="banán__n"/></e>
     <e lm="fasizmus"><i>fasizmus</i><par n="banán__n"/></e>
     <e lm="fatalizmus"><i>fatalizmus</i><par n="banán__n"/></e>
@@ -4017,10 +4094,12 @@
     <e lm="fizikus"><i>fizikus</i><par n="banán__n"/></e>
     <e lm="fiziokratizmus"><i>fiziokratizmus</i><par n="banán__n"/></e>
     <e lm="fiziológus"><i>fiziológus</i><par n="banán__n"/></e>
+    <e lm="fjord"><i>fjord</i><par n="bank__n"/></e>
     <e lm="flagellálás"><i>flagellálás</i><par n="banán__n"/></e>
     <e lm="flepnis"><i>flepnis</i><par n="kérdés__n"/></e>
     <e lm="flexibilitás"><i>flexibilitás</i><par n="banán__n"/></e>
     <e lm="florárium"><i>florárium</i><par n="banán__n"/></e>
+    <e lm="flór"><i>flór</i><par n="bank__n"/></e>
     <e lm="flotálás"><i>flotálás</i><par n="banán__n"/></e>
     <e lm="flótás"><i>flótás</i><par n="banán__n"/></e>
     <e lm="flúgos"><i>flúgos</i><par n="banán__n"/></e>
@@ -4056,6 +4135,7 @@
     <e lm="fóliáns"><i>fóliáns</i><par n="banán__n"/></e>
     <e lm="fóliázás"><i>fóliázás</i><par n="banán__n"/></e>
     <e lm="folklorizmus"><i>folklorizmus</i><par n="banán__n"/></e>
+    <e lm="folt"><i>folt</i><par n="bank__n"/></e>
     <e lm="foltozgatás"><i>foltozgatás</i><par n="banán__n"/></e>
     <e lm="folyamat"><i>folyamat</i><par n="banán__n"/></e>
     <e lm="folyamodvány"><i>folyamodvány</i><par n="banán__n"/></e>
@@ -4067,9 +4147,11 @@
     <e lm="fonat"><i>fonat</i><par n="banán__n"/></e>
     <e lm="foncsor"><i>foncsor</i><par n="banán__n"/></e>
     <e lm="fondorlat"><i>fondorlat</i><par n="banán__n"/></e>
+    <e lm="főnév"><i>főn</i><par n="n/év__n"/></e>
     <e lm="főnix"><i>főnix</i><par n="kérdés__n"/></e>
     <e lm="fonológus"><i>fonológus</i><par n="banán__n"/></e>
     <e lm="főnormális"><i>főnormális</i><par n="banán__n"/></e>
+    <e lm="font"><i>font</i><par n="bank__n"/></e>
     <e lm="főnökség"><i>főnökség</i><par n="kérdés__n"/></e>
     <e lm="fordulat"><i>fordulat</i><par n="banán__n"/></e>
     <e lm="forgács"><i>forgács</i><par n="banán__n"/></e>
@@ -4077,6 +4159,7 @@
     <e lm="forgatag"><i>forgatag</i><par n="banán__n"/></e>
     <e lm="forgatmány"><i>forgatmány</i><par n="banán__n"/></e>
     <e lm="forgatmányos"><i>forgatmányos</i><par n="banán__n"/></e>
+    <e lm="fór"><i>fór</i><par n="bank__n"/></e>
     <e lm="formalitás"><i>formalitás</i><par n="banán__n"/></e>
     <e lm="formalizmus"><i>formalizmus</i><par n="banán__n"/></e>
     <e lm="formáns"><i>formáns</i><par n="banán__n"/></e>
@@ -4106,8 +4189,10 @@
     <e lm="fragmentum"><i>fragmentum</i><par n="banán__n"/></e>
     <e lm="frakcionálás"><i>frakcionálás</i><par n="banán__n"/></e>
     <e lm="frakcionálótorony"><i>frakcionálótorony</i><par n="banán__n"/></e>
+    <e lm="frakk"><i>frakk</i><par n="bank__n"/></e>
     <e lm="franciázás"><i>franciázás</i><par n="banán__n"/></e>
     <e lm="franciskánus"><i>franciskánus</i><par n="banán__n"/></e>
+    <e lm="frank"><i>frank</i><par n="bank__n"/></e>
     <e lm="frazeálás"><i>frazeálás</i><par n="banán__n"/></e>
     <e lm="frazeologizmus"><i>frazeologizmus</i><par n="banán__n"/></e>
     <e lm="frazeológus"><i>frazeológus</i><par n="banán__n"/></e>
@@ -4120,6 +4205,7 @@
     <e lm="frivolitás"><i>frivolitás</i><par n="banán__n"/></e>
     <e lm="fríz"><i>fríz</i><par n="gyerek__n"/></e>
     <e lm="frontátvonulás"><i>frontátvonulás</i><par n="banán__n"/></e>
+    <e lm="front"><i>front</i><par n="bank__n"/></e>
     <e lm="fugacitás"><i>fugacitás</i><par n="banán__n"/></e>
     <e lm="fundamentalizmus"><i>fundamentalizmus</i><par n="banán__n"/></e>
     <e lm="fundamentum"><i>fundamentum</i><par n="banán__n"/></e>
@@ -4202,6 +4288,7 @@
     <e lm="ganaj"><i>ganaj</i><par n="banán__n"/></e>
     <e lm="gandhizmus"><i>gandhizmus</i><par n="banán__n"/></e>
     <e lm="ganéj"><i>ganéj</i><par n="banán__n"/></e>
+    <e lm="gang"><i>gang</i><par n="bank__n"/></e>
     <e lm="garaboly"><i>garaboly</i><par n="banán__n"/></e>
     <e lm="garabonciás"><i>garabonciás</i><par n="banán__n"/></e>
     <e lm="garádics"><i>garádics</i><par n="kérdés__n"/></e>
@@ -4288,19 +4375,25 @@
     <e lm="glosszárium"><i>glosszárium</i><par n="banán__n"/></e>
     <e lm="glukózvérűség"><i>glukózvérűség</i><par n="kérdés__n"/></e>
     <e lm="gneisz"><i>gneisz</i><par n="kérdés__n"/></e>
+    <e lm="gnóm"><i>gnóm</i><par n="bank__n"/></e>
     <e lm="gnoszticizmus"><i>gnoszticizmus</i><par n="banán__n"/></e>
     <e lm="gnózis"><i>gnózis</i><par n="banán__n"/></e>
     <e lm="góbéság"><i>góbéság</i><par n="banán__n"/></e>
     <e lm="gojzervarrás"><i>gojzervarrás</i><par n="banán__n"/></e>
+    <e lm="golf"><i>golf</i><par n="bank__n"/></e>
+    <e lm="gól"><i>gól</i><par n="bank__n"/></e>
     <e lm="golyóbis"><i>golyóbis</i><par n="banán__n"/></e>
     <e lm="gombászat"><i>gombászat</i><par n="banán__n"/></e>
     <e lm="gombász"><i>gombász</i><par n="banán__n"/></e>
+    <e lm="gomb"><i>gomb</i><par n="bank__n"/></e>
     <e lm="gombóc"><i>gombóc</i><par n="banán__n"/></e>
     <e lm="gomoly"><i>gomoly</i><par n="banán__n"/></e>
+    <e lm="gond"><i>gond</i><par n="bank__n"/></e>
     <e lm="gondnok"><i>gondnok</i><par n="banán__n"/></e>
     <e lm="gondnokság"><i>gondnokság</i><par n="banán__n"/></e>
     <e lm="gondolat"><i>gondolat</i><par n="banán__n"/></e>
     <e lm="gondolkodás"><i>gondolkodás</i><par n="banán__n"/></e>
+    <e lm="gong"><i>gong</i><par n="bank__n"/></e>
     <e lm="gonidium"><i>gonidium</i><par n="banán__n"/></e>
     <e lm="gonosztett"><i>gonosztett</i><par n="kérdés__n"/></e>
     <e lm="gőnye"><i>gőny</i><par n="bék/e__n"/></e>
@@ -4310,9 +4403,11 @@
     <e lm="grádics"><i>grádics</i><par n="banán__n"/></e>
     <e lm="gradiens"><i>gradiens</i><par n="kérdés__n"/></e>
     <e lm="grádus"><i>grádus</i><par n="banán__n"/></e>
+    <e lm="gráf"><i>gráf</i><par n="bank__n"/></e>
     <e lm="grafikus"><i>grafikus</i><par n="banán__n"/></e>
     <e lm="grafológus"><i>grafológus</i><par n="banán__n"/></e>
     <e lm="grammatikus"><i>grammatikus</i><par n="banán__n"/></e>
+    <e lm="grand"><i>grand</i><par n="bank__n"/></e>
     <e lm="grandiozitás"><i>grandiozitás</i><par n="banán__n"/></e>
     <e lm="granulátum"><i>granulátum</i><par n="banán__n"/></e>
     <e lm="grátisz"><i>grátisz</i><par n="banán__n"/></e>
@@ -4324,8 +4419,12 @@
     <e lm="grimbusz"><i>grimbusz</i><par n="banán__n"/></e>
     <e lm="grippe"><i>gripp</i><par n="bék/e__n"/></e>
     <e lm="gríz"><i>gríz</i><par n="gyerek__n"/></e>
+    <e lm="gróf"><i>gróf</i><par n="bank__n"/></e>
     <e lm="grófkisasszony"><i>grófkisasszony</i><par n="banán__n"/></e>
     <e lm="grófság"><i>grófság</i><par n="banán__n"/></e>
+    <e lm="grog"><i>grog</i><par n="bank__n"/></e>
+    <e lm="grund"><i>grund</i><par n="bank__n"/></e>
+    <e lm="grupp"><i>grupp</i><par n="bank__n"/></e>
     <e lm="gubacs"><i>gubacs</i><par n="banán__n"/></e>
     <e lm="gubanc"><i>gubanc</i><par n="banán__n"/></e>
     <e lm="gubóvirág"><i>gubóvirág</i><par n="banán__n"/></e>
@@ -4334,6 +4433,7 @@
     <e lm="gulyás"><i>gulyás</i><par n="banán__n"/></e>
     <e lm="gumiarábikum"><i>gumiarábikum</i><par n="banán__n"/></e>
     <e lm="gumírozás"><i>gumírozás</i><par n="banán__n"/></e>
+    <e lm="gúny"><i>gúny</i><par n="bank__n"/></e>
     <e lm="gusztus"><i>gusztus</i><par n="banán__n"/></e>
     <e lm="guzsaly"><i>guzsaly</i><par n="banán__n"/></e>
     <e lm="gúzsbakötés"><i>gúzsbakötés</i><par n="kérdés__n"/></e>
@@ -4350,6 +4450,7 @@
     <e lm="gyaloglás"><i>gyaloglás</i><par n="banán__n"/></e>
     <e lm="gyalogos"><i>gyalogos</i><par n="banán__n"/></e>
     <e lm="gyalogság"><i>gyalogság</i><par n="banán__n"/></e>
+    <e lm="gyám"><i>gyám</i><par n="bank__n"/></e>
     <e lm="gyámkodás"><i>gyámkodás</i><par n="banán__n"/></e>
     <e lm="gyámság"><i>gyámság</i><par n="banán__n"/></e>
     <e lm="gyanúsítgatás"><i>gyanúsítgatás</i><par n="banán__n"/></e>
@@ -4369,8 +4470,10 @@
     <e lm="gyertyános"><i>gyertyános</i><par n="banán__n"/></e>
     <e lm="gyertyános-tölgyes"><i>gyertyános-tölgyes</i><par n="kérdés__n"/></e>
     <e lm="gyes"><i>gyes</i><par n="gyerek__n"/></e>
+    <e lm="gyík"><i>gyík</i><par n="bank__n"/></e>
     <e lm="gyógyászat"><i>gyógyászat</i><par n="banán__n"/></e>
     <e lm="gyógyász"><i>gyógyász</i><par n="banán__n"/></e>
+    <e lm="gyom"><i>gyom</i><par n="bank__n"/></e>
     <e lm="gyorsaság"><i>gyorsaság</i><par n="banán__n"/></e>
     <e lm="gyorsfagyasztás"><i>gyorsfagyasztás</i><par n="banán__n"/></e>
     <e lm="gyorsfény"><i>gyorsfény</i><par n="kérdés__n"/></e>
@@ -4383,6 +4486,7 @@
     <e lm="gyufásdoboz"><i>gyufásdoboz</i><par n="banán__n"/></e>
     <e lm="gyűjtemény"><i>gyűjtemény</i><par n="kérdés__n"/></e>
     <e lm="gyújtogatás"><i>gyújtogatás</i><par n="banán__n"/></e>
+    <e lm="gyűjtőnév"><i>gyűjtőn</i><par n="n/év__n"/></e>
     <e lm="gyújtós"><i>gyújtós</i><par n="banán__n"/></e>
     <e lm="gyűlölet"><i>gyűlölet</i><par n="kérdés__n"/></e>
     <e lm="gyűlölködés"><i>gyűlölködés</i><par n="kérdés__n"/></e>
@@ -4410,6 +4514,7 @@
     <e lm="görvély"><i>görvély</i><par n="kérdés__n"/></e>
     <e lm="habarcs"><i>habarcs</i><par n="banán__n"/></e>
     <e lm="habarodás"><i>habarodás</i><par n="banán__n"/></e>
+    <e lm="hab"><i>hab</i><par n="bank__n"/></e>
     <e lm="habitus"><i>habitus</i><par n="banán__n"/></e>
     <e lm="háborúság"><i>háborúság</i><par n="banán__n"/></e>
     <e lm="hadászat"><i>hadászat</i><par n="banán__n"/></e>
@@ -4460,16 +4565,19 @@
     <e lm="halászat"><i>halászat</i><par n="banán__n"/></e>
     <e lm="halász"><i>halász</i><par n="banán__n"/></e>
     <e lm="hallgatóság"><i>hallgatóság</i><par n="banán__n"/></e>
+    <e lm="hall"><i>hall</i><par n="bank__n"/></e>
     <e lm="hallomás"><i>hallomás</i><par n="banán__n"/></e>
     <e lm="halmazat"><i>halmazat</i><par n="banán__n"/></e>
     <e lm="halmaz"><i>halmaz</i><par n="banán__n"/></e>
     <e lm="halotthamvasztás"><i>halotthamvasztás</i><par n="banán__n"/></e>
     <e lm="hálózat"><i>hálózat</i><par n="banán__n"/></e>
+    <e lm="hám"><i>hám</i><par n="bank__n"/></e>
     <e lm="hamisítvány"><i>hamisítvány</i><par n="banán__n"/></e>
     <e lm="hamisjátékos"><i>hamisjátékos</i><par n="banán__n"/></e>
     <e lm="hamiskártyás"><i>hamiskártyás</i><par n="banán__n"/></e>
     <e lm="hamislelkűség"><i>hamislelkűség</i><par n="kérdés__n"/></e>
     <e lm="hamuvirág"><i>hamuvirág</i><par n="banán__n"/></e>
+    <e lm="hang"><i>hang</i><par n="bank__n"/></e>
     <e lm="hang"><i>hang</i><par n="hang__n"/></e>
     <e lm="hangoltság"><i>hangoltság</i><par n="banán__n"/></e>
     <e lm="hangulat"><i>hangulat</i><par n="banán__n"/></e>
@@ -4478,6 +4586,7 @@
     <e lm="hangyász"><i>hangyász</i><par n="banán__n"/></e>
     <e lm="hangzat"><i>hangzat</i><par n="banán__n"/></e>
     <e lm="hangzósság"><i>hangzósság</i><par n="banán__n"/></e>
+    <e lm="hant"><i>hant</i><par n="bank__n"/></e>
     <e lm="hányadék"><i>hányadék</i><par n="banán__n"/></e>
     <e lm="hányados"><i>hányados</i><par n="banán__n"/></e>
     <e lm="hapax"><i>hapax</i><par n="banán__n"/></e>
@@ -4494,6 +4603,8 @@
     <e lm="hárijánoskodás"><i>hárijánoskodás</i><par n="banán__n"/></e>
     <e lm="haris"><i>haris</i><par n="banán__n"/></e>
     <e lm="harkály"><i>harkály</i><par n="banán__n"/></e>
+    <e lm="harmadfélmilliárd"><i>harmadfélmilliárd</i><par n="ablak__n"/></e>
+    <e lm="harmadfélszázad"><i>harmadfélszázad</i><par n="ablak__n"/></e>
     <e lm="harmadikos"><i>harmadikos</i><par n="banán__n"/></e>
     <e lm="hármasugrás"><i>hármasugrás</i><par n="banán__n"/></e>
     <e lm="harmonikás"><i>harmonikás</i><par n="banán__n"/></e>
@@ -4515,6 +4626,8 @@
     <e lm="határincidens"><i>határincidens</i><par n="kérdés__n"/></e>
     <e lm="határozat"><i>határozat</i><par n="banán__n"/></e>
     <e lm="hatás"><i>hatás</i><par n="banán__n"/></e>
+    <e lm="hatodfélmilliárd"><i>hatodfélmilliárd</i><par n="ablak__n"/></e>
+    <e lm="hatodfélszázad"><i>hatodfélszázad</i><par n="ablak__n"/></e>
     <e lm="hatodikos"><i>hatodikos</i><par n="banán__n"/></e>
     <e lm="hatóság"><i>hatóság</i><par n="banán__n"/></e>
     <e lm="hátralék"><i>hátralék</i><par n="banán__n"/></e>
@@ -4561,8 +4674,10 @@
     <e lm="hélium"><i>hélium</i><par n="banán__n"/></e>
     <e lm="helyettes"><i>helyettes</i><par n="kérdés__n"/></e>
     <e lm="helyiség"><i>helyiség</i><par n="kérdés__n"/></e>
+    <e lm="helynév"><i>helyn</i><par n="n/év__n"/></e>
     <e lm="helyrehozatal"><i>helyrehozatal</i><par n="banán__n"/></e>
     <e lm="helység"><i>helység</i><par n="kérdés__n"/></e>
+    <e lm="helységnév"><i>helységn</i><par n="n/év__n"/></e>
     <e lm="helyszínelés"><i>helyszínelés</i><par n="kérdés__n"/></e>
     <e lm="helyszűke"><i>helyszűk</i><par n="bék/e__n"/></e>
     <e lm="helyzet"><i>helyzet</i><par n="kérdés__n"/></e>
@@ -4583,6 +4698,8 @@
     <e lm="hérosz"><i>hérosz</i><par n="banán__n"/></e>
     <e lm="herpesz"><i>herpesz</i><par n="kérdés__n"/></e>
     <e lm="hertz"><i>hertz</i><par n="gyerek__n"/></e>
+    <e lm="hetedfélmilliárd"><i>hetedfélmilliárd</i><par n="ablak__n"/></e>
+    <e lm="hetedfélszázad"><i>hetedfélszázad</i><par n="ablak__n"/></e>
     <e lm="hetedikes"><i>hetedikes</i><par n="kérdés__n"/></e>
     <e lm="heterogeneitás"><i>heterogeneitás</i><par n="banán__n"/></e>
     <e lm="heterogenitás"><i>heterogenitás</i><par n="banán__n"/></e>
@@ -4631,6 +4748,7 @@
     <e lm="hírbehozás"><i>hírbehozás</i><par n="banán__n"/></e>
     <e lm="hirdetmény"><i>hirdetmény</i><par n="kérdés__n"/></e>
     <e lm="hír"><i>hír</i><par n="gyerek__n"/></e>
+    <e lm="hírnév"><i>hírn</i><par n="n/év__n"/></e>
     <e lm="hirtelenszőke"><i>hirtelenszők</i><par n="bék/e__n"/></e>
     <e lm="hírüladás"><i>hírüladás</i><par n="banán__n"/></e>
     <e lm="historikum"><i>historikum</i><par n="banán__n"/></e>
@@ -4650,6 +4768,7 @@
     <e lm="hívság"><i>hívság</i><par n="banán__n"/></e>
     <e lm="hóbelevanc"><i>hóbelevanc</i><par n="banán__n"/></e>
     <e lm="hodály"><i>hodály</i><par n="banán__n"/></e>
+    <e lm="hód"><i>hód</i><par n="bank__n"/></e>
     <e lm="hódolat"><i>hódolat</i><par n="banán__n"/></e>
     <e lm="hódoltság"><i>hódoltság</i><par n="banán__n"/></e>
     <e lm="hogylét"><i>hogylét</i><par n="kérdés__n"/></e>
@@ -4715,6 +4834,7 @@
     <e lm="hungarizmus"><i>hungarizmus</i><par n="banán__n"/></e>
     <e lm="hungarológus"><i>hungarológus</i><par n="banán__n"/></e>
     <e lm="hunyózás"><i>hunyózás</i><par n="banán__n"/></e>
+    <e lm="húr"><i>húr</i><par n="bank__n"/></e>
     <e lm="huszárbajusz"><i>huszárbajusz</i><par n="banán__n"/></e>
     <e lm="huszárdolmány"><i>huszárdolmány</i><par n="banán__n"/></e>
     <e lm="huszárság"><i>huszárság</i><par n="banán__n"/></e>
@@ -4765,6 +4885,7 @@
     <e lm="igazolvány"><i>igazolvány</i><par n="banán__n"/></e>
     <e lm="igazság"><i>igazság</i><par n="banán__n"/></e>
     <e lm="ige"><i>ig</i><par n="bék/e__n"/></e>
+    <e lm="igenév"><i>igen</i><par n="n/év__n"/></e>
     <e lm="igenlés"><i>igenlés</i><par n="kérdés__n"/></e>
     <e lm="igényesség"><i>igényesség</i><par n="kérdés__n"/></e>
     <e lm="igény"><i>igény</i><par n="kérdés__n"/></e>
@@ -4968,8 +5089,10 @@
     <e lm="ízület"><i>ízület</i><par n="kérdés__n"/></e>
     <e lm="izzadmány"><i>izzadmány</i><par n="banán__n"/></e>
     <e lm="izzadság"><i>izzadság</i><par n="banán__n"/></e>
+    <e lm="jacht"><i>jacht</i><par n="bank__n"/></e>
     <e lm="jajkiáltás"><i>jajkiáltás</i><par n="banán__n"/></e>
     <e lm="jajpanasz"><i>jajpanasz</i><par n="banán__n"/></e>
+    <e lm="jak"><i>jak</i><par n="bank__n"/></e>
     <e lm="jakobinizmus"><i>jakobinizmus</i><par n="banán__n"/></e>
     <e lm="jakobinus"><i>jakobinus</i><par n="banán__n"/></e>
     <e lm="jambus"><i>jambus</i><par n="banán__n"/></e>
@@ -4979,6 +5102,7 @@
     <e lm="járandóság"><i>járandóság</i><par n="banán__n"/></e>
     <e lm="járásbíróság"><i>járásbíróság</i><par n="banán__n"/></e>
     <e lm="járat"><i>járat</i><par n="banán__n"/></e>
+    <e lm="jard"><i>jard</i><par n="bank__n"/></e>
     <e lm="járgány"><i>járgány</i><par n="banán__n"/></e>
     <e lm="járszalag"><i>járszalag</i><par n="banán__n"/></e>
     <e lm="járulék"><i>járulék</i><par n="banán__n"/></e>
@@ -4988,6 +5112,7 @@
     <e lm="játék"><i>játék</i><par n="ablak__n"/></e>
     <e lm="játék"><i>játék</i><par n="banán__n"/></e>
     <e lm="játékos"><i>játékos</i><par n="banán__n"/></e>
+    <e lm="jatt"><i>jatt</i><par n="bank__n"/></e>
     <e lm="javallat"><i>javallat</i><par n="banán__n"/></e>
     <e lm="javasasszony"><i>javasasszony</i><par n="banán__n"/></e>
     <e lm="javaslat"><i>javaslat</i><par n="banán__n"/></e>
@@ -5017,6 +5142,7 @@
     <e lm="jobbítás"><i>jobbítás</i><par n="banán__n"/></e>
     <e lm="jobbrafordulás"><i>jobbrafordulás</i><par n="banán__n"/></e>
     <e lm="jobbratolódás"><i>jobbratolódás</i><par n="banán__n"/></e>
+    <e lm="jód"><i>jód</i><par n="bank__n"/></e>
     <e lm="jogar"><i>jogar</i><par n="banán__n"/></e>
     <e lm="jogász"><i>jogász</i><par n="banán__n"/></e>
     <e lm="jogegyenlőség"><i>jogegyenlőség</i><par n="kérdés__n"/></e>
@@ -5105,6 +5231,8 @@
     <e lm="kanavász"><i>kanavász</i><par n="banán__n"/></e>
     <e lm="kandeláber"><i>kandeláber</i><par n="kérdés__n"/></e>
     <e lm="kandidátus"><i>kandidátus</i><par n="banán__n"/></e>
+    <e lm="kan"><i>kan</i><par n="bank__n"/></e>
+    <e lm="kán"><i>kán</i><par n="bank__n"/></e>
     <e lm="kannibalizmus"><i>kannibalizmus</i><par n="banán__n"/></e>
     <e lm="kanóc"><i>kanóc</i><par n="banán__n"/></e>
     <e lm="kanonizálás"><i>kanonizálás</i><par n="banán__n"/></e>
@@ -5135,6 +5263,7 @@
     <e lm="karbunkulus"><i>karbunkulus</i><par n="banán__n"/></e>
     <e lm="karburátor"><i>karburátor</i><par n="banán__n"/></e>
     <e lm="karcinogenezis"><i>karcinogenezis</i><par n="kérdés__n"/></e>
+    <e lm="kard"><i>kard</i><par n="bank__n"/></e>
     <e lm="kardiológus"><i>kardiológus</i><par n="banán__n"/></e>
     <e lm="karéj"><i>karéj</i><par n="banán__n"/></e>
     <e lm="kárhozat"><i>kárhozat</i><par n="banán__n"/></e>
@@ -5144,7 +5273,9 @@
     <e lm="karózat"><i>karózat</i><par n="banán__n"/></e>
     <e lm="kárpitos"><i>kárpitos</i><par n="banán__n"/></e>
     <e lm="karrierizmus"><i>karrierizmus</i><par n="banán__n"/></e>
+    <e lm="karr"><i>karr</i><par n="bank__n"/></e>
     <e lm="karrosodás"><i>karrosodás</i><par n="banán__n"/></e>
+    <e lm="karszt"><i>karszt</i><par n="bank__n"/></e>
     <e lm="karsztosodás"><i>karsztosodás</i><par n="banán__n"/></e>
     <e lm="kartács"><i>kartács</i><par n="banán__n"/></e>
     <e lm="kartársiasság"><i>kartársiasság</i><par n="banán__n"/></e>
@@ -5154,6 +5285,7 @@
     <e lm="karzat"><i>karzat</i><par n="banán__n"/></e>
     <e lm="kasszíroz"><i>kasszíroz</i><par n="banán__n"/></e>
     <e lm="kastély"><i>kastély</i><par n="banán__n"/></e>
+    <e lm="kaszt"><i>kaszt</i><par n="bank__n"/></e>
     <e lm="kataforézis"><i>kataforézis</i><par n="kérdés__n"/></e>
     <e lm="katalizátor"><i>katalizátor</i><par n="banán__n"/></e>
     <e lm="katalízis"><i>katalízis</i><par n="kérdés__n"/></e>
@@ -5421,6 +5553,8 @@
     <e lm="kikötés"><i>kikötés</i><par n="kérdés__n"/></e>
     <e lm="kiközösítés"><i>kiközösítés</i><par n="kérdés__n"/></e>
     <e lm="kilátás"><i>kilátás</i><par n="banán__n"/></e>
+    <e lm="kilencedfélmilliárd"><i>kilencedfélmilliárd</i><par n="ablak__n"/></e>
+    <e lm="kilencedfélszázad"><i>kilencedfélszázad</i><par n="ablak__n"/></e>
     <e lm="kilencedikes"><i>kilencedikes</i><par n="kérdés__n"/></e>
     <e lm="kilengés"><i>kilengés</i><par n="kérdés__n"/></e>
     <e lm="kilépés"><i>kilépés</i><par n="kérdés__n"/></e>
@@ -5452,6 +5586,7 @@
     <e lm="kinevezés"><i>kinevezés</i><par n="kérdés__n"/></e>
     <e lm="kinézet"><i>kinézet</i><par n="kérdés__n"/></e>
     <e lm="kineziológus"><i>kineziológus</i><par n="banán__n"/></e>
+    <e lm="kín"><i>kín</i><par n="bank__n"/></e>
     <e lm="kinnlevőség"><i>kinnlevőség</i><par n="kérdés__n"/></e>
     <e lm="kinnlévőség"><i>kinnlévőség</i><par n="kérdés__n"/></e>
     <e lm="kintlevőség"><i>kintlevőség</i><par n="kérdés__n"/></e>
@@ -5605,6 +5740,7 @@
     <e lm="kizsákmányolás"><i>kizsákmányolás</i><par n="banán__n"/></e>
     <e lm="kizökkenés"><i>kizökkenés</i><par n="kérdés__n"/></e>
     <e lm="kiömlés"><i>kiömlés</i><par n="kérdés__n"/></e>
+    <e lm="klán"><i>klán</i><par n="bank__n"/></e>
     <e lm="klapec"><i>klapec</i><par n="banán__n"/></e>
     <e lm="klarinétos"><i>klarinétos</i><par n="banán__n"/></e>
     <e lm="kláris"><i>kláris</i><par n="banán__n"/></e>
@@ -5628,7 +5764,12 @@
     <e lm="klinikus"><i>klinikus</i><par n="banán__n"/></e>
     <e lm="klipsz"><i>klipsz</i><par n="gyerek__n"/></e>
     <e lm="klistély"><i>klistély</i><par n="kérdés__n"/></e>
+    <e lm="klón"><i>klón</i><par n="bank__n"/></e>
+    <e lm="klór"><i>klór</i><par n="bank__n"/></e>
     <e lm="klorózis"><i>klorózis</i><par n="kérdés__n"/></e>
+    <e lm="klott"><i>klott</i><par n="bank__n"/></e>
+    <e lm="klub"><i>klub</i><par n="bank__n"/></e>
+    <e lm="knapp"><i>knapp</i><par n="bank__n"/></e>
     <e lm="knesszet"><i>knesszet</i><par n="kérdés__n"/></e>
     <e lm="koacerválás"><i>koacerválás</i><par n="banán__n"/></e>
     <e lm="koadjutor"><i>koadjutor</i><par n="banán__n"/></e>
@@ -5644,6 +5785,7 @@
     <e lm="kocsizás"><i>kocsizás</i><par n="banán__n"/></e>
     <e lm="kocsmáros"><i>kocsmáros</i><par n="banán__n"/></e>
     <e lm="kódex"><i>kódex</i><par n="kérdés__n"/></e>
+    <e lm="kód"><i>kód</i><par n="bank__n"/></e>
     <e lm="koefficiens"><i>koefficiens</i><par n="kérdés__n"/></e>
     <e lm="koenzim"><i>koenzim</i><par n="kérdés__n"/></e>
     <e lm="kófic"><i>kófic</i><par n="banán__n"/></e>
@@ -5699,6 +5841,7 @@
     <e lm="kompendium"><i>kompendium</i><par n="banán__n"/></e>
     <e lm="kompenzátor"><i>kompenzátor</i><par n="banán__n"/></e>
     <e lm="kompetitivitás"><i>kompetitivitás</i><par n="banán__n"/></e>
+    <e lm="komp"><i>komp</i><par n="bank__n"/></e>
     <e lm="komplemens"><i>komplemens</i><par n="kérdés__n"/></e>
     <e lm="komplementaritás"><i>komplementaritás</i><par n="banán__n"/></e>
     <e lm="komplementer"><i>komplementer</i><par n="kérdés__n"/></e>
@@ -5785,8 +5928,10 @@
     <e lm="korbács"><i>korbács</i><par n="banán__n"/></e>
     <e lm="kordély"><i>kordély</i><par n="banán__n"/></e>
     <e lm="kordélyos"><i>kordélyos</i><par n="banán__n"/></e>
+    <e lm="kord"><i>kord</i><par n="bank__n"/></e>
     <e lm="koreográfus"><i>koreográfus</i><par n="banán__n"/></e>
     <e lm="korifeus"><i>korifeus</i><par n="banán__n"/></e>
+    <e lm="kór"><i>kór</i><par n="bank__n"/></e>
     <e lm="kőris"><i>kőris</i><par n="kérdés__n"/></e>
     <e lm="kórisme"><i>kórism</i><par n="bék/e__n"/></e>
     <e lm="korlátosság"><i>korlátosság</i><par n="banán__n"/></e>
@@ -5810,6 +5955,7 @@
     <e lm="koszekáns"><i>koszekáns</i><par n="banán__n"/></e>
     <e lm="koszinusz"><i>koszinusz</i><par n="banán__n"/></e>
     <e lm="koszorúslány"><i>koszorúslány</i><par n="banán__n"/></e>
+    <e lm="koszt"><i>koszt</i><par n="bank__n"/></e>
     <e lm="kosztümözés"><i>kosztümözés</i><par n="kérdés__n"/></e>
     <e lm="kotangens"><i>kotangens</i><par n="kérdés__n"/></e>
     <e lm="kotkodács"><i>kotkodács</i><par n="banán__n"/></e>
@@ -5825,6 +5971,7 @@
     <e lm="kozmetikus"><i>kozmetikus</i><par n="banán__n"/></e>
     <e lm="kozmológus"><i>kozmológus</i><par n="banán__n"/></e>
     <e lm="kozmosz"><i>kozmosz</i><par n="banán__n"/></e>
+    <e lm="krach"><i>krach</i><par n="bank__n"/></e>
     <e lm="krájzleros"><i>krájzleros</i><par n="banán__n"/></e>
     <e lm="krakélerség"><i>krakélerség</i><par n="kérdés__n"/></e>
     <e lm="krakkolás"><i>krakkolás</i><par n="banán__n"/></e>
@@ -5848,6 +5995,7 @@
     <e lm="kritikus"><i>kritikus</i><par n="banán__n"/></e>
     <e lm="krízis"><i>krízis</i><par n="kérdés__n"/></e>
     <e lm="krokodilus"><i>krokodilus</i><par n="banán__n"/></e>
+    <e lm="króm"><i>króm</i><par n="bank__n"/></e>
     <e lm="krónikás"><i>krónikás</i><par n="banán__n"/></e>
     <e lm="kronológus"><i>kronológus</i><par n="banán__n"/></e>
     <e lm="krudelitás"><i>krudelitás</i><par n="banán__n"/></e>
@@ -5857,6 +6005,7 @@
     <e lm="kucséber"><i>kucséber</i><par n="kérdés__n"/></e>
     <e lm="kudarc"><i>kudarc</i><par n="banán__n"/></e>
     <e lm="kukac"><i>kukac</i><par n="banán__n"/></e>
+    <e lm="kukk"><i>kukk</i><par n="bank__n"/></e>
     <e lm="kukoricás"><i>kukoricás</i><par n="banán__n"/></e>
     <e lm="kulacs"><i>kulacs</i><par n="banán__n"/></e>
     <e lm="kulákság"><i>kulákság</i><par n="banán__n"/></e>
@@ -5872,8 +6021,10 @@
     <e lm="kumisz"><i>kumisz</i><par n="banán__n"/></e>
     <e lm="kumulálódás"><i>kumulálódás</i><par n="banán__n"/></e>
     <e lm="kunság"><i>kunság</i><par n="banán__n"/></e>
+    <e lm="kunszt"><i>kunszt</i><par n="bank__n"/></e>
     <e lm="kupac"><i>kupac</i><par n="banán__n"/></e>
     <e lm="kupeckodás"><i>kupeckodás</i><par n="banán__n"/></e>
+    <e lm="kúp"><i>kúp</i><par n="bank__n"/></e>
     <e lm="kupleráj"><i>kupleráj</i><par n="banán__n"/></e>
     <e lm="kúpvirág"><i>kúpvirág</i><par n="banán__n"/></e>
     <e lm="kuratórium"><i>kuratórium</i><par n="banán__n"/></e>
@@ -5903,6 +6054,7 @@
     <e lm="kvantálás"><i>kvantálás</i><par n="banán__n"/></e>
     <e lm="kvantitás"><i>kvantitás</i><par n="banán__n"/></e>
     <e lm="kvártély"><i>kvártély</i><par n="banán__n"/></e>
+    <e lm="kvart"><i>kvart</i><par n="bank__n"/></e>
     <e lm="kvázigradiens"><i>kvázigradiens</i><par n="kérdés__n"/></e>
     <e lm="kvietizmus"><i>kvietizmus</i><par n="banán__n"/></e>
     <e lm="kvíz"><i>kvíz</i><par n="gyerek__n"/></e>
@@ -6002,9 +6154,11 @@
     <e lm="lágyék"><i>lágyék</i><par n="banán__n"/></e>
     <e lm="laicizmus"><i>laicizmus</i><par n="banán__n"/></e>
     <e lm="lajstrom"><i>lajstrom</i><par n="banán__n"/></e>
+    <e lm="lajt"><i>lajt</i><par n="bank__n"/></e>
     <e lm="lakáj"><i>lakáj</i><par n="banán__n"/></e>
     <e lm="lakás"><i>lakás</i><par n="banán__n"/></e>
     <e lm="lakatos"><i>lakatos</i><par n="banán__n"/></e>
+    <e lm="lakk"><i>lakk</i><par n="bank__n"/></e>
     <e lm="lakmusz"><i>lakmusz</i><par n="banán__n"/></e>
     <e lm="lakos"><i>lakos</i><par n="banán__n"/></e>
     <e lm="lakosság"><i>lakosság</i><par n="banán__n"/></e>
@@ -6012,13 +6166,17 @@
     <e lm="lámpás"><i>lámpás</i><par n="banán__n"/></e>
     <e lm="lampasz"><i>lampasz</i><par n="banán__n"/></e>
     <e lm="láncolat"><i>láncolat</i><par n="banán__n"/></e>
+    <e lm="láng"><i>láng</i><par n="bank__n"/></e>
     <e lm="langymeleg"><i>langymeleg</i><par n="kérdés__n"/></e>
     <e lm="lankaság"><i>lankaság</i><par n="banán__n"/></e>
     <e lm="lankás"><i>lankás</i><par n="banán__n"/></e>
+    <e lm="lant"><i>lant</i><par n="bank__n"/></e>
     <e lm="lantos"><i>lantos</i><par n="banán__n"/></e>
     <e lm="lány"><i>lá</i><par n="lá/ny__n"/></e>
     <e lm="lapály"><i>lapály</i><par n="banán__n"/></e>
     <e lm="lapidaritás"><i>lapidaritás</i><par n="banán__n"/></e>
+    <e lm="lap"><i>lap</i><par n="bank__n"/></e>
+    <e lm="láp"><i>láp</i><par n="bank__n"/></e>
     <e lm="lápisz"><i>lápisz</i><par n="banán__n"/></e>
     <e lm="lapszus"><i>lapszus</i><par n="banán__n"/></e>
     <e lm="lapultság"><i>lapultság</i><par n="banán__n"/></e>
@@ -6028,6 +6186,7 @@
     <e lm="latex"><i>latex</i><par n="kérdés__n"/></e>
     <e lm="láthatás"><i>láthatás</i><par n="banán__n"/></e>
     <e lm="latifundium"><i>latifundium</i><par n="banán__n"/></e>
+    <e lm="lat"><i>lat</i><par n="bank__n"/></e>
     <e lm="latinizmus"><i>latinizmus</i><par n="banán__n"/></e>
     <e lm="latinosság"><i>latinosság</i><par n="banán__n"/></e>
     <e lm="latinság"><i>latinság</i><par n="banán__n"/></e>
@@ -6244,6 +6403,7 @@
     <e lm="litográfus"><i>litográfus</i><par n="banán__n"/></e>
     <e lm="littylotty"><i>littylotty</i><par n="banán__n"/></e>
     <e lm="lőállás"><i>lőállás</i><par n="banán__n"/></e>
+    <e lm="lob"><i>lob</i><par n="bank__n"/></e>
     <e lm="locspocs"><i>locspocs</i><par n="banán__n"/></e>
     <e lm="logaritmus"><i>logaritmus</i><par n="banán__n"/></e>
     <e lm="logisztikus"><i>logisztikus</i><par n="banán__n"/></e>
@@ -6255,9 +6415,12 @@
     <e lm="lókupec"><i>lókupec</i><par n="kérdés__n"/></e>
     <e lm="lombardhitel"><i>lombardhitel</i><par n="kérdés__n"/></e>
     <e lm="lombardügylet"><i>lombardügylet</i><par n="kérdés__n"/></e>
+    <e lm="lomb"><i>lomb</i><par n="bank__n"/></e>
     <e lm="lombosodás"><i>lombosodás</i><par n="banán__n"/></e>
     <e lm="lombozat"><i>lombozat</i><par n="banán__n"/></e>
     <e lm="lombtalanodás"><i>lombtalanodás</i><par n="banán__n"/></e>
+    <e lm="lom"><i>lom</i><par n="bank__n"/></e>
+    <e lm="lord"><i>lord</i><par n="bank__n"/></e>
     <e lm="lőre"><i>lőr</i><par n="bék/e__n"/></e>
     <e lm="lórom"><i>lórom</i><par n="banán__n"/></e>
     <e lm="lótusz"><i>lótusz</i><par n="banán__n"/></e>
@@ -6268,9 +6431,12 @@
     <e lm="lóvátétel"><i>lóvátétel</i><par n="kérdés__n"/></e>
     <e lm="lúdbőrzés"><i>lúdbőrzés</i><par n="kérdés__n"/></e>
     <e lm="luesz"><i>luesz</i><par n="kérdés__n"/></e>
+    <e lm="luft"><i>luft</i><par n="bank__n"/></e>
     <e lm="lugas"><i>lugas</i><par n="banán__n"/></e>
+    <e lm="lúg"><i>lúg</i><par n="bank__n"/></e>
     <e lm="lumineszcens"><i>lumineszcens</i><par n="kérdés__n"/></e>
     <e lm="lumpenproletariátus"><i>lumpenproletariátus</i><par n="banán__n"/></e>
+    <e lm="lump"><i>lump</i><par n="bank__n"/></e>
     <e lm="lutheranizmus"><i>lutheranizmus</i><par n="banán__n"/></e>
     <e lm="lutheránus"><i>lutheránus</i><par n="banán__n"/></e>
     <e lm="luxuriózus"><i>luxuriózus</i><par n="banán__n"/></e>
@@ -6347,6 +6513,7 @@
     <e lm="magasperje"><i>magasperj</i><par n="bék/e__n"/></e>
     <e lm="magatartás"><i>magatartás</i><par n="banán__n"/></e>
     <e lm="magatűrhetés"><i>magatűrhetés</i><par n="kérdés__n"/></e>
+    <e lm="mag"><i>mag</i><par n="bank__n"/></e>
     <e lm="magiszter"><i>magiszter</i><par n="kérdés__n"/></e>
     <e lm="magisztrátus"><i>magisztrátus</i><par n="banán__n"/></e>
     <e lm="magmaolvadék"><i>magmaolvadék</i><par n="banán__n"/></e>
@@ -6372,6 +6539,8 @@
     <e lm="majoritás"><i>majoritás</i><par n="banán__n"/></e>
     <e lm="majorság"><i>majorság</i><par n="banán__n"/></e>
     <e lm="majrézás"><i>majrézás</i><par n="banán__n"/></e>
+    <e lm="mák"><i>mák</i><par n="bank__n"/></e>
+    <e lm="makk"><i>makk</i><par n="bank__n"/></e>
     <e lm="mákony"><i>mákony</i><par n="banán__n"/></e>
     <e lm="makranc"><i>makranc</i><par n="banán__n"/></e>
     <e lm="makrancosság"><i>makrancosság</i><par n="banán__n"/></e>
@@ -6405,6 +6574,7 @@
     <e lm="maradvány"><i>maradvány</i><par n="banán__n"/></e>
     <e lm="marhaság"><i>marhaság</i><par n="banán__n"/></e>
     <e lm="máriatövis"><i>máriatövis</i><par n="kérdés__n"/></e>
+    <e lm="mar"><i>mar</i><par n="bank__n"/></e>
     <e lm="maris"><i>maris</i><par n="banán__n"/></e>
     <e lm="márkaátváltás"><i>márkaátváltás</i><par n="banán__n"/></e>
     <e lm="markecolás"><i>markecolás</i><par n="banán__n"/></e>
@@ -6438,6 +6608,7 @@
     <e lm="másolómanipulátor"><i>másolómanipulátor</i><par n="banán__n"/></e>
     <e lm="masszázs"><i>masszázs</i><par n="banán__n"/></e>
     <e lm="masszívum"><i>masszívum</i><par n="banán__n"/></e>
+    <e lm="maszk"><i>maszk</i><par n="bank__n"/></e>
     <e lm="masztix"><i>masztix</i><par n="banán__n"/></e>
     <e lm="matematikus"><i>matematikus</i><par n="banán__n"/></e>
     <e lm="materializmus"><i>materializmus</i><par n="banán__n"/></e>
@@ -6445,6 +6616,7 @@
     <e lm="matriarchátus"><i>matriarchátus</i><par n="banán__n"/></e>
     <e lm="mátrix"><i>mátrix</i><par n="banán__n"/></e>
     <e lm="matróz"><i>matróz</i><par n="banán__n"/></e>
+    <e lm="matt"><i>matt</i><par n="bank__n"/></e>
     <e lm="maturandus"><i>maturandus</i><par n="banán__n"/></e>
     <e lm="matuzsálem"><i>matuzsálem</i><par n="kérdés__n"/></e>
     <e lm="mauzóleum"><i>mauzóleum</i><par n="banán__n"/></e>
@@ -6771,6 +6943,7 @@
     <e lm="melegszilárdság"><i>melegszilárdság</i><par n="banán__n"/></e>
     <e lm="mellék"><i>mellék</i><par n="kérdés__n"/></e>
     <e lm="melléklet"><i>melléklet</i><par n="kérdés__n"/></e>
+    <e lm="melléknév"><i>mellékn</i><par n="n/év__n"/></e>
     <e lm="mellény"><i>mellény</i><par n="kérdés__n"/></e>
     <e lm="mellényke"><i>mellényk</i><par n="bék/e__n"/></e>
     <e lm="méltánylás"><i>méltánylás</i><par n="banán__n"/></e>
@@ -6927,6 +7100,7 @@
     <e lm="modernitás"><i>modernitás</i><par n="banán__n"/></e>
     <e lm="modernizmus"><i>modernizmus</i><par n="banán__n"/></e>
     <e lm="modifikálás"><i>modifikálás</i><par n="banán__n"/></e>
+    <e lm="mód"><i>mód</i><par n="bank__n"/></e>
     <e lm="modor"><i>modor</i><par n="banán__n"/></e>
     <e lm="módosítás"><i>módosítás</i><par n="banán__n"/></e>
     <e lm="módosítvány"><i>módosítvány</i><par n="banán__n"/></e>
@@ -6940,6 +7114,8 @@
     <e lm="mohamedanizmus"><i>mohamedanizmus</i><par n="banán__n"/></e>
     <e lm="moherfonal"><i>moherfonal</i><par n="banán__n"/></e>
     <e lm="mókus"><i>mókus</i><par n="banán__n"/></e>
+    <e lm="mól"><i>mól</i><par n="bank__n"/></e>
+    <e lm="moll"><i>moll</i><par n="bank__n"/></e>
     <e lm="momentum"><i>momentum</i><par n="banán__n"/></e>
     <e lm="mondat"><i>mondat</i><par n="banán__n"/></e>
     <e lm="monetarizmus"><i>monetarizmus</i><par n="banán__n"/></e>
@@ -6979,8 +7155,10 @@
     <e lm="műépítész"><i>műépítész</i><par n="kérdés__n"/></e>
     <e lm="mufurc"><i>mufurc</i><par n="banán__n"/></e>
     <e lm="muharsás"><i>muharsás</i><par n="banán__n"/></e>
+    <e lm="mukk"><i>mukk</i><par n="bank__n"/></e>
     <e lm="működő tőke"><i>működő tők</i><par n="bék/e__n"/></e>
     <e lm="mulatság"><i>mulatság</i><par n="banán__n"/></e>
+    <e lm="mull"><i>mull</i><par n="bank__n"/></e>
     <e lm="multiméter"><i>multiméter</i><par n="kérdés__n"/></e>
     <e lm="multiplicitás"><i>multiplicitás</i><par n="banán__n"/></e>
     <e lm="multiplikativitás"><i>multiplikativitás</i><par n="banán__n"/></e>
@@ -6998,6 +7176,7 @@
     <e lm="munkátlanság"><i>munkátlanság</i><par n="banán__n"/></e>
     <e lm="muskétás"><i>muskétás</i><par n="banán__n"/></e>
     <e lm="muskotály"><i>muskotály</i><par n="banán__n"/></e>
+    <e lm="must"><i>must</i><par n="bank__n"/></e>
     <e lm="mutagenitás"><i>mutagenitás</i><par n="banán__n"/></e>
     <e lm="mutáns"><i>mutáns</i><par n="banán__n"/></e>
     <e lm="mutatvány"><i>mutatvány</i><par n="banán__n"/></e>
@@ -7073,6 +7252,7 @@
     <e lm="napidíjas"><i>napidíjas</i><par n="banán__n"/></e>
     <e lm="napihír"><i>napihír</i><par n="kérdés__n"/></e>
     <e lm="napijegy"><i>napijegy</i><par n="kérdés__n"/></e>
+    <e lm="nap"><i>nap</i><par n="bank__n"/></e>
     <e lm="napiparancs"><i>napiparancs</i><par n="banán__n"/></e>
     <e lm="napkollektor"><i>napkollektor</i><par n="banán__n"/></e>
     <e lm="naposcsibe"><i>naposcsib</i><par n="bék/e__n"/></e>
@@ -7104,7 +7284,10 @@
     <e lm="néger"><i>néger</i><par n="kérdés__n"/></e>
     <e lm="negligálás"><i>negligálás</i><par n="banán__n"/></e>
     <e lm="négus"><i>négus</i><par n="banán__n"/></e>
+    <e lm="negyedfélmilliárd"><i>negyedfélmilliárd</i><par n="ablak__n"/></e>
+    <e lm="negyedfélszázad"><i>negyedfélszázad</i><par n="ablak__n"/></e>
     <e lm="negyedikes"><i>negyedikes</i><par n="kérdés__n"/></e>
+    <e lm="negyedszázad"><i>negyedszázad</i><par n="ablak__n"/></e>
     <e lm="négyzet"><i>négyzet</i><par n="kérdés__n"/></e>
     <e lm="nehezék"><i>nehezék</i><par n="kérdés__n"/></e>
     <e lm="nehézlégzés"><i>nehézlégzés</i><par n="kérdés__n"/></e>
@@ -7155,6 +7338,7 @@
     <e lm="neveltség"><i>neveltség</i><par n="kérdés__n"/></e>
     <e lm="nevetség"><i>nevetség</i><par n="kérdés__n"/></e>
     <e lm="nevezéktan"><i>nevezéktan</i><par n="banán__n"/></e>
+    <e lm="név"><i>n</i><par n="n/év__n"/></e>
     <e lm="nexus"><i>nexus</i><par n="banán__n"/></e>
     <e lm="nézegetés"><i>nézegetés</i><par n="kérdés__n"/></e>
     <e lm="nézet"><i>nézet</i><par n="kérdés__n"/></e>
@@ -7201,10 +7385,13 @@
     <e lm="nullfok"><i>nullfok</i><par n="banán__n"/></e>
     <e lm="nullhipotézis"><i>nullhipotézis</i><par n="kérdés__n"/></e>
     <e lm="nullifikálás"><i>nullifikálás</i><par n="banán__n"/></e>
+    <e lm="null"><i>null</i><par n="bank__n"/></e>
     <e lm="nullszakasz"><i>nullszakasz</i><par n="banán__n"/></e>
     <e lm="numerátor"><i>numerátor</i><par n="banán__n"/></e>
     <e lm="numerus"><i>numerus</i><par n="banán__n"/></e>
     <e lm="nuncius"><i>nuncius</i><par n="banán__n"/></e>
+    <e lm="nút"><i>nút</i><par n="bank__n"/></e>
+    <e lm="nyák"><i>nyák</i><par n="bank__n"/></e>
     <e lm="nyakoncsapás"><i>nyakoncsapás</i><par n="banán__n"/></e>
     <e lm="nyakonvágás"><i>nyakonvágás</i><par n="banán__n"/></e>
     <e lm="nyalakodás"><i>nyalakodás</i><par n="banán__n"/></e>
@@ -7249,6 +7436,8 @@
     <e lm="nyíres"><i>nyíres</i><par n="kérdés__n"/></e>
     <e lm="nyitány"><i>nyitány</i><par n="banán__n"/></e>
     <e lm="nünüke"><i>nünük</i><par n="bék/e__n"/></e>
+    <e lm="nyolcadfélmilliárd"><i>nyolcadfélmilliárd</i><par n="ablak__n"/></e>
+    <e lm="nyolcadfélszázad"><i>nyolcadfélszázad</i><par n="ablak__n"/></e>
     <e lm="nyolcadikos"><i>nyolcadikos</i><par n="banán__n"/></e>
     <e lm="nyomaték"><i>nyomaték</i><par n="banán__n"/></e>
     <e lm="nyomat"><i>nyomat</i><par n="banán__n"/></e>
@@ -7276,6 +7465,7 @@
     <e lm="nyugtatvány"><i>nyugtatvány</i><par n="banán__n"/></e>
     <e lm="nyújtózkodás"><i>nyújtózkodás</i><par n="banán__n"/></e>
     <e lm="nyúlvány"><i>nyúlvány</i><par n="banán__n"/></e>
+    <e lm="nyuszt"><i>nyuszt</i><par n="bank__n"/></e>
     <e lm="növedék"><i>növedék</i><par n="kérdés__n"/></e>
     <e lm="növekedés"><i>növekedés</i><par n="kérdés__n"/></e>
     <e lm="növekmény"><i>növekmény</i><par n="kérdés__n"/></e>
@@ -7328,6 +7518,7 @@
     <e lm="olvasat"><i>olvasat</i><par n="banán__n"/></e>
     <e lm="olvasmány"><i>olvasmány</i><par n="banán__n"/></e>
     <e lm="omladék"><i>omladék</i><par n="banán__n"/></e>
+    <e lm="ón"><i>ón</i><par n="bank__n"/></e>
     <e lm="ónix"><i>ónix</i><par n="banán__n"/></e>
     <e lm="onkológus"><i>onkológus</i><par n="banán__n"/></e>
     <e lm="ontológus"><i>ontológus</i><par n="banán__n"/></e>
@@ -7381,6 +7572,7 @@
     <e lm="ortogonalitás"><i>ortogonalitás</i><par n="banán__n"/></e>
     <e lm="ortoklász"><i>ortoklász</i><par n="banán__n"/></e>
     <e lm="ortológus"><i>ortológus</i><par n="banán__n"/></e>
+    <e lm="orv"><i>orv</i><par n="bank__n"/></e>
     <e lm="orvos"><i>orvos</i><par n="banán__n"/></e>
     <e lm="orvoslás"><i>orvoslás</i><par n="banán__n"/></e>
     <e lm="orvosság"><i>orvosság</i><par n="banán__n"/></e>
@@ -7429,6 +7621,7 @@
     <e lm="pacifizmus"><i>pacifizmus</i><par n="banán__n"/></e>
     <e lm="pacsmag"><i>pacsmag</i><par n="banán__n"/></e>
     <e lm="pádimentum"><i>pádimentum</i><par n="banán__n"/></e>
+    <e lm="pad"><i>pad</i><par n="bank__n"/></e>
     <e lm="padlás"><i>padlás</i><par n="banán__n"/></e>
     <e lm="padlat"><i>padlat</i><par n="banán__n"/></e>
     <e lm="padlózat"><i>padlózat</i><par n="banán__n"/></e>
@@ -7444,6 +7637,7 @@
     <e lm="pajzsmirigytúltengés"><i>pajzsmirigytúltengés</i><par n="kérdés__n"/></e>
     <e lm="pákászat"><i>pákászat</i><par n="banán__n"/></e>
     <e lm="pákász"><i>pákász</i><par n="banán__n"/></e>
+    <e lm="pakk"><i>pakk</i><par n="bank__n"/></e>
     <e lm="paktum"><i>paktum</i><par n="banán__n"/></e>
     <e lm="palatínus"><i>palatínus</i><par n="banán__n"/></e>
     <e lm="paláver"><i>paláver</i><par n="kérdés__n"/></e>
@@ -7469,13 +7663,16 @@
     <e lm="páncélos"><i>páncélos</i><par n="banán__n"/></e>
     <e lm="pandamedve"><i>pandamedv</i><par n="bék/e__n"/></e>
     <e lm="panegirisz"><i>panegirisz</i><par n="kérdés__n"/></e>
+    <e lm="pán"><i>pán</i><par n="bank__n"/></e>
     <e lm="pankrátor"><i>pankrátor</i><par n="banán__n"/></e>
     <e lm="panofixbélés"><i>panofixbélés</i><par n="kérdés__n"/></e>
     <e lm="panofix"><i>panofix</i><par n="kérdés__n"/></e>
     <e lm="panoptikum"><i>panoptikum</i><par n="banán__n"/></e>
     <e lm="panteizmus"><i>panteizmus</i><par n="banán__n"/></e>
+    <e lm="pánt"><i>pánt</i><par n="bank__n"/></e>
     <e lm="papagáj"><i>papagáj</i><par n="banán__n"/></e>
     <e lm="pápaság"><i>pápaság</i><par n="banán__n"/></e>
+    <e lm="pap"><i>pap</i><par n="bank__n"/></e>
     <e lm="papiros"><i>papiros</i><par n="banán__n"/></e>
     <e lm="papirusz"><i>papirusz</i><par n="banán__n"/></e>
     <e lm="papnevelde"><i>papneveld</i><par n="bék/e__n"/></e>
@@ -7505,10 +7702,12 @@
     <e lm="párduc"><i>párduc</i><par n="banán__n"/></e>
     <e lm="paréj"><i>paréj</i><par n="banán__n"/></e>
     <e lm="párharc"><i>párharc</i><par n="banán__n"/></e>
+    <e lm="pár"><i>pár</i><par n="bank__n"/></e>
     <e lm="paritás"><i>paritás</i><par n="banán__n"/></e>
     <e lm="parizer"><i>parizer</i><par n="kérdés__n"/></e>
     <e lm="párkány"><i>párkány</i><par n="banán__n"/></e>
     <e lm="párkányzat"><i>párkányzat</i><par n="banán__n"/></e>
+    <e lm="park"><i>park</i><par n="bank__n"/></e>
     <e lm="parlamentarizmus"><i>parlamentarizmus</i><par n="banán__n"/></e>
     <e lm="parlamenter"><i>parlamenter</i><par n="kérdés__n"/></e>
     <e lm="párlat"><i>párlat</i><par n="banán__n"/></e>
@@ -7521,6 +7720,8 @@
     <e lm="pártfunkcionárius"><i>pártfunkcionárius</i><par n="banán__n"/></e>
     <e lm="participium"><i>participium</i><par n="banán__n"/></e>
     <e lm="partikularizmus"><i>partikularizmus</i><par n="banán__n"/></e>
+    <e lm="part"><i>part</i><par n="bank__n"/></e>
+    <e lm="párt"><i>párt</i><par n="bank__n"/></e>
     <e lm="partizánalakulat"><i>partizánalakulat</i><par n="banán__n"/></e>
     <e lm="partizáncsapat"><i>partizáncsapat</i><par n="banán__n"/></e>
     <e lm="partizánkülönítmény"><i>partizánkülönítmény</i><par n="kérdés__n"/></e>
@@ -7543,6 +7744,7 @@
     <e lm="passzivitás"><i>passzivitás</i><par n="banán__n"/></e>
     <e lm="passzívum"><i>passzívum</i><par n="banán__n"/></e>
     <e lm="passzus"><i>passzus</i><par n="banán__n"/></e>
+    <e lm="pást"><i>pást</i><par n="bank__n"/></e>
     <e lm="pasziánsz"><i>pasziánsz</i><par n="banán__n"/></e>
     <e lm="paszomány"><i>paszomány</i><par n="banán__n"/></e>
     <e lm="pasztorálás"><i>pasztorálás</i><par n="banán__n"/></e>
@@ -7557,6 +7759,7 @@
     <e lm="patics"><i>patics</i><par n="banán__n"/></e>
     <e lm="patikaszer"><i>patikaszer</i><par n="kérdés__n"/></e>
     <e lm="patikus"><i>patikus</i><par n="banán__n"/></e>
+    <e lm="pát"><i>pát</i><par n="bank__n"/></e>
     <e lm="patkány"><i>patkány</i><par n="banán__n"/></e>
     <e lm="patogenitás"><i>patogenitás</i><par n="banán__n"/></e>
     <e lm="patológus"><i>patológus</i><par n="banán__n"/></e>
@@ -7568,6 +7771,7 @@
     <e lm="patronázs"><i>patronázs</i><par n="banán__n"/></e>
     <e lm="patrónus"><i>patrónus</i><par n="banán__n"/></e>
     <e lm="pattanás"><i>pattanás</i><par n="banán__n"/></e>
+    <e lm="patt"><i>patt</i><par n="bank__n"/></e>
     <e lm="patvar"><i>patvar</i><par n="banán__n"/></e>
     <e lm="patyolat"><i>patyolat</i><par n="banán__n"/></e>
     <e lm="pauperizmus"><i>pauperizmus</i><par n="banán__n"/></e>
@@ -7673,6 +7877,7 @@
     <e lm="pipettázókészülék"><i>pipettázókészülék</i><par n="kérdés__n"/></e>
     <e lm="pipogyaság"><i>pipogyaság</i><par n="banán__n"/></e>
     <e lm="piramis"><i>piramis</i><par n="banán__n"/></e>
+    <e lm="pír"><i>pír</i><par n="bank__n"/></e>
     <e lm="pirkadás"><i>pirkadás</i><par n="banán__n"/></e>
     <e lm="pirkadat"><i>pirkadat</i><par n="banán__n"/></e>
     <e lm="piroelektromosság"><i>piroelektromosság</i><par n="banán__n"/></e>
@@ -7692,8 +7897,10 @@
     <e lm="plágium"><i>plágium</i><par n="banán__n"/></e>
     <e lm="plagizátor"><i>plagizátor</i><par n="banán__n"/></e>
     <e lm="plajbász"><i>plajbász</i><par n="banán__n"/></e>
+    <e lm="plakk"><i>plakk</i><par n="bank__n"/></e>
     <e lm="planetárium"><i>planetárium</i><par n="banán__n"/></e>
     <e lm="planiméter"><i>planiméter</i><par n="kérdés__n"/></e>
+    <e lm="plán"><i>plán</i><par n="bank__n"/></e>
     <e lm="plánum"><i>plánum</i><par n="banán__n"/></e>
     <e lm="plaszticitás"><i>plaszticitás</i><par n="banán__n"/></e>
     <e lm="platinaszőke"><i>platinaszők</i><par n="bék/e__n"/></e>
@@ -7723,6 +7930,7 @@
     <e lm="pohár"><i>poh</i><par n="poh/ár__n"/></e>
     <e lm="pohárnok"><i>pohárnok</i><par n="banán__n"/></e>
     <e lm="pointillizmus"><i>pointillizmus</i><par n="banán__n"/></e>
+    <e lm="pók"><i>pók</i><par n="bank__n"/></e>
     <e lm="pokróc"><i>pokróc</i><par n="banán__n"/></e>
     <e lm="polariméter"><i>polariméter</i><par n="kérdés__n"/></e>
     <e lm="polaritás"><i>polaritás</i><par n="banán__n"/></e>
@@ -7752,11 +7960,14 @@
     <e lm="pomológus"><i>pomológus</i><par n="banán__n"/></e>
     <e lm="poncichter"><i>poncichter</i><par n="kérdés__n"/></e>
     <e lm="pongyolaság"><i>pongyolaság</i><par n="banán__n"/></e>
+    <e lm="pont"><i>pont</i><par n="bank__n"/></e>
     <e lm="pont"><i>pont</i><par n="pont__n"/></e>
+    <e lm="pop"><i>pop</i><par n="bank__n"/></e>
     <e lm="popularitás"><i>popularitás</i><par n="banán__n"/></e>
     <e lm="populizmus"><i>populizmus</i><par n="banán__n"/></e>
     <e lm="póráz"><i>póráz</i><par n="banán__n"/></e>
     <e lm="porcleválás"><i>porcleválás</i><par n="banán__n"/></e>
+    <e lm="pór"><i>pór</i><par n="bank__n"/></e>
     <e lm="pórnép"><i>pórnép</i><par n="kérdés__n"/></e>
     <e lm="poronty"><i>poronty</i><par n="banán__n"/></e>
     <e lm="porozitás"><i>porozitás</i><par n="banán__n"/></e>
@@ -7764,6 +7975,7 @@
     <e lm="portalanítás"><i>portalanítás</i><par n="banán__n"/></e>
     <e lm="portás"><i>portás</i><par n="banán__n"/></e>
     <e lm="portikusz"><i>portikusz</i><par n="banán__n"/></e>
+    <e lm="port"><i>port</i><par n="bank__n"/></e>
     <e lm="pórus"><i>pórus</i><par n="banán__n"/></e>
     <e lm="postás"><i>postás</i><par n="banán__n"/></e>
     <e lm="posvány"><i>posvány</i><par n="banán__n"/></e>
@@ -7771,6 +7983,7 @@
     <e lm="posztamentum"><i>posztamentum</i><par n="banán__n"/></e>
     <e lm="poszter"><i>poszter</i><par n="kérdés__n"/></e>
     <e lm="posztgraduális"><i>posztgraduális</i><par n="banán__n"/></e>
+    <e lm="poszt"><i>poszt</i><par n="bank__n"/></e>
     <e lm="posztulátum"><i>posztulátum</i><par n="banán__n"/></e>
     <e lm="pótalkatrész"><i>pótalkatrész</i><par n="kérdés__n"/></e>
     <e lm="pótanyag"><i>pótanyag</i><par n="banán__n"/></e>
@@ -7891,6 +8104,7 @@
     <e lm="pszichopedagĂłgus"><i>pszichopedagĂłgus</i><par n="banán__n"/></e>
     <e lm="pszichózis"><i>pszichózis</i><par n="banán__n"/></e>
     <e lm="pubertás"><i>pubertás</i><par n="banán__n"/></e>
+    <e lm="pub"><i>pub</i><par n="bank__n"/></e>
     <e lm="publicitás"><i>publicitás</i><par n="banán__n"/></e>
     <e lm="publikum"><i>publikum</i><par n="banán__n"/></e>
     <e lm="puccos"><i>puccos</i><par n="banán__n"/></e>
@@ -7901,9 +8115,12 @@
     <e lm="pukkancs"><i>pukkancs</i><par n="banán__n"/></e>
     <e lm="pulmonológus"><i>pulmonológus</i><par n="banán__n"/></e>
     <e lm="pulpitus"><i>pulpitus</i><par n="banán__n"/></e>
+    <e lm="pult"><i>pult</i><par n="bank__n"/></e>
     <e lm="pulzátor"><i>pulzátor</i><par n="banán__n"/></e>
     <e lm="pulzus"><i>pulzus</i><par n="banán__n"/></e>
     <e lm="pungálás"><i>pungálás</i><par n="banán__n"/></e>
+    <e lm="punk"><i>punk</i><par n="bank__n"/></e>
+    <e lm="púp"><i>púp</i><par n="bank__n"/></e>
     <e lm="purgatórium"><i>purgatórium</i><par n="banán__n"/></e>
     <e lm="puritanizmus"><i>puritanizmus</i><par n="banán__n"/></e>
     <e lm="puritánus"><i>puritánus</i><par n="banán__n"/></e>
@@ -7919,6 +8136,7 @@
     <e lm="ráadás"><i>ráadás</i><par n="banán__n"/></e>
     <e lm="rábámulás"><i>rábámulás</i><par n="banán__n"/></e>
     <e lm="rábeszélés"><i>rábeszélés</i><par n="kérdés__n"/></e>
+    <e lm="rab"><i>rab</i><par n="bank__n"/></e>
     <e lm="rábízás"><i>rábízás</i><par n="banán__n"/></e>
     <e lm="rábizonyítás"><i>rábizonyítás</i><par n="banán__n"/></e>
     <e lm="rablás"><i>rablás</i><par n="banán__n"/></e>
@@ -7944,15 +8162,19 @@
     <e lm="raffinálás"><i>raffinálás</i><par n="banán__n"/></e>
     <e lm="raffinátum"><i>raffinátum</i><par n="banán__n"/></e>
     <e lm="rafináltság"><i>rafináltság</i><par n="banán__n"/></e>
+    <e lm="ráf"><i>ráf</i><par n="bank__n"/></e>
     <e lm="ráfogás"><i>ráfogás</i><par n="banán__n"/></e>
     <e lm="ragacs"><i>ragacs</i><par n="banán__n"/></e>
     <e lm="ragadvány"><i>ragadvány</i><par n="banán__n"/></e>
+    <e lm="ragadványnév"><i>ragadványn</i><par n="n/év__n"/></e>
     <e lm="ragály"><i>ragály</i><par n="banán__n"/></e>
     <e lm="ragasz"><i>ragasz</i><par n="banán__n"/></e>
+    <e lm="rag"><i>rag</i><par n="bank__n"/></e>
     <e lm="ráhagyás"><i>ráhagyás</i><par n="banán__n"/></e>
     <e lm="ráhangzás"><i>ráhangzás</i><par n="banán__n"/></e>
     <e lm="rajkózenekar"><i>rajkózenekar</i><par n="banán__n"/></e>
     <e lm="rajthely"><i>rajthely</i><par n="kérdés__n"/></e>
+    <e lm="rajt"><i>rajt</i><par n="bank__n"/></e>
     <e lm="rajtpisztoly"><i>rajtpisztoly</i><par n="banán__n"/></e>
     <e lm="rajzolat"><i>rajzolat</i><par n="banán__n"/></e>
     <e lm="rajzszer"><i>rajzszer</i><par n="kérdés__n"/></e>
@@ -7960,6 +8182,7 @@
     <e lm="rákász"><i>rákász</i><par n="banán__n"/></e>
     <e lm="rakat"><i>rakat</i><par n="banán__n"/></e>
     <e lm="rakfelület"><i>rakfelület</i><par n="kérdés__n"/></e>
+    <e lm="rák"><i>rák</i><par n="bank__n"/></e>
     <e lm="rakomány"><i>rakomány</i><par n="banán__n"/></e>
     <e lm="rákos"><i>rákos</i><par n="banán__n"/></e>
     <e lm="raktárnok"><i>raktárnok</i><par n="banán__n"/></e>
@@ -7968,6 +8191,7 @@
     <e lm="ramaty"><i>ramaty</i><par n="banán__n"/></e>
     <e lm="ránézés"><i>ránézés</i><par n="kérdés__n"/></e>
     <e lm="rangegyenlőség"><i>rangegyenlőség</i><par n="kérdés__n"/></e>
+    <e lm="rang"><i>rang</i><par n="bank__n"/></e>
     <e lm="rangkórság"><i>rangkórság</i><par n="banán__n"/></e>
     <e lm="rárakás"><i>rárakás</i><par n="banán__n"/></e>
     <e lm="rárakódás"><i>rárakódás</i><par n="banán__n"/></e>
@@ -8166,8 +8390,10 @@
     <e lm="roborálás"><i>roborálás</i><par n="banán__n"/></e>
     <e lm="robotizálás"><i>robotizálás</i><par n="banán__n"/></e>
     <e lm="rockénekes"><i>rockénekes</i><par n="kérdés__n"/></e>
+    <e lm="rock"><i>rock</i><par n="bank__n"/></e>
     <e lm="rockzene"><i>rockzen</i><par n="bék/e__n"/></e>
     <e lm="roham"><i>roham</i><par n="banán__n"/></e>
+    <e lm="rojt"><i>rojt</i><par n="bank__n"/></e>
     <e lm="rojtozat"><i>rojtozat</i><par n="banán__n"/></e>
     <e lm="rókasás"><i>rókasás</i><par n="banán__n"/></e>
     <e lm="rókasásos"><i>rókasásos</i><par n="banán__n"/></e>
@@ -8178,10 +8404,12 @@
     <e lm="rokon"><i>rokon</i><par n="banán__n"/></e>
     <e lm="rokonszenvezés"><i>rokonszenvezés</i><par n="kérdés__n"/></e>
     <e lm="rokonszenv"><i>rokonszenv</i><par n="kérdés__n"/></e>
+    <e lm="roll"><i>roll</i><par n="bank__n"/></e>
     <e lm="románc"><i>románc</i><par n="banán__n"/></e>
     <e lm="romanticizmus"><i>romanticizmus</i><par n="banán__n"/></e>
     <e lm="romboéder"><i>romboéder</i><par n="kérdés__n"/></e>
     <e lm="romeltakarítás"><i>romeltakarítás</i><par n="banán__n"/></e>
+    <e lm="rom"><i>rom</i><par n="bank__n"/></e>
     <e lm="romladék"><i>romladék</i><par n="banán__n"/></e>
     <e lm="rónaság"><i>rónaság</i><par n="banán__n"/></e>
     <e lm="rondírás"><i>rondírás</i><par n="banán__n"/></e>
@@ -8195,6 +8423,7 @@
     <e lm="rostély"><i>rostély</i><par n="banán__n"/></e>
     <e lm="rostélyos"><i>rostélyos</i><par n="banán__n"/></e>
     <e lm="rostélyzat"><i>rostélyzat</i><par n="banán__n"/></e>
+    <e lm="rost"><i>rost</i><par n="bank__n"/></e>
     <e lm="rostostövűsásos"><i>rostostövűsásos</i><par n="banán__n"/></e>
     <e lm="rotációs"><i>rotációs</i><par n="banán__n"/></e>
     <e lm="rotátor"><i>rotátor</i><par n="banán__n"/></e>
@@ -8213,6 +8442,8 @@
     <e lm="ruhatáros"><i>ruhatáros</i><par n="banán__n"/></e>
     <e lm="ruházat"><i>ruházat</i><par n="banán__n"/></e>
     <e lm="ruházkodás"><i>ruházkodás</i><par n="banán__n"/></e>
+    <e lm="rum"><i>rum</i><par n="bank__n"/></e>
+    <e lm="rund"><i>rund</i><par n="bank__n"/></e>
     <e lm="russzicizmus"><i>russzicizmus</i><par n="banán__n"/></e>
     <e lm="rükverc"><i>rükverc</i><par n="kérdés__n"/></e>
     <e lm="röfike"><i>röfik</i><par n="bék/e__n"/></e>
@@ -8236,7 +8467,9 @@
     <e lm="sajmeggy"><i>sajmeggy</i><par n="kérdés__n"/></e>
     <e lm="sajnálat"><i>sajnálat</i><par n="banán__n"/></e>
     <e lm="sajnálkozás"><i>sajnálkozás</i><par n="banán__n"/></e>
+    <e lm="sajt"><i>sajt</i><par n="bank__n"/></e>
     <e lm="sajtos"><i>sajtos</i><par n="banán__n"/></e>
+    <e lm="sakk"><i>sakk</i><par n="bank__n"/></e>
     <e lm="sákramentum"><i>sákramentum</i><par n="banán__n"/></e>
     <e lm="salátaöntet"><i>salátaöntet</i><par n="kérdés__n"/></e>
     <e lm="salétrom"><i>salétrom</i><par n="banán__n"/></e>
@@ -8247,9 +8480,11 @@
     <e lm="samottpakolás"><i>samottpakolás</i><par n="banán__n"/></e>
     <e lm="sandítás"><i>sandítás</i><par n="banán__n"/></e>
     <e lm="sapiens"><i>sapiens</i><par n="kérdés__n"/></e>
+    <e lm="sáp"><i>sáp</i><par n="bank__n"/></e>
     <e lm="sarjadék"><i>sarjadék</i><par n="banán__n"/></e>
     <e lm="sarkalat"><i>sarkalat</i><par n="banán__n"/></e>
     <e lm="sárkány"><i>sárkány</i><par n="banán__n"/></e>
+    <e lm="sark"><i>sark</i><par n="bank__n"/></e>
     <e lm="sárlás"><i>sárlás</i><par n="banán__n"/></e>
     <e lm="sarlatánság"><i>sarlatánság</i><par n="banán__n"/></e>
     <e lm="sármány"><i>sármány</i><par n="banán__n"/></e>
@@ -8259,6 +8494,7 @@
     <e lm="sátoros"><i>sátoros</i><par n="banán__n"/></e>
     <e lm="savanyúforrás"><i>savanyúforrás</i><par n="banán__n"/></e>
     <e lm="savanyútojás"><i>savanyútojás</i><par n="banán__n"/></e>
+    <e lm="sáv"><i>sáv</i><par n="bank__n"/></e>
     <e lm="sávoly"><i>sávoly</i><par n="banán__n"/></e>
     <e lm="sávolykötés"><i>sávolykötés</i><par n="kérdés__n"/></e>
     <e lm="sebességtúllépés"><i>sebességtúllépés</i><par n="kérdés__n"/></e>
@@ -8304,11 +8540,13 @@
     <e lm="sérülés"><i>sérülés</i><par n="kérdés__n"/></e>
     <e lm="sétafikálás"><i>sétafikálás</i><par n="banán__n"/></e>
     <e lm="sétány"><i>sétány</i><par n="banán__n"/></e>
+    <e lm="shop"><i>shop</i><par n="bank__n"/></e>
     <e lm="síber"><i>síber</i><par n="kérdés__n"/></e>
     <e lm="siemens"><i>siemens</i><par n="kérdés__n"/></e>
     <e lm="sietség"><i>sietség</i><par n="kérdés__n"/></e>
     <e lm="sikátor"><i>sikátor</i><par n="banán__n"/></e>
     <e lm="siker"><i>siker</i><par n="kérdés__n"/></e>
+    <e lm="sík"><i>sík</i><par n="bank__n"/></e>
     <e lm="siklás"><i>siklás</i><par n="banán__n"/></e>
     <e lm="sikoly"><i>sikoly</i><par n="banán__n"/></e>
     <e lm="sillabusz"><i>sillabusz</i><par n="banán__n"/></e>
@@ -8316,37 +8554,49 @@
     <e lm="sintértelep"><i>sintértelep</i><par n="kérdés__n"/></e>
     <e lm="sintoizmus"><i>sintoizmus</i><par n="banán__n"/></e>
     <e lm="sipirc"><i>sipirc</i><par n="kérdés__n"/></e>
+    <e lm="síp"><i>síp</i><par n="bank__n"/></e>
     <e lm="sipoly"><i>sipoly</i><par n="banán__n"/></e>
     <e lm="sípos"><i>sípos</i><par n="banán__n"/></e>
     <e lm="sirály"><i>sirály</i><par n="banán__n"/></e>
+    <e lm="sír"><i>sír</i><par n="bank__n"/></e>
     <e lm="skalárinvariáns"><i>skalárinvariáns</i><par n="banán__n"/></e>
+    <e lm="skalp"><i>skalp</i><par n="bank__n"/></e>
     <e lm="skandalum"><i>skandalum</i><par n="banán__n"/></e>
     <e lm="skarlátpiros"><i>skarlátpiros</i><par n="banán__n"/></e>
     <e lm="skicc"><i>skicc</i><par n="gyerek__n"/></e>
     <e lm="skíz"><i>skíz</i><par n="gyerek__n"/></e>
     <e lm="skribler"><i>skribler</i><par n="kérdés__n"/></e>
     <e lm="skrupulus"><i>skrupulus</i><par n="banán__n"/></e>
+    <e lm="slag"><i>slag</i><par n="bank__n"/></e>
     <e lm="slampos"><i>slampos</i><par n="banán__n"/></e>
     <e lm="slamposság"><i>slamposság</i><par n="banán__n"/></e>
     <e lm="slendriánság"><i>slendriánság</i><par n="banán__n"/></e>
     <e lm="slicc"><i>slicc</i><par n="gyerek__n"/></e>
     <e lm="slowfox"><i>slowfox</i><par n="banán__n"/></e>
+    <e lm="slukk"><i>slukk</i><par n="bank__n"/></e>
     <e lm="slusszkulcs"><i>slusszkulcs</i><par n="banán__n"/></e>
+    <e lm="smár"><i>smár</i><par n="bank__n"/></e>
     <e lm="smucigság"><i>smucigság</i><par n="banán__n"/></e>
+    <e lm="smukk"><i>smukk</i><par n="bank__n"/></e>
     <e lm="sodrony"><i>sodrony</i><par n="banán__n"/></e>
     <e lm="sógorság"><i>sógorság</i><par n="banán__n"/></e>
     <e lm="sóhaj"><i>sóhaj</i><par n="banán__n"/></e>
     <e lm="sokác"><i>sokác</i><par n="banán__n"/></e>
     <e lm="sokaság"><i>sokaság</i><par n="banán__n"/></e>
+    <e lm="sokk"><i>sokk</i><par n="bank__n"/></e>
     <e lm="soknejűség"><i>soknejűség</i><par n="kérdés__n"/></e>
     <e lm="solymászat"><i>solymászat</i><par n="banán__n"/></e>
     <e lm="solymász"><i>solymász</i><par n="banán__n"/></e>
+    <e lm="som"><i>som</i><par n="bank__n"/></e>
+    <e lm="song"><i>song</i><par n="bank__n"/></e>
     <e lm="sonkoly"><i>sonkoly</i><par n="banán__n"/></e>
     <e lm="sordély"><i>sordély</i><par n="banán__n"/></e>
     <e lm="sőre"><i>sőr</i><par n="bék/e__n"/></e>
     <e lm="soronkívüliség"><i>soronkívüliség</i><par n="kérdés__n"/></e>
     <e lm="sorozat"><i>sorozat</i><par n="banán__n"/></e>
     <e lm="sorsolás"><i>sorsolás</i><par n="banán__n"/></e>
+    <e lm="sorszámnév"><i>sorszámn</i><par n="n/év__n"/></e>
+    <e lm="sort"><i>sort</i><par n="bank__n"/></e>
     <e lm="sorvadtság"><i>sorvadtság</i><par n="banán__n"/></e>
     <e lm="sósborszesz"><i>sósborszesz</i><par n="kérdés__n"/></e>
     <e lm="sósperec"><i>sósperec</i><par n="kérdés__n"/></e>
@@ -8377,17 +8627,23 @@
     <e lm="spondeus"><i>spondeus</i><par n="banán__n"/></e>
     <e lm="spondeusz"><i>spondeusz</i><par n="banán__n"/></e>
     <e lm="spontaneitás"><i>spontaneitás</i><par n="banán__n"/></e>
+    <e lm="spór"><i>spór</i><par n="bank__n"/></e>
+    <e lm="sport"><i>sport</i><par n="bank__n"/></e>
     <e lm="spriccer"><i>spriccer</i><par n="kérdés__n"/></e>
     <e lm="sprinter"><i>sprinter</i><par n="kérdés__n"/></e>
     <e lm="sramlizene"><i>sramlizen</i><par n="bék/e__n"/></e>
+    <e lm="sróf"><i>sróf</i><par n="bank__n"/></e>
     <e lm="stabilis"><i>stabilis</i><par n="kérdés__n"/></e>
     <e lm="stabilitás"><i>stabilitás</i><par n="banán__n"/></e>
     <e lm="stabilizátor"><i>stabilizátor</i><par n="banán__n"/></e>
+    <e lm="stáb"><i>stáb</i><par n="bank__n"/></e>
     <e lm="stacionaritás"><i>stacionaritás</i><par n="banán__n"/></e>
     <e lm="stádium"><i>stádium</i><par n="banán__n"/></e>
     <e lm="staffázs"><i>staffázs</i><par n="banán__n"/></e>
     <e lm="stagnálás"><i>stagnálás</i><par n="banán__n"/></e>
     <e lm="stallum"><i>stallum</i><par n="banán__n"/></e>
+    <e lm="stand"><i>stand</i><par n="bank__n"/></e>
+    <e lm="start"><i>start</i><par n="bank__n"/></e>
     <e lm="statárium"><i>statárium</i><par n="banán__n"/></e>
     <e lm="statikus"><i>statikus</i><par n="banán__n"/></e>
     <e lm="statisztikus"><i>statisztikus</i><par n="banán__n"/></e>
@@ -8406,7 +8662,10 @@
     <e lm="stimuláns"><i>stimuláns</i><par n="banán__n"/></e>
     <e lm="stimulus"><i>stimulus</i><par n="banán__n"/></e>
     <e lm="stipendium"><i>stipendium</i><par n="banán__n"/></e>
+    <e lm="stop"><i>stop</i><par n="bank__n"/></e>
     <e lm="stoppos"><i>stoppos</i><par n="banán__n"/></e>
+    <e lm="stráf"><i>stráf</i><par n="bank__n"/></e>
+    <e lm="strand"><i>strand</i><par n="bank__n"/></e>
     <e lm="stratus"><i>stratus</i><par n="banán__n"/></e>
     <e lm="stressz"><i>stressz</i><par n="gyerek__n"/></e>
     <e lm="strukturalizmus"><i>strukturalizmus</i><par n="banán__n"/></e>
@@ -8422,11 +8681,13 @@
     <e lm="súrlódás"><i>súrlódás</i><par n="banán__n"/></e>
     <e lm="suskus"><i>suskus</i><par n="banán__n"/></e>
     <e lm="susmus"><i>susmus</i><par n="banán__n"/></e>
+    <e lm="sut"><i>sut</i><par n="bank__n"/></e>
     <e lm="suviksz"><i>suviksz</i><par n="banán__n"/></e>
     <e lm="svédasztal"><i>svédasztal</i><par n="banán__n"/></e>
     <e lm="svédszekrény"><i>svédszekrény</i><par n="kérdés__n"/></e>
     <e lm="svihákság"><i>svihákság</i><par n="banán__n"/></e>
     <e lm="svindler"><i>svindler</i><par n="kérdés__n"/></e>
+    <e lm="svung"><i>svung</i><par n="bank__n"/></e>
     <e lm="süketelés"><i>süketelés</i><par n="kérdés__n"/></e>
     <e lm="sünike"><i>sünik</i><par n="bék/e__n"/></e>
     <e lm="süppedék"><i>süppedék</i><par n="kérdés__n"/></e>
@@ -8452,6 +8713,7 @@
     <e lm="szabotázs"><i>szabotázs</i><par n="banán__n"/></e>
     <e lm="szabvány"><i>szabvány</i><par n="banán__n"/></e>
     <e lm="szadizmus"><i>szadizmus</i><par n="banán__n"/></e>
+    <e lm="szaft"><i>szaft</i><par n="bank__n"/></e>
     <e lm="szagosmüge"><i>szagosmüg</i><par n="bék/e__n"/></e>
     <e lm="szájadék"><i>szájadék</i><par n="banán__n"/></e>
     <e lm="szájbarágás"><i>szájbarágás</i><par n="banán__n"/></e>
@@ -8462,6 +8724,7 @@
     <e lm="szakadárság"><i>szakadárság</i><par n="banán__n"/></e>
     <e lm="szakadék"><i>szakadék</i><par n="banán__n"/></e>
     <e lm="szakasz"><i>szakasz</i><par n="banán__n"/></e>
+    <e lm="szák"><i>szák</i><par n="bank__n"/></e>
     <e lm="szakmánybér"><i>szakmánybér</i><par n="kérdés__n"/></e>
     <e lm="szakmány"><i>szakmány</i><par n="banán__n"/></e>
     <e lm="szakralitás"><i>szakralitás</i><par n="banán__n"/></e>
@@ -8483,6 +8746,7 @@
     <e lm="szamuráj"><i>szamuráj</i><par n="banán__n"/></e>
     <e lm="számvevőség"><i>számvevőség</i><par n="kérdés__n"/></e>
     <e lm="szanatórium"><i>szanatórium</i><par n="banán__n"/></e>
+    <e lm="szán"><i>szán</i><par n="bank__n"/></e>
     <e lm="szanitéc"><i>szanitéc</i><par n="kérdés__n"/></e>
     <e lm="szántszándék"><i>szántszándék</i><par n="banán__n"/></e>
     <e lm="szaporulat"><i>szaporulat</i><par n="banán__n"/></e>
@@ -8506,6 +8770,7 @@
     <e lm="szavatosság"><i>szavatosság</i><par n="banán__n"/></e>
     <e lm="szavazat"><i>szavazat</i><par n="banán__n"/></e>
     <e lm="századírnok"><i>századírnok</i><par n="banán__n"/></e>
+    <e lm="század"><i>század</i><par n="ablak__n"/></e>
     <e lm="százados"><i>százados</i><par n="banán__n"/></e>
     <e lm="századparancsnok"><i>századparancsnok</i><par n="banán__n"/></e>
     <e lm="százalék"><i>százalék</i><par n="banán__n"/></e>
@@ -8753,10 +9018,12 @@
     <e lm="szkepszis"><i>szkepszis</i><par n="kérdés__n"/></e>
     <e lm="szkepticizmus"><i>szkepticizmus</i><par n="banán__n"/></e>
     <e lm="szklerózis"><i>szklerózis</i><par n="banán__n"/></e>
+    <e lm="szkunk"><i>szkunk</i><par n="bank__n"/></e>
     <e lm="szlavizmus"><i>szlavizmus</i><par n="banán__n"/></e>
     <e lm="szlávság"><i>szlávság</i><par n="banán__n"/></e>
     <e lm="szlovákság"><i>szlovákság</i><par n="banán__n"/></e>
     <e lm="szmirnaszőnyeg"><i>szmirnaszőnyeg</i><par n="kérdés__n"/></e>
+    <e lm="szmog"><i>szmog</i><par n="bank__n"/></e>
     <e lm="sznobizmus"><i>sznobizmus</i><par n="banán__n"/></e>
     <e lm="szobrászat"><i>szobrászat</i><par n="banán__n"/></e>
     <e lm="szobrász"><i>szobrász</i><par n="banán__n"/></e>
@@ -8781,6 +9048,7 @@
     <e lm="szolgaság"><i>szolgaság</i><par n="banán__n"/></e>
     <e lm="szolidaritás"><i>szolidaritás</i><par n="banán__n"/></e>
     <e lm="szolipszizmus"><i>szolipszizmus</i><par n="banán__n"/></e>
+    <e lm="szol"><i>szol</i><par n="bank__n"/></e>
     <e lm="szolubilitás"><i>szolubilitás</i><par n="banán__n"/></e>
     <e lm="szolvens"><i>szolvens</i><par n="kérdés__n"/></e>
     <e lm="szomjúság"><i>szomjúság</i><par n="banán__n"/></e>
@@ -8803,11 +9071,13 @@
     <e lm="szózat"><i>szózat</i><par n="banán__n"/></e>
     <e lm="szponzorálás"><i>szponzorálás</i><par n="banán__n"/></e>
     <e lm="sztálinizmus"><i>sztálinizmus</i><par n="banán__n"/></e>
+    <e lm="sztár"><i>sztár</i><par n="bank__n"/></e>
     <e lm="sztárság"><i>sztárság</i><par n="banán__n"/></e>
     <e lm="sztereofényképezés"><i>sztereofényképezés</i><par n="kérdés__n"/></e>
     <e lm="sztoicizmus"><i>sztoicizmus</i><par n="banán__n"/></e>
     <e lm="sztomatológus"><i>sztomatológus</i><par n="banán__n"/></e>
     <e lm="sztornírozás"><i>sztornírozás</i><par n="banán__n"/></e>
+    <e lm="sztrájk"><i>sztrájk</i><par n="bank__n"/></e>
     <e lm="sztreccs"><i>sztreccs</i><par n="gyerek__n"/></e>
     <e lm="sztriptíz"><i>sztriptíz</i><par n="kérdés__n"/></e>
     <e lm="sztyeppe"><i>sztyepp</i><par n="bék/e__n"/></e>
@@ -8892,7 +9162,9 @@
     <e lm="tábornagy"><i>tábornagy</i><par n="banán__n"/></e>
     <e lm="tábornok"><i>tábornok</i><par n="banán__n"/></e>
     <e lm="tabulátor"><i>tabulátor</i><par n="banán__n"/></e>
+    <e lm="taft"><i>taft</i><par n="bank__n"/></e>
     <e lm="tagdíjbeszedés"><i>tagdíjbeszedés</i><par n="kérdés__n"/></e>
+    <e lm="tag"><i>tag</i><par n="bank__n"/></e>
     <e lm="tagozat"><i>tagozat</i><par n="banán__n"/></e>
     <e lm="tagozatos"><i>tagozatos</i><par n="banán__n"/></e>
     <e lm="tagozódás"><i>tagozódás</i><par n="banán__n"/></e>
@@ -8933,6 +9205,7 @@
     <e lm="tangens"><i>tangens</i><par n="kérdés__n"/></e>
     <e lm="tanítóság"><i>tanítóság</i><par n="banán__n"/></e>
     <e lm="tanítvány"><i>tanítvány</i><par n="banán__n"/></e>
+    <e lm="tank"><i>tank</i><par n="bank__n"/></e>
     <e lm="tanonc"><i>tanonc</i><par n="banán__n"/></e>
     <e lm="tantusz"><i>tantusz</i><par n="banán__n"/></e>
     <e lm="tanulás"><i>tanulás</i><par n="banán__n"/></e>
@@ -8948,6 +9221,7 @@
     <e lm="tapasz"><i>tapasz</i><par n="banán__n"/></e>
     <e lm="tapasztalat"><i>tapasztalat</i><par n="banán__n"/></e>
     <e lm="tapintat"><i>tapintat</i><par n="banán__n"/></e>
+    <e lm="táp"><i>táp</i><par n="bank__n"/></e>
     <e lm="táplálék"><i>táplálék</i><par n="banán__n"/></e>
     <e lm="tappancs"><i>tappancs</i><par n="banán__n"/></e>
     <e lm="tápszer"><i>tápszer</i><par n="kérdés__n"/></e>
@@ -8979,10 +9253,12 @@
     <e lm="taszter"><i>taszter</i><par n="kérdés__n"/></e>
     <e lm="tatárdúlás"><i>tatárdúlás</i><par n="banán__n"/></e>
     <e lm="tatárjárás"><i>tatárjárás</i><par n="banán__n"/></e>
+    <e lm="tat"><i>tat</i><par n="bank__n"/></e>
     <e lm="tatus"><i>tatus</i><par n="banán__n"/></e>
     <e lm="tavaly"><i>tavaly</i><par n="banán__n"/></e>
     <e lm="tavasz"><i>tavasz</i><par n="banán__n"/></e>
     <e lm="távírászat"><i>távírászat</i><par n="banán__n"/></e>
+    <e lm="táv"><i>táv</i><par n="bank__n"/></e>
     <e lm="távlat"><i>távlat</i><par n="banán__n"/></e>
     <e lm="távolbalátás"><i>távolbalátás</i><par n="banán__n"/></e>
     <e lm="távolmaradás"><i>távolmaradás</i><par n="banán__n"/></e>
@@ -9172,6 +9448,8 @@
     <e lm="tízdolláros"><i>tízdolláros</i><par n="banán__n"/></e>
     <e lm="tizedes"><i>tizedes</i><par n="kérdés__n"/></e>
     <e lm="tizedesjel"><i>tizedesjel</i><par n="kérdés__n"/></e>
+    <e lm="tizedfélmilliárd"><i>tizedfélmilliárd</i><par n="ablak__n"/></e>
+    <e lm="tizedfélszázad"><i>tizedfélszázad</i><par n="ablak__n"/></e>
     <e lm="tizedikes"><i>tizedikes</i><par n="kérdés__n"/></e>
     <e lm="tizenegyedikes"><i>tizenegyedikes</i><par n="kérdés__n"/></e>
     <e lm="tizenéves"><i>tizenéves</i><par n="kérdés__n"/></e>
@@ -9196,6 +9474,7 @@
     <e lm="tőke"><i>tők</i><par n="bék/e__n"/></e>
     <e lm="tőkekihelyezés"><i>tőkekihelyezés</i><par n="kérdés__n"/></e>
     <e lm="tőkés"><i>tőkés</i><par n="kérdés__n"/></e>
+    <e lm="tok"><i>tok</i><par n="bank__n"/></e>
     <e lm="toklász"><i>toklász</i><par n="banán__n"/></e>
     <e lm="tokmány"><i>tokmány</i><par n="banán__n"/></e>
     <e lm="toldat"><i>toldat</i><par n="banán__n"/></e>
@@ -9213,8 +9492,10 @@
     <e lm="tonettbútor"><i>tonettbútor</i><par n="banán__n"/></e>
     <e lm="tónus"><i>tónus</i><par n="banán__n"/></e>
     <e lm="topáz"><i>topáz</i><par n="banán__n"/></e>
+    <e lm="top"><i>top</i><par n="bank__n"/></e>
     <e lm="topológus"><i>topológus</i><par n="banán__n"/></e>
     <e lm="toposz"><i>toposz</i><par n="banán__n"/></e>
+    <e lm="topp"><i>topp</i><par n="bank__n"/></e>
     <e lm="torkolat"><i>torkolat</i><par n="banán__n"/></e>
     <e lm="torlasz"><i>torlasz</i><par n="banán__n"/></e>
     <e lm="torlódás"><i>torlódás</i><par n="banán__n"/></e>
@@ -9223,11 +9504,13 @@
     <e lm="torreádor"><i>torreádor</i><par n="banán__n"/></e>
     <e lm="tórusz"><i>tórusz</i><par n="banán__n"/></e>
     <e lm="torzrajz"><i>torzrajz</i><par n="banán__n"/></e>
+    <e lm="tószt"><i>tószt</i><par n="bank__n"/></e>
     <e lm="tótágas"><i>tótágas</i><par n="banán__n"/></e>
     <e lm="totalitarizmus"><i>totalitarizmus</i><par n="banán__n"/></e>
     <e lm="totalitás"><i>totalitás</i><par n="banán__n"/></e>
     <e lm="totálkáros"><i>totálkáros</i><par n="banán__n"/></e>
     <e lm="totemizmus"><i>totemizmus</i><par n="banán__n"/></e>
+    <e lm="tót"><i>tót</i><par n="bank__n"/></e>
     <e lm="totószelvény"><i>totószelvény</i><par n="kérdés__n"/></e>
     <e lm="tótumfaktum"><i>tótumfaktum</i><par n="banán__n"/></e>
     <e lm="toxicitás"><i>toxicitás</i><par n="banán__n"/></e>
@@ -9256,6 +9539,7 @@
     <e lm="tranzitivitás"><i>tranzitivitás</i><par n="banán__n"/></e>
     <e lm="tranzitvízum"><i>tranzitvízum</i><par n="banán__n"/></e>
     <e lm="trapéz"><i>trapéz</i><par n="banán__n"/></e>
+    <e lm="trapp"><i>trapp</i><par n="bank__n"/></e>
     <e lm="traumatológus"><i>traumatológus</i><par n="banán__n"/></e>
     <e lm="traverz"><i>traverz</i><par n="kérdés__n"/></e>
     <e lm="trécselés"><i>trécselés</i><par n="kérdés__n"/></e>
@@ -9275,10 +9559,13 @@
     <e lm="trocheus"><i>trocheus</i><par n="banán__n"/></e>
     <e lm="trockizmus"><i>trockizmus</i><par n="banán__n"/></e>
     <e lm="trombózis"><i>trombózis</i><par n="banán__n"/></e>
+    <e lm="tromf"><i>tromf</i><par n="bank__n"/></e>
+    <e lm="trón"><i>trón</i><par n="bank__n"/></e>
     <e lm="trónus"><i>trónus</i><par n="banán__n"/></e>
     <e lm="tropizmus"><i>tropizmus</i><par n="banán__n"/></e>
     <e lm="trópus"><i>trópus</i><par n="banán__n"/></e>
     <e lm="trottyos"><i>trottyos</i><par n="banán__n"/></e>
+    <e lm="trupp"><i>trupp</i><par n="bank__n"/></e>
     <e lm="tuareg"><i>tuareg</i><par n="kérdés__n"/></e>
     <e lm="tubákosszelence"><i>tubákosszelenc</i><par n="bék/e__n"/></e>
     <e lm="tuberkulózis"><i>tuberkulózis</i><par n="banán__n"/></e>
@@ -9306,6 +9593,7 @@
     <e lm="tumultus"><i>tumultus</i><par n="banán__n"/></e>
     <e lm="tunguz"><i>tunguz</i><par n="banán__n"/></e>
     <e lm="turanizmus"><i>turanizmus</i><par n="banán__n"/></e>
+    <e lm="turf"><i>turf</i><par n="bank__n"/></e>
     <e lm="turizmus"><i>turizmus</i><par n="banán__n"/></e>
     <e lm="turkológus"><i>turkológus</i><par n="banán__n"/></e>
     <e lm="turmix"><i>turmix</i><par n="banán__n"/></e>
@@ -9327,6 +9615,7 @@
     <e lm="türkiz"><i>türkiz</i><par n="kérdés__n"/></e>
     <e lm="tüske"><i>tüsk</i><par n="bék/e__n"/></e>
     <e lm="tüskéshínáros"><i>tüskéshínáros</i><par n="banán__n"/></e>
+    <e lm="tyúk"><i>tyúk</i><par n="bank__n"/></e>
     <e lm="tyúktaréj"><i>tyúktaréj</i><par n="banán__n"/></e>
     <e lm="tüzér"><i>tüzér</i><par n="kérdés__n"/></e>
     <e lm="tüzérség"><i>tüzérség</i><par n="kérdés__n"/></e>
@@ -9443,6 +9732,7 @@
     <e lm="utóíz"><i>utóíz</i><par n="kérdés__n"/></e>
     <e lm="utójáték"><i>utójáték</i><par n="banán__n"/></e>
     <e lm="utómunkálat"><i>utómunkálat</i><par n="banán__n"/></e>
+    <e lm="utónév"><i>utón</i><par n="n/év__n"/></e>
     <e lm="utópizmus"><i>utópizmus</i><par n="banán__n"/></e>
     <e lm="utórengés"><i>utórengés</i><par n="kérdés__n"/></e>
     <e lm="utórezgés"><i>utórezgés</i><par n="kérdés__n"/></e>
@@ -9477,6 +9767,7 @@
     <e lm="vajdaság"><i>vajdaság</i><par n="banán__n"/></e>
     <e lm="vájolat"><i>vájolat</i><par n="banán__n"/></e>
     <e lm="vakarcs"><i>vakarcs</i><par n="banán__n"/></e>
+    <e lm="vak"><i>vak</i><par n="bank__n"/></e>
     <e lm="vakolat"><i>vakolat</i><par n="banán__n"/></e>
     <e lm="vakság"><i>vakság</i><par n="banán__n"/></e>
     <e lm="vákuum"><i>vákuum</i><par n="banán__n"/></e>
@@ -9500,6 +9791,7 @@
     <e lm="változat"><i>változat</i><par n="banán__n"/></e>
     <e lm="váltság"><i>váltság</i><par n="banán__n"/></e>
     <e lm="valutaátváltás"><i>valutaátváltás</i><par n="banán__n"/></e>
+    <e lm="vám"><i>vám</i><par n="bank__n"/></e>
     <e lm="vámkirendeltség"><i>vámkirendeltség</i><par n="kérdés__n"/></e>
     <e lm="vámos"><i>vámos</i><par n="banán__n"/></e>
     <e lm="vanádium"><i>vanádium</i><par n="banán__n"/></e>
@@ -9623,6 +9915,7 @@
     <e lm="vezérlőutasítás"><i>vezérlőutasítás</i><par n="banán__n"/></e>
     <e lm="vezérség"><i>vezérség</i><par n="kérdés__n"/></e>
     <e lm="vezeték"><i>vezeték</i><par n="kérdés__n"/></e>
+    <e lm="vezetéknév"><i>vezetékn</i><par n="n/év__n"/></e>
     <e lm="vezetés"><i>vezetés</i><par n="kérdés__n"/></e>
     <e lm="viadal"><i>viadal</i><par n="banán__n"/></e>
     <e lm="viasz"><i>viasz</i><par n="banán__n"/></e>
@@ -9707,6 +10000,7 @@
     <e lm="vőfély"><i>vőfély</i><par n="kérdés__n"/></e>
     <e lm="vokalizálás"><i>vokalizálás</i><par n="banán__n"/></e>
     <e lm="volatilitás"><i>volatilitás</i><par n="banán__n"/></e>
+    <e lm="volt"><i>volt</i><par n="bank__n"/></e>
     <e lm="volumen"><i>volumen</i><par n="kérdés__n"/></e>
     <e lm="voluntarizmus"><i>voluntarizmus</i><par n="banán__n"/></e>
     <e lm="vonalkiemelés"><i>vonalkiemelés</i><par n="kérdés__n"/></e>
@@ -9728,9 +10022,11 @@
     <e lm="vörösérzékenység"><i>vörösérzékenység</i><par n="kérdés__n"/></e>
     <e lm="vörösvasérc"><i>vörösvasérc</i><par n="kérdés__n"/></e>
     <e lm="vörösvérsejtszám"><i>vörösvérsejtszám</i><par n="banán__n"/></e>
+    <e lm="watt"><i>watt</i><par n="bank__n"/></e>
     <e lm="wellness"><i>wellness</i><par n="kérdés__n"/></e>
     <e lm="wertheimszekrény"><i>wertheimszekrény</i><par n="kérdés__n"/></e>
     <e lm="xerox"><i>xerox</i><par n="banán__n"/></e>
+    <e lm="yard"><i>yard</i><par n="bank__n"/></e>
     <e lm="übermensch"><i>übermensch</i><par n="kérdés__n"/></e>
     <e lm="üdvöske"><i>üdvösk</i><par n="bék/e__n"/></e>
     <e lm="üdvözlet"><i>üdvözlet</i><par n="kérdés__n"/></e>
@@ -9767,10 +10063,14 @@
     <e lm="üzér"><i>üzér</i><par n="kérdés__n"/></e>
     <e lm="üzlet"><i>üzlet</i><par n="kérdés__n"/></e>
     <e lm="zabigyerek"><i>zabigyerek</i><par n="kérdés__n"/></e>
+    <e lm="zab"><i>zab</i><par n="bank__n"/></e>
+    <e lm="zaft"><i>zaft</i><par n="bank__n"/></e>
+    <e lm="zagy"><i>zagy</i><par n="bank__n"/></e>
     <e lm="zagyvalék"><i>zagyvalék</i><par n="banán__n"/></e>
     <e lm="zajgás"><i>zajgás</i><par n="banán__n"/></e>
     <e lm="zákány"><i>zákány</i><par n="banán__n"/></e>
     <e lm="zaklatottság"><i>zaklatottság</i><par n="banán__n"/></e>
+    <e lm="záp"><i>záp</i><par n="bank__n"/></e>
     <e lm="záradék"><i>záradék</i><par n="banán__n"/></e>
     <e lm="zarándoklat"><i>zarándoklat</i><par n="banán__n"/></e>
     <e lm="zárlat"><i>zárlat</i><par n="banán__n"/></e>
@@ -9803,6 +10103,7 @@
     <e lm="zoológus"><i>zoológus</i><par n="banán__n"/></e>
     <e lm="zoom"><i>zoom</i><par n="banán__n"/></e>
     <e lm="zoonózis"><i>zoonózis</i><par n="banán__n"/></e>
+    <e lm="zsák"><i>zsák</i><par n="bank__n"/></e>
     <e lm="zsákmány"><i>zsákmány</i><par n="banán__n"/></e>
     <e lm="zsákolás"><i>zsákolás</i><par n="banán__n"/></e>
     <e lm="zsalugáter"><i>zsalugáter</i><par n="kérdés__n"/></e>
@@ -9825,9 +10126,11 @@
     <e lm="zsibárus"><i>zsibárus</i><par n="banán__n"/></e>
     <e lm="zsiger"><i>zsiger</i><par n="kérdés__n"/></e>
     <e lm="zsindely"><i>zsindely</i><par n="kérdés__n"/></e>
+    <e lm="zsír"><i>zsír</i><par n="bank__n"/></e>
     <e lm="zsivaj"><i>zsivaj</i><par n="banán__n"/></e>
     <e lm="zsivány"><i>zsivány</i><par n="banán__n"/></e>
     <e lm="zsiványság"><i>zsiványság</i><par n="banán__n"/></e>
+    <e lm="zsold"><i>zsold</i><par n="bank__n"/></e>
     <e lm="zsoldos"><i>zsoldos</i><par n="banán__n"/></e>
     <e lm="zsoldosvezér"><i>zsoldosvezér</i><par n="kérdés__n"/></e>
     <e lm="zsombékos"><i>zsombékos</i><par n="banán__n"/></e>
@@ -9835,6 +10138,8 @@
     <e lm="zsombéksásos"><i>zsombéksásos</i><par n="banán__n"/></e>
     <e lm="zsomboly"><i>zsomboly</i><par n="banán__n"/></e>
     <e lm="zsugorcsomagolás"><i>zsugorcsomagolás</i><par n="banán__n"/></e>
+    <e lm="zsúp"><i>zsúp</i><par n="bank__n"/></e>
+    <e lm="zsúr"><i>zsúr</i><par n="bank__n"/></e>
     <e lm="zsurnalizmus"><i>zsurnalizmus</i><par n="banán__n"/></e>
     <e lm="zsöllye"><i>zsölly</i><par n="bék/e__n"/></e>
     <e lm="zsömle"><i>zsöml</i><par n="bék/e__n"/></e>
@@ -9935,11 +10240,14 @@
     <e lm="ötvözet"><i>ötvözet</i><par n="kérdés__n"/></e>
     <e lm="ötzłotys"><i>ötzłotys</i><par n="banán__n"/></e>
     <e lm="ötödéves"><i>ötödéves</i><par n="kérdés__n"/></e>
+    <e lm="ötödfélmilliárd"><i>ötödfélmilliárd</i><par n="ablak__n"/></e>
+    <e lm="ötödfélszázad"><i>ötödfélszázad</i><par n="ablak__n"/></e>
     <e lm="ötödikes"><i>ötödikes</i><par n="kérdés__n"/></e>
     <e lm="övezet"><i>övezet</i><par n="kérdés__n"/></e>
     <e lm="ö-zés"><i>ö-zés</i><par n="kérdés__n"/></e>
     <e lm="özvegy"><i>özvegy</i><par n="kérdés__n"/></e>
     <e lm="özvegység"><i>özvegység</i><par n="kérdés__n"/></e>
+
 
     <!-- SECTION: Proper nouns -->
 
