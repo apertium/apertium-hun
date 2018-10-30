@@ -84,3 +84,8 @@ The lexicon should be updated based on one of the existing dictionaries:
 * hunspell
 * http://mokk.bme.hu/resources/morphdb-hu/
 * https://github.com/dlt-rilmta/emMorph
+
+### TODO
+
+I have done part of this job but am not native speaker so it's a buggy, and
+paradigms are only partial.

@@ -46,6 +46,7 @@
     <sdef n="past"           c="Past tense"/>
     <sdef n="pot"            c="Potential form"/>
     <sdef n="cond"            c="Potential form"/>
+    <sdef n="imp"            c="Imperatival form"/>
     <sdef n="subj"           c="Sub jontif"/>
 
     <sdef n="qst"            c="question"/>
@@ -348,6 +349,14 @@
         <e><p><l>ába</l><r>a<s n="prn"/><s n="sg"/><s n="ill"/></r></p></e>
         <e><p><l>ánál</l><r>a<s n="prn"/><s n="sg"/><s n="ade"/></r></p></e>
         <e><p><l>án</l><r>a<s n="prn"/><s n="sg"/><s n="ses"/></r></p></e>
+
+        <e><p><l>uk</l><r>a<s n="prn"/><s n="pl"/><s n="nom"/></r></p></e>
+        <e><p><l>ukat</l><r>a<s n="prn"/><s n="pl"/><s n="acc"/></r></p></e>
+        <e><p><l>ukban</l><r>a<s n="prn"/><s n="pl"/><s n="ine"/></r></p></e>
+        <e><p><l>ukhoz</l><r>a<s n="prn"/><s n="pl"/><s n="all"/></r></p></e>
+        <e><p><l>ukba</l><r>a<s n="prn"/><s n="pl"/><s n="ill"/></r></p></e>
+        <e><p><l>uknál</l><r>a<s n="prn"/><s n="pl"/><s n="ade"/></r></p></e>
+        <e><p><l>ukon</l><r>a<s n="prn"/><s n="pl"/><s n="ses"/></r></p></e>
       </pardef>
 
       <!-- }}}
@@ -502,6 +511,7 @@
       <e><p><l>ünk</l><r><s n="n"/><s n="sg"/><s n="nom"/><s n="px1pl"/></r></p></e>
       <e><p><l>ük</l><r><s n="n"/><s n="sg"/><s n="nom"/><s n="px3pl"/></r></p></e>
 
+      <e><p><l>ét</l><r><s n="n"/><s n="sg"/><s n="acc"/><s n="px3sg"/></r></p></e>
       <e><p><l>én</l><r><s n="n"/><s n="sg"/><s n="ses"/><s n="px3sg"/></r></p></e>
       <e><p><l>ével</l><r><s n="n"/><s n="sg"/><s n="ins"/><s n="px3sg"/></r></p></e>
     </pardef>
@@ -694,6 +704,7 @@
       <e><p><l>ához</l><r><s n="n"/><s n="sg"/><s n="all"/><s n="px3sg"/></r></p></e>
       <e><p><l>ára</l><r><s n="n"/><s n="sg"/><s n="sub"/><s n="px3sg"/></r></p></e>
       <e><p><l>áról</l><r><s n="n"/><s n="sg"/><s n="dela"/><s n="px3sg"/></r></p></e>
+      <e><p><l>ával</l><r><s n="n"/><s n="sg"/><s n="ins"/><s n="px3sg"/></r></p></e>
     </pardef>
 
     <!-- alkohol : alkoholt : alkoholok : alkoholja -->
@@ -725,6 +736,7 @@
         <e><p><l>be</l><r><s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
         <e><p><l>ül</l><r><s n="n"/><s n="sg"/><s n="ess2"/></r></p></e>
         <e><p><l>nél</l><r><s n="n"/><s n="sg"/><s n="ade"/></r></p></e>
+        <e><p><l>ről</l><r><s n="n"/><s n="sg"/><s n="dela"/></r></p></e>
         <e><p><l>en</l><r><s n="n"/><s n="sg"/><s n="ses"/></r></p></e>
 
         <e><p><l>ek</l><r><s n="n"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -821,6 +833,7 @@
       <e><p><l>uk</l><r><s n="n"/><s n="sg"/><s n="nom"/><s n="px3pl"/></r></p></e>
 
       <e><p><l>ának</l><r><s n="n"/><s n="sg"/><s n="dat"/><s n="px3sg"/></r></p></e>
+      <e><p><l>át</l><r><s n="n"/><s n="sg"/><s n="acc"/><s n="px3sg"/></r></p></e>
   </pardef>
 
   <pardef n="ág__n">
@@ -962,6 +975,10 @@
         <e><p><l>e</l><r><s n="n"/><s n="sg"/><s n="nom"/><s n="px3sg"/></r></p></e>
       <e><p><l>ünk</l><r><s n="n"/><s n="sg"/><s n="nom"/><s n="px1pl"/></r></p></e>
       <e><p><l>ük</l><r><s n="n"/><s n="sg"/><s n="nom"/><s n="px3pl"/></r></p></e>
+
+      <e><p><l>ét</l><r><s n="n"/><s n="sg"/><s n="acc"/><s n="px3sg"/></r></p></e>
+
+
     </pardef>
 
     <pardef n="cink__n">
@@ -981,6 +998,7 @@
       <e><p><l>jük</l><r><s n="n"/><s n="sg"/><s n="nom"/><s n="px3pl"/></r></p></e>
     </pardef>
 
+    <!-- adat : adata -->
   <pardef n="adat__n">
         <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
         <e><p><l>ot</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -997,6 +1015,7 @@
       <e><p><l>uk</l><r><s n="n"/><s n="sg"/><s n="nom"/><s n="px3pl"/></r></p></e>
   </pardef>
 
+  <!-- pont : pontja -->
   <pardef n="pont__n">
         <e><p><l></l><r><s n="n"/><s n="sg"/><s n="nom"/></r></p></e>
         <e><p><l>ot</l><r><s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -1875,7 +1894,8 @@
         <e><p><l>itek</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>ik</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
 
-        <e><p><l>te</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ette</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ették</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p3"/><s n="pl"/></r></p></e>
 
         <e><p><l>ett</l><r><s n="vblex"/><s n="pp"/></r></p></e>
     </pardef>
@@ -1898,7 +1918,7 @@
         <e><p><l>itek</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>ik</l><r><s n="vblex"/><s n="pri"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
 
-        <e><p><l>te</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ette</l><r><s n="vblex"/><s n="past"/><s n="def"/><s n="p3"/><s n="sg"/></r></p></e>
 
         <e><p><l>ett</l><r><s n="vblex"/><s n="pp"/></r></p></e>
         <e><p><l>ve</l><r><s n="vblex"/><s n="pp"/><s n="adv"/></r></p></e>
@@ -2274,6 +2294,8 @@
       <e><p><l>ntünk</l><r>gy<s n="vblex"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ntetek</l><r>gy<s n="vblex"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ntek</l><r>gy<s n="vblex"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>njen</l><r>gy<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
 
     <!-- van -->
@@ -2698,6 +2720,7 @@
     <e lm="abakusz"><i>abakusz</i><par n="banán__n"/></e>
     <e lm="abaposztó"><i>abaposztó</i><par n="adó__n"/></e>
     <e lm="abbreviáció"><i>abbreviáció</i><par n="adó__n"/></e>
+    <e lm="kantonizació"><i>kantonizáció</i><par n="adó__n"/></e>
     <e lm="abbreviatúra"><i>abbreviatúr</i><par n="macsk/a__n"/></e>
     <e lm="aberráció"><i>aberráció</i><par n="adó__n"/></e>
     <e lm="ablakelsötétítő"><i>ablakelsötétítő</i><par n="cipő__n"/></e>
@@ -2791,6 +2814,7 @@
     <e lm="admiralitás"><i>admiralitás</i><par n="asztal__n"/></e>
     <e lm="admiralitás"><i>admiralitás</i><par n="pályafutás__n"/></e>
     <e lm="adóátépítés"><i>adóátépítés</i><par n="kérdés__n"/></e>
+    <e lm="kiépítés"><i>kiépítés</i><par n="kérdés__n"/></e>
     <e lm="adogatás"><i>adogatás</i><par n="asztal__n"/></e>
     <e lm="adogatás"><i>adogatás</i><par n="pályafutás__n"/></e>
     <e lm="adogató"><i>adogató</i><par n="adó__n"/></e>
@@ -3913,6 +3937,7 @@
     <e lm="ásvány"><i>ásvá</i><par n="lá/ny__n"/></e>
     <e lm="ásvány"><i>ásvány</i><par n="tanulmány__n"/></e>
     <e lm="aszab"><i>aszab</i><par n="bab__n"/></e>
+    <e lm="szerb"><i>szerb</i><par n="bab__n"/></e>
     <e lm="aszalvány"><i>aszalvány</i><par n="tanulmány__n"/></e>
     <e lm="aszály"><i>aszály</i><par n="banán__n"/></e>
     <e lm="aszepszis"><i>aszepszis</i><par n="kérdés__n"/></e>
@@ -8513,7 +8538,6 @@
     <e lm="felolvasás"><i>felolvasás</i><par n="pályafutás__n"/></e>
     <e lm="feloszlás"><i>feloszlás</i><par n="asztal__n"/></e>
     <e lm="feloszlás"><i>feloszlás</i><par n="pályafutás__n"/></e>
-    <e lm="felosztás"><i>felosztás</i><par n="asztal__n"/></e>
     <e lm="felosztás"><i>felosztás</i><par n="pályafutás__n"/></e>
     <e lm="felperes"><i>felperes</i><par n="kérdés__n"/></e>
     <e lm="felpezsdítő"><i>felpezsdítő</i><par n="cipő__n"/></e>
@@ -10542,6 +10566,7 @@
     <e lm="használat"><i>használat</i><par n="banán__n"/></e>
     <e lm="haszonlesés"><i>haszonlesés</i><par n="kérdés__n"/></e>
     <e lm="haszonleső"><i>haszonleső</i><par n="cipő__n"/></e>
+    <e lm="megosztás"><i>megosztás</i><par n="pályafutás__n"/></e>
     <e lm="haszonmegosztás"><i>haszonmegosztás</i><par n="pályafutás__n"/></e>
     <e lm="hatalomátmentés"><i>hatalomátmentés</i><par n="kérdés__n"/></e>
     <e lm="hatalom"><i>hatal</i><par n="alkal/om__n"/></e>
@@ -15628,8 +15653,8 @@
     <e lm="magánlakás"><i>magánlakás</i><par n="asztal__n"/></e>
     <e lm="magánlakás"><i>magánlakás</i><par n="pályafutás__n"/></e>
     <e lm="magánlaksértés"><i>magánlaksértés</i><par n="kérdés__n"/></e>
-    <e lm="magánlátogatás"><i>magánlátogatás</i><par n="asztal__n"/></e>
     <e lm="magánlátogatás"><i>magánlátogatás</i><par n="pályafutás__n"/></e>
+    <e lm="látogatás"><i>látogatás</i><par n="pályafutás__n"/></e>
     <e lm="magánlevelezés"><i>magánlevelezés</i><par n="kérdés__n"/></e>
     <e lm="magánmegtakarítás"><i>magánmegtakarítás</i><par n="pályafutás__n"/></e>
     <e lm="magánnyomozó"><i>magánnyomozó</i><par n="adó__n"/></e>
@@ -17895,6 +17920,10 @@
     <e lm="nyiratkozás"><i>nyiratkozás</i><par n="pályafutás__n"/></e>
     <e lm="nyíres"><i>nyíres</i><par n="kérdés__n"/></e>
     <e lm="nyír"><i>nyír</i><par n="kert__n"/></e>
+    <e lm="féreg"><i>féreg</i><par n="bélyeg__n"/></e>
+    <e lm="kéreg"><i>kéreg</i><par n="bélyeg__n"/></e>
+    <e lm="méreg"><i>méreg</i><par n="bélyeg__n"/></e>
+    <e lm="nyereg"><i>nyereg</i><par n="bélyeg__n"/></e>
     <e lm="nyirkosító"><i>nyirkosító</i><par n="adó__n"/></e>
     <e lm="nyírófeszültség"><i>nyírófeszültség</i><par n="bélyeg__n"/></e>
     <e lm="nyírrothadás"><i>nyírrothadás</i><par n="pályafutás__n"/></e>
@@ -37075,6 +37104,7 @@
     <e lm="abszorbens"><i>abszorbens</i><par n="hideg__adj"/></e>
     <e lm="absztrakt"><i>absztrakt</i><par n="boldog__adj"/></e>
     <e lm="abszurd"><i>abszurd</i><par n="boldog__adj"/></e>
+    <e lm="abu-dzabi"><i>abu-dzabi</i><par n="nemzetközi__adj"/></e>
     <e lm="acélkék"><i>acélkék</i><par n="hideg__adj"/></e>
     <e lm="acélos"><i>acélos</i><par n="új__adj"/></e>
     <e lm="acélozott"><i>acélozott</i><par n="boldog__adj"/></e>
@@ -37090,6 +37120,7 @@
     <e lm="ádáz"><i>ádáz</i><par n="új__adj"/></e>
     <e lm="addicionális"><i>addicionális</i><par n="új__adj"/></e>
     <e lm="addiktív"><i>addiktív</i><par n="hideg__adj"/></e>
+    <e lm="addisz-abebai"><i>addisz-abebai</i><par n="nemzetközi__adj"/></e>
     <e lm="adekvát"><i>adekvát</i><par n="boldog__adj"/></e>
     <e lm="adheráló"><i>adheráló</i><par n="található__adj"/></e>
     <e lm="adiabatikus"><i>adiabatikus</i><par n="új__adj"/></e>
@@ -37409,6 +37440,7 @@
     <e lm="anorganikus"><i>anorganikus</i><par n="új__adj"/></e>
     <e lm="antagonista"><i>antagonista</i><par n="található__adj"/></e>
     <e lm="antagonisztikus"><i>antagonisztikus</i><par n="új__adj"/></e>
+    <e lm="antalli"><i>antalli</i><par n="nemzetközi__adj"/></e>
     <e lm="antarktikus"><i>antarktikus</i><par n="új__adj"/></e>
     <e lm="antialkoholista"><i>antialkoholista</i><par n="található__adj"/></e>
     <e lm="antiallergén"><i>antiallergén</i><par n="hideg__adj"/></e>
@@ -37531,8 +37563,10 @@
     <e lm="áremelő"><i>áremelő</i><par n="következő__adj"/></e>
     <e lm="árérzékeny"><i>árérzékeny</i><par n="hideg__adj"/></e>
     <e lm="árfelhajtó"><i>árfelhajtó</i><par n="található__adj"/></e>
+    <e lm="argentínai"><i>argentínai</i><par n="nemzetközi__adj"/></e>
     <e lm="argotikus"><i>argotikus</i><par n="új__adj"/></e>
     <e lm="árgus"><i>árgus</i><par n="új__adj"/></e>
+    <e lm="ár"><i>ár</i><par n="pont__n"/></e>
     <e lm="arisztokratikus"><i>arisztokratikus</i><par n="új__adj"/></e>
     <e lm="aritmetikai"><i>aritmetikai</i><par n="található__adj"/></e>
     <e lm="árja"><i>árja</i><par n="található__adj"/></e>
@@ -37705,6 +37739,7 @@
     <e lm="babrás"><i>babrás</i><par n="új__adj"/></e>
     <e lm="bacchánsnő"><i>bacchánsnő</i><par n="következő__adj"/></e>
     <e lm="baconsertés"><i>baconsertés</i><par n="hideg__adj"/></e>
+    <e lm="bács-kiskuni"><i>bács-kiskuni</i><par n="nemzetközi__adj"/></e>
     <e lm="badar"><i>badar</i><par n="boldog__adj"/></e>
     <e lm="bádoghangú"><i>bádoghangú</i><par n="található__adj"/></e>
     <e lm="bagaria"><i>bagaria</i><par n="található__adj"/></e>
@@ -38127,6 +38162,7 @@
     <e lm="borzalmas"><i>borzalmas</i><par n="új__adj"/></e>
     <e lm="borzas"><i>borzas</i><par n="új__adj"/></e>
     <e lm="bőséges"><i>bőséges</i><par n="hideg__adj"/></e>
+    <e lm="bős–nagymarosi"><i>bős–nagymarosi</i><par n="nemzetközi__adj"/></e>
     <e lm="bosnyák"><i>bosnyák</i><par n="boldog__adj"/></e>
     <e lm="bosnyák"><i>bosnyák</i><par n="magyar__adj"/></e>
     <e lm="bosszantott"><i>bosszantott</i><par n="boldog__adj"/></e>
@@ -38210,6 +38246,7 @@
     <e lm="büntető"><i>büntető</i><par n="következő__adj"/></e>
     <e lm="büntetőjogi"><i>büntetőjogi</i><par n="található__adj"/></e>
     <e lm="bürokratikus"><i>bürokratikus</i><par n="új__adj"/></e>
+    <e lm="byroni"><i>byroni</i><par n="nemzetközi__adj"/></e>
     <e lm="büszke"><i>büszke</i><par n="következő__adj"/></e>
     <e lm="bütykös"><i>bütykös</i><par n="hideg__adj"/></e>
     <e lm="bögyörő"><i>bögyörő</i><par n="következő__adj"/></e>
@@ -38228,6 +38265,7 @@
     <e lm="cáfolhatatlan"><i>cáfolhatatlan</i><par n="boldog__adj"/></e>
     <e lm="cakkos"><i>cakkos</i><par n="új__adj"/></e>
     <e lm="čapeki"><i>čapeki</i><par n="új__adj"/></e>
+    <e lm="casanovai"><i>casanovai</i><par n="nemzetközi__adj"/></e>
     <e lm="cefet"><i>cefet</i><par n="hideg__adj"/></e>
     <e lm="cégéres"><i>cégéres</i><par n="hideg__adj"/></e>
     <e lm="céklavörös"><i>céklavörös</i><par n="hideg__adj"/></e>
@@ -38255,11 +38293,13 @@
     <e lm="centrírozói"><i>centrírozói</i><par n="új__adj"/></e>
     <e lm="cenzori"><i>cenzori</i><par n="található__adj"/></e>
     <e lm="cenzúrázatlan"><i>cenzúrázatlan</i><par n="boldog__adj"/></e>
+    <e lm="cerberusi"><i>cerberusi</i><par n="nemzetközi__adj"/></e>
     <e lm="cerebrális"><i>cerebrális</i><par n="új__adj"/></e>
     <e lm="ceremoniális"><i>ceremoniális</i><par n="új__adj"/></e>
     <e lm="cérnahuszár"><i>cérnahuszár</i><par n="boldog__adj"/></e>
     <e lm="cérnavékony"><i>cérnavékony</i><par n="új__adj"/></e>
     <e lm="cervantesi"><i>cervantesi</i><par n="új__adj"/></e>
+    <e lm="Ce-tung-i"><i>Ce-tung-i</i><par n="nemzetközi__adj"/></e>
     <e lm="ciánkék"><i>ciánkék</i><par n="hideg__adj"/></e>
     <e lm="cianotikus"><i>cianotikus</i><par n="új__adj"/></e>
     <e lm="cicomás"><i>cicomás</i><par n="új__adj"/></e>
@@ -38311,8 +38351,11 @@
     <e lm="civil"><i>civil</i><par n="hideg__adj"/></e>
     <e lm="civilizálatlan"><i>civilizálatlan</i><par n="boldog__adj"/></e>
     <e lm="civilizatórikus"><i>civilizatórikus</i><par n="új__adj"/></e>
+    <e lm="comeniusi"><i>comeniusi</i><par n="nemzetközi__adj"/></e>
     <e lm="connubialis"><i>connubialis</i><par n="új__adj"/></e>
+    <e lm="corvinabeli"><i>corvinabeli</i><par n="nemzetközi__adj"/></e>
     <e lm="cowboyos"><i>cowboyos</i><par n="új__adj"/></e>
+    <e lm="crô-magnoni"><i>crô-magnoni</i><par n="nemzetközi__adj"/></e>
     <e lm="csáberő"><i>csáberő</i><par n="következő__adj"/></e>
     <e lm="csábnő"><i>csábnő</i><par n="következő__adj"/></e>
     <e lm="csacsi"><i>csacsi</i><par n="található__adj"/></e>
@@ -38504,9 +38547,11 @@
     <e lm="dallamtalan"><i>dallamtalan</i><par n="boldog__adj"/></e>
     <e lm="dalmát"><i>dalmát</i><par n="boldog__adj"/></e>
     <e lm="dalmát"><i>dalmát</i><par n="magyar__adj"/></e>
+    <e lm="dantei"><i>dantei</i><par n="nemzetközi__adj"/></e>
     <e lm="darabos"><i>darabos</i><par n="új__adj"/></e>
     <e lm="darázsderekú"><i>darázsderekú</i><par n="található__adj"/></e>
     <e lm="darvas"><i>darvas</i><par n="új__adj"/></e>
+    <e lm="davosi"><i>davosi</i><par n="nemzetközi__adj"/></e>
     <e lm="debilis"><i>debilis</i><par n="hideg__adj"/></e>
     <e lm="decens"><i>decens</i><par n="hideg__adj"/></e>
     <e lm="decimális"><i>decimális</i><par n="új__adj"/></e>
@@ -38535,6 +38580,7 @@
     <e lm="deli"><i>deli</i><par n="nemzetközi__adj"/></e>
     <e lm="déli"><i>déli</i><par n="nemzetközi__adj"/></e>
     <e lm="delikát"><i>delikát</i><par n="boldog__adj"/></e>
+    <e lm="dél-karolinai"><i>dél-karolinai</i><par n="nemzetközi__adj"/></e>
     <e lm="délkeleti"><i>délkeleti</i><par n="következő__adj"/></e>
     <e lm="délkeleti"><i>délkeleti</i><par n="nemzetközi__adj"/></e>
     <e lm="délköri"><i>délköri</i><par n="következő__adj"/></e>
@@ -38705,6 +38751,7 @@
     <e lm="dudoros"><i>dudoros</i><par n="új__adj"/></e>
     <e lm="duhaj"><i>duhaj</i><par n="új__adj"/></e>
     <e lm="dumás"><i>dumás</i><par n="új__adj"/></e>
+    <e lm="dunakanyari"><i>dunakanyari</i><par n="nemzetközi__adj"/></e>
     <e lm="dunántúli"><i>dunántúli</i><par n="új__adj"/></e>
     <e lm="duplafedelű"><i>duplafedelű</i><par n="következő__adj"/></e>
     <e lm="dupla"><i>dupla</i><par n="található__adj"/></e>
@@ -38916,6 +38963,7 @@
     <e lm="eladósodott"><i>eladósodott</i><par n="boldog__adj"/></e>
     <e lm="elágazatlan"><i>elágazatlan</i><par n="boldog__adj"/></e>
     <e lm="elaggott"><i>elaggott</i><par n="boldog__adj"/></e>
+    <e lm="el-ajúni"><i>el-ajúni</i><par n="nemzetközi__adj"/></e>
     <e lm="elapadhatatlan"><i>elapadhatatlan</i><par n="boldog__adj"/></e>
     <e lm="elasztikus"><i>elasztikus</i><par n="új__adj"/></e>
     <e lm="elasztomer"><i>elasztomer</i><par n="hideg__adj"/></e>
@@ -39082,6 +39130,7 @@
     <e lm="ellenzéki"><i>ellenzéki</i><par n="nemzetközi__adj"/></e>
     <e lm="ellipszoid"><i>ellipszoid</i><par n="boldog__adj"/></e>
     <e lm="elliptikus"><i>elliptikus</i><par n="új__adj"/></e>
+    <e lm="el-manámai"><i>el-manámai</i><par n="nemzetközi__adj"/></e>
     <e lm="elmaradott"><i>elmaradott</i><par n="boldog__adj"/></e>
     <e lm="elmaradt"><i>elmaradt</i><par n="boldog__adj"/></e>
     <e lm="elmebajos"><i>elmebajos</i><par n="új__adj"/></e>
@@ -39219,6 +39268,7 @@
     <e lm="elülső"><i>elülső</i><par n="következő__adj"/></e>
     <e lm="elzálogosított"><i>elzálogosított</i><par n="boldog__adj"/></e>
     <e lm="elzászi"><i>elzászi</i><par n="található__adj"/></e>
+    <e lm="elzász-lotaringiai"><i>elzász-lotaringiai</i><par n="nemzetközi__adj"/></e>
     <e lm="elöljárói"><i>elöljárói</i><par n="található__adj"/></e>
     <e lm="elöltesztelős"><i>elöltesztelős</i><par n="hideg__adj"/></e>
     <e lm="elölülő"><i>elölülő</i><par n="következő__adj"/></e>
@@ -39320,6 +39370,7 @@
     <e lm="epizódszereplő"><i>epizódszereplő</i><par n="következő__adj"/></e>
     <e lm="éppakkora"><i>éppakkora</i><par n="található__adj"/></e>
     <e lm="épületes"><i>épületes</i><par n="hideg__adj"/></e>
+    <e lm="Erasmus-i"><i>Erasmus-i</i><par n="nemzetközi__adj"/></e>
     <e lm="érbeidegző"><i>érbeidegző</i><par n="következő__adj"/></e>
     <e lm="ércdús"><i>ércdús</i><par n="új__adj"/></e>
     <e lm="érces"><i>érces</i><par n="hideg__adj"/></e>
@@ -39442,6 +39493,7 @@
     <e lm="érzéstelen"><i>érzéstelen</i><par n="hideg__adj"/></e>
     <e lm="érzéstelenítő"><i>érzéstelenítő</i><par n="következő__adj"/></e>
     <e lm="érzett"><i>érzett</i><par n="hideg__adj"/></e>
+    <e lm="érző"><i>érző</i><par n="következő__adj"/></e>
     <e lm="esedékes"><i>esedékes</i><par n="hideg__adj"/></e>
     <e lm="esélyes"><i>esélyes</i><par n="hideg__adj"/></e>
     <e lm="esélytelen"><i>esélytelen</i><par n="hideg__adj"/></e>
@@ -39458,6 +39510,7 @@
     <e lm="eső"><i>eső</i><par n="következő__adj"/></e>
     <e lm="esős"><i>esős</i><par n="hideg__adj"/></e>
     <e lm="esőtlen"><i>esőtlen</i><par n="hideg__adj"/></e>
+    <e lm="es-Salaam-i"><i>es-Salaam-i</i><par n="nemzetközi__adj"/></e>
     <e lm="esszenciális"><i>esszenciális</i><par n="új__adj"/></e>
     <e lm="ésszerű"><i>ésszerű</i><par n="következő__adj"/></e>
     <e lm="ésszerűtlen"><i>ésszerűtlen</i><par n="hideg__adj"/></e>
@@ -39467,9 +39520,11 @@
     <e lm="esti"><i>esti</i><par n="nemzetközi__adj"/></e>
     <e lm="északi"><i>északi</i><par n="található__adj"/></e>
     <e lm="északír"><i>északír</i><par n="hideg__adj"/></e>
+    <e lm="észak-karolinai"><i>észak-karolinai</i><par n="nemzetközi__adj"/></e>
     <e lm="északkeleti"><i>északkeleti</i><par n="következő__adj"/></e>
     <e lm="északkeleti"><i>északkeleti</i><par n="nemzetközi__adj"/></e>
     <e lm="északnyugati"><i>északnyugati</i><par n="található__adj"/></e>
+    <e lm="észak-oszétiai"><i>észak-oszétiai</i><par n="nemzetközi__adj"/></e>
     <e lm="északsarki"><i>északsarki</i><par n="található__adj"/></e>
     <e lm="északvidéki"><i>északvidéki</i><par n="következő__adj"/></e>
     <e lm="északvidéki"><i>északvidéki</i><par n="nemzetközi__adj"/></e>
@@ -40257,6 +40312,7 @@
     <e lm="franciabarát"><i>franciabarát</i><par n="boldog__adj"/></e>
     <e lm="francia"><i>francia</i><par n="található__adj"/></e>
     <e lm="franciás"><i>franciás</i><par n="új__adj"/></e>
+    <e lm="Franciscó-i"><i>Franciscó-i</i><par n="nemzetközi__adj"/></e>
     <e lm="frankó"><i>frankó</i><par n="található__adj"/></e>
     <e lm="fránya"><i>fránya</i><par n="található__adj"/></e>
     <e lm="frappáns"><i>frappáns</i><par n="új__adj"/></e>
@@ -40264,6 +40320,7 @@
     <e lm="frazeologikus"><i>frazeologikus</i><par n="új__adj"/></e>
     <e lm="frenetikus"><i>frenetikus</i><par n="új__adj"/></e>
     <e lm="frenológiai"><i>frenológiai</i><par n="található__adj"/></e>
+    <e lm="freudi"><i>freudi</i><par n="nemzetközi__adj"/></e>
     <e lm="freudista"><i>freudista</i><par n="található__adj"/></e>
     <e lm="frigid"><i>frigid</i><par n="hideg__adj"/></e>
     <e lm="frissítő"><i>frissítő</i><par n="következő__adj"/></e>
@@ -40271,6 +40328,7 @@
     <e lm="frontális"><i>frontális</i><par n="új__adj"/></e>
     <e lm="frontérzékeny"><i>frontérzékeny</i><par n="hideg__adj"/></e>
     <e lm="fröcskölt"><i>fröcskölt</i><par n="hideg__adj"/></e>
+    <e lm="Fu-ce-i"><i>Fu-ce-i</i><par n="nemzetközi__adj"/></e>
     <e lm="fűevő"><i>fűevő</i><par n="következő__adj"/></e>
     <e lm="fűféle"><i>fűféle</i><par n="következő__adj"/></e>
     <e lm="fukar"><i>fukar</i><par n="boldog__adj"/></e>
@@ -40384,10 +40442,12 @@
     <e lm="gáncstalan"><i>gáncstalan</i><par n="boldog__adj"/></e>
     <e lm="garanciális"><i>garanciális</i><par n="új__adj"/></e>
     <e lm="garázda"><i>garázda</i><par n="található__adj"/></e>
+    <e lm="gát"><i>gát</i><par n="pont__n"/></e>
     <e lm="gátlásos"><i>gátlásos</i><par n="új__adj"/></e>
     <e lm="gátlástalan"><i>gátlástalan</i><par n="boldog__adj"/></e>
     <e lm="gáttalan"><i>gáttalan</i><par n="boldog__adj"/></e>
     <e lm="gavallér"><i>gavallér</i><par n="boldog__adj"/></e>
+    <e lm="gay-lussaci"><i>gay-lussaci</i><par n="nemzetközi__adj"/></e>
     <e lm="gáz alakú"><i>gáz alakú</i><par n="található__adj"/></e>
     <e lm="gazdag"><i>gazdag</i><par n="boldog__adj"/></e>
     <e lm="gazdasági"><i>gazdasági</i><par n="új__adj"/></e>
@@ -40452,6 +40512,7 @@
     <e lm="gloknis"><i>gloknis</i><par n="új__adj"/></e>
     <e lm="gloriózus"><i>gloriózus</i><par n="új__adj"/></e>
     <e lm="gnosztikus"><i>gnosztikus</i><par n="új__adj"/></e>
+    <e lm="Gogh-i"><i>Gogh-i</i><par n="nemzetközi__adj"/></e>
     <e lm="gógyis"><i>gógyis</i><par n="új__adj"/></e>
     <e lm="gőgös"><i>gőgös</i><par n="hideg__adj"/></e>
     <e lm="gólerős"><i>gólerős</i><par n="hideg__adj"/></e>
@@ -40477,6 +40538,7 @@
     <e lm="gordiuszi"><i>gordiuszi</i><par n="új__adj"/></e>
     <e lm="goromba"><i>goromba</i><par n="található__adj"/></e>
     <e lm="gótikus"><i>gótikus</i><par n="új__adj"/></e>
+    <e lm="goyai"><i>goyai</i><par n="nemzetközi__adj"/></e>
     <e lm="gőzölő"><i>gőzölő</i><par n="következő__adj"/></e>
     <e lm="gőzös"><i>gőzös</i><par n="hideg__adj"/></e>
     <e lm="gracilis"><i>gracilis</i><par n="új__adj"/></e>
@@ -40656,6 +40718,7 @@
     <e lm="háborítatlan"><i>háborítatlan</i><par n="boldog__adj"/></e>
     <e lm="háborodott"><i>háborodott</i><par n="boldog__adj"/></e>
     <e lm="habos"><i>habos</i><par n="új__adj"/></e>
+    <e lm="habsburgi"><i>habsburgi</i><par n="nemzetközi__adj"/></e>
     <e lm="habzsi"><i>habzsi</i><par n="található__adj"/></e>
     <e lm="hadbavonult"><i>hadbavonult</i><par n="boldog__adj"/></e>
     <e lm="hadiárva"><i>hadiárva</i><par n="található__adj"/></e>
@@ -40808,6 +40871,7 @@
     <e lm="harckész"><i>harckész</i><par n="hideg__adj"/></e>
     <e lm="harcos"><i>harcos</i><par n="új__adj"/></e>
     <e lm="hardverösszetevő"><i>hardverösszetevő</i><par n="következő__adj"/></e>
+    <e lm="hargitai"><i>hargitai</i><par n="nemzetközi__adj"/></e>
     <e lm="harmadfokú"><i>harmadfokú</i><par n="található__adj"/></e>
     <e lm="harmadikutas"><i>harmadikutas</i><par n="új__adj"/></e>
     <e lm="harmadkorú"><i>harmadkorú</i><par n="található__adj"/></e>
@@ -41210,6 +41274,7 @@
     <e lm="hígított"><i>hígított</i><par n="boldog__adj"/></e>
     <e lm="higroszkopikus"><i>higroszkopikus</i><par n="új__adj"/></e>
     <e lm="higroszkópos"><i>higroszkópos</i><par n="új__adj"/></e>
+    <e lm="hiltonbeli"><i>hiltonbeli</i><par n="nemzetközi__adj"/></e>
     <e lm="hímezetlen"><i>hímezetlen</i><par n="hideg__adj"/></e>
     <e lm="hímező"><i>hímező</i><par n="következő__adj"/></e>
     <e lm="himlőhelyes"><i>himlőhelyes</i><par n="hideg__adj"/></e>
@@ -41300,10 +41365,12 @@
     <e lm="hőérzékeny"><i>hőérzékeny</i><par n="hideg__adj"/></e>
     <e lm="hófehér"><i>hófehér</i><par n="hideg__adj"/></e>
     <e lm="hőfejlesztő"><i>hőfejlesztő</i><par n="következő__adj"/></e>
+    <e lm="hoffmanni"><i>hoffmanni</i><par n="nemzetközi__adj"/></e>
     <e lm="hőforrás"><i>hőforrás</i><par n="új__adj"/></e>
     <e lm="hő"><i>hő</i><par n="következő__adj"/></e>
     <e lm="hőlabilis"><i>hőlabilis</i><par n="hideg__adj"/></e>
     <e lm="holdfényes"><i>holdfényes</i><par n="hideg__adj"/></e>
+    <e lm="hold"><i>hold</i><par n="pont__n"/></e>
     <e lm="holdkóros"><i>holdkóros</i><par n="új__adj"/></e>
     <e lm="holdvilágtalan"><i>holdvilágtalan</i><par n="boldog__adj"/></e>
     <e lm="hőleadó"><i>hőleadó</i><par n="található__adj"/></e>
@@ -41311,6 +41378,7 @@
     <e lm="holland"><i>holland</i><par n="boldog__adj"/></e>
     <e lm="hollandi"><i>hollandi</i><par n="található__adj"/></e>
     <e lm="hollófekete"><i>hollófekete</i><par n="következő__adj"/></e>
+    <e lm="Holmes-i"><i>Holmes-i</i><par n="nemzetközi__adj"/></e>
     <e lm="holnapi"><i>holnapi</i><par n="található__adj"/></e>
     <e lm="holnaputáni"><i>holnaputáni</i><par n="található__adj"/></e>
     <e lm="holografikus"><i>holografikus</i><par n="új__adj"/></e>
@@ -41784,6 +41852,7 @@
     <e lm="istenkáromló"><i>istenkáromló</i><par n="található__adj"/></e>
     <e lm="istentelen"><i>istentelen</i><par n="hideg__adj"/></e>
     <e lm="istenverte"><i>istenverte</i><par n="következő__adj"/></e>
+    <e lm="István-i"><i>István-i</i><par n="nemzetközi__adj"/></e>
     <e lm="iszákos"><i>iszákos</i><par n="új__adj"/></e>
     <e lm="iszamós"><i>iszamós</i><par n="új__adj"/></e>
     <e lm="iszapos"><i>iszapos</i><par n="új__adj"/></e>
@@ -41842,6 +41911,7 @@
     <e lm="jambusos"><i>jambusos</i><par n="új__adj"/></e>
     <e lm="jamesi"><i>jamesi</i><par n="új__adj"/></e>
     <e lm="jampecos"><i>jampecos</i><par n="új__adj"/></e>
+    <e lm="Janeiró-i"><i>Janeiró-i</i><par n="nemzetközi__adj"/></e>
     <e lm="japán"><i>japán</i><par n="boldog__adj"/></e>
     <e lm="járatlan"><i>járatlan</i><par n="boldog__adj"/></e>
     <e lm="járatos"><i>járatos</i><par n="új__adj"/></e>
@@ -41946,6 +42016,7 @@
     <e lm="jómódú"><i>jómódú</i><par n="található__adj"/></e>
     <e lm="jóravaló"><i>jóravaló</i><par n="található__adj"/></e>
     <e lm="jóságos"><i>jóságos</i><par n="új__adj"/></e>
+    <e lm="joskar-olai"><i>joskar-olai</i><par n="nemzetközi__adj"/></e>
     <e lm="jósló"><i>jósló</i><par n="található__adj"/></e>
     <e lm="jószívű"><i>jószívű</i><par n="következő__adj"/></e>
     <e lm="jószomszédi"><i>jószomszédi</i><par n="következő__adj"/></e>
@@ -41960,6 +42031,7 @@
     <e lm="jozefinista"><i>jozefinista</i><par n="található__adj"/></e>
     <e lm="jubiláris"><i>jubiláris</i><par n="új__adj"/></e>
     <e lm="juhféle"><i>juhféle</i><par n="következő__adj"/></e>
+    <e lm="jungi"><i>jungi</i><par n="nemzetközi__adj"/></e>
     <e lm="junior"><i>junior</i><par n="boldog__adj"/></e>
     <e lm="jutalmazatlan"><i>jutalmazatlan</i><par n="boldog__adj"/></e>
     <e lm="jutalmazott"><i>jutalmazott</i><par n="boldog__adj"/></e>
@@ -42004,6 +42076,7 @@
     <e lm="kalorimetrikus"><i>kalorimetrikus</i><par n="új__adj"/></e>
     <e lm="kalotaszegi"><i>kalotaszegi</i><par n="következő__adj"/></e>
     <e lm="kalotaszegi"><i>kalotaszegi</i><par n="nemzetközi__adj"/></e>
+    <e lm="kálvini"><i>kálvini</i><par n="nemzetközi__adj"/></e>
     <e lm="kamaszos"><i>kamaszos</i><par n="új__adj"/></e>
     <e lm="kamatos"><i>kamatos</i><par n="új__adj"/></e>
     <e lm="kamatozó"><i>kamatozó</i><par n="található__adj"/></e>
@@ -42892,6 +42965,7 @@
     <e lm="kőszívű"><i>kőszívű</i><par n="következő__adj"/></e>
     <e lm="koszlott"><i>koszlott</i><par n="boldog__adj"/></e>
     <e lm="koszos"><i>koszos</i><par n="új__adj"/></e>
+    <e lm="koszovói"><i>koszovói</i><par n="nemzetközi__adj"/></e>
     <e lm="kotnyeles"><i>kotnyeles</i><par n="hideg__adj"/></e>
     <e lm="kotus"><i>kotus</i><par n="új__adj"/></e>
     <e lm="kótyagos"><i>kótyagos</i><par n="új__adj"/></e>
@@ -42925,6 +42999,7 @@
     <e lm="kubista"><i>kubista</i><par n="található__adj"/></e>
     <e lm="kukacos"><i>kukacos</i><par n="új__adj"/></e>
     <e lm="kukacoskodó"><i>kukacoskodó</i><par n="található__adj"/></e>
+    <e lm="ku-klux-klani"><i>ku-klux-klani</i><par n="nemzetközi__adj"/></e>
     <e lm="kuláns"><i>kuláns</i><par n="új__adj"/></e>
     <e lm="kulcsrakész"><i>kulcsrakész</i><par n="hideg__adj"/></e>
     <e lm="kulináris"><i>kulináris</i><par n="új__adj"/></e>
@@ -42944,6 +43019,7 @@
     <e lm="kuruc kori"><i>kuruc kori</i><par n="található__adj"/></e>
     <e lm="kurzív"><i>kurzív</i><par n="új__adj"/></e>
     <e lm="kusza"><i>kusza</i><par n="található__adj"/></e>
+    <e lm="kút"><i>kút</i><par n="pont__n"/></e>
     <e lm="kutyafejű"><i>kutyafejű</i><par n="következő__adj"/></e>
     <e lm="kutyaféle"><i>kutyaféle</i><par n="következő__adj"/></e>
     <e lm="kutyaházi"><i>kutyaházi</i><par n="új__adj"/></e>
@@ -43166,6 +43242,7 @@
     <e lm="langyos"><i>langyos</i><par n="új__adj"/></e>
     <e lm="lankadatlan"><i>lankadatlan</i><par n="boldog__adj"/></e>
     <e lm="lankadt"><i>lankadt</i><par n="boldog__adj"/></e>
+    <e lm="Lanka-i"><i>Lanka-i</i><par n="nemzetközi__adj"/></e>
     <e lm="lankatag"><i>lankatag</i><par n="boldog__adj"/></e>
     <e lm="lantornás"><i>lantornás</i><par n="új__adj"/></e>
     <e lm="lanyha"><i>lanyha</i><par n="található__adj"/></e>
@@ -43338,6 +43415,7 @@
     <e lm="leprás"><i>leprás</i><par n="új__adj"/></e>
     <e lm="léptű"><i>léptű</i><par n="következő__adj"/></e>
     <e lm="leromlott"><i>leromlott</i><par n="boldog__adj"/></e>
+    <e lm="lesothói"><i>lesothói</i><par n="nemzetközi__adj"/></e>
     <e lm="lesoványodott"><i>lesoványodott</i><par n="boldog__adj"/></e>
     <e lm="lesült"><i>lesült</i><par n="hideg__adj"/></e>
     <e lm="leszállított"><i>leszállított</i><par n="boldog__adj"/></e>
@@ -43414,6 +43492,7 @@
     <e lm="liptai"><i>liptai</i><par n="található__adj"/></e>
     <e lm="liptói"><i>liptói</i><par n="található__adj"/></e>
     <e lm="lírai"><i>lírai</i><par n="található__adj"/></e>
+    <e lm="Lisa-i"><i>Lisa-i</i><par n="nemzetközi__adj"/></e>
     <e lm="lisztérzékeny"><i>lisztérzékeny</i><par n="hideg__adj"/></e>
     <e lm="lisztes"><i>lisztes</i><par n="hideg__adj"/></e>
     <e lm="literális"><i>literális</i><par n="új__adj"/></e>
@@ -43452,16 +43531,19 @@
     <e lm="lucidus"><i>lucidus</i><par n="új__adj"/></e>
     <e lm="lucskos"><i>lucskos</i><par n="új__adj"/></e>
     <e lm="ludáj"><i>ludáj</i><par n="új__adj"/></e>
+    <e lm="lúd"><i>lúd</i><par n="pont__n"/></e>
     <e lm="lúdtalpas"><i>lúdtalpas</i><par n="új__adj"/></e>
     <e lm="lúdtalpú"><i>lúdtalpú</i><par n="található__adj"/></e>
     <e lm="lukacsos"><i>lukacsos</i><par n="új__adj"/></e>
     <e lm="lukas"><i>lukas</i><par n="új__adj"/></e>
     <e lm="lukasztói"><i>lukasztói</i><par n="új__adj"/></e>
     <e lm="lukasztó"><i>lukasztó</i><par n="található__adj"/></e>
+    <e lm="luk"><i>luk</i><par n="pont__n"/></e>
     <e lm="lukratív"><i>lukratív</i><par n="új__adj"/></e>
     <e lm="lukulluszi"><i>lukulluszi</i><par n="új__adj"/></e>
     <e lm="lumpen"><i>lumpen</i><par n="hideg__adj"/></e>
     <e lm="lumpenproletár"><i>lumpenproletár</i><par n="boldog__adj"/></e>
+    <e lm="Lumpur-i"><i>Lumpur-i</i><par n="nemzetközi__adj"/></e>
     <e lm="lunátikus"><i>lunátikus</i><par n="új__adj"/></e>
     <e lm="lusta"><i>lusta</i><par n="található__adj"/></e>
     <e lm="lustos"><i>lustos</i><par n="új__adj"/></e>
@@ -43581,6 +43663,7 @@
     <e lm="manipuláns"><i>manipuláns</i><par n="új__adj"/></e>
     <e lm="manipulatív"><i>manipulatív</i><par n="új__adj"/></e>
     <e lm="maníros"><i>maníros</i><par n="új__adj"/></e>
+    <e lm="Mann-i"><i>Mann-i</i><par n="nemzetközi__adj"/></e>
     <e lm="manuális"><i>manuális</i><par n="új__adj"/></e>
     <e lm="manufakturális"><i>manufakturális</i><par n="új__adj"/></e>
     <e lm="manysi"><i>manysi</i><par n="található__adj"/></e>
@@ -43595,6 +43678,7 @@
     <e lm="margitszigeti"><i>margitszigeti</i><par n="új__adj"/></e>
     <e lm="máriás"><i>máriás</i><par n="új__adj"/></e>
     <e lm="mari"><i>mari</i><par n="található__adj"/></e>
+    <e lm="Marinó-i"><i>Marinó-i</i><par n="nemzetközi__adj"/></e>
     <e lm="markáns"><i>markáns</i><par n="új__adj"/></e>
     <e lm="markos"><i>markos</i><par n="új__adj"/></e>
     <e lm="maródi"><i>maródi</i><par n="új__adj"/></e>
@@ -44140,6 +44224,7 @@
     <e lm="mokány"><i>mokány</i><par n="új__adj"/></e>
     <e lm="mókás"><i>mókás</i><par n="új__adj"/></e>
     <e lm="moláris"><i>moláris</i><par n="új__adj"/></e>
+    <e lm="moldvai"><i>moldvai</i><par n="nemzetközi__adj"/></e>
     <e lm="molekuláris"><i>molekuláris</i><par n="új__adj"/></e>
     <e lm="molett"><i>molett</i><par n="hideg__adj"/></e>
     <e lm="molnárkék"><i>molnárkék</i><par n="hideg__adj"/></e>
@@ -44176,11 +44261,13 @@
     <e lm="monozigotikus"><i>monozigotikus</i><par n="új__adj"/></e>
     <e lm="monstre"><i>monstre</i><par n="következő__adj"/></e>
     <e lm="monstruózus"><i>monstruózus</i><par n="új__adj"/></e>
+    <e lm="monte-carlói"><i>monte-carlói</i><par n="nemzetközi__adj"/></e>
     <e lm="monumentális"><i>monumentális</i><par n="új__adj"/></e>
     <e lm="morális"><i>morális</i><par n="új__adj"/></e>
     <e lm="moralista"><i>moralista</i><par n="található__adj"/></e>
     <e lm="morcos"><i>morcos</i><par n="új__adj"/></e>
     <e lm="mordvin"><i>mordvin</i><par n="boldog__adj"/></e>
+    <e lm="Moresby-i"><i>Moresby-i</i><par n="nemzetközi__adj"/></e>
     <e lm="morfematikus"><i>morfematikus</i><par n="új__adj"/></e>
     <e lm="morfofonetikus"><i>morfofonetikus</i><par n="új__adj"/></e>
     <e lm="morfofonológiai"><i>morfofonológiai</i><par n="található__adj"/></e>
@@ -44223,6 +44310,7 @@
     <e lm="multilaterális"><i>multilaterális</i><par n="új__adj"/></e>
     <e lm="multimediális"><i>multimediális</i><par n="új__adj"/></e>
     <e lm="multimodális"><i>multimodális</i><par n="új__adj"/></e>
+    <e lm="múlt"><i>múlt</i><par n="pont__n"/></e>
     <e lm="multinacionális"><i>multinacionális</i><par n="új__adj"/></e>
     <e lm="multiplex"><i>multiplex</i><par n="hideg__adj"/></e>
     <e lm="multiplikatív"><i>multiplikatív</i><par n="hideg__adj"/></e>
@@ -44261,6 +44349,7 @@
     <e lm="nacionalista"><i>nacionalista</i><par n="található__adj"/></e>
     <e lm="nádas"><i>nádas</i><par n="új__adj"/></e>
     <e lm="nádi"><i>nádi</i><par n="található__adj"/></e>
+    <e lm="nád"><i>nád</i><par n="pont__n"/></e>
     <e lm="nádiveréb"><i>nádiveréb</i><par n="hideg__adj"/></e>
     <e lm="nádori"><i>nádori</i><par n="található__adj"/></e>
     <e lm="nadrágos"><i>nadrágos</i><par n="új__adj"/></e>
@@ -44734,6 +44823,7 @@
     <e lm="nyugati"><i>nyugati</i><par n="található__adj"/></e>
     <e lm="nyugatnémet"><i>nyugatnémet</i><par n="hideg__adj"/></e>
     <e lm="nyugatrómai"><i>nyugatrómai</i><par n="új__adj"/></e>
+    <e lm="nyugat-virginiai"><i>nyugat-virginiai</i><par n="nemzetközi__adj"/></e>
     <e lm="nyugdíjas"><i>nyugdíjas</i><par n="új__adj"/></e>
     <e lm="nyughatatlan"><i>nyughatatlan</i><par n="boldog__adj"/></e>
     <e lm="nyugis"><i>nyugis</i><par n="új__adj"/></e>
@@ -44765,6 +44855,7 @@
     <e lm="óbolgár"><i>óbolgár</i><par n="boldog__adj"/></e>
     <e lm="obskúrus"><i>obskúrus</i><par n="új__adj"/></e>
     <e lm="obstruktív"><i>obstruktív</i><par n="új__adj"/></e>
+    <e lm="óbudai"><i>óbudai</i><par n="nemzetközi__adj"/></e>
     <e lm="óceáni"><i>óceáni</i><par n="található__adj"/></e>
     <e lm="óceánjáró"><i>óceánjáró</i><par n="található__adj"/></e>
     <e lm="ócska"><i>ócska</i><par n="található__adj"/></e>
@@ -44786,6 +44877,7 @@
     <e lm="óhitű"><i>óhitű</i><par n="következő__adj"/></e>
     <e lm="ohmikus"><i>ohmikus</i><par n="új__adj"/></e>
     <e lm="okafogyott"><i>okafogyott</i><par n="boldog__adj"/></e>
+    <e lm="ó-kasztíliai"><i>ó-kasztíliai</i><par n="nemzetközi__adj"/></e>
     <e lm="ókatolikus"><i>ókatolikus</i><par n="új__adj"/></e>
     <e lm="okfejtő"><i>okfejtő</i><par n="következő__adj"/></e>
     <e lm="okirati"><i>okirati</i><par n="található__adj"/></e>
@@ -44823,6 +44915,7 @@
     <e lm="oldóképes"><i>oldóképes</i><par n="hideg__adj"/></e>
     <e lm="oligarchikus"><i>oligarchikus</i><par n="új__adj"/></e>
     <e lm="olimpiai"><i>olimpiai</i><par n="található__adj"/></e>
+    <e lm="ól"><i>ól</i><par n="pont__n"/></e>
     <e lm="olíva"><i>olíva</i><par n="található__adj"/></e>
     <e lm="olívzöld"><i>olívzöld</i><par n="hideg__adj"/></e>
     <e lm="ólmos"><i>ólmos</i><par n="új__adj"/></e>
@@ -44884,6 +44977,7 @@
     <e lm="originál"><i>originál</i><par n="boldog__adj"/></e>
     <e lm="originális"><i>originális</i><par n="új__adj"/></e>
     <e lm="őrizetlen"><i>őrizetlen</i><par n="hideg__adj"/></e>
+    <e lm="Orleans-i"><i>Orleans-i</i><par n="nemzetközi__adj"/></e>
     <e lm="őrlendő"><i>őrlendő</i><par n="következő__adj"/></e>
     <e lm="ormótlan"><i>ormótlan</i><par n="boldog__adj"/></e>
     <e lm="ornamentális"><i>ornamentális</i><par n="új__adj"/></e>
@@ -44987,6 +45081,7 @@
     <e lm="pankromatikus"><i>pankromatikus</i><par n="új__adj"/></e>
     <e lm="pannóniai"><i>pannóniai</i><par n="található__adj"/></e>
     <e lm="pannon"><i>pannon</i><par n="boldog__adj"/></e>
+    <e lm="Pannonius-i"><i>Pannonius-i</i><par n="nemzetközi__adj"/></e>
     <e lm="panteista"><i>panteista</i><par n="található__adj"/></e>
     <e lm="panteisztikus"><i>panteisztikus</i><par n="új__adj"/></e>
     <e lm="papagájzöld"><i>papagájzöld</i><par n="hideg__adj"/></e>
@@ -45071,7 +45166,9 @@
     <e lm="patrimoniális"><i>patrimoniális</i><par n="új__adj"/></e>
     <e lm="patrisztikus"><i>patrisztikus</i><par n="új__adj"/></e>
     <e lm="patyolatfehér"><i>patyolatfehér</i><par n="hideg__adj"/></e>
+    <e lm="Pauló-i"><i>Pauló-i</i><par n="nemzetközi__adj"/></e>
     <e lm="pazar"><i>pazar</i><par n="boldog__adj"/></e>
+    <e lm="Paz-i"><i>Paz-i</i><par n="nemzetközi__adj"/></e>
     <e lm="pázsitos"><i>pázsitos</i><par n="új__adj"/></e>
     <e lm="peches"><i>peches</i><par n="hideg__adj"/></e>
     <e lm="peckes"><i>peckes</i><par n="hideg__adj"/></e>
@@ -45421,6 +45518,7 @@
     <e lm="puszta"><i>puszta</i><par n="található__adj"/></e>
     <e lm="pusztított"><i>pusztított</i><par n="boldog__adj"/></e>
     <e lm="püspöklila"><i>püspöklila</i><par n="található__adj"/></e>
+    <e lm="püthagoraszi"><i>püthagoraszi</i><par n="nemzetközi__adj"/></e>
     <e lm="pödrött"><i>pödrött</i><par n="hideg__adj"/></e>
     <e lm="pöffedt"><i>pöffedt</i><par n="hideg__adj"/></e>
     <e lm="pökő"><i>pökő</i><par n="következő__adj"/></e>
@@ -45640,8 +45738,11 @@
     <e lm="rézvörös"><i>rézvörös</i><par n="hideg__adj"/></e>
     <e lm="rezzenéstelen"><i>rezzenéstelen</i><par n="hideg__adj"/></e>
     <e lm="riadozó"><i>riadozó</i><par n="található__adj"/></e>
+    <e lm="Ricó-i"><i>Ricó-i</i><par n="nemzetközi__adj"/></e>
     <e lm="rideg"><i>rideg</i><par n="hideg__adj"/></e>
     <e lm="rigorózus"><i>rigorózus</i><par n="új__adj"/></e>
+    <e lm="rimszkij-korszakovi"><i>rimszkij-korszakovi</i><par n="nemzetközi__adj"/></e>
+    <e lm="riói"><i>riói</i><par n="nemzetközi__adj"/></e>
     <e lm="ripacsos"><i>ripacsos</i><par n="új__adj"/></e>
     <e lm="ritka"><i>ritka</i><par n="található__adj"/></e>
     <e lm="ritkás"><i>ritkás</i><par n="új__adj"/></e>
@@ -45663,6 +45764,7 @@
     <e lm="rokoni"><i>rokoni</i><par n="található__adj"/></e>
     <e lm="rokon"><i>rokon</i><par n="boldog__adj"/></e>
     <e lm="rokonszenves"><i>rokonszenves</i><par n="hideg__adj"/></e>
+    <e lm="rókusi"><i>rókusi</i><par n="nemzetközi__adj"/></e>
     <e lm="romaellenes"><i>romaellenes</i><par n="hideg__adj"/></e>
     <e lm="római"><i>római</i><par n="található__adj"/></e>
     <e lm="roma"><i>roma</i><par n="található__adj"/></e>
@@ -45807,6 +45909,7 @@
     <e lm="savanykás"><i>savanykás</i><par n="új__adj"/></e>
     <e lm="savanyú"><i>savanyú</i><par n="található__adj"/></e>
     <e lm="savas"><i>savas</i><par n="új__adj"/></e>
+    <e lm="sav"><i>sav</i><par n="pont__n"/></e>
     <e lm="savós"><i>savós</i><par n="új__adj"/></e>
     <e lm="schengeni"><i>schengeni</i><par n="új__adj"/></e>
     <e lm="sebes"><i>sebes</i><par n="hideg__adj"/></e>
@@ -46177,6 +46280,7 @@
     <e lm="szarvasünő"><i>szarvasünő</i><par n="következő__adj"/></e>
     <e lm="szarvatlan"><i>szarvatlan</i><par n="boldog__adj"/></e>
     <e lm="szatirikus"><i>szatirikus</i><par n="új__adj"/></e>
+    <e lm="szaúd-arábiai"><i>szaúd-arábiai</i><par n="nemzetközi__adj"/></e>
     <e lm="szavahihető"><i>szavahihető</i><par n="következő__adj"/></e>
     <e lm="szavajátszó"><i>szavajátszó</i><par n="található__adj"/></e>
     <e lm="szavatartó"><i>szavatartó</i><par n="található__adj"/></e>
@@ -46524,6 +46628,7 @@
     <e lm="szkíta"><i>szkíta</i><par n="található__adj"/></e>
     <e lm="szkizoid"><i>szkizoid</i><par n="boldog__adj"/></e>
     <e lm="szklerotikus"><i>szklerotikus</i><par n="új__adj"/></e>
+    <e lm="szküllai"><i>szküllai</i><par n="nemzetközi__adj"/></e>
     <e lm="szlavista"><i>szlavista</i><par n="található__adj"/></e>
     <e lm="szlovák"><i>szlovák</i><par n="boldog__adj"/></e>
     <e lm="szobai"><i>szobai</i><par n="található__adj"/></e>
@@ -46625,6 +46730,7 @@
     <e lm="szubtilis"><i>szubtilis</i><par n="új__adj"/></e>
     <e lm="szubtropikus"><i>szubtropikus</i><par n="új__adj"/></e>
     <e lm="szubtrópusi"><i>szubtrópusi</i><par n="található__adj"/></e>
+    <e lm="szudétákbeli"><i>szudétákbeli</i><par n="nemzetközi__adj"/></e>
     <e lm="szudétanémet"><i>szudétanémet</i><par n="hideg__adj"/></e>
     <e lm="Szudéta-vidéki"><i>Szudéta-vidéki</i><par n="új__adj"/></e>
     <e lm="szúette"><i>szúette</i><par n="következő__adj"/></e>
@@ -46777,6 +46883,7 @@
     <e lm="tanácsosi"><i>tanácsosi</i><par n="található__adj"/></e>
     <e lm="tanácsos"><i>tanácsos</i><par n="új__adj"/></e>
     <e lm="tanácstalan"><i>tanácstalan</i><par n="boldog__adj"/></e>
+    <e lm="táncsicsi"><i>táncsicsi</i><par n="nemzetközi__adj"/></e>
     <e lm="tanerős"><i>tanerős</i><par n="hideg__adj"/></e>
     <e lm="tanfolyamelső"><i>tanfolyamelső</i><par n="következő__adj"/></e>
     <e lm="Tanganyika-tavi"><i>Tanganyika-tavi</i><par n="új__adj"/></e>
@@ -46882,6 +46989,8 @@
     <e lm="teknő"><i>teknő</i><par n="következő__adj"/></e>
     <e lm="tektogenetikus"><i>tektogenetikus</i><par n="új__adj"/></e>
     <e lm="tektonikus"><i>tektonikus</i><par n="új__adj"/></e>
+    <e lm="tel-avivi"><i>tel-avivi</i><par n="nemzetközi__adj"/></e>
+    <e lm="tel-aviv-jaffai"><i>tel-aviv-jaffai</i><par n="nemzetközi__adj"/></e>
     <e lm="telegrafikus"><i>telegrafikus</i><par n="új__adj"/></e>
     <e lm="telekkönyvi"><i>telekkönyvi</i><par n="következő__adj"/></e>
     <e lm="telekkönyvi"><i>telekkönyvi</i><par n="nemzetközi__adj"/></e>
@@ -47110,9 +47219,12 @@
     <e lm="tízpróbázó"><i>tízpróbázó</i><par n="található__adj"/></e>
     <e lm="tízrendbeli"><i>tízrendbeli</i><par n="következő__adj"/></e>
     <e lm="tízrendbeli"><i>tízrendbeli</i><par n="nemzetközi__adj"/></e>
+    <e lm="Tobagó-i"><i>Tobagó-i</i><par n="nemzetközi__adj"/></e>
     <e lm="tobozos"><i>tobozos</i><par n="új__adj"/></e>
+    <e lm="togói"><i>togói</i><par n="nemzetközi__adj"/></e>
     <e lm="tojás alakú"><i>tojás alakú</i><par n="található__adj"/></e>
     <e lm="tojásdad"><i>tojásdad</i><par n="boldog__adj"/></e>
+    <e lm="tokaj-hegyaljai"><i>tokaj-hegyaljai</i><par n="nemzetközi__adj"/></e>
     <e lm="tőkeerős"><i>tőkeerős</i><par n="hideg__adj"/></e>
     <e lm="tőkeigényes"><i>tőkeigényes</i><par n="hideg__adj"/></e>
     <e lm="tőkés"><i>tőkés</i><par n="hideg__adj"/></e>
@@ -47525,6 +47637,7 @@
     <e lm="úthasználó"><i>úthasználó</i><par n="található__adj"/></e>
     <e lm="úti"><i>úti</i><par n="található__adj"/></e>
     <e lm="utilitarista"><i>utilitarista</i><par n="található__adj"/></e>
+    <e lm="út"><i>út</i><par n="pont__n"/></e>
     <e lm="útkereső"><i>útkereső</i><par n="következő__adj"/></e>
     <e lm="utóbbi"><i>utóbbi</i><par n="új__adj"/></e>
     <e lm="utógondozott"><i>utógondozott</i><par n="boldog__adj"/></e>
@@ -47545,6 +47658,8 @@
     <e lm="vacogtató"><i>vacogtató</i><par n="található__adj"/></e>
     <e lm="vadállatias"><i>vadállatias</i><par n="új__adj"/></e>
     <e lm="vadiúj"><i>vadiúj</i><par n="új__adj"/></e>
+    <e lm="vad"><i>vad</i><par n="pont__n"/></e>
+    <e lm="vád"><i>vád</i><par n="pont__n"/></e>
     <e lm="vadízű"><i>vadízű</i><par n="következő__adj"/></e>
     <e lm="vadkapitalista"><i>vadkapitalista</i><par n="található__adj"/></e>
     <e lm="vadnyugati"><i>vadnyugati</i><par n="található__adj"/></e>
@@ -47563,6 +47678,7 @@
     <e lm="vágytalan"><i>vágytalan</i><par n="boldog__adj"/></e>
     <e lm="vajákos"><i>vajákos</i><par n="új__adj"/></e>
     <e lm="vajas"><i>vajas</i><par n="új__adj"/></e>
+    <e lm="vajdasági"><i>vajdasági</i><par n="nemzetközi__adj"/></e>
     <e lm="vajsárga"><i>vajsárga</i><par n="található__adj"/></e>
     <e lm="vajszívű"><i>vajszívű</i><par n="következő__adj"/></e>
     <e lm="vakbuzgó"><i>vakbuzgó</i><par n="található__adj"/></e>
@@ -47626,6 +47742,7 @@
     <e lm="varratlan"><i>varratlan</i><par n="boldog__adj"/></e>
     <e lm="varratos"><i>varratos</i><par n="új__adj"/></e>
     <e lm="varrott"><i>varrott</i><par n="boldog__adj"/></e>
+    <e lm="Vary-i"><i>Vary-i</i><par n="nemzetközi__adj"/></e>
     <e lm="vasalatlan"><i>vasalatlan</i><par n="boldog__adj"/></e>
     <e lm="vasárnapi"><i>vasárnapi</i><par n="található__adj"/></e>
     <e lm="vasas"><i>vasas</i><par n="új__adj"/></e>
@@ -47649,6 +47766,7 @@
     <e lm="védőgázas"><i>védőgázas</i><par n="új__adj"/></e>
     <e lm="védő"><i>védő</i><par n="következő__adj"/></e>
     <e lm="védtelen"><i>védtelen</i><par n="hideg__adj"/></e>
+    <e lm="Vegas-i"><i>Vegas-i</i><par n="nemzetközi__adj"/></e>
     <e lm="végeérhetetlen"><i>végeérhetetlen</i><par n="hideg__adj"/></e>
     <e lm="végeláthatatlan"><i>végeláthatatlan</i><par n="boldog__adj"/></e>
     <e lm="végérvényes"><i>végérvényes</i><par n="hideg__adj"/></e>
@@ -47977,6 +48095,7 @@
     <e lm="ünnepi"><i>ünnepi</i><par n="nemzetközi__adj"/></e>
     <e lm="ünneplő"><i>ünneplő</i><par n="következő__adj"/></e>
     <e lm="ünő"><i>ünő</i><par n="következő__adj"/></e>
+    <e lm="York-i"><i>York-i</i><par n="nemzetközi__adj"/></e>
     <e lm="üreges"><i>üreges</i><par n="hideg__adj"/></e>
     <e lm="üresfejű"><i>üresfejű</i><par n="következő__adj"/></e>
     <e lm="üres"><i>üres</i><par n="hideg__adj"/></e>
@@ -48015,6 +48134,7 @@
     <e lm="zákányos"><i>zákányos</i><par n="új__adj"/></e>
     <e lm="zamatos"><i>zamatos</i><par n="új__adj"/></e>
     <e lm="zárdai"><i>zárdai</i><par n="található__adj"/></e>
+    <e lm="zár"><i>zár</i><par n="pont__n"/></e>
     <e lm="zárkózott"><i>zárkózott</i><par n="boldog__adj"/></e>
     <e lm="záros"><i>záros</i><par n="új__adj"/></e>
     <e lm="zárthelyi"><i>zárthelyi</i><par n="következő__adj"/></e>
@@ -51856,6 +51976,7 @@
     <e lm="elméskedik"><i>elmésked</i><par n="történ/ik__vblex"/></e>
     <e lm="elmond"><i>elmond</i><par n="tart__vblex"/></e>
     <e lm="elmúlik"><i>elmúl</i><par n="elmúl/ik__vblex"/></e>
+    <e lm="elnököl"><i>elnököl</i><par n="kerül__vblex"/></e>
     <e lm="elnökösködik"><i>elnökösköd</i><par n="működ/ik__vblex"/></e>
     <e lm="elodáza"><i>elodáz</i><par n="tartalmaz__vblex"/></e>
     <e lm="előkelősködik"><i>előkelősköd</i><par n="működ/ik__vblex"/></e>
@@ -53438,6 +53559,7 @@
     <e lm="jelentéktelenedik"><i>jelentéktelened</i><par n="történ/ik__vblex"/></e>
     <e lm="jelentet"><i>jelentet</i><par n="jelent__vblex"/></e>
     <e lm="jelentget"><i>jelentget</i><par n="szeret__vblex"/></e>
+    <e lm="kijelent"><i>kijelent</i><par n="jelent__vblex"/></e>
     <e lm="jelent"><i>jelent</i><par n="jelent__vblex"/></e>
     <e lm="jelentkezik"><i>jelentkez</i><par n="érkez/ik__vblex"/></e>
     <e lm="jelentkezik"><i>jelentkez</i><par n="történ/ik__vblex"/></e>
@@ -54201,6 +54323,7 @@
     <e lm="könnyül"><i>könnyül</i><par n="kerül__vblex"/></e>
     <e lm="köntörfalaza"><i>köntörfalaz</i><par n="tartalmaz__vblex"/></e>
     <e lm="könyvtáraza"><i>könyvtáraz</i><par n="tartalmaz__vblex"/></e>
+    <e lm="könyököl"><i>könyököl</i><par n="kerül__vblex"/></e>
     <e lm="könyörül"><i>könyörül</i><par n="kerül__vblex"/></e>
     <e lm="köpcösödik"><i>köpcösöd</i><par n="működ/ik__vblex"/></e>
     <e lm="köpesztet"><i>köpesztet</i><par n="jelent__vblex"/></e>
@@ -54251,6 +54374,8 @@
     <e lm="köznevesül"><i>köznevesül</i><par n="kerül__vblex"/></e>
     <e lm="központosít"><i>központosít</i><par n="imád__vblex"/></e>
     <e lm="közvetít"><i>közvetít</i><par n="szeret__vblex"/></e>
+    <e lm="közöl"><i>közöl</i><par n="kerül__vblex"/></e>
+    <e lm="közöl"><i>közöl</i><par n="kerül__vblex"/></e>
     <e lm="közömbösít"><i>közömbösít</i><par n="szeret__vblex"/></e>
     <e lm="közösít"><i>közösít</i><par n="szeret__vblex"/></e>
     <e lm="közösködik"><i>közösköd</i><par n="működ/ik__vblex"/></e>
@@ -54911,6 +55036,7 @@
     <e lm="nevesít"><i>nevesít</i><par n="szeret__vblex"/></e>
     <e lm="nevet"><i>nevet</i><par n="néz__vblex"/></e>
     <e lm="nevet"><i>nevet</i><par n="szeret__vblex"/></e>
+    <e lm="elvet"><i>elvet</i><par n="szeret__vblex"/></e>
     <e lm="nevettet"><i>nevettet</i><par n="szeret__vblex"/></e>
     <e lm="nevez"><i>nevez</i><par n="néz__vblex"/></e>
     <e lm="nézeget"><i>nézeget</i><par n="szeret__vblex"/></e>
@@ -55159,6 +55285,7 @@
     <e lm="orvosol"><i>orvosol</i><par n="áll__vblex"/></e>
     <e lm="őrül"><i>őrül</i><par n="kerül__vblex"/></e>
     <e lm="őrződik"><i>őrződ</i><par n="működ/ik__vblex"/></e>
+    <e lm="őröl"><i>őröl</i><par n="kerül__vblex"/></e>
     <e lm="ostoroza"><i>ostoroz</i><par n="tartalmaz__vblex"/></e>
     <e lm="őszít"><i>őszít</i><par n="szeret__vblex"/></e>
     <e lm="oszladozik"><i>oszladoz</i><par n="tartoz/ik__vblex"/></e>
@@ -57257,6 +57384,7 @@
     <e lm="törül"><i>törül</i><par n="kerül__vblex"/></e>
     <e lm="törzskönyvez"><i>törzskönyvez</i><par n="néz__vblex"/></e>
     <e lm="törölget"><i>törölget</i><par n="szeret__vblex"/></e>
+    <e lm="töröl"><i>töröl</i><par n="kerül__vblex"/></e>
     <e lm="törölközik"><i>törölköz</i><par n="költöz/ik__vblex"/></e>
     <e lm="tötyörészik"><i>tötyörész</i><par n="érkez/ik__vblex"/></e>
     <e lm="tövez"><i>tövez</i><par n="néz__vblex"/></e>
@@ -57653,6 +57781,7 @@
     <e lm="üdít"><i>üdít</i><par n="szeret__vblex"/></e>
     <e lm="üdvözít"><i>üdvözít</i><par n="szeret__vblex"/></e>
     <e lm="üdvözül"><i>üdvözül</i><par n="kerül__vblex"/></e>
+    <e lm="üdvözöl"><i>üdvözöl</i><par n="kerül__vblex"/></e>
     <e lm="üdül"><i>üdül</i><par n="kerül__vblex"/></e>
     <e lm="ügyesedik"><i>ügyesed</i><par n="történ/ik__vblex"/></e>
     <e lm="ügyködik"><i>ügyköd</i><par n="működ/ik__vblex"/></e>
@@ -57857,6 +57986,7 @@
     <e lm="örül"><i>örül</i><par n="kerül__vblex"/></e>
     <e lm="örökít"><i>örökít</i><par n="szeret__vblex"/></e>
     <e lm="öröklődik"><i>öröklőd</i><par n="működ/ik__vblex"/></e>
+    <e lm="örököl"><i>örököl</i><par n="kerül__vblex"/></e>
     <e lm="örökösödik"><i>örökösöd</i><par n="működ/ik__vblex"/></e>
     <e lm="örömködik"><i>örömköd</i><par n="működ/ik__vblex"/></e>
     <e lm="összebalhézik"><i>összebalhéz</i><par n="érkez/ik__vblex"/></e>
@@ -57876,8 +58006,10 @@
     <e lm="ötvenszerez"><i>ötvenszerez</i><par n="néz__vblex"/></e>
     <e lm="ötvöződik"><i>ötvöződ</i><par n="működ/ik__vblex"/></e>
     <e lm="ötödöl"><i>ötödöl</i><par n="kerül__vblex"/></e>
+    <e lm="ötöl"><i>ötöl</i><par n="kerül__vblex"/></e>
     <e lm="övez"><i>övez</i><par n="néz__vblex"/></e>
     <e lm="özvegyül"><i>özvegyül</i><par n="kerül__vblex"/></e>
+    <e lm="özönöl"><i>özönöl</i><par n="kerül__vblex"/></e>
 
 
     <!-- }}}
