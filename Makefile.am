@@ -1,10 +1,10 @@
 RELEASE=0.0
 VERSION=0.0.0
-LANG=hun
-BASENAME=apertium-$(LANG)
+LANG1=hun
+BASENAME=apertium-$(LANG1)
 
-TARGETS_COMMON = $(LANG).automorf.bin $(LANG).autogen.bin \
-        $(LANG).rlx.bin
+TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).autogen.bin \
+        $(LANG1).rlx.bin
 
 
 # This include defines goals for install-modes, .deps/.d and .mode files:
@@ -15,33 +15,33 @@ TARGETS_COMMON = $(LANG).automorf.bin $(LANG).autogen.bin \
 ###############################################################################
 
 
-$(LANG).autogen.bin: $(BASENAME).$(LANG).dix
+$(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $<
-	lt-comp rl $< $@ $(BASENAME).$(LANG).acx
+	lt-comp rl $< $@ $(BASENAME).$(LANG1).acx
 
-$(LANG).automorf.bin: $(BASENAME).$(LANG).dix
+$(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $<
-	lt-comp lr $< $@ $(BASENAME).$(LANG).acx
+	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
 
-$(LANG).autogen.att.gz: $(LANG).autogen.bin
+$(LANG1).autogen.att.gz: $(LANG1).autogen.bin
 	lt-print $< | gzip -9 -c -n > $@
 
-$(LANG).automorf.att.gz: $(LANG).automorf.bin
+$(LANG1).automorf.att.gz: $(LANG1).automorf.bin
 	lt-print $< | gzip -9 -c -n > $@
 
 
-$(LANG).rlx.bin: $(BASENAME).$(LANG).rlx
+$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
 	cg-comp $< $@
 
 ###############################################################################
 ## Distribution
 ###############################################################################
 
-EXTRA_DIST=$(BASENAME).$(LANG).dix \
-	   $(BASENAME).post-$(LANG).dix \
-	   $(BASENAME).$(LANG).acx \
-	   $(BASENAME).$(LANG).rlx \
-	   $(LANG).prob \
+EXTRA_DIST=$(BASENAME).$(LANG1).dix \
+	   $(BASENAME).post-$(LANG1).dix \
+	   $(BASENAME).$(LANG1).acx \
+	   $(BASENAME).$(LANG1).rlx \
+	   $(LANG1).prob \
 	   spellrelax.xsl \
 	   modes.xml
 
@@ -57,12 +57,12 @@ apertium_hun_DATA=$(TARGETS_COMMON)
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
 
-noinst_DATA=modes/$(LANG)-morph.mode
+noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local: install-modes
 	test -d $(DESTDIR)$(apertium_hun_srcdir) || mkdir -p $(DESTDIR)$(apertium_fin_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG).dix $(DESTDIR)$(apertium_hun_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG).rlx $(DESTDIR)$(apertium_hun_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_hun_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_hun_srcdir)
 
 ###############################################################################
 ## Cleanup
