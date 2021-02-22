@@ -1,0 +1,6 @@
+Config:
+  hfst:
+    Gen: hun.autogen.hfst
+    Morph: hun.automorf.hfst
+
+Tests:
