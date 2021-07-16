@@ -1,0 +1,7 @@
+# from https://wiki.apertium.org/wiki/Hungarian_and_English
+A zsiráfok szépek. Én szeretem őket.
+Itt van a házam.
+Levelet írtam.
+Ő futott az Olimpián.
+Ő futott, amikor meghallott valamit.
+Ő futott, mielőtt megcsinálta a házifeladatát.

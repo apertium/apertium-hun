@@ -1,0 +1,12 @@
+[L7u1aJe3w1hY#0] ^Levelet/levél<n><sg><acc>$ ^írtam/ír<vblex><past><p1><sg>/ír<vblex><past><def><p1><sg>$.
+[/L7u1aJe3w1hY]
+[MlvvXUdLnS80#0] ^Ő/ő<prn><pers><p3><mf><sg><nom>$ ^futott/fut<vblex><pp>/fut<vblex><past><p3><sg>/futott<adj><pos><sg><nom>$ ^az/a<det><def>/az<prn><sg><nom>$ ^Olimpián/olimpia<n><sg><ses>$.
+[/MlvvXUdLnS80]
+[TOHNuAqhFCuX#0] ^Ő/ő<prn><pers><p3><mf><sg><nom>$ ^futott/fut<vblex><pp>/fut<vblex><past><p3><sg>/futott<adj><pos><sg><nom>$, ^mielőtt/mielőtt<post>/mielőtt<adv>$ ^megcsinálta/megcsinál<vblex><past><def><p3><sg>$ ^a/a<det><def>$ ^házifeladatát/*házifeladatát$.
+[/TOHNuAqhFCuX]
+[_JJgeXKZCL1D#0] ^A/a<det><def>$ ^zsiráfok/zsiráf<n><pl><nom>$ ^szépek/szép<adj><pos><pl><nom>$. ^Én/én<n><sg><nom>/én<prn><pers><p1><mf><sg><nom>$ ^szeretem/szeret<vblex><pri><def><p1><sg>$ ^őket/ők<prn><pers><p3><mf><pl><acc>$.
+[/_JJgeXKZCL1D]
+[cE7Eqz2vnQxM#0] ^Itt/itt<post>/itt<adv>$ ^van/van<vbser><pri><p3><sg>$ ^a/a<det><def>$ ^házam/ház<n><sg><nom><px1sg>$.
+[/cE7Eqz2vnQxM]
+[ivgjePONc_1_#0] ^Ő/ő<prn><pers><p3><mf><sg><nom>$ ^futott/fut<vblex><pp>/fut<vblex><past><p3><sg>/futott<adj><pos><sg><nom>$, ^amikor/amikor<adv>$ ^meghallott/*meghallott$ ^valamit/valami<prn><sg><acc>/valami<adj><pos><sg><acc>$.
+[/ivgjePONc_1_]
